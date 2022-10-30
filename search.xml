@@ -3,7 +3,10 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/10/29/hello-world/</url>
-    <content><![CDATA[<p>​	你好，世界！</p>
+    <content><![CDATA[<p>Welcome!</p>
+<span id="more"></span>
+
+<p>Hello World!</p>
 ]]></content>
   </entry>
 </search>
