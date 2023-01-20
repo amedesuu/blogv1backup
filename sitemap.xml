@@ -94,7 +94,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,28 +102,28 @@
   
   <url>
     <loc>http://example.com/tags/%E8%89%BA%E6%9C%AF%E9%89%B4%E8%B5%8F/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Links/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Coding/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Genshin/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -132,21 +132,21 @@
   
   <url>
     <loc>http://example.com/categories/novelai/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Coding/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Articles/</loc>
-    <lastmod>2023-01-18</lastmod>
+    <lastmod>2023-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
