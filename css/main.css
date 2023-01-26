@@ -2851,7 +2851,7 @@ hr {
   left: 0;
 }
 .sidebar {
-  background: url("/images/sidebar-bg.jpg");
+  background: url("/images/sidebar.jpg");
   bottom: 0;
   position: fixed;
   top: 0;
@@ -2878,7 +2878,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffff1a;
+  background: #01ffa1;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
