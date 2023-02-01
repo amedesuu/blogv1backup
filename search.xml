@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>novelai</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>webUI灰原哀ckpt模型</title>
     <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<p><code>dreambooth</code></p>
