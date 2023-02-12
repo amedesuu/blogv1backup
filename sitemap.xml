@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>https://yousa.love/link/index.html</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/updates/index.html</loc>
+    <loc>https://yousa.love/updates/index.html</loc>
     
     <lastmod>2023-02-01</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</loc>
+    <loc>https://yousa.love/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</loc>
     
     <lastmod>2023-02-01</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</loc>
+    <loc>https://yousa.love/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</loc>
     
     <lastmod>2023-02-01</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</loc>
+    <loc>https://yousa.love/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</loc>
     
     <lastmod>2023-02-01</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</loc>
+    <loc>https://yousa.love/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</loc>
     
     <lastmod>2023-02-01</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://yousa.love/about/index.html</loc>
     
     <lastmod>2022-11-26</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://yousa.love/tags/index.html</loc>
     
     <lastmod>2022-10-29</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/archives/index.html</loc>
+    <loc>https://yousa.love/archives/index.html</loc>
     
     <lastmod>2022-10-29</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://yousa.love/categories/index.html</loc>
     
     <lastmod>2022-10-29</lastmod>
     
@@ -93,7 +93,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://yousa.love/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -101,14 +101,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/Genshin/</loc>
+    <loc>https://yousa.love/tags/Genshin/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Sherry/</loc>
+    <loc>https://yousa.love/tags/Sherry/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -117,21 +117,21 @@
 
   
   <url>
-    <loc>http://example.com/categories/novelai/</loc>
+    <loc>https://yousa.love/categories/novelai/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Articles/</loc>
+    <loc>https://yousa.love/categories/Articles/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3/</loc>
+    <loc>https://yousa.love/categories/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

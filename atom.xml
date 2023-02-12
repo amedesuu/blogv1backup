@@ -3,11 +3,11 @@
   <title>SherryForever！</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://yousa.love/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://yousa.love/"/>
   <updated>2023-02-01T02:09:08.803Z</updated>
-  <id>http://example.com/</id>
+  <id>https://yousa.love/</id>
   
   <author>
     <name>Rock Zhang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>灰原哀模型v2.0</title>
-    <link href="http://example.com/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/"/>
-    <id>http://example.com/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</id>
+    <link href="https://yousa.love/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/"/>
+    <id>https://yousa.love/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</id>
     <published>2023-01-31T15:10:41.000Z</published>
     <updated>2023-02-01T02:09:08.803Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="novelai" scheme="http://example.com/categories/novelai/"/>
+    <category term="novelai" scheme="https://yousa.love/categories/novelai/"/>
     
     
-    <category term="Sherry" scheme="http://example.com/tags/Sherry/"/>
+    <category term="Sherry" scheme="https://yousa.love/tags/Sherry/"/>
     
   </entry>
   
   <entry>
     <title>webUI灰原哀ckpt模型</title>
-    <link href="http://example.com/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/"/>
-    <id>http://example.com/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</id>
+    <link href="https://yousa.love/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://yousa.love/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</id>
     <published>2023-01-28T06:00:52.000Z</published>
     <updated>2023-02-01T09:47:11.348Z</updated>
     
@@ -51,15 +51,15 @@
     
     
     
-    <category term="novelai" scheme="http://example.com/categories/novelai/"/>
+    <category term="novelai" scheme="https://yousa.love/categories/novelai/"/>
     
     
   </entry>
   
   <entry>
     <title>黒鉄の魚影</title>
-    <link href="http://example.com/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/"/>
-    <id>http://example.com/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</id>
+    <link href="https://yousa.love/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/"/>
+    <id>https://yousa.love/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</id>
     <published>2023-01-27T14:13:57.000Z</published>
     <updated>2023-02-01T09:47:20.656Z</updated>
     
@@ -70,17 +70,17 @@
     
     
     
-    <category term="名探偵コナン" scheme="http://example.com/categories/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3/"/>
+    <category term="名探偵コナン" scheme="https://yousa.love/categories/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3/"/>
     
     
-    <category term="Sherry" scheme="http://example.com/tags/Sherry/"/>
+    <category term="Sherry" scheme="https://yousa.love/tags/Sherry/"/>
     
   </entry>
   
   <entry>
     <title>折枝落梦</title>
-    <link href="http://example.com/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/"/>
-    <id>http://example.com/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</id>
+    <link href="https://yousa.love/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/"/>
+    <id>https://yousa.love/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</id>
     <published>2022-11-05T13:40:18.000Z</published>
     <updated>2023-02-01T09:46:03.805Z</updated>
     
@@ -91,10 +91,10 @@
     
     
     
-    <category term="Articles" scheme="http://example.com/categories/Articles/"/>
+    <category term="Articles" scheme="https://yousa.love/categories/Articles/"/>
     
     
-    <category term="Genshin" scheme="http://example.com/tags/Genshin/"/>
+    <category term="Genshin" scheme="https://yousa.love/tags/Genshin/"/>
     
   </entry>
   
