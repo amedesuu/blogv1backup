@@ -6,7 +6,7 @@
   <link href="https://yousa.love/atom.xml" rel="self"/>
   
   <link href="https://yousa.love/"/>
-  <updated>2023-02-01T02:09:08.803Z</updated>
+  <updated>2023-02-25T10:44:30.294Z</updated>
   <id>https://yousa.love/</id>
   
   <author>
@@ -15,6 +15,71 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pip换源</title>
+    <link href="https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/"/>
+    <id>https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/</id>
+    <published>2023-02-25T10:39:40.000Z</published>
+    <updated>2023-02-25T10:44:30.294Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>pip install -i https://repo.huaweicloud.com/repository/pypi/simple/  [包名]</code></p><p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p><p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p><p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;code&gt;pip install -i https://repo.huaweicloud.com/repository/pypi/simple/  [包名]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+    <category term="python" scheme="https://yousa.love/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python实现最优选课方案</title>
+    <link href="https://yousa.love/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E8%AF%BE%E6%96%B9%E6%A1%88/"/>
+    <id>https://yousa.love/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E8%AF%BE%E6%96%B9%E6%A1%88/</id>
+    <published>2023-02-25T09:18:49.000Z</published>
+    <updated>2023-02-25T10:37:15.773Z</updated>
+    
+    <content type="html"><![CDATA[<p>python实现最优选课方案</p><span id="more"></span><p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p><p>有一个小bug，在有排名相同的情况时则会按照科目顺序给出选科方案（</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选课组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;python实现最优选课方案&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="信息技术课程" scheme="https://yousa.love/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="python" scheme="https://yousa.love/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python循环结构（第一节）</title>
+    <link href="https://yousa.love/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/"/>
+    <id>https://yousa.love/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</id>
+    <published>2023-02-25T08:43:57.000Z</published>
+    <updated>2023-02-25T09:19:48.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一节<span id="more"></span></p><ol><li>用python for循环写一个计算一百以内整数之和的程序</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">101</span>):    </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> += i </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1-100的整数之和为：&quot;</span>,<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure><ol start="2"><li>用python for循环写一个计算0到用户输入整数之间所有整数之和的程序</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入一个非零整数：&#x27;</span>)) </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,n+<span class="number">1</span>):    </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> += num </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;从0加到%d的和为：%d&#x27;</span> % (n,<span class="built_in">sum</span>))</span><br></pre></td></tr></table></figure><ol start="3"><li>用python写一个计算0到100之间所有是3的倍数的整数之和的程序</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line"><span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line"><span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;0到100之间所有是3的倍数的整数之和为：&#x27;</span>, s)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;第一节</summary>
+    
+    
+    
+    <category term="信息技术课程" scheme="https://yousa.love/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="python" scheme="https://yousa.love/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>灰原哀模型v2.0</title>
