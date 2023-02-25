@@ -6,7 +6,7 @@
   <link href="https://yousa.love/atom.xml" rel="self"/>
   
   <link href="https://yousa.love/"/>
-  <updated>2023-02-25T10:44:30.294Z</updated>
+  <updated>2023-02-25T11:23:32.110Z</updated>
   <id>https://yousa.love/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/"/>
     <id>https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/</id>
     <published>2023-02-25T10:39:40.000Z</published>
-    <updated>2023-02-25T10:44:30.294Z</updated>
+    <updated>2023-02-25T11:23:32.110Z</updated>
     
-    <content type="html"><![CDATA[<p><code>pip install -i https://repo.huaweicloud.com/repository/pypi/simple/  [包名]</code></p><p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p><p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p><p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>pip install -i <a href="https://repo.huaweicloud.com/repository/pypi/simple/">https://repo.huaweicloud.com/repository/pypi/simple/</a>  [包名]</p><span id="more"></span><p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p><p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p><p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;code&gt;pip install -i https://repo.huaweicloud.com/repository/pypi/simple/  [包名]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;p&gt;pip install -i &lt;a href=&quot;https://repo.huaweicloud.com/repository/pypi/simple/&quot;&gt;https://repo.huaweicloud.com/repository/pypi/simple/&lt;/a&gt;  [包名]&lt;/p&gt;</summary>
     
     
     

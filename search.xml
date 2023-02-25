@@ -3,7 +3,9 @@
   <entry>
     <title>pip换源</title>
     <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
-    <content><![CDATA[<p><code>pip install -i https://repo.huaweicloud.com/repository/pypi/simple/  [包名]</code></p>
+    <content><![CDATA[<p>pip install -i <a href="https://repo.huaweicloud.com/repository/pypi/simple/">https://repo.huaweicloud.com/repository/pypi/simple/</a>  [包名]</p>
+<span id="more"></span>
+
 <p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
 <p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
 <p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
