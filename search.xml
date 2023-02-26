@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>pip换源</title>
-    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
-    <content><![CDATA[<p>pip install -i <a href="https://repo.huaweicloud.com/repository/pypi/simple/">https://repo.huaweicloud.com/repository/pypi/simple/</a>  [包名]</p>
-<span id="more"></span>
-
-<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
-<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
-<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python实现最优选科方案</title>
-    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>python实现最优选科方案</p>
-<span id="more"></span>
-
-<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
-<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>信息技术课程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python循环结构（第一节）</title>
     <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
     <content><![CDATA[<p>第一节<span id="more"></span></p>
@@ -67,24 +31,18 @@
       </tags>
   </entry>
   <entry>
-    <title>灰原哀模型v2.0</title>
-    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
-    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
-
-<p>出货率大概在60%-70%左右</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
-
-
-
+    <title>折枝落梦</title>
+    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
+    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
+<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
+<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
+<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
 ]]></content>
       <categories>
-        <category>novelai</category>
+        <category>Articles</category>
       </categories>
       <tags>
-        <tag>Sherry</tag>
+        <tag>Genshin</tag>
       </tags>
   </entry>
   <entry>
@@ -112,6 +70,27 @@
       </categories>
   </entry>
   <entry>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>novelai</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>黒鉄の魚影</title>
     <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
     <content><![CDATA[<p>死ぬな、灰原——</p>
@@ -129,18 +108,55 @@
       </tags>
   </entry>
   <entry>
-    <title>折枝落梦</title>
-    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
-    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
-<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
-<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
-<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
+    <title>pip换源</title>
+    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
+    <content><![CDATA[<p>pip install -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a>  [包名]</p>
+<span id="more"></span>
+
+<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
+<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
+<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现最优选科方案</title>
+    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>python实现最优选科方案</p>
+<span id="more"></span>
+
+<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
+<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
       <categories>
-        <category>Articles</category>
+        <category>信息技术课程</category>
       </categories>
       <tags>
-        <tag>Genshin</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现OpenAI的API调用</title>
+    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
+    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
+<span id="more"></span>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
