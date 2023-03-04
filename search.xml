@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Lua学习笔记</title>
+    <url>/2023/03/04/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>python实现OpenAI的API调用</title>
     <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
     <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>

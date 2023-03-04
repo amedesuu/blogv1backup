@@ -6,7 +6,7 @@
   <link href="https://yousa.love/atom.xml" rel="self"/>
   
   <link href="https://yousa.love/"/>
-  <updated>2023-02-26T07:07:36.617Z</updated>
+  <updated>2023-03-04T13:09:28.360Z</updated>
   <id>https://yousa.love/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lua学习笔记</title>
+    <link href="https://yousa.love/2023/03/04/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://yousa.love/2023/03/04/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-03-04T13:09:02.000Z</published>
+    <updated>2023-03-04T13:09:28.360Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>python实现OpenAI的API调用</title>
