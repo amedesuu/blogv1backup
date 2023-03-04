@@ -42,12 +42,12 @@
     <link href="https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/"/>
     <id>https://yousa.love/2023/02/25/pip%E6%8D%A2%E6%BA%90/</id>
     <published>2023-02-25T10:39:40.000Z</published>
-    <updated>2023-02-26T07:03:10.218Z</updated>
+    <updated>2023-03-04T11:04:23.403Z</updated>
     
-    <content type="html"><![CDATA[<p>pip install -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a>  [包名]</p><span id="more"></span><p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p><p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p><p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]</code></p><span id="more"></span><p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p><p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p><p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">&lt;p&gt;pip install -i &lt;a href=&quot;https://pypi.tuna.tsinghua.edu.cn/simple/&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple/&lt;/a&gt;  [包名]&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;code&gt;pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]&lt;/code&gt;&lt;/p&gt;</summary>
     
     
     
