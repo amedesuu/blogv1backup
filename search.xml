@@ -1,110 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>python循环结构（第一节）</title>
-    <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
-    <content><![CDATA[<p>第一节<span id="more"></span></p>
-<ol>
-<li>用python for循环写一个计算一百以内整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">101</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += i </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1-100的整数之和为：&quot;</span>,<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
+    <title>python实现OpenAI的API调用</title>
+    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
+    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
+<span id="more"></span>
 
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
 
-
-<ol start="2">
-<li>用python for循环写一个计算0到用户输入整数之间所有整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入一个非零整数：&#x27;</span>)) </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,n+<span class="number">1</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += num </span><br><span class="line">	</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;从0加到%d的和为：%d&#x27;</span> % (n,<span class="built_in">sum</span>))</span><br></pre></td></tr></table></figure>
-
-
-
-<ol start="3">
-<li>用python写一个计算0到100之间所有是3的倍数的整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line">	<span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line">	<span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">		s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;0到100之间所有是3的倍数的整数之和为：&#x27;</span>, s)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>信息技术课程</category>
+        <category>AI</category>
       </categories>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>折枝落梦</title>
-    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
-    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
-<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
-<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
-<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
-]]></content>
-      <categories>
-        <category>Articles</category>
-      </categories>
-      <tags>
-        <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>webUI灰原哀ckpt模型</title>
-    <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<p>dreambooth</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">提示词：</span><br><span class="line">正面：masterpiece, best quality, haibara 1girl, looking at viewer</span><br><span class="line">反面：lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/f6139bc65981e704">3000步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: 2a619f10dad5d23f1716eadebcb8fdda</span><br><span class="line">SHA1: c1f150e87e3950e0ccab11c6f341c7466e3c7a95</span><br><span class="line">SHA256: 88d203fa87622fd7d9e8d720c0d53a99a3d10adc15ae23ab9d0717dad161ab06</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/9a83815fac71ee01">4500步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: d5e4ed4d972ffe75edb6706b744b3bb6</span><br><span class="line">SHA1: 6ec90a4165498b26156ce039a7dfd0c266d92965</span><br><span class="line">SHA256: 40f6099187add9a31160dac7532b93efccb67039c48708035229a125ae0f52d2</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/39bc8f1113787ceb">6000步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: ff13e308f4ac3cb927a5e61a0336e710</span><br><span class="line">SHA1: a56112f017c76e91bdb960c37aa8717a4b147e35</span><br><span class="line">SHA256: 674ed7f1a30e9aeacb0a98d4fc5731356d2bef95343bcf1d0232aaf637592732</span><br></pre></td></tr></table></figure>
-
-<p>密码：</p>
-<p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
-]]></content>
-      <categories>
-        <category>novelai</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>灰原哀模型v2.0</title>
-    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
-    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
-
-<p>出货率大概在60%-70%左右</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>novelai</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黒鉄の魚影</title>
-    <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
-    <content><![CDATA[<p>死ぬな、灰原——</p>
-<span id="more"></span>
-
-<p><a href="https://imgse.com/i/pSUaVBV"><img src="https://s1.ax1x.com/2023/01/27/pSUaVBV.png" alt="pSUaVBV.png"></a></p>
-<p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
-<p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
-]]></content>
-      <categories>
-        <category>名探偵コナン</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
       </tags>
   </entry>
   <entry>
@@ -144,19 +53,110 @@
       </tags>
   </entry>
   <entry>
-    <title>python实现OpenAI的API调用</title>
-    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
-    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
-<span id="more"></span>
+    <title>python循环结构（第一节）</title>
+    <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
+    <content><![CDATA[<p>第一节<span id="more"></span></p>
+<ol>
+<li>用python for循环写一个计算一百以内整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">101</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += i </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1-100的整数之和为：&quot;</span>,<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
 
+
+<ol start="2">
+<li>用python for循环写一个计算0到用户输入整数之间所有整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入一个非零整数：&#x27;</span>)) </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,n+<span class="number">1</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += num </span><br><span class="line">	</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;从0加到%d的和为：%d&#x27;</span> % (n,<span class="built_in">sum</span>))</span><br></pre></td></tr></table></figure>
+
+
+
+<ol start="3">
+<li>用python写一个计算0到100之间所有是3的倍数的整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line">	<span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line">	<span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">		s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;0到100之间所有是3的倍数的整数之和为：&#x27;</span>, s)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>AI</category>
+        <category>信息技术课程</category>
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>novelai</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webUI灰原哀ckpt模型</title>
+    <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<p>dreambooth</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">提示词：</span><br><span class="line">正面：masterpiece, best quality, haibara 1girl, looking at viewer</span><br><span class="line">反面：lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/f6139bc65981e704">3000步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: 2a619f10dad5d23f1716eadebcb8fdda</span><br><span class="line">SHA1: c1f150e87e3950e0ccab11c6f341c7466e3c7a95</span><br><span class="line">SHA256: 88d203fa87622fd7d9e8d720c0d53a99a3d10adc15ae23ab9d0717dad161ab06</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/9a83815fac71ee01">4500步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: d5e4ed4d972ffe75edb6706b744b3bb6</span><br><span class="line">SHA1: 6ec90a4165498b26156ce039a7dfd0c266d92965</span><br><span class="line">SHA256: 40f6099187add9a31160dac7532b93efccb67039c48708035229a125ae0f52d2</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/39bc8f1113787ceb">6000步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: ff13e308f4ac3cb927a5e61a0336e710</span><br><span class="line">SHA1: a56112f017c76e91bdb960c37aa8717a4b147e35</span><br><span class="line">SHA256: 674ed7f1a30e9aeacb0a98d4fc5731356d2bef95343bcf1d0232aaf637592732</span><br></pre></td></tr></table></figure>
+
+<p>密码：</p>
+<p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
+]]></content>
+      <categories>
+        <category>novelai</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>黒鉄の魚影</title>
+    <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
+    <content><![CDATA[<p>死ぬな、灰原——</p>
+<span id="more"></span>
+
+<p><a href="https://imgse.com/i/pSUaVBV"><img src="https://s1.ax1x.com/2023/01/27/pSUaVBV.png" alt="pSUaVBV.png"></a></p>
+<p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
+<p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
+]]></content>
+      <categories>
+        <category>名探偵コナン</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>折枝落梦</title>
+    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
+    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
+<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
+<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
+<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
+]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>Genshin</tag>
       </tags>
   </entry>
 </search>
