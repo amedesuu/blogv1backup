@@ -178,14 +178,14 @@
 
   
   <url>
-    <loc>https://yousa.love/categories/AI/</loc>
+    <loc>https://yousa.love/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2023-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yousa.love/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B/</loc>
+    <loc>https://yousa.love/categories/AI/</loc>
     <lastmod>2023-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
