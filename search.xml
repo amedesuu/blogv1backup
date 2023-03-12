@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GPT-3模型</title>
+    <url>/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h2 id="模型综述"><a href="#模型综述" class="headerlink" title="模型综述"></a>模型综述</h2><span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>描述</th>
+<th>最大tokens</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>text-davinci-003</td>
+<td>最强大的GPT-3模型。 具有更高的输出质量、 更长的输出内容 和更好的语言理解能力。 还支持文本插入功能。</td>
+<td>4,000 tokens</td>
+<td>截至2021年6月</td>
+</tr>
+<tr>
+<td>text-curie-001</td>
+<td>功能强大， 但比<code>Davinci</code>速度更快，价格也更便宜。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+<tr>
+<td>text-babbage-001</td>
+<td>能够完成简单任务，速度快，成本低。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+<tr>
+<td>text-ada-001</td>
+<td>能够完成非常简单的任务， 通常是GPT-3系列中速度最快的，成本最低的。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+</tbody></table>
+<h2 id="Codex子模型"><a href="#Codex子模型" class="headerlink" title="Codex子模型"></a>Codex子模型</h2><table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>描述</th>
+<th>最大请求</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>code-davinci-002</td>
+<td>最强大的Codex模型。 特别擅长将自然语言转译成代码。 除了完成代码外，还支持在代码补全。</td>
+<td>8,000 tokens</td>
+<td>截至2021年6月</td>
+</tr>
+<tr>
+<td>code-cushman-001</td>
+<td>几乎与<code>Davinci Codex</code>一样强大，但速度稍快。 这种速度优势可使其更适合于实时应用。</td>
+<td>2,048 tokens</td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo文章加密</title>
     <url>/2023/03/11/hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
     <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><span id="more"></span>
@@ -19,6 +88,154 @@
 </ol>
 <h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在你要加密的文章头部写入<code>password: </code></p>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ys_individual_server</title>
+    <url>/2023/03/11/ys-individual-server/</url>
+    <content><![CDATA[<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+U2FsdGVkX19WgQDhz4QYI9vyATXbahCvElbwyQTRbARQ0AeH7eDKikotr+MAG7Tmd1eUvvS4zcZbwg8M02Wf0oo6XAJpAd8pe8ARu40E8cwxsK2a4ERTgapq/O0TrmrVXtQByki7mov/ld708NyZG0SIIodGfZAmNa7bK0wx/6NWKnGOM21WUUVEeTGmsHTsVWWs7ptFK3WZClTlna/ZvMsqemcfojt89Hw67qpOBys/nN9Cgliepa+h6R0VRwxXfmtcQbpRjS5O7sAdAAf561q2PIjDm4kdGOvjn42oTb9XJq2OrBAigas6GSaBvZKvS4HImtk0h7Dne6p6rstWJ0g+FMfata9Z8P5pfvfe6kCVc+1tFvR0PJ8Vl0T6lXpUDKC/tZCHq8XYcvG9gfCGJCDBf3WLwUbtJv9qYECGnTyKqmYrYFhgZV3HTUelcIwepO+4XxCWWKA0uAmoR/m9kuLpEdnvLu4vpB3R2Yf3HbUXRucE/Oj+WfPDTqKXTwZaHxFPc4WREqIqYfS9CEZCFimf6aWTZxj5M9HjZxnb6udwHnZGDOvMUvk8eiVfKr3FYu5oPYklvCnAZRLQ1WZ22fljI5RbVlyM0PVK/RUHnRUsD7IYhQzj7Na3YjSUyCgwbgMCNTY1WKULl8F1YnCiZQO9gOVMU0Py8G0UFZEpJZVpKTsQtBHSEKNnBtVQ8JzxPDwjfVyd7nCnGXbpyirv6R0vgFCaAbXEfSVT1sXXnaH6AaFxvL3AFJY8E1wtJ6xwSMXahVzPtiRJMn1IDvor45kG7C33Y/WOOk7qBOFBVvMwjIt+QsYz6iUB0JeAPBIK/o5zZzPQH+NJ8fCtFrjCkX1tbt9qyxai9yq6NKS4p2ExKfWtVDt47d2lHUOSCA6dDMXLHTuhnoE5vbiyzlgWB/1WsnUohas8G/v6ZUlyr4KDsYwIOrBdfuy9yxWaB3FnwVvQvWWy/hB2LjIyQai6+lP7mJ/Gy/s2IJdQMcuvvvIEparniIJjZ1indP+lu9y69VBgpAVQJ4dMBwGsaE1S/SspNa2OU5quOLgbMP8i9rVd6dL5fospzPZRwcBc9zWxC6UCU2NxZcrb5QzCUWh0XjEVQM8EbDxqaQ6zuVAHUM0mC5LxpcrYWalBnqErKNS4mC1eahwwO0ktH9MnVr2JHKraOZBbRbz40f1JpWTXzyfWxkzrRI2aoHtw0FCIBdn8owZZrGmRI6KIvd96so9TYXHAtbRURLAlPZcAfON3wMzOjvraGzgmUG94Su5rCJNCu7nuS2suWIE1Hb2kV1dO7FKPMi8jto7eCVsE1M/Dl2un/gxgx2bLZCtsrqeBXI7P6yeWOgyiWDgN9lOFGwoBlKql9VG8ksPp7G6xdJxEwZeUjj20AlNe1KdGHBj38pJRiVJarrJJ5cCI7FFaEXWHns7rN9Mv8VqqsuLI9XrHE9OZay8ayuJvu14RYcPBJdBdyAFihF7vL8uI7uUNjDAzmEaThn4NzqYCf7c4gwh4EYgn2OSaTy36JQWL0C8hOHn7YTYWM1ioZ92VZGPFodhVimQQG3RRHdMLlgNcNNISGnHMi7PmVRQYDI1fvF0967rnjzDazoswAN5jYC3tYHv3wM/R7lLV1np1eFe9t9WU6TV6BIPQD5OJtuc5/ppk8Lvz60cV253x6Xs1kdCRVjEM61cQlgv7NBi8SU9ZKtJl6uVAQaReK4pvyL6SA20GQtZN9oUYLmdHfRpqqe5QZgMftbdHE9ZEw3sQKq+hO8RfYfKAIsoNxfkQqZoJAmCkLctowxqnnWW/PZZsE5iBgKEzquK25KWz7ze8kj0OQHcMKSO/WAeEJRwWhvZN7LejhcOpPtWfEwpkPxgr7u7Dgg6dqRaA93rlG1PULjDXBZkOqIny33qGeD5+g9nmS3gFNDpxVNzFx46XwHYp/FP0SDweZRNrbOqlFoYg8I8lm4kW+SyzpaToDxVdYa/3sDiuon6afRkwNKwZve4Hqnz8tIlXrXyIXYrZDA1/pWTZ/1YZE4nSVXSBWtggQd7iAOUQmY9Mb9UYkWdVYnj98TgiYrJJGNlzmpYK8hfAylkmSqU66iADLbNXJA1iXDbKdrOFY05+zvxhAP169ZJLVwZRiLVbIkqzfVzLT4FUlnHoqm0qWpgCIBkVo3ViTPmxq55eTCevwgzempXWDN3e4jEQLvD2xtzqT40YAMFL6eYaFL+gyhTywbvhEbW7O7tAHc4KKVxXrpjbSjFUgKwh6gGJ5b0QXo0PUmDUDgzO5Zo7C6rsFKPNLQ8rV7Jwa/RpLsA2nHXOA9R7uLqsWuxX8dS0ZmnFVmk96IZsJ7Uql4ye15VxC6VQv5lGGecgJFxM4EREt6KMbJzpjh5WO/dRmlpLqW2ebfkk1QxtPdfBquOSn6kw8ZFt3a160URQ8ElmKsqm29EerMrr9jHbXvdeLElhPnTtQJkd+67jgEmP5rCzlxEiwZxAB4t3bjK2MmUypvzMxJ7okIU/w3nGer2ZZSwKmJfeq9siG6DdkPkCRXfsmPSSDhLxDvjWFgTVt3xxGD5eZNZHSJ3wOX+GF/dTs4tlxIL+YV4JzkQVu8gPEsTIj3bG8AATVZHWMm8oujcn8qB1lTvSvVxXPApacnobBI8DNccIT4EWqwhMG/J5s7XqpWZA0gzKMiJe2aJPurOjeSdR51hkJhCqIUjnq7sV1q/oy/USNc5E2d0/vlEqnSYQ7CtEUuXvX6HtPlEou/fqer4SANP5NvsPY4ZrT2+WMBpe5KsLtuhNpHYHTpjy9yinemNky42BTxbRiK5mjWxYyGDkSt2KufO/LT7qiXm/HtBFYLQw1UQiV8AIfpmhe9bshB7YRy9v0Fj75JXi77D7XWD/eP1q7KAcf6Nnvan5EfDUMs6wTsDC2Frtx9uaA3Fo7figx/BigQuiFlwdWZK8v0kSDCFm22u51WSZwHkGvBPbni/i+56eRI214x3xPiwEmli/aZ13WL9ASNfyY/4DFXnoSaT400h9nnlRbh/rnkBiMtQe/JNMdHVvNR1YwLZYr6LB/jZwZN5lBgJpCubFFNNfXQuxMEOSyIqMSO9RFFuTsiOPBtQ0W/Z+wAE9s8SSpk1mmP9VyNC8iv1EeD+weI+VfDYpIzPaeYVm0ttgDaS7nEqz8Y9wWKnrIUV3elGkya+7K705J5vR6MijepYg75HH//Trpx510yO6BCADh1OUJ3SnzRtiuYPH4fYY7TIpn1h2EzVI1Mvf2apKo77+wnCg8OFUy0hcOyjR4EJIsRvcjEfZYBNrdObMT7AuMRgtUy32VzuYrAVB/9FtZUgX1mO7KhzPOi9qsuEVJ0gcSfRhhSMArygVlE0gYC1VxKeH1hLxejE7Bl1tM8M1Adb8tVQuip9IRN+WgqO0lsSGKRGE4cDVIrrmD6bJNt4UAXKzLMclw3Q6BypBZXYupWi5eR4Lst86DYF2zZpkygMVGW/ADx7SBSer1wOptCxF3DiDpHrNQkbrwa8eYtansiVNMpPJD9Se+Peq2vL8Pfk8+hYc3DZtFiqe3gkZ0G8WddSHjimXIU/I6aOsjTg+kdFEB+KTFbaYGZ9zwKktOKxnxRVPqbAo9YOT1Qhryhwrr/RdC/s6U4Q/NjAzxZX0aImujUS/PaM3UjwCMV4HO6mHaxbva+MY8joMtqJcl+YelDrvBun8DTBoI1UBrReCEsioDwNfYjvoIVTtQcSOR3xtfC0eiXW9DOIxUaXdFOQhqAvfyRR9aNAcwotTcvVk69DIYVnvyPPIWKkDj2PuF94zopKTbri0LmZtmVHX2yjMXYhvfKR7m+DwVelT1Xjnq6FU54Si8lKyLoHRCzEYEA95bTRlbZs12XLpgZjHgworQJridwhsVdalg6UuuEHhfCdVUQjpHVLpRrA9b5Ne4jvHTlgeyq/aHZrL1UO0o0MLM5CdzpLx6E73kJtmFKDgG9oQ+cSXVBPD7nPEGCG25EwwwR9dzZWJ1GhYoN+WAUaJyKycbvQUKxKruHoPuh2h838FmDdUiOv1LoK36VzkOExAUpxPxzAHDnI66INCrrMlhFhrFDaTJpuReJDNbct+oa72jEUz5Dj0EXXFdRBk7Cg+3U+Z+DPQjz9wMLWEz4ci1WxiuHTM9O+JRv6MJTc1UtkIMiwY9lybPbSunoSIFagSFkDr+SCxRitPALnYpfeW/0JZLQgyfztuBOevFoZGCLJrduRZBPmg3NQYZmKMkKHE1tg1RPuIFyVTS4j35twPaQy+K/fmmD8qACmyRVeXPZbvDdO2IJdlFpFNEoblqLkOAh5w0NoEFUmRrNJws7u5DPfrORqAaUKwgw6pIrblc4xb4N4I9PX9LvrRwh1XKvntXLDnBF8LVZAGxq/XnjvVpG3sIkZmK0hON78eTcIQO2PHQTCuQUICKWwE4cXZUZLH9/Mz/AieF5OSqUYvf/oE5Z5zjEqF5mytAuKwyMwAdhemK5Nhw5eEaOmdsBXJirjgm7p3+kvsSZ5jIPV6XXoyeo1/+brDITdquCNPilo/qp3j+Ve9gr1+aqx8ACzdWAoCgTP7cG2Ci5Pq/YQ4HufOk9t/BZ/BTYZw+T6XiJpb12SRFZ6yI4HhXH1L3YcocGiWGljUnONyaMSxc0qP18UXNjpKqCJA8xFfBL49XJ+QjnR3eYeTOzS+065oRX61wDcq3Jf7YyQZ0jdI4yTNQOxCOCa+hyWAX10VBFvkfVsTPmsIGDlKTcELAYlWG2k0FhmZZBnO7MFzY9LsULHYaF+W8sgwrM6nwAIpJEwvEhTlqDLmtmPXglQzWOrHm/tXeHf0QbBpwOKedDVdx686lt1kWMfrYaKVAbiNzes3pPtUVkAaO0ycheYCFkaGZaU+syJ001W7t193wGFrMJ9qvsbJFB/GdUtkOxv/u3gzb/YUjhlMAwDLM4rMmOXYNWN0Cb6yNawvJ5vWeJXcY3GJMqeNslnoqA3kqtyNp8ErhrlXAsPpLs2fWnVf245feofTEnscoDSdWJNZJn7O3yzdlMLRmAvpqDzlInOaUqDdAm0N07j0+FQyyiZoqWBlW87EE2+TmX/cBF8w6cwPbqZuj3NTqRadPHwzqQhVjkk/27mC/m+v1Nnig14DESCqdzLsDBE4rp1LSNqVfKRyYZLG37MaVlet1RXrrcD5KPxPSh8BfBqK97hoWUIP2hqgmx89VrM9TtP5mOSIhaWGd+zoQwLHmcyr5QfV86IqN/pJzUQ+sxESj76AwFB03PgA26e0hCMHP/Pgld4jn8JyKDnhuOWmh+oMif8dKT7D+EbL8tJuvuNqMCQBxk4flB4tnj6oKT7u23oLRelF339gf6TOYXYtTVwkluDeFJ1cbtwFfUlBIAEWHyCq4ZU3Aq3L5gdH2ub1yZLldmNVREqZIN23sX7MMmeLM62n5LR7Unkfcr5wbyJXdOpLbU1GIGBH7Cl99AcwDgHrYQi5G4JyCvrs1QzvLjJvXzLjjhBUhbWe4HMuEhcOQwrDWK3qt0sYZS6avJ0BLNNVba7e6Lk2B1YJYLT/H95+JfFBw6Mj+kn0a2tIPE1JUnhM8FxrclibObm5kie1lDwYnqHyfetv1MXxyVFD+gIw0GZ3r3t6JXApAj3sInDc6SKKLwvbxx8Kb5MfFmrcGlnC/JhXd1Oy083FKPZOnPYkQgnoa8ozUqTvYmDPun9FrBO0URZ49eIMzkjtXabBsZUWHBV6uPb+EUooTNwmX7S2bIMPAz0vwEOZNCSR3QMzmAxvnZFbkLLCSJGtcvXsZ9FGvehMhjRQCSSHicWDpGfYvCOMngDlxpVhmqfEMB/L4/yixV8nZwp6IVzpIk9O6YznxYkjWGi3X/Vev8eRBXh6buF7EfrGo+Kei4OPH+62wbRoOECz/mMb+Ru4OxGRXZ7CNHft/SntnM7m22v/FMtLkqYWrewkR67cFsrVxlqIaPs41VMqeNhaDjGDjOA6+QOPTScOD1Pu2RKg7hp1vegrG/wSbM/S/YAcoJMgLTllbxMu4flbP0Zz4HQ+O7+bsbx/z7G8HILdxSwouDi8ODn3GKxKM/1OURD/2eFebJA9nT3h5d2fYFpa4vqh1xgvbtw8fzsAp19uryh9Rsr+mN0aRDRhyorJvmab+bWbg1f+h8JIwjiMjKCUNS1t6g5Ro16yE+G6YmS7+pfRwsxW2J9tu+d6daCFUtBUarzleqM84OJz1yZlrfH6B2WM7UU1Nc4+t56YnutOK1wsvb0m8qpgLEsvZyzC1r5d7p9BpNKd5ZilXlzif8+Nv8D9tEwYAQhZyruwZ2vPTzhvYYCpiDQGP3Wm2h5VISqX7AcZCYdQEzVgJVTBBu0/RXUZIyStiC7WQJqya8kvIlt16mQHE7VoaPGDt3E4zk2fyV5n18xkfkwkkw+XkSUUwIniIGFzugRQoYr1XbUNpMPZbaSy5sDAIBlzvKOrNGHbHWvC0NB7r+WMxmD0bvOLMH36X8OALTw1HebbzZfX6+LzmhzyqzQyn5EGsHpjP0HWuSFmBZZC++eW2zGmvx3lBMC6dOoF+6TNn1LKIAvyacWmiPgmDFccaUl9DTOH2Bmk5uzKp641VohgpPxsb4O2HtyxfEwmvhc0EREKGjpn9muIELOPa6C1mrURvd28iahMhmg/ujJ++Gtfvg54IO8tHzNp0YbXFtkkMZNqJAzoVGAKukKOMPZv3VBAiZfX68M34qgub/G//vWgbTtrzsCDEJO1oUImr1Wl3srR977BpCJeNOt6Ajxn3Y5AorKL+gOdqWgYtwCsCyMcxCbAtSAV0Y2Jt7uawcdp+EsUiFYYc9IfQ8lElv0/HPMvL16CVN2B9vYI5g6Ss3HM5L/G5FnOkI/mFr5bGI+NhE+pQqUEdQCoxiOY+mdbzs0iOJaeiF/NWoOQN0l465KcU7p9o8MY2+nQInUoiQpDMxuzIYomNmWk6l1kfqJnvWowTm0RRM6Mq7d3HUBRFmyQ7SmMYkTqfHnaTuRnK7kcsWFRR7+WpKAtqt75vWZGxa7dzn8ANKTJMO3gu5D+YaWwfmYfrdCAXYmwxKs5N6nPXwI4b5Kiunz2qGGB0AA2HNzdh5+t2AGlEogURb6E6mWSNFQqrpUVb93J6zWXCcnKI+ZJNUnXVE6+HDIX3+B25kYUHxWqwC4Ff+KHnuHsJiZ1Cq9sguaiVKIb2KBxmerRmgMhHyfQ8AAtQ0SaCGbctyTlfKVDdS1byr4YTPJjVCtG2RPMmsz5CVMyrtYG0kvipwIXX+hopDzNKSAVWMcJGzKnDklMDGsfBH8o2BEwF9JxHRYYkWaex0UIhb1gszF65McroP7zD3HF4ZQTmxf5IHfLul2yK+WRaRuHs+5AZVdFVPPIuqFfivGnNXLkIb3o6Qp1MwpRJkaeVnuMm/9xRwnc0t/irlC1oDeTdJhgWz5lZ4jL1lWh9cd1hFD25YaDTNjLakGI8rm8L6Rk4rqpq6omeWI3EX9PHGhkHGBwvf8Z+ZDJUelhJfvQ67I0tFynBoPf22myXuBijwjWRV35Sx8BJMhLtJ2kUF+JJENWA7PjjOacU7GtPbsNLK2hUujDgWI6Psz3kLhnuUHMHQY69McNZvNCVK/j+cUt5UrffEVKwRDdhWx/IDCyP+rrmSRSwQ1KwJXI/m0lxPPC2wsj5arXXlgIsJnLP3ZxE/24jnqKksDfe4zcKGUy4hDq/D7w5T+KSbIy7QUhXi1XByuk5GMlX44SHVAEhjntISfjE2Gc90m70sJVlczXqXyB89wXRkkX+6Sw3xOaitStzK2Q54kKpiQk1e0RT2lcVlYJv1j/f3jyFB3/uhz4u7vq19cREt/vf4QuERjnMqop4hwVtTIA6k+XIZxBR0mfYIA+GgF2GoJEB2a1/1HFVwJ6v6RkHZO6/zz8sBG2AGDak0+nspKB87oNg319n0DUPUz2JIJvS9iO9ltltZL48ePmj0eALBrEDOHpErix7NxgwqGNpIVmsjXfqVBRUXsd0xjr/nRcRfbJH+fkRb+DYkCzOsQJiZVyrLKJo0pTWyVDFogn/t5bLtiYKGoaq8Dwx2epwL78XDBLJe4OGeUmn1mnodgM09G56fj5Gk7ayRMxC4vlJWR6vXajGgaecZwtP4EWPdVmt4ajj1iTlwYxE3o6osQ+lqhzNvSa2UYl2jTPbWUxflQY2IPTCYkdWr8hVftVDqCzYD3aJ1nTv4W2jBvjK1Zc1XKAWeb69yOj5ipvqOactMvzE0xbkVeEkkvO6+9pZIsYZgT/Cj0nvfAQw6WqcXra3eFPa2bqK7/2NQoqKAeIWn9hRv/u3c27U6KV2c1olIJiUadWYqX/2npfhdcHgJCKNEUefZwlHiQ3iKm6+mCFnAnPYl2I3deiC1JyMMUb2d5Iun5BWK4HS/XEunyHZQoVu1TF0k8/NNlWOJSRMxIbV75z+Nvpmi1IlopHU5v9bh2pDWElDn1EjrixQaMZqWRfm/UKkQOoFRMVX/2tRjQxpi8riGUBl20n1xaA9N/EBwUEnZYn9yZ4OwSGAuVT6IOcPszan3ECtIUUuZChzVJ5950jlRW+Lf0K+Y1T9IP74h8haI9IYjc5ne/vGLkObX8SllcMpLSO+dOLNiSOO4DGZxJXvea3AtPdwG0j1CRVIVrYQrMaWD3P2lLD2EuEur8oRCBKuWOkLp2HW70uNNqlnL4gMl6ly8TBiJ45TRaP7BrReMFqdb9e0IlgyB/Ks7DSnQCeivggxcWXmFHZJfBJlKgHYM3Rt06vslc4nlS8F1XJAr+u3omp/oZKQSzA7F9CTFF+epTYtfuJY4k210c4OYlbmD0GzLieSehm8HcluC3SEjgelXu/8v9H/+bMFjvA+EUjiHiXNk2TWQwNEYyd2Pba3F8GuHF1ncKbG7c215Yjlhsf5gw6BuYGHrMLc6IHE6wy+dArwr5k6LuIcwgYbn8FFhIWuMUVLTBDXSeLMQBODZnK7q8ZQyVmndJ9NTUMfRBJdTUxpMwf4yTuvO9Kj+SHLvOf7alfe99W9U3QOQ0FGpXx5pz8fdbD85hi+YbNT0fWDgPhTCZcllb3Ra/FbxfIOsCnkps23RK0nqlUXZCAPvsbhtujG3/PAat2R/qcuW6ems+8Vnmz0toq/hSmwPgUSOUgXG7Z+RpWSbibDEipwACM3Yfm4/WxacUMrnbzCsFBTWCGOt3ukHQNiKUPTjTZkFDS4GXAiUUyHHmcRAeEHolJpsr+QONHzLCmAi2Fr8Oen3luL03xczwa37pRwRNRGbNRAf6rBRU5MKph1dM6/cEqlXstudnQqYR5cgMofG/3j58jkJRPlSRUNt2gA/PEbN5J5EXhnZ6OcLq+1ybzRDBeWyrI82/3EXxGwTxF5haEbd8XCqUhHafDd1wNQoJ1M58qFqEUBvde7Rm1kXUnhiu8C+y5Lq2jvdRyErwBzjKdevNPWn8OF5GgNZDqdOJM/mQj2b9NKFH9KCPtpb953D7jOkx0+eF2hZSVJlCq8gMmgHs+ga4jC9i/i9nz2+JaEr7sUr6bPcP5hufG/6XBMLCTLKWuJ1LE9aBGB1zCplL8T418gw0ND++fX45oK3V8a3D/M3/YNZDDXhNv9uZ8PWCNtIHx+tptK98OgRejJ00VSTX4yaZ0XPltKIZZse4HcONKyNVi29HPutQnASXYXz9rbyMOPxoukIsQBDQifRUeJ6suMSTRn2/lHDWrVY+A11//AjKTRBvAK5N5T13DGBqYzq8pUx21yCOn6KRwXectxxk1pLC1NFlf3zz6KoCFaHKoJl8BJvk3hzNY/GDApQtqvLWYTm9llIl4+YVN1H1FiA8h0FAGig5lfzw1WEh3YlAD4Q1CrugQPkxtLJDqxe6e3vAEjjMQZ32Oy8H4q9KjqsHRQe/dPceff2z7Su8Dy3gUPB9sHGAGyPu0S6BBj2uC0bQfRUITASIy5RgFuSo7H715AXUXiVRb8amwHQW6QSNP40CGnXB0p2Uh75uTrkPQa57NnybYnju6Xty41bD5i0Kq4o7qE8/gWsI2F6Cc7zrEzRwUAAKvmH5+0fPXnuWv+LU9tY1TlxyfcnhDbDn8NnVAFoAw4ja9lJ0ElhrP3PEJPUWUIUVmmRIIb7t/2w7DVKMSDz5SBswIUw7TxvQ9pvHkJdyCI2skjiOhnelbDqNU6Tg6zVn6ANKKIecaKcIFqILPjk0iiGdpmx8KmM+2Wfc9rM+fl78dbrqKr9t69yHX11M4P15B/l8bHopSIF3zLGV2I0I/+ens+9YB+d+ppHr2t4ePlkY9s+0zphElOabYLMrUrDtJhGZ+tAbQOvZj
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Genshin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现OpenAI的API调用</title>
+    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
+    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
+<span id="more"></span>
+
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
+
+<h2 id="下面是GPT-3和Codex模型支持的参数："><a href="#下面是GPT-3和Codex模型支持的参数：" class="headerlink" title="下面是GPT-3和Codex模型支持的参数："></a>下面是GPT-3和Codex模型支持的参数：</h2><table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>model</code></td>
+<td>string</td>
+<td></td>
+<td>模型名称</td>
+</tr>
+<tr>
+<td><code>prompt</code></td>
+<td>string</td>
+<td></td>
+<td>输入的提示</td>
+</tr>
+<tr>
+<td><code>suffix</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>文本生成后在文末插入的后缀</td>
+</tr>
+<tr>
+<td><code>max_tokens</code></td>
+<td>int</td>
+<td><code>16</code></td>
+<td>文本生成时要生成的最大token数。 提示的token数加上<code>max_tokens</code>不能超过模型的上下文长度。 大多数模型的上下文长度为2048个token（最新模型支持4096 tokens）</td>
+</tr>
+<tr>
+<td><code>temperature</code></td>
+<td>float</td>
+<td><code>1</code></td>
+<td>采样温度。值越高意味着模型承担的风险越大。 对于需要创意的场景，可以尝试0.9， 对于答案明确的场景，建议用0（argmax采样） 建议不要与<code>top_p</code>同时改变。</td>
+</tr>
+<tr>
+<td><code>top_p</code></td>
+<td>float</td>
+<td><code>1</code></td>
+<td>核采样（温度采样的另一种方式），其中模型考虑具有<code>top_p</code>概率质量的token的结果。因此，0.1意味着只考虑包含最高10%概率质量的token 建议不要与<code>temperature</code>同时改变。</td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>int</td>
+<td><code>1</code></td>
+<td>每个提示要生成多少个答案</td>
+</tr>
+<tr>
+<td><code>stream</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>是否返回流传输进度。如果设置，token将在可用时以纯数据服务器端推送事件发送，流以<code>data:[DONE]</code>消息终止。</td>
+</tr>
+<tr>
+<td><code>logprobs</code></td>
+<td>int</td>
+<td><code>nul</code></td>
+<td>如果传值（最大值5）则表示包括<code>logprobs</code>个最可能的token以及所选令牌的对数概率。例如，如果<code>logprobs</code>为5，则API将返回包含5个最可能Token的列表。</td>
+</tr>
+<tr>
+<td><code>echo</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>是否回传提示</td>
+</tr>
+<tr>
+<td><code>stop</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>最多4个序列，遇到<code>stop</code>API将停止生成。 返回的文本不包含停止序列。</td>
+</tr>
+<tr>
+<td><code>presence_penalty</code></td>
+<td>float</td>
+<td><code>0</code></td>
+<td>数值介于-2.0和2.0之间。正值将根据到目前为止新token是否出现在文本中来惩罚新token，从而增加模型谈论新主题的可能性。</td>
+</tr>
+<tr>
+<td><code>frequency_penalty</code></td>
+<td>float</td>
+<td><code>0</code></td>
+<td>数值介于-2.0和2.0之间。正值根据文本中新token已经出现的频率惩罚新token，从而降低模型逐字重复同一行的可能性。</td>
+</tr>
+<tr>
+<td><code>best_of</code></td>
+<td>int</td>
+<td><code>1</code></td>
+<td>在服务端生成<code>best_of</code>个完成，并返回“最佳”（每个token的log概率最高的一条）。结果无法流式传输。与<code>n</code>一起使用时，<code>best_of</code>控制候选回应的数量，<code>n</code>指定要返回的数量–<code>best_of</code>必须大于等于<code>n</code>。注意：由于此参数生成许多回应，因此会快速消耗token配额。小心使用并确保对<code>max_tokens</code>和<code>stop</code>进行了合理的设置。</td>
+</tr>
+<tr>
+<td><code>logit_bias</code></td>
+<td>map</td>
+<td><code>null</code></td>
+<td>修改回应种出现指定token的可能性。接受一个json对象，该对象将token（由<a href="https://platform.openai.com/tokenizer?view=bpe">GPT tokenizer</a>的token ID指定）映射到-100到100之间的相关偏差值。可以用 <a href="https://platform.openai.com/tokenizer?view=bpe">tokenizer tool</a> 将文本转换成token ID。在数学上，在采样之前，将偏差添加到模型生成的逻辑中。每个模型的确切效果会有所不同，但介于-1和1之间的值应该会降低或增加选择的可能性；像-100或100这样的值应该会导致相关token的禁用或必现。例如，可以传递<code>｛&quot;50256&quot;: -100｝</code>以防止生成。</td>
+</tr>
+<tr>
+<td><code>user</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>代表终端用户的唯一标识符，OpenAI用来监控和检测滥用。</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>pip换源</title>
@@ -32,6 +249,9 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>Coding</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -51,22 +271,6 @@
 ]]></content>
       <categories>
         <category>信息技术课程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python实现OpenAI的API调用</title>
-    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
-    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
-<span id="more"></span>
-
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>AI</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -103,6 +307,27 @@
       </tags>
   </entry>
   <entry>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>webUI灰原哀ckpt模型</title>
     <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<p>dreambooth</p>
@@ -123,63 +348,10 @@
 <p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
 ]]></content>
       <categories>
-        <category>novelai</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ys_individual_server</title>
-    <url>/2023/03/11/ys-individual-server/</url>
-    <content><![CDATA[<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
-    <label for="pass">Please enter the password to read the blog.</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-U2FsdGVkX19Al8ejvkyFZAPk143tBfYnu/14vhWkFnIKwnPLF1wjA7u8nP8C3fMFw5AWYPX/lkoTCeXeFz1yduznpLsrXGUndkwbrDcNyrE5SCGF+9qBD+jjKfldaAeXcJX7Qa1vbowYLxO3JuCbLN4sS48ZAXUOgUQdTj2S4is3mdtUnfnwq7M2ZjJF0b1P2eItBz6hGS5hRIC8v6EXFeptwN8mjRZWw/1YYoLUwiQvNwSTzQ3gaG0+iwX/CqeuuIQNXl7Pywtt1+su1PWIvLi11AlBcyDTZ3LAGluUmxoxKStpxseZMSzrBbrCWzmY7lDhtD1pn5iRGoje+NDX4IpFBDAV+vajxxhxw7FDd2WshTfK3ZBRMOeJ0EAd9P6VLM18m/m90T3Bo/bwY46mPnSkPNePSt7BRQwAh5oMhed3iZO8YzAW4kgfHFyxxqxysnjmo93NDtZ+IsPizWl1in+Mlgr4NAiCEdAQizdkKkXlD3pCzBtV2W3dqxamtzE3Kt7SmtGNPBojFwoKbkfHg6SBebsLZtGrGWy1POWKQG3+upg1jlxi1tqulD6hNIuXQx6+BUD8A26sZ4RuzKAodqetPXGh6ZECAKDYTERkeAqn2AD82/p9Gk0HugxbYJ+txk3DA1JeVlWyZPuoGt4f3CVYb0CRpbomyaINBrGG5XOVn9evMVJ4K8yFcSh+GvtiVSljXfSBr0iGu3s/aE24Dh4jbXxCw99KrHbQ0ZYWMuEVOW2VbLpscIyzGzOZkxJM8vj/0wBPOp9slsF5BW++xW3IPQsRYgy42mk9cYqP1k9JxEbd+GbLbT4SoHTFXJ6qRM11nsY8NYMovvjNF9LTis3CZ3Vl6nzfTmKuyVXm7lyKggyIYP3829kXZTCjMuuYOM3uJu41Zh6uCHM0nXTHwTPYK2DyaMMboKH0m8L+99DifVDVI0EKA7+etaz4yRQoexi2bRRayN4uzUFu2veUfqxUfaGC03E+xC8lx1kRmVGx/K78KthpbuSEQshv1zJpPzVdv70Ljj8wpcWqggORfxB4gyjj18LBH2avl9oAc1FNlxgaJsoKK13z9VAoA1fnCC8JDuUd4jD/zjoTy+0W7+RJpPXbFF1NDqGa127C/VaefJ7ZO5LUDS24Kosto82hPYY33OoGF870yultf3v2fvtWQ3xlwUTwc/BrmzjkpERcXqWvu47omf28EVt8FnZENQsSw5E7ExPPYf3b7gbb16OpzCQfjM5Jww3NTxNGiAGeKyAqUPJ1Yd/XGFBGnp5C/STJQTUWzJO+ZrkAbNg/qe5a7m5NCBR2DiSgghIZmjoKac4CYHvydaCq7JYlZWux8hgxEs2KQ7vfq/fvqaOacu6dTu0P3Nbe0pCAD4bKdOtOwINi8ylZvvuAxB0ZXcEB2TnXF4XNy1/xg04StaqD3mTWjJsG3Y8slmYk5rOBLpgOKsUubrtpmk4laPmzTWP/mN/zZx67gsYuYoBRXrG7Ovg6hYWFg7VHGiQlHy/Uk+2DhpiCgy27/8LMHaFdmWsLYDXusuRxM6hN+CHnMySST5snX7ubpe9MPeD0aVbfoR52+g5TyjCsUUbhbD22iMqb9MYul/vPWLJiwV5J0kKGpjnyToUPwBG/A/oFpPDZHM4Kthpyzu4HARTs6hH0w0kujoPhQfhdnga/DjUyABzAA/SS0/7/Sit+tmkrYcVy/5s2ruA5tuI1J/m8E4WOnDpdck6SN6YfmE5qoFXh8WZ7mFa/SPYj9Rl0ZwX80TcXXFAfIAuoJUoXc0YT3bz5R2DYiozn3dN59NNsmiPMfszjK1tDQSjM/TbynQXNe5FOBNJ7kjDeV89Beut5fDsOafwXeVM8Cha0VZYfJw9gnP4wgOsqd1N9oSuSKWKdEmH3Wbcs3bY9X5b/3fpJ9WrygcRBUBlJZLrMSwElkHjFFwP41I2q7MhTWY7eXT0jWVlsttUYEHZn+J8H/YzU6L9YVT2tqkUKBcyphoSEUjNhciJbaU+/2akGIuXNxbtJ8FisTbc1d7LbBP/q8wBQ5equbQZUQI+WsO801QnecKzi6q/9YqKl/dlGxzSNY0oRLTBUuqW2ocgmN6Gao6nrJjRoLk7K7YU0iSeBkeUL04xATZ4RSdn9buWHGX4Huw/ta1cy9tv8vT1phr1ZgLLm/v1s3DQp7T/xq6oTmNtmXPz5du2HLiyEVMUKHWX7oBI12egWHKJcX9PHGr8i6+k66t0RVgITv0UZBt4lhJCkqqIMDjdiBCkd9h9NhQnkxaKVDkmVL0ORuG1iSLO5/t23Xy9XSw3zQq3viP6/nhFJZ97dKUbuLdy013IxrChKLmh9dF5lIusou4dxpr7y2+ntrdCzezejp+YXf9zp2TBPbs2DDbrlc65DkYTLpqmCB7BZcoKhU16MDSR+nT098K5FdPQSo77T/iN+oaMaWE26h50QXrtjhsU5zMS7GgHH8iETrHr0JfmVYWfoxmzk1adSGaCvUbgvSxYe1ElahEk+QHoqZ/AGIzQNp//8jK5+QQI4KwpuxpkKNf9vLijbbwoGccPT5x23CKTpktp3IzEqjRPlokdjPKKHUDkuvfBYHPWduMhss0TS2/m8c13XuXjMcj39Huaf/p1mxoqH+svtzcNXVSd4N7l37tZr/em4xi2w7R2qFX2wFtCu504Bh3C8pPdtQ5ZLU+sCKPBCjAu9g28Kh4nYnMGB7mziJXPGEz2y1Lew6qIwWb2JHeNPhgbyux+hSzZJZMANaf01+/5mSPI5qyrxCJ2+pApQpiUvfRm1B+MlQc7KmmXRQg+uoKXKAzw1cJokZG7ztcQIo7TwVqtUNo6TV9Qkkw/0QTE9uUyu30VpIdfK8wv05FFw7UxN1Zn7/CfSaZ3MJ6S//JNc+D+WrfR3dClVrihG7MdnruDGJXsJp+GgRUCNPEkPFBm0j97nXy0MkZSyHImrYgApa6KA94oG5+IUVPYo5UWv1rhOlvF8KsE/Rpcyr3rJwKpHug1IHoX+nTtVcKLhKzTvjnOGJOeX5YFxx/NfeskvFEDcamR6Stwxnfj6v4VUbKXVukl0i09yIgDemXmUvq5V1Vhq8RiCvG7zOuqOIE++v/FjA+c6rg57ONyHkXuE7UGRsnq5eNcmCeWWn/NkNBS5vNi8/yftyDaCIjK1qC3ht4v722Su6YL4EsI+PDBY9LPVLCGupv+3RKJXSDJ+rqHnYkrDe60lSO7omUGbQEGtVJVvFRpKk3N7gbDz2gNhJGxd86RNnqi2kLUucZCwWyM2WA8ofUbB4ao3be1xEKPyEE5EXB+7u//Mkr7x505S4fIWmyq8lDvz5scxw8dg2HSwUonAFft7GZeUhPqZKb81huFpJaULuQBdsTLq88P6nbF14mdRKR5zXqMkqFV9bEMbwo3HwECIFAXiqGWmKkuHlo8mNXB8zq3Qq09MdNGOa/VJdP8BItJQf24v5rlLTDyyZC6+beGoWhNZQjdMdvSJdIxBT8MbW9/e6JEXgU1NboajM+AW62l15Gg75qxNmO5CdeFIkCFXzj5C8Xql581xLmFeoOa+ZSa2oxPCH+oarpNGVTrTPv3Y9PVpEz0AeDRh3UOxIe1DOU/VC+nfRcGtwIu7RohyMy+qyWoKUIZITxUPKA4vdqhOl9etp2P7con+NfefauslKtt/5HG7OP0gLYxXsvoh0FTZvBOLgdmQ42BHQkjLdini7jny9pbUfrnSeWZt59rsBWvOzUn4NQubB6MF8E49Vq2K+lCYr2fwRQw5eKwvJ5kJUZFUqa5Jiu+MqUD6ojFWv0GVMghEtuI+u656SGGkSa5TFhmCt6MeiVLhVKZxEkdq8MUZVNITFZbyfxtnDfYMFI4irj4eNtLkl0llGmMCNYodwsCK4SmEn4QZRPk88+dPzBVd2ny28SjazPsVtK85IPZkR+Gy6M/38pIo4/GtBWVYeQUuV7UdydIrTJEnUA5x5UIyBvkMKCeYj9rQKuVKQ85wcr+Yc8pKUYlZuJEMTWiBmBpqQ9dPxH1avdABx+rulrX5P2hzHrHiZgRNZuensXKb6TGxR3urUXCGm0fgEAeZGCuDlCjuapM8iMmafYM/vZUAc/ApQz2NP98ZsO0FbhpPma6ymffLmfWGNemH9kAr5JL0zcC6f/2pQIpAGcTztS1gWBGocoZq7GIclHfyyZH+djEO4ujuQXQYao4/cQkLtvcQaAp/oRv5XXNiHkZYjRWtXlPG4E2nrKvqB3D/mF3/0ZoUSWT/7ShjmBX35tzybn+m7jfb7e5TVLPY11C2opMNzzw28M7TgekUwBk0pO1mgoh/VHFNCV4SQiG+XRyVjmeLYPU4QmzyMAPWeGeopFtU1OfnN26730E4YDbmBQp+2rm9jKBcvHvw5rGOx6C8ONHQRmA/g8j2tDQc0dt4D4uNL7J5TCfxFuNBnGbYrqRX3K19s7VQorrPYJo7og2Yl+XatOPTG/aiHQdtw2Q9l/Rbmad5eClQj1mswR8LnAT16ddTsZfXmhcm8YH4Jp7tNrjGWx3ERyK+XD1AKtpPsPFpP3mLhNntbTlnWh2cm2+iarXtKDYa2ELCnBjf6aWGjTd3lN0IXbLN9LAmxrp6d11IGMh1ywJGqYVaBW2Q6QyVYJ+90tct7ucdbnh1QwFiUaSJQeOjYux8N+fhu4s7vyVsgBrYiQnyO67Cdz8ptP39u5qmOuO/VYDGTC6WEuAYtf1IPeahHyaBhXZXn34kdWhVvNyD6TTonnNKCzN5kSR8YMBiO8N7fxXX+nuWGYM2kpIhWfeaJ+EH7XSCCEQeMVWTPCQr+dicYagLSfHhv5douNT+FgMNddLogdZvFbyEnN/InI5oi9c8OJqnbSfs3e4pffsO4XELK1gWF3RiElj4V98e8kqslTzJF78ZsAMN0cc1EAhd9xHeNIzBX8B844jwruTgB03Md6kzxfUyUtOYbHa+xz2y68Pq6u1AGlKl+nSD+qN1NBZV7qDVfTN6sXf7iJGtR5x+McTK4zZvlWJPLSed1RUFiU/66qV2Oa6zyJM1gkZBndtpE1jQam/Jwpwd5MgpMk+oNDjZGhXQ4HW/lcXzTaawKpvP3c/wDWO4WE/TuHr3vR5pWr6mMYs4MSoFeJxFP3O4foW0SyMdYj51LFbXeLVIBKylPTQZ3leoI2iCfs4Myb5jAnz45MdTaHtWyYmm4Gii5x14L+KuPhMws4/kSMEUzQqz7qEctoUFpBq2y0dVCICmFPnoDIQqMatDWFozwA2UxHFxKrc+NvtLSF8GhBhJllSfIHRZVh2WCea5qnKmDemDuwQtP/3ZHqCjl0655lXzai1P9HoyOl0T1HHJhjstyM6LtgbZFJRgPeBjxFiOOfJ6obyNAWnfsNm93t++cYNWceO85120cGdy1Hq6Y+YVWxwGhTInKcYJ7pl1DdFQR5uS4TYKFCo/8hB7zzy9GUj7QKzk6NbKsrV/i5F/QTRowA3nxEax9cYi39FL/sICdb/8bJmoaytPDkVrMCDe0ez9ErPfHdK0lnvQK2UizJDmFH180kIGmBy17WV3sVV5jLWU7OxiapHnAEdOOCrDJqDrBxsI9cX4s+ehezCGeH0985ORsPXlXIc8/p3qfZlob2+0ho8XrVnWEmkEGz1P0+4kTTdhhFtXy+aDqJLecp4T1ciuUoiURY9GFpBa2/erx7v1orMIqG3INygsRmfiXxlCOqCgsLet3iBJ+5HwCpbWHZk4r5j6/CuBmGGUomF8sj2LhcF9QPoMvbT4PNHwteuOgYE1k5UpxocZluuw8BuP4Qp/lDxXaQq1XcVJWsUPhBcy7NABB2Dd0VDbCH/7Gpq6R+2THl8QBfxqcH3HeM9uH84NVB/WOMbkg81CPEVnP5OgUF9UOeS6Gcx0J5HSMXu2R+Qr8OwhdafezZ/klnlfJXNc2nAgK4UqQ7Azxk1qGYnTC4XnnhW2BTI/VpHHzg8Uv5C0SvcwwlAz28tgDMG8EOA2fbPvC8YdPIOWyTFRUlXXL2hF1DDPGc4zz4oSo8fqX3xIup6Bzphna4Z0FFmJFqpvoWvuIVVILKdHNPJMx20J6K2i04ZjFgBXlj7LRsdo/Xzl/fN9jyXvA74b4MJNIq87c6MpQhAe9Yj6XXo73vUlKL8hzrtzy+j6xcWArHXOAxTIskpuF1VC0NAd/Oosk844f6RNj6E6c6196XzTRCzJ+LRtygX0iYZNWrE6RLHsuQl57NawxtByY429shaGd3Zvq2x5Oh/3If8LOxxoeNP16gkPUsfeYEcd2WSbJQNFNGqnDo0mE85Fd11WgI0ruKJ2ac4YewP0ni8KKbuBBuMv8XoYe+znvHp108sCMRpXQY4JOdaLkG/oy9/aUWEDICOHdXac/ABLGo/Rqpsh+jCdLt8zrLvrqFvhP8O8v3vW7B6Gbzgw6Cyveh3dPBE6xQwa/C2S+S4OzQDVLfIn13TQ8sU/ASGPuGbcpOTJdnCuAtr8Gs5cpc71wLQ+4LsjLzBKOfOEZinZU0QUssiW8qssLUpVGbDTUB9y1NACL3CRfY1riEOvkdQ60NvXJlZc/wfQTsNrz/XrbjWcZo/zaj0Y24MvleLHmDhG9qQZXoJXookH2Kf+HJ8qpMsZD6fDmVV9cell3lFT3Dh3q8SP11A3bqUQcCvzT/7mVmLRZpjWDlOpfxZ4n90vNYcW0pbHSeBI3TKITGhuk7CmZPZ6TGuj7/0p26C2mGQc1IZA56jxd7DcK9RQhLMW55u5aXQxIGEQI2wK4uYvzI6C9Co5vk4NXztjhOWFYAqbDGjEsbPasBGRk20LVi4GKYS8JnOs+nueQfcfC7bp+PXCJM0em0aI7+obPTNyXPlI6dw/8PKbCniC/G9kaxlKsF7olnXFIveA9FRUs4nKNZuc0gYfFGkdJkoIOIV4Ipt3AXx7hnW6pjB78u+IwS3t9A+Fgm+3JdDXWjKxCo7w39VKeuuH74Ke8Z4fNKebdZ6b37sbBDVWkhw2+E6WjmcFmcT7kgj02yLHU8eFKdvtuFBPOVDWEpNFYz5daBUDp4VAgOcA2RrfRHyinHdTGwyAlbP1oumf5U4pu04sQOF1qVdfkeyuXLl6M7jqXSQS9rEfh/W+l8uARos++ekvEqlx4/ArkAqmYZYLpGPfdC/wj7wsuZMPw0sKCJby3QolC7eo4Lgz9IZ1GjkCHTRXySvtnVZGwR+Plisk/8OLNX34aB4jF0b2r3BN0ukwptNbDE7/xGZDCXiP24BLipPvXN39pIor91n97q0wWv5q0p02bLyKl5blxpcgZnz9W+NP8eMkiC9n4jhvt8iQN7mHaogDDs475d91HI4irT9F8K6kdvkMPouX7bh9buf7hB++iIuSj1cV4Jk0/lZYEbqqww0UtJ1iwjkAUPfJ1mJuK7Lpnae39QGmgGo9tld9A4r763/uYu/FTvacskFcuku5Wb1hLUbWzwFq89d6urDWzQb1FBlLza3aWiiABRamStqUiEzy6uDNRtj8n8D7RTJUliTyuUEx12VVbTbRcemGny3mgP0yEFOpOfzow1/2ths4VVpL5t0U4WiUX6OL3GTkCc0TRJmSeQXg5RhvMTDfMbNMrpm3iiHTP5rSPSNeu0v2bW71bwWO2L2tNoxWWH1FNYO9D5ruU2vYgrfOfD2kxGg89HnneO3sF4DFbzZYH8rWhOy9NwAmf4z0aPXb8QVrH31ZUc8PUH7S91iG9nEo1yCRALBYiOrcHiexPjHENv/sP+nEaf/c1og3MguWjPydChM/IwUNaIvL9ScxgRm1pc1j83DnsrhHWxu6Vs88Ad3FufyhI3EOHry3/hzapIUoE228nQeqD002eIiT+z0a8/8nTUjlXY/hbTSKiX1XBwiKleHAVMx++ZoMCh8bpaAmgEY+x2hca8YV742dtAgI3BidmJPlMKIPPQfRxNZPjFFYgspmX3c/PvLYWARMIZThkG7Io0Xv0dHO561Z3jXkTusuDyMLSw26EOe0w0ZwDPgzH5fcHQGL1AaWTJbCqC3Nz010t9/R4WwnbJPEK9jfl8CiGz9OBgYN6MNFgnhUKNkSCEzgw4lZCRRKq4rqIDAq3Vqlmtc2SN6YM0sJeBaSfP1WUPX1Q5/anQPuq/EKywjnpmhsIxakIS5FeAw81wrVhVfcvErD3n/oUotlL8EgTprNTHP5bEc2YkzfR+z57bfI5vaWAxb3uT1OUW/ESQYR4Tj+uk2dhgROrUVMEvYGa5dXwxkgRnIkpPYy3DCn5CkAF5gga2widR1F3MEcSs/IUllC6j7chTYVOfV81SVZC0SCb2FBWEVQA9+pMaGDrt1fVIqbr53A3h/Y2Ly9b9YtL7U+KGskKrbuBhwHqx9M1ig4WEfH9DfUggtlDsSh/KCBiZmhJ9joyutYmqKWLecv5Nh+7qOxlU+LyPucEjayC8x+iIKDXzjhnl5hxKAh8I/efA4RgyTrprRSOE4MhyURUZ5oBl09XVjprrCnt37PM0/PQdY6cXlkBJMs+c6aSXXLPcy3DwPZR4p9bR/PgeDRx7KzNqKC1UqbYAD7KhqxeX1N3Iha9xOukMkUPzsLyxCS57GBrjjURZC6D739GR/rxqiRMtUc8AKbeQaR7vVynANMkgn799chv1Zt7HqSgoHRHahfot1Vbmrjg4pDVWJ64TJ6LabPTooSkzdZ2/b1eu1Et2nX91M2u6+G1SFTvVGZPPEDxxp+IZuYtOM6UT9+y7nlxTLszlN44W3YDx9r0+hxzZ9D8fOjgKqrqjijrvNXGNt4GAZ2h2OB5pyOtBWQEKYg9W0TGgygp5qpK2xKJDZjQ7BNZi5fhEqV7kMQlscaioosij9aLGssngpkL1VD3nRtjt9Poo/vgNjSowqW+OgeehIchjBK9e8ZfyNdwjKXfUr7CM9aVUa5w4kW6xq+MeRwdqGyfdRHZ2Y2ya6hV1x+wTYq5qMafVgQv7UicLZzmLh1uzOr0bR0KxJQO+pxR5d/waMkJOv3csg2tUyjfHeqzeeVGXQHFUnTHF5NT3Js6V8aUQqjU3YNcdJQqxCJ6AsUXBPWvx3gaKhtBZDFApr5fhlkzvkCwZp7/ghkrx62ndu8fnw5UNcoQSPBqyOTb8186hvy+kFxhTTkrsZ613WdA8I7/Xm7vSBhmGYgqXN5olI81KV7dzukShmGPiI9nvnuQMg5YFSwnwi84GXco7DriY289DC+1J++Zu/nTLkSPyUi3xI7DgsNNRexKQQjuNJlnrGXuEgS4wvSI/2pupmbkcee0xcgmmJ2VA2nKpYd2qxbi/LM0+Cf6owS2jNWZfO8OI2w8ErKr0fI+Md6B+UsXf8+rUgC+0K7divGtA0aDkDDaIe6G7fpTKAYJXilbxZ4+pnpjJLMHnTE/SrkWj0lTIygjpLVnP/kGrSY9L88ofZluBbrDsU0+eMElpduouFzLEU1HvPxcDnJO1W3yJpjxDsVNUK5KIlAuy58ToHd2Anz/UXTCkt3T7qYzKaD+ybDrXaWJ+01sMEsiv1gTsb9BflBGRs27pfquUqNO+T75f0jNyalJ/pEwz6fXM/iRJA5cdnf17SM//cqXz+WG79HlXIO2a6AFU00JLnk4sN44hROutWtdgSuUrlVMuv0yMwt/r/ILhMzze6raB8wdFBfVpZ3vpE4qwfxz+NfoFc1zCxtVrqh/ctfVFUylOy20NTQvM5aIhfzLfSBwaerm7OWBXnlOtbopHIVc5QeaHOtOOZFrjM/z0nZDad5Oa87aApls5MG9aeVcEVIkp3OuK4PUGzNfSxu7Z41DdONl5lB/CAPvXjnlIRgFFNRGCB7U5odcXknZg6fwngmY1x4qCwY5tQm7IgjOk+JqJgUunBskpIYjK79RXNglRqFGQKg63tR3jjv07GnobPDy5zSBZS1JXX1QEPrRSDWU4bkfXL92a2UacDpcaTEfVrjWmLq0Tck3eqWl2+ryhE3eGWMnfljSEDwJgC7SDlvjZBCe8PbKj7UQylU7/TW+gQx4DJC1yRqm3s9J55y3Mbd1eCa52R11mMpsmyYjTg9PpgRpXVZFYrc4Sa3fAQNC/Dwxr4i3CLI6GeJa0mefARn3n+jQ8HKf5QJiFP8MwAEvnMVQHZLjgsZLtTAXZmNhXB7I9rSUx4LDBqr3Kvj5EiCsgFoCXHyKGUORSQYfmRC3YttDfZle+j5vbhxQSaEVmf9iB33y/6GejN9jSYXxNgRPyKoRM0tJdrFBIGgiRRWtyxhg5vZeJTVzw3n/lW2Pz6l2vxrDA/90zgoCVMlOfYsJUPjB4ZV2zHoJsG/5+o3Jc3fVfxP
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>折枝落梦</title>
-    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
-    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
-<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
-<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
-<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
-]]></content>
-      <categories>
-        <category>Articles</category>
+        <category>AI</category>
       </categories>
       <tags>
-        <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>灰原哀模型v2.0</title>
-    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
-    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
-
-<p>出货率大概在60%-70%左右</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>novelai</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
+        <tag>novelai</tag>
       </tags>
   </entry>
   <entry>
@@ -197,6 +369,21 @@ U2FsdGVkX19Al8ejvkyFZAPk143tBfYnu/14vhWkFnIKwnPLF1wjA7u8nP8C3fMFw5AWYPX/lkoTCeXe
       </categories>
       <tags>
         <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>折枝落梦</title>
+    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
+    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
+<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
+<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
+<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
+]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>Genshin</tag>
       </tags>
   </entry>
 </search>
