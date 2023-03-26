@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Microsoft Copilot</title>
+    <url>/2023/03/26/Copilot/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>Humans are hard-wired to dream, to create, to innovate.</strong> <span id="more"></span>Each of us seeks to do work that gives us purpose — to write a great novel, to make a discovery, to build strong communities, to care for the sick. The urge to connect to the core of our work lives in all of us. But today, we spend too much time consumed by the drudgery of work on tasks that zap our time, creativity and energy. <strong>To reconnect to the soul of our work, we don’t just need a better way of doing the same things. We need a whole new way to work。</strong></p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/641ffb1fa682492fcc887ce9.jpg"></p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>すずめの戸締まり</title>
+    <url>/2023/03/26/%E3%81%99%E3%81%9A%E3%82%81%E3%81%AE%E6%88%B8%E7%B7%A0%E3%81%BE%E3%82%8A/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>我深知命如蜉蝣，深知死亡总是如影随形。再多一时也好。我辈仍愿人生得续。</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<p><img src="https://pic.imgdb.cn/item/641ff1d9a682492fcc77838b.jpg"></p>
+<blockquote>
+<p><strong>思而复思 祈唤日不见之神，祈唤祖祖代代之土地神。此山此河 承恩甚久 不胜感激。</strong></p>
+<p><strong>诚惶诚恐。</strong></p>
+<p><strong>诚惶诚恐。</strong></p>
+<p><strong>谨遵神旨，予以奉还。</strong></p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854747.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85479e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854826.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85487e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff915a682492fcc85490f.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ffad5a682492fcc88066e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ffa4da682492fcc87388d.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff916a682492fcc854cb1.jpg"></p>
+<p><strong>虽然你觉得世界一片黑暗，但是黎明总会到来。</strong></p>
+]]></content>
+      <tags>
+        <tag>Movies</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GPT-3模型</title>
     <url>/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h2 id="模型综述"><a href="#模型综述" class="headerlink" title="模型综述"></a>模型综述</h2><span id="more"></span>
@@ -93,22 +134,26 @@
       </tags>
   </entry>
   <entry>
-    <title>pip换源</title>
-    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
-    <content><![CDATA[<p><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]</code></p>
-<span id="more"></span>
-
-<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
-<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
-<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
-
-]]></content>
+    <title>ys_individual_server</title>
+    <url>/2023/03/11/ys-individual-server/</url>
+    <content><![CDATA[<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Coding</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>Genshin</tag>
       </tags>
   </entry>
   <entry>
@@ -234,6 +279,45 @@
       </tags>
   </entry>
   <entry>
+    <title>pip换源</title>
+    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
+    <content><![CDATA[<p><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]</code></p>
+<span id="more"></span>
+
+<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
+<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
+<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Coding</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现最优选科方案</title>
+    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>python实现最优选科方案</p>
+<span id="more"></span>
+
+<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
+<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>信息技术课程</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python循环结构（第一节）</title>
     <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
     <content><![CDATA[<p>第一节<span id="more"></span></p>
@@ -264,23 +348,24 @@
       </tags>
   </entry>
   <entry>
-    <title>python实现最优选科方案</title>
-    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>python实现最优选科方案</p>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
 <span id="more"></span>
 
-<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
-<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
 
 
 
 ]]></content>
       <categories>
-        <category>信息技术课程</category>
+        <category>AI</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>Sherry</tag>
       </tags>
   </entry>
   <entry>
@@ -311,26 +396,20 @@
       </tags>
   </entry>
   <entry>
-    <title>ys_individual_server</title>
-    <url>/2023/03/11/ys-individual-server/</url>
-    <content><![CDATA[<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
-    <label for="pass">Please enter the password to read the blog.</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-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
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>黒鉄の魚影</title>
+    <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
+    <content><![CDATA[<p>死ぬな、灰原——</p>
+<span id="more"></span>
+
+<p><a href="https://imgse.com/i/pSUaVBV"><img src="https://s1.ax1x.com/2023/01/27/pSUaVBV.png" alt="pSUaVBV.png"></a></p>
+<p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
+<p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
+]]></content>
       <categories>
-        <category>教程</category>
+        <category>名探偵コナン</category>
       </categories>
       <tags>
-        <tag>Genshin</tag>
+        <tag>Sherry</tag>
       </tags>
   </entry>
   <entry>
@@ -346,44 +425,6 @@ U2FsdGVkX1+TdLW5MjMBOm5ZMrdQxowORJqIFCssdkCaJq785ihwtihss+7qXlCMj2kMxpGzlVomW1qM
       </categories>
       <tags>
         <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>灰原哀模型v2.0</title>
-    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
-    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
-
-<p>出货率大概在60%-70%左右</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黒鉄の魚影</title>
-    <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
-    <content><![CDATA[<p>死ぬな、灰原——</p>
-<span id="more"></span>
-
-<p><a href="https://imgse.com/i/pSUaVBV"><img src="https://s1.ax1x.com/2023/01/27/pSUaVBV.png" alt="pSUaVBV.png"></a></p>
-<p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
-<p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
-]]></content>
-      <categories>
-        <category>名探偵コナン</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
       </tags>
   </entry>
 </search>

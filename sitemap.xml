@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yousa.love/2023/03/26/Copilot/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousa.love/2023/03/26/%E3%81%99%E3%81%9A%E3%82%81%E3%81%AE%E6%88%B8%E7%B7%A0%E3%81%BE%E3%82%8A/</loc>
+    
+    <lastmod>2023-03-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yousa.love/link/index.html</loc>
     
     <lastmod>2023-03-26</lastmod>
@@ -200,6 +218,13 @@
   
   <url>
     <loc>https://yousa.love/tags/Sherry/</loc>
+    <lastmod>2023-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousa.love/tags/Movies/</loc>
     <lastmod>2023-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
