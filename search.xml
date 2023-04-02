@@ -1,6 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>NexT主题接入gitalk评论</title>
+    <url>/2023/04/02/NexT%E4%B8%BB%E9%A2%98%E6%8E%A5%E5%85%A5gitalk%E8%AF%84%E8%AE%BA/</url>
+    <content><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><span id="more"></span>
+
+<ol>
+<li><p>在GitHub上注册新应用，链接：<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">参数说明：</span><br><span class="line">Application name： # 应用名称，随意</span><br><span class="line">Homepage URL： # 网站URL</span><br><span class="line">Application description # 描述，随意</span><br><span class="line">Authorization callback URL：# 网站URL</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>复制<code>Client ID</code>和<code>Client Secret</code></p>
+</li>
+<li><p>申请一个仓库做评论存储</p>
+</li>
+<li><p>打开NexT主题的_config.yml添加如下内容：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Gitalk</span></span><br><span class="line"><span class="comment"># For more information: https://gitalk.github.io</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="comment"># GitHub repo owner</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="comment"># Repository name to store issues</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">  <span class="attr">admin_user:</span> <span class="comment"># GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span></span><br><span class="line">  <span class="attr">distraction_free_mode:</span> <span class="literal">true</span> <span class="comment"># Facebook-like distraction free mode</span></span><br><span class="line">  <span class="comment"># When the official proxy is not available, you can change it to your own proxy address</span></span><br><span class="line">  <span class="attr">proxy:</span> <span class="string">https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token</span> <span class="comment"># This is official proxy address</span></span><br><span class="line">  <span class="comment"># Gitalk&#x27;s display language depends on user&#x27;s browser or system environment</span></span><br><span class="line">  <span class="comment"># If you want everyone visiting your site to see a uniform language, you can set a force language value</span></span><br><span class="line">  <span class="comment"># Available values: en | es-ES | fr | ru | zh-CN | zh-TW</span></span><br><span class="line">  <span class="attr">language:</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题数学公式显示</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%98%BE%E7%A4%BA/</url>
+    <content><![CDATA[<h5 id="在-Next-主题中开启-MathJax-开关"><a href="#在-Next-主题中开启-MathJax-开关" class="headerlink" title="在 Next 主题中开启 MathJax 开关"></a>在 Next 主题中开启 <code>MathJax</code> 开关</h5><span id="more"></span>
+
+<p>进入到主题目录，找到 <code>_config.yml</code> 配置文件，把 <code>math 默认的 </code>false<code> 修改为</code>true&#96;，如下：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>如果只想让特定的的页面渲染，则把 <code>every_page</code> 修改为<code>false</code></p>
+<p>还需要在文章的Front-matter里打开<code>math</code>开关</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPT1、GPT2原理</title>
+    <url>/2023/04/01/GPT1%E3%80%81GPT2%E3%80%81GPT3%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<h2 id="GPT-1：无监督学习"><a href="#GPT-1：无监督学习" class="headerlink" title="GPT-1：无监督学习"></a>GPT-1：无监督学习</h2><span id="more"></span>
+
+<h3 id="GPT-1原理介绍"><a href="#GPT-1原理介绍" class="headerlink" title="GPT-1原理介绍"></a>GPT-1原理介绍</h3><p>GPT模型主要包含两个阶段，第一个阶段，先利用大量未标注的语料预训练一个语言模型，接着，在第二个阶段对预训练好的语言模型进行微改，将其迁移到各种有监督的NLP任务，并对参数进行fine-tuning。</p>
+<h4 id="预训练模型（无监督）"><a href="#预训练模型（无监督）" class="headerlink" title="预训练模型（无监督）"></a>预训练模型（无监督）</h4><p>给定一个没有标注的大语料，记每一个序列为$u&#x3D;u_1,…,u_n$，GPT通过最大化以下似然函数来训练语言模型：</p>
+<p><img src="https://pic.imgdb.cn/item/642843d6a682492fcc0882ce.jpg"></p>
+<p>其中，k 表示上下文窗口的大小，这里计算每个单词的预测概率时，<strong>只考虑左侧窗口大小的词汇信息（单向Transformer）</strong>，在GPT中，作者基于一个12层的Transformer decoder作为语言模型的结构，并将decoder的中间那层线性变换删除，其结构和计算过程如下：</p>
+<p><img src="https://pic.imgdb.cn/item/64283c12a682492fccf9e88a.png"></p>
+<blockquote>
+<p>GPT用的结构和Transformer的encoder、decoder都不一样，encoder是两个线性层，但是没有masked，decoder是三个线性层，有masked。</p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/64283c44a682492fccfa334e.jpg"><br>$$<br>h&#x3D;UWe+W p<br>$$</p>
+<p>$$<br>h_<br>l<br>​<br> &#x3D;transformer_<br>b<br>​<br> lock(h_{l-1})∀i∈[1,n]<br>$$</p>
+<p>$$<br>P(u)&#x3D;softmax(h_<br>n<br>​<br> W_<br>c^<br>T<br>​<br> )<br>$$</p>
+<p>其中，$U &#x3D; u_i−k , . . . , u_i−1$表示左侧窗口的词汇向量，n表示Transformer的层数，$W_e$ 表示词向量矩阵，$W_p$表示position embedding矩阵，在GPT中，作者对position embedding矩阵进行随机初始化，<strong>让模型自己学习，而不是采用正弦余弦函数进行计算。(原Transformer用的三角函数)</strong></p>
+<p>从GPT的计算公式来看，其实跟Transformer基本是一样的，只是对每个时间步，都只考虑左侧窗口大小的上下文信息。</p>
+<p>由于使用了Masked Self-Attention，所以每个位置的词都不会“看见”后面的词，也就是预测的时候是看不见“答案”的，即避免了see themselves 的问题，保证了模型的合理性，这也是为什么OpenAI采用了单向Transformer的原因。</p>
+<h4 id="fine-tuning（有监督）"><a href="#fine-tuning（有监督）" class="headerlink" title="fine-tuning（有监督）"></a>fine-tuning（有监督）</h4><p>当语言模型训练结束后，就可以将其迁移到具体的NLP任务中，假设将其迁移到一个文本分类任务中，记此时的数据集为 C ，对于每一个样本，其输入为 $x^1 , . . . , ^m$，输出为 $y$。对于每一个输入，经过预训练后的语言模型后，可以直接选取最后一层Transformer最后一个时间步的输出向量$h_l^m$，然后在其后面接一层全连接层，即可得到最后的预测标签概率：<br>$$<br>P(y∣x^<br>1<br> ,…,x^<br>m<br> )&#x3D;softmax(h_<br>l^<br>m<br>​<br> W_<br>y<br>​<br> )<br>$$<br>其中，为引入的全来凝结层的参数矩阵。因此，可以得到在分类任务中的目标函数：<br>$$<br>L _<br>2<br>​<br> (C)&#x3D;<br>\stackrel{}{\sum\limits_{x,y}}<br>​<br> logP(y∣x^<br>1<br> ,…,x^<br>m<br> )<br>$$<br>在具体的NLP任务中，作者在fine-tuning时<strong>也把语言模型的目标引入到目标函数中</strong>，作为辅助函数，作者发现这样操作可以提高模型的通用能力，并且加速模型手来你，其形式如下：<br>$$<br>L _<br>3<br>​<br> (C)&#x3D;L  _<br>2<br>​<br> (C)+λ∗L  _<br>1<br>​<br> (C)<br>$$<br>其中 λ一般取0.5。</p>
+<p>可以发现，在fine-tuning阶段，此时新增的参数只有最后一层全连接层的参数 W y W_yWy，这比ELMo算法要容易得多。</p>
+<p>不过，上面这个例子知识对与<strong>文本分类任务</strong>，如果是对于其他任务，比如文本蕴涵、问答、文本相似度等，那么GPT该如何进行微调呢？</p>
+<ul>
+<li>文本蕴涵：对于文本蕴涵任务（文本间的推理关系，问题-答案），作者用一个$负号将文本和假设进行拼接，并在拼接后的文本前后加入开始符 start 和结束符 end，然后将拼接后的文本直接传入预训练的语言模型，在模型再接一层线性变换和softmax即可。</li>
+<li>文本相似度：对于文本相似度任务，由于相似度不需要考虑两个句子的顺序关系，因此，为了反映这一点，作者将两个句子分别与另一个句子进行拼接，中间用“$”进行隔开，并且前后还是加上起始和结束符，然后分别将拼接后的两个长句子传入Transformer，最后分别得到两个句子的向量表示$h_m^l$，将这两个向量进行元素相加，然后再接如线性层和softmax层。</li>
+<li>问答和尝试推理：对于问答和尝试推理任务，首先将本经信息与问题进行拼接，然后再将拼接后的文本一次与每个答案进行拼接，最后依次传入Transformer模型，最后接一层线性层得到每个输入的预测值。</li>
+</ul>
+<p>具体的方法可以查看下图，可以发现，对这些任务的微调主要是：</p>
+<ul>
+<li>增加线性层的参数</li>
+<li>增加起始符、结束符和分隔符三种特殊符号的向量参数</li>
+</ul>
+<p><img src="https://pic.imgdb.cn/item/642845a2a682492fcc0ba32d.png"></p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ul>
+<li>GPT其实跟ELMO非常相似，只是把语言模型直接迁移到具体的NLP任务中，因此，更容易进行迁移学习。</li>
+<li>不过GPT主要还是针对文本分类和标注性任务，如果对于生成任务，比如机器翻译等，则其结构也没法进行很好的迁移。</li>
+</ul>
+<h2 id="GPT-2：多任务学习"><a href="#GPT-2：多任务学习" class="headerlink" title="GPT-2：多任务学习"></a>GPT-2：多任务学习</h2><p>GPT-2继续沿用了原来在GPT中使用的单向 Transformer 模型，而这篇文章的目的就是尽可能利用单向Transformer的优势，做一些BERT使用的双向Transformer所做不到的事。那就是通过上文生成下文文本。</p>
+<h3 id="GPT-2的改进"><a href="#GPT-2的改进" class="headerlink" title="GPT-2的改进"></a>GPT-2的改进</h3><p><strong>1. 去掉了fine-tuning层：</strong>不再针对不同任务分别进行微调建模，而是不定义这个模型应该做什么任务，模型会自动识别出来需要做什么任务，是很通用的设计。</p>
+<p><strong>2. 增加数据集：</strong>GPT-2手机了更加广泛，数量更多的语料组成数据集。该数据集包含800万个网页，大小为40G。这些数据是经过过滤后得到的高质量文本。</p>
+<p><strong>3. 增加网络参数：</strong>GPT-2将Transformer堆叠的层数增加到48层，隐层的维度为1600，参数量达到了15亿。（5倍于BERT的参数量）</p>
+<p><strong>4. 调整Transformer：</strong>将layer normalization放到每个sub-block之前，并在最后一个self-attention后再增加一个layer normalization。</p>
+<ol start="5">
+<li>此外，GPT-2将词汇表数量增加到50257个；最大的上下文大小从GPT-1的512提升到了1024 tokens；batch-size增加到512。</li>
+</ol>
+<h3 id="模型参数"><a href="#模型参数" class="headerlink" title="模型参数"></a>模型参数</h3><ul>
+<li>同样使用了使用字节对编码构建字典，字典的大小：50257</li>
+<li>滑动窗口大小：1024</li>
+<li>batch-size：512</li>
+<li>Layer Normalization移动到了每一块的输入部分，在每个self-attention之后额外添加了一个Layer Normalization</li>
+<li>将残差层的初始化值用 $ \frac{1}{\sqrt(N)}$进行缩放，其中N是残差层的个数</li>
+</ul>
+<p>GPT-2训练了4组不同的层数和词向量的长度的模型，见表：</p>
+<table>
+<thead>
+<tr>
+<th>参数量</th>
+<th>层数</th>
+<th>词向量长度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>117M（GPT-1）</td>
+<td>12</td>
+<td>768</td>
+</tr>
+<tr>
+<td>345M</td>
+<td>124</td>
+<td>1024</td>
+</tr>
+<tr>
+<td>762M</td>
+<td>36</td>
+<td>1280</td>
+</tr>
+<tr>
+<td>1542M</td>
+<td>48</td>
+<td>1600</td>
+</tr>
+</tbody></table>
+<p>效果如下：</p>
+<p><img src="https://pic.imgdb.cn/item/6428462da682492fcc0c8053.png"></p>
+<p>可以看出随着模型的增大，模型的效果是不断提升的。模型仍欠拟合，后续还会加大数据量，做大做强。</p>
+<h3 id="为什么GPT-2能够适应多任务？"><a href="#为什么GPT-2能够适应多任务？" class="headerlink" title="为什么GPT-2能够适应多任务？"></a>为什么GPT-2能够适应多任务？</h3><p>在训练的时候，采用了多任务的方式，不单单只在一个任务上进行学习，而是多个，每一个任务都要保证其损失函数能收敛，不同任务是共享主题Transformer参数的，进一步提升模型的泛化能力，因此在即使没有fine-tuning的情况下，依旧有非常不错的表现。</p>
+<p>在fine-tuning有监督任务阶段，GPT-2根据给定输入与任务来做出相应的输出，那么模型就可以表示成下面这个样子：<br>$$<br>p(output∣input,task)<br>$$<br>例如可以直接输入：(“自然语言处理”, 中文翻译)来得到我们需要的结果(“Nature Language Processing”)，因此提出的模型可以将机器翻译，自然语言推理，语义分析，关系提取等10类任务统一建模为一个分类任务，而不误再为每一个子任务单独设计一个模型。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPT-3QQbot</title>
+    <url>/2023/04/01/GPT-3QQbot/</url>
+    <content><![CDATA[<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+U2FsdGVkX19qXwNYytuBxVS+kbXJtWuIHXe7LGiLvSHUiyj/RuJh3yRBOSzYWz0iFjxJ6mETaP2XurgOBYDwe6vW+++0VF8edi0NnBURriLhlwIDamds96QpfrSoOBQRhr+SPv7TsPX4T6Uum0V4PK+Cv0ru9SXkfLKpwW4dEg8HpHmgBoZS/Olr6IeMbTE03thTGY2HsNdvzZ2zG5Cb6szUslHKhl3iAzWSwRKV5cnI4os8eH2PqS4TiD5ZUYCUTwrLdvjoI4PUPtZdB5yqKD69I8UDp3L4kNiS4z9AE/T2ElbbvuGzctW3IUE/GIT+famVdbx3zPvs1jEYfc8a/U6AOjO8Zp4jLxbmod9xwaBSbBbjH7W+5pvqHV74rbiFENFpfriaCN6B/fxcOIh5tlINELksqO8I40rnrT4sKM0dQQUNc8CUhi2/oFATw+XpuFRoot1xwFMkgeFRApRtvPe+puiJjH3jodppieKOfiViIZcbeEdokN+kMLg8pjwskjOeD8jayTbRoh5eJQVPDpgidJTtOerAVW/do95lLYx3WQWIQPGbXb90ydDcUV92J2OA08mXAfPB8j4AWKdL4HpquJNZHxZ4+98Xt/GCruANxfalAT/Jnzvk/Jy5keeeShluz+0m4dNOokajY5iW9jhmDq/eCq2TLw5bKYA6C5WQruRoWEDgymbYHzDn7wRuz7Q5+Sj224Hx+sn7EOHbOciblort6/WfhEWnOobv0gaLUTEbVi0mJTO0zSSiuObg+9b1/Z0zHDNj28iWmEclYugaX6vBkH4W+ZRBiNCnEgwciFdDfKyZFcCqLxhkHrs86IxrurVJ2N8UlR14CRD8DFmOdLZvl8w7X1XN1MHpnKI+JwrzdmozpTK1PSouQOqzZ8avr7CWiNTXD9LZN9YzhvhXH1ti+k6FblZC1B7T74VZNNufQ7SX9CpiOKin5c0YToddgKbHYmEH2E3j3+iD1LpONMR430qvYUW7taITUFO0lXxaZwqb045zIdY6TZvs+PDM0JhkrRaV5c9JJTghVFXvkoIruCVaP6faBFQR/52Vcbg3MDf1IF8tRVmoP1/hTKVuVrhprDnrRMNfRXAuK6suDmt8hC/xv7S37SM6rZLlwEZ9+DcCmGdi4w3YnwZVjliBFxPX9uYHAqmd6mM8j/FnkXy2+Jos0sOu4lmmWtcQMZzvMAjdnpIsyErJo95RZMrqkRqd3ftHrOnAZoIcGk0UsyVq99IM7MQMU0z9e38a85usN9smb+s1Rtzdamgom4rsCFZdMluDc7XGFEjaBknGkLMliguMDTAQMLWcsr8lYWffJQgUYA6sF+QNBC3eGCKOvGKz61wEvLFcdOLUWIH0RMeUlHIBw6kDC5bDXf8zJ/EqDyRkRsukVO7I+wcy+QcBU4nufqhWY+7ICFT1G9zyFxsAl6RWpBLMWOpG4gMYIasNk7MsDA1fAjOHH6BK/9MAvkjt2qy+0SqrsFjb8QooIWY7rAApa2VtiVZbDXt+k7zmYPnjgW0ogA7IfAlN6cYcZHFgucpJvkL+n3Vn8wkPWmIewvtpMfVHH3ihF0gG8TTsrShCf7AeC7z4HjUlnv2EPwk5C2H2EAIn/Hcvu2k+KBa+a6G/vAvzdFCY3rteDYVeELK8OlSr2trk2nGCwy0ORr76HeSaY0CORvWhul1VS42abglCTXz3c0ZFaZ/sK77u9NeoACyUY0HocTWw2rs2aMukWo7lXCqbcSfsNhhaGv0WkdZIoXvDj10c72NnhSknAr1TCnGmcDmCO4nSJr7p4n1tCuEk1+WAYIQ/CGmkWaxnFtHrCT9CqQ4f+82HfQ58OW4ZXR+M/78L3P2RjWnNeQBeh2UAOUIuMjQ4CtWMxKh7tLkibe19YYmJKVHY07RLG4jE10UecTkE9w/FEEEAKzuynwmctAJLg6L+vSRPmftXLj2plcgyQbminr80s22B/wZs6HUtf1zlCcVJ0rOSRlnlsfwN9xBeEFt2Rwxqpr+mLMOo2DM2Zc6wisGEwEOnPgc5aQkDMkPzwSIumnK17pnWV4xOSYt4wRQ13EIxwZB75iRw3aLKazqjsytreWIOfLIKlE6GYk17ny4bpuRujJd4ZyzicEf9lH8Rf4Xiojse0L0sUniy2sXpS/WAOT/DGn0k9ewfBycvPr3Bazz2qr2+CfeXI6Ww+6mDhX+4kG1GSLSzuvgclCKECbKvNIza0p/jWtkbXS2d0oZPcU5XZTZ/RUw74/d/cbX7BJqyW2V8hELOx4jZWdtCBr1VlgirnI2nLu1CiYMsO8DYz5SoeFZ29PWyVNjt7RbqXSkz0ZaS13EOZOiZrh4uhCEBiYzYaB8V6wCmWhFgxiw0MG4JOWj38Z29ST5VXIShsbFo6k2W/EMxaA0imdRSagO4cwkOMXCq//zLb9d8ppBpzww7Y5Z50/HQBbvhcMz1zvdgGsVFVku1tBA13qHIgoxWDWv+dRFd0gFUg2ViT3AQyTLck15wyGY+EOiEylTH71PzZauS7kM16ICOIfwliPAuUfVg8ezX6mpF1rpDD6lm5ttc17xwcvj/z50B7IHrQ96fKJmA/gnf6DGTotY9SQhFVJ982PgloWXqxwNYWs5dba9WwKWBCILnMt1wBH/Oet55RHrMWOvIDwb1QYOXD4GepA4QH/4nGYUqMWT5OPuoZubDL+V5Z/5umYcCTiXLlg0iM5I5PMPfoX4azHDT5UZFCLz01mZLwLV3sl8Go0NAeKiSe5t0IGV1T6z4ic97lsf5jJ/ALYronyJS8Uc878hvabcgd8NkfrtXyyxOHU2PlcWeftksFzwm/F94a43+PT3xo+o9DwcfjlPiyx7JwqVyQ+Df2ZR6fCSYmxJmnIzFQQW8o1ky7g2eFherTBZV3qT28M59gxlIFmvsbItVBewZH957nzGlDYt+1PIPjl/zeLd8IyB+Zss48vzwkBxOgG831si2GletOM44bagAGVtVnOPDuuXyaivKQyruXrz/rhWEDRP+kBsowrGcvxDDImm1fR74RQie09P4xTIis9rEa4Vn01SwcTevPrVo/f+bgStnOeQX91R1qdvncjuNeMFKco6cDLkP1e/aaRkkWw73mXBQtrHS5sSFgJSyhcy2IMrzj9AAZ7IdQXbmGY4hhBLqbDq3q5ic4yc7sCa755Sp1CcTZ6c9LlzGdsX/GeY/tXLK5nXn0NzX8f6Rnv8+3PriLmPDqHc0gvcYW+H9uk0q/o4AST1C1xvaxTYYlGvOrvcxfelmanZoe2aFiRJXo8Snvq2fvbg8MNrPK9mgq2ybuR7tDT0N7rdkz+mRM4liQ7p72ResTlL7tC886exL+xyDEVg6XMGxyw/KysS6WUQIWqG04o2q3o9vSnc6ETN/EZhR+pU7Sw3jtzmRuVQ8WJZR00ceVrVrqtWrAWb6gwkRjpfyZXDX9DNYhPx7LQprqODJoxOI1LKpM9bNnC4JiS0pzURc9hSNbvzmMe1PCoyPViJN8chv+5B7jCqyCREjhBS87OGTfKM9hfjHmzEPn+nJ2qSuAOi8dwOOk+eRcFq6ICVRB1H+XKLDrDWxW1K7s7zTLc9sHg5ZUa/hT6pheVLNBoVjCC2NlKGGfzgb9iNjbBOEnsKxuXgVQbN5sg8tSHogx5kDietQCi75o3IIzzAYzEEH4Tnp3fHezAYXHfHd0w3pL19ovyADy+XNCksj4ClSa3Uyvk8lhJynAXL9vgBJKXlpjl13sxPo5u6fk3itPCnos+8E+547cvE4t7qh3pg/tXQImZacUIaPFS8RV9rqD/byRSiwdt76KxJ4LJzAU144wdjBKSj7F/zugiuSb+rRvr1byM9er4KfovfMtfEpKr7rCxaRFU60bBVnJcSGIIW2pFV/nicJYKca5G1jsFPtWMVQTsaTOkFY1za9iw==
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>GPT-4paper解读</title>
+    <url>/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</url>
+    <content><![CDATA[<p><strong>GPT-4paper解读：</strong></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><table>
+<thead>
+<tr>
+<th>官方总结</th>
+<th>我们已经创建了GPT-4，这是OpenAI在扩大深度学习方面的最新里程碑。GPT-4是一个大型多模态模型(接受图像和文本输入，输出文本)，虽然在许多现实场景中不如人类，但在各种专业和学术基准上表现出与人类相当的性能。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>简介</strong></td>
+<td>GPT-4是一个超大的多模态模型，它的输入可以是文字（上限约2.4万单词），还可以是图像。由于其更广泛的常识和先进的推理能力，它可以比我们之前的任何模型更准确地解决难题。</td>
+</tr>
+<tr>
+<td><strong>核心原理</strong></td>
+<td>GPT-4依旧是一个基于Transformer风格的预训练模型，用于预测文档中的下一个token，使用公开可用数据(如互联网数据)和第三方提供商授权的数据，利用人类反馈的强化学习(RLHF)对模型进行微调。</td>
+</tr>
+<tr>
+<td><strong>意义</strong></td>
+<td>GPT-4性能水平和人类相当！比如模拟律师考试，GPT-4取得了前10%的好成绩，相比之下GPT-3.5却是倒数10%；再比如做美国高考SAT试题，GPT-4也在阅读写作中拿下710分高分、数学700分（满分800）。</td>
+</tr>
+<tr>
+<td><strong>亮点</strong></td>
+<td>(1)、多模态特性：强大的识图能力，可以接受图像输入并理解图像内容；<br/><br/>(2)、更长的上下文：可以接受的文字输入长度也增加到3.2万个token（约2.5万个单词文本）；<br/><br/>(3)、针对问题基于提示可以利用不同的风格进行回答；<br/><br/>(4)、更加真实性、可控性：OpenAI 花了 6 个月的时间使用对抗性测试程序和 ChatGPT 的经验教训对 GPT-4 进行迭代调整；<br/></td>
+</tr>
+<tr>
+<td><strong>技术点</strong></td>
+<td>GPT-4依旧设置技术壁垒，目前还没有公布具体模型架构、硬件、训练计算、数据集构造、训练方法的具体细节。<br/><br/>(1)、GPT-4依旧利用强化学习人类反馈 (RLHF) 来微调模型的行为：聘请了来自长期AI一致性&#x2F;对齐风险、网络安全、生物风险和国际安全等领域的50多名专家对模型进行对抗性测试；<br/><br/>(2)、GPT-4的两个技术点提高安全性：一套额外的安全相关RLHF训练提示，以及基于规则的奖励模型(RBRMs)。通过训练模型拒绝对此类内容的请求来减少有害的输出。<br/><br/>(3)、OpenAI 基于Azure从头开始设计了一台超级计算机，并重建了整个深度学习堆栈；<br/><br/>(4)、OpenAI开源了 OpenAI Evals—自动评估 AI 模型性能的框架，主要是为了让所有人都可以指出其模型中的缺点，来帮助 OpenAI 进一步改进模型。它被用于创建和运行基准测试以评估 GPT-4 等模型，同时可以逐样本地检查模型性能；<br/><br/>(5)、模型训练到部署的庞大的团队工程能力：单看报告致谢的部分，就包括了几百人。预训练模块、长上下文模块、视觉模块、强化学习与对齐模块、评估与分析模块、部署模块等工程化的各个阶段，均装备了核心负责人小组、计算集群扩展小组、数据小组、分布式训练基础设施小组、硬件正确性小组、优化与架构小组、模型训练小组团队。<br/></td>
+</tr>
+<tr>
+<td><strong>缺点</strong></td>
+<td>(1)、幻觉不可靠性：GPT-4与早期GPT模型有相似的局限性：它仍然不完全可靠，它会“产生幻觉”事实，但已经比ChatGPT减轻了这一缺点。<br/><br/>(2)、依旧存在错误推理的可能性：<br/><br/>(3)、依旧会产生有害的建议：但通过50位领域专家的反馈对模型进行了改进；<br/><br/>(4)、存在偏差性：GPT-4在输出中依旧存在各种偏差；<br/><br/>(5)、GPT-4上下文窗口有限；<br/><br/>(6)、GPT-4不能从经验中学习；<br/><br/>(7)、GPT-4会在生成的代码中引入安全漏洞；<br/></td>
+</tr>
+</tbody></table>
+<h2 id="GPT-4模型可使用版本"><a href="#GPT-4模型可使用版本" class="headerlink" title="GPT-4模型可使用版本"></a><strong>GPT-4模型可使用版本</strong></h2><table>
+<thead>
+<tr>
+<th>最新模型</th>
+<th>描述</th>
+<th>最大TOKENS</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>gpt-4</td>
+<td>比任何GPT-3.5模型更强大，能够完成更复杂的任务，并为聊天进行了优化。将与我们最新的模型迭代更新。</td>
+<td>8,192 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-0314</td>
+<td>2023年3月14日的gpt-4快照。与gpt-4不同的是，该模型将不会接受更新，并且只会在2023年6月14日结束的三个月内得到支持。</td>
+<td>8,192 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-32k</td>
+<td>与基础gpt-4模式相同的功能，但上下文长度是它的4倍。将与我们最新的模型迭代更新。</td>
+<td>32,768 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-32k-0314</td>
+<td>2023年3月14日gpt-4-32的快照。与gpt-4-32k不同的是，该型号将不接受更新，并且只支持三个月的时间，截止2023年6月14日。</td>
+<td>32,768 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题添加阅读完成提示线</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E7%BA%BF/</url>
+    <content><![CDATA[<ol>
+<li><p>在路径 <code>themes/next/layout/_macro</code> 中新建 <code>passage-end-tag.njk</code> 文件,并添加以下内容：</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;-------------本文结束&lt;i class=&quot;fa-solid fa-check&quot;&gt;&lt;/i&gt;感谢您的阅读-------------&lt;/div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>接着打开<code>themes\next\layout_macro\post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code> 之前添加如下代码:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include &#x27;passage-end-tag.njk&#x27; %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​		如图：<img src="https://pic.imgdb.cn/item/642804c7a682492fcca4d10b.jpg"></p>
+<ol start="3">
+<li><p>打开主题配置文件，在末尾添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题自定义文章底部版权声明</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/</url>
+    <content><![CDATA[<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><span id="more"></span>
+
+<ol>
+<li><p>在目录 <code>themes/next/layout/_macro/</code> 下添加 <code>my-copyright.njk</code> ，内容如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if page.copyright %&#125;</span><br><span class="line">&lt;div class=&quot;my_post_copyright&quot;&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  </span><br><span class="line">  &lt;!-- JS库 sweetalert 可修改路径 --&gt;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot; src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css&quot;&gt;</span><br><span class="line"> </span><br><span class="line">  &lt;p&gt;&lt;span&gt;本文标题:&lt;/span&gt;&#123;&#123; page.title &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;文章作者:&lt;/span&gt;&#123;&#123; author &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;发布时间:&lt;/span&gt;&#123;&#123; page.date.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;最后更新:&lt;/span&gt;&#123;&#123; page.updated.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;原始链接:&lt;/span&gt;&lt;a href=&quot;&#123;&#123; url_for(page.path) &#125;&#125;&quot; title=&quot;&#123;&#123; page.title &#125;&#125;&quot;&gt;&#123;&#123; page.permalink &#125;&#125;&lt;/a&gt;</span><br><span class="line">    &lt;span class=&quot;copy-path&quot;  title=&quot;点击复制文章链接&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot; data-clipboard-text=&quot;&#123;&#123; page.permalink &#125;&#125;&quot;  aria-label=&quot;复制成功！&quot;&gt;&lt;/i&gt;&lt;/span&gt;</span><br><span class="line">  &lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;许可协议:&lt;/span&gt;&lt;i class=&quot;fa-regular fa-copyright&quot;&gt;&lt;/i&gt; &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; target=&quot;_blank&quot; title=&quot;Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)&quot;&gt;署名-非商业性使用-禁止演绎 4.0 国际&lt;/a&gt; 转载请保留原文链接及作者。&lt;/p&gt;  </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt; </span><br><span class="line">    var clipboard = new Clipboard(&#x27;.fa-clipboard&#x27;);</span><br><span class="line">    clipboard.on(&#x27;success&#x27;, $(function()&#123;</span><br><span class="line">      $(&quot;.fa-clipboard&quot;).click(function()&#123;</span><br><span class="line">        swal(&#123;   </span><br><span class="line">          title: &quot;&quot;,   </span><br><span class="line">          text: &#x27;复制成功&#x27;,   </span><br><span class="line">          html: false,</span><br><span class="line">          timer: 500,   </span><br><span class="line">          showConfirmButton: false</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;));  </span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>在目录 <code>themes/next/source/css/_common/components/post/</code> 下添加 <code>my-post-copyright.styl</code>，内容如下:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.my_post_copyright &#123;</span><br><span class="line">  width: 85%;</span><br><span class="line">  max-width: 45em;</span><br><span class="line">  margin: 2.8em auto 0;</span><br><span class="line">  padding: 0.5em 1.0em;</span><br><span class="line">  border: 1px solid #d3d3d3;</span><br><span class="line">  font-size: 0.93rem;</span><br><span class="line">  line-height: 1.6em;</span><br><span class="line">  word-break: break-all;</span><br><span class="line">  background: rgba(255,255,255,0.4);</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright p&#123;margin:0;&#125;</span><br><span class="line">.my_post_copyright span &#123;</span><br><span class="line">  display: inline-block;</span><br><span class="line">  width: 5.2em;</span><br><span class="line">  color: #333333; // title color</span><br><span class="line">  font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .raw &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 5em;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  border-bottom:0;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a:hover &#123;</span><br><span class="line">  color: #0593d3; // link color</span><br><span class="line">  text-decoration: underline;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright:hover .fa-clipboard &#123;</span><br><span class="line">  color: #000;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .post-url:hover &#123;</span><br><span class="line">  font-weight: normal;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 1em;</span><br><span class="line">  +mobile()&#123;display:none;&#125;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path:hover &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  cursor: pointer;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>修改 <code>themes/next/layout/_macro/post.njk</code> ，如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &#123;% include &#x27;my-copyright.njk&#x27; %&#125;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://pic.imgdb.cn/item/64280965a682492fccab5d8c.jpg"></p>
+</li>
+<li><p>打开 <code>themes/next/source/css/_common/components/post/index.styl</code> 文件，在最后一行增加代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@import &#x27;my-post-copyright&#x27;;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​	</p>
+<ol start="5">
+<li>设置新建文章自动开启 copyright,设置 <code>./scaffolds/post.md</code> 文件，如下：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">copyright: true </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中华人民共和国计算机信息网络国际联网管理暂行规定</title>
+    <url>/2023/04/01/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C%E5%9B%BD%E9%99%85%E8%81%94%E7%BD%91%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A/</url>
+    <content><![CDATA[<h3 id="中华人民共和国计算机信息网络国际联网管理暂行规定"><a href="#中华人民共和国计算机信息网络国际联网管理暂行规定" class="headerlink" title="中华人民共和国计算机信息网络国际联网管理暂行规定"></a><strong>中华人民共和国计算机信息网络国际联网管理暂行规定</strong></h3><span id="more"></span>
+
+<p><img src="https://pic.imgdb.cn/item/6427faa7a682492fcc964c6b.jpg"></p>
+<blockquote>
+<p>　　第一条 为了加强对计算机信息网络国际联网的管理，保障国际计算机信息交流的健康发展，制定本规定。</p>
+<p>　　第二条 中华人民共和国境内的计算机信息网络进行国际联网，应当依照本规定办理。</p>
+<p>　　第三条 本规定下列用语的含义是：</p>
+<p>　　（一）计算机信息网络国际联网（以下简称国际联网），是指中华人民共和国境内的计算机信息网络为实现信息的国际交流，同外国的计算机信息网络相联接。</p>
+<p>　　（二）互联网络，是指直接进行国际联网的计算机信息网络；互联单位，是指负责互联网络运行的单位。</p>
+<p>　　（三）接入网络，是指通过接入互联网络进行国际联网的计算机信息网络；接入单位，是指负责接入网络运行的单位。</p>
+<p>　　第四条 国家对国际联网实行统筹规划、统一标准、分级管理、促进发展的原则。</p>
+<p>　　第五条 国务院经济信息化领导小组（以下简称领导小组），负责协调、解决有关国际联网工作中的重大问题。</p>
+<p>　　领导小组办公室按照本规定制定具体管理办法，明确国际出入口信道提供单位、互联单位、接入单位和用户的权利、义务和责任，并负责对国际联网工作的检查监督。</p>
+<p>　　<strong>第六条 计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。</strong></p>
+<p>　　<strong>任何单位和个人不得自行建立或者使用其他信道进行国际联网。</strong></p>
+<p>　　第七条 已经建立的互联网络，根据国务院有关规定调整后，分别由邮电部、电子工业部、国家教育委员会和中国科学院管理。</p>
+<p>　　新建互联网络，必须报经国务院批准。</p>
+<p>　　第八条 接入网络必须通过互联网络进行国际联网。</p>
+<p>　　拟建立接入网络的单位，应当报经互联单位的主管部门或者主管单位审批；办理审批手续时，应当提供其计算机信息网络的性质、应用范围和所需主机地址等资料。</p>
+<p>　　第九条 接入单位必须具备下列条件：</p>
+<p>　　（一）是依法设立的企业法人或者事业法人；</p>
+<p>　　（二）具有相应的计算机信息网络、装备以及相应的技术人员和管理人员；</p>
+<p>　　（三）具有健全的安全保密管理制度和技术保护措施；</p>
+<p>　　（四）符合法律和国务院规定的其他条件。</p>
+<p>　　第十条 个人、法人和其他组织（以下统称用户）使用的计算机或者计算机信息网络，需要进行国际联网的，必须通过接入网络进行国际联网。</p>
+<p>　　前款规定的计算机或者计算机信息网络，需要接入接入网络的，应当征得接入单位的同意，并办理登记手续。</p>
+<p>　　第十—条 国际出入口信道提供单位、互联单位和接入单位，应当建立相应的网络管理中心，依照法律和国家有关规定加强对本单位及其用户的管理，做好网络信息安全管理工作，确保为用户提供良好、安全的服务。</p>
+<p>　　第十二条 互联单位与接入单位，应当负责本单位及其用户有关国际联网的技术培训和管理教育工作。</p>
+<p>　　第十三条 从事国际联网业务的单位和个人，应当遵守国家有关法律、行政法规，严格执行安全保密制度，不得利用国际联网从事危害国家安全、泄露国家秘密等违法犯罪活动，不得制作、查阅、复制和传播妨碍社会治安的信息和淫秽色情等信息。</p>
+<p>　　第十四条 违反本规定第六条、第八条和第十条规定的，由公安机关或者公安机关根据国际出入口信道提供单位、互联单位、接入单位的意见，给予警告、通报批评、责令停止联网，可以并处15000元以下的罚款。</p>
+<p>　　第十五条 违反本规定，同时触犯其他有关法律、行政法规的，依照有关法律、行政法规的规定予以处罚；构成犯罪的，依法追究刑事责任。</p>
+<p>　　第十六条 与台湾、香港、澳门地区的计算机信息网络的联网，参照本规定执行。</p>
+<p>　　第十七条 本规定自发布之日起施行。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>Microsoft Copilot</title>
     <url>/2023/03/26/Copilot/</url>
     <content><![CDATA[<blockquote>
@@ -46,6 +372,16 @@
     <url>/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h2 id="模型综述"><a href="#模型综述" class="headerlink" title="模型综述"></a>模型综述</h2><span id="more"></span>
 
+<h2 id="GPT-3：海量参数"><a href="#GPT-3：海量参数" class="headerlink" title="GPT-3：海量参数"></a>GPT-3：海量参数</h2><blockquote>
+<p>延续GPT的模型架构，用更多的数据，更大的模型，训练模型。<br>预测时，不需要Finetune，在某些任务上小样本条件下也能达到和BERT媲美的性能。<br>预测时，分别用自然语言描述任务（零样本）、一个示例（单样本，和人类学习很像）、少量示例作为上文文本，将续写的文本作为预测结果。</p>
+</blockquote>
+<blockquote>
+<p>GPT-3共训练了5个不同的语料，分别是低质量的Common Crawl，高质量的WebText2，Books1，Books2和Wikipedia，GPT-3根据数据集的不同的质量赋予了不同的权值，权值越高的在训练的时候越容易抽样到，如图所示。</p>
+<p><img src="https://pic.imgdb.cn/item/64284bf0a682492fcc162cce.jpg"></p>
+</blockquote>
+<blockquote>
+<p>GPT-3沿用了GPT-2的结构，但是在网络容量上做了很大的提升，具体如下：<br>GPT-3采用了96 层的多头transformer，头的个数为96；<br>词向量的长度是 12888；<br>上下文划窗的窗口大小提升至2048个token；</p>
+</blockquote>
 <table>
 <thead>
 <tr>
@@ -146,7 +482,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
