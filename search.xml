@@ -1,438 +1,343 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Microsoft Copilot</title>
-    <url>/2023/03/26/Copilot/</url>
-    <content><![CDATA[<blockquote>
-<p><strong>Humans are hard-wired to dream, to create, to innovate.</strong> <span id="more"></span>Each of us seeks to do work that gives us purpose — to write a great novel, to make a discovery, to build strong communities, to care for the sick. The urge to connect to the core of our work lives in all of us. But today, we spend too much time consumed by the drudgery of work on tasks that zap our time, creativity and energy. <strong>To reconnect to the soul of our work, we don’t just need a better way of doing the same things. We need a whole new way to work。</strong></p>
-</blockquote>
-<p><img src="https://pic.imgdb.cn/item/641ffb1fa682492fcc887ce9.jpg"></p>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>B站视频测试</title>
-    <url>/2023/04/02/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>测试</p>
+    <title>元素法典</title>
+    <url>/2023/04/22/%E5%85%83%E7%B4%A0%E6%B3%95%E5%85%B8/</url>
+    <content><![CDATA[<p><strong>欢迎来到魔法的世界！</strong></p>
 <span id="more"></span>
 
-<div style="position:relative; padding-bottom:75%; width:100%; height:0">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1D24y1B7FA&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
-</div>
-> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码：</span><br><span class="line">&lt;div style=&quot;position:relative; padding-bottom:75%; width:100%; height:0&quot;&gt;</span><br><span class="line">    &lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1D24y1B7FA&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position:absolute; height: 100%; width: 100%;&quot;&gt;&lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="冰魔法"><a href="#冰魔法" class="headerlink" title="冰魔法"></a>冰魔法</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(((masterpiece))),best quality, illustration,(beautiful detailed girl),beautiful detailed glow,detailed ice,beautiful detailed water,(beautiful detailed eyes),expressionless,(floating palaces),azure hair,disheveled hair,long bangs, hairs between eyes,(skyblue dress),black ribbon,white bowties,midriff,&#123;&#123;&#123;half closed eyes&#125;&#125;&#125;,big forhead,blank stare,flower,large top sleeves</span><br></pre></td></tr></table></figure>
 
-]]></content>
-  </entry>
-  <entry>
-    <title>GPT-3QQbot</title>
-    <url>/2023/04/01/GPT-3QQbot/</url>
-    <content><![CDATA[<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
-    <label for="pass">Please enter the password to read the blog.</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-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
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>GPT-3模型</title>
-    <url>/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<h2 id="模型综述"><a href="#模型综述" class="headerlink" title="模型综述"></a>模型综述</h2><span id="more"></span>
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">owres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,missing fingers,bad hands,missing arms,large breasts</span><br></pre></td></tr></table></figure>
 
-<h2 id="GPT-3：海量参数"><a href="#GPT-3：海量参数" class="headerlink" title="GPT-3：海量参数"></a>GPT-3：海量参数</h2><blockquote>
-<p>延续GPT的模型架构，用更多的数据，更大的模型，训练模型。<br>预测时，不需要Finetune，在某些任务上小样本条件下也能达到和BERT媲美的性能。<br>预测时，分别用自然语言描述任务（零样本）、一个示例（单样本，和人类学习很像）、少量示例作为上文文本，将续写的文本作为预测结果。</p>
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 27, Sampler: Euler a, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic1.imgdb.cn/item/644368d20d2dde5777cbcd70.jpg"></p>
+<h1 id="星空法"><a href="#星空法" class="headerlink" title="星空法"></a>星空法</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">((masterpiece)), (((best quality))), ((ultra-detailed)), ((illustration)), ((disheveled hair)), beautiful detailed eyes, (1girl:1.2),(solo), dynamic angle, dark magician girl,(black kneehighs:1.1),(starry tornado:1.4), starry Nebula, ((frills)), beautiful detailed sky, beautiful detailed eyes,evil smile, expressionless,hairs between eyes,  white  hair,pleated skirt,((disreveled hair))</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,missing fingers,bad hands,missing arms</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 50, Sampler: Euler a, CFG scale: 6</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic1.imgdb.cn/item/64437c120d2dde5777e28338.jpg"></p>
+<h1 id="幻之时"><a href="#幻之时" class="headerlink" title="幻之时"></a>幻之时</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;masterpiece&#125;,&#123;best quality&#125;,&#123;1girl&#125;,Amazing,beautiful detailed eyes,finely detail,Depth of field,extremely detailed CG,original, extremely detailed wallpaper,loli,white_hair,magic_circle,cat_ears,long_hair,white_hair/yellow_eyes,wand,pentagram,clock, &#123;masterpiece&#125;,&#123;best quality&#125;,&#123;1girl&#125;,Amazing,beautiful detailed eyes,finely detail,Depth of field,extremely detailed CG,original, extremely detailed wallpaper,loli, white_hair</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 25, Sampler: Euler a, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic1.imgdb.cn/item/64437d5f0d2dde5777e3c965.jpg"></p>
+<h1 id="圣光法"><a href="#圣光法" class="headerlink" title="圣光法"></a>圣光法</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(((masterpiece))), (((best quality))), ((ultra-detailed)), (illustration), (detailed light),((an extremely delicate and beautiful)),(beautiful detailed eyes), (sunlight),(angel),solo,young girls,dynamic angle,floating, bare_shoulders,looking_at_viewer ,wings ,arms_up,halo,Floating white silk,(Holy Light),just like silver stars imploding we absorb the light of day</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,missing fingers,bad hands,missing arms,large breasts</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 36, Sampler: Euler a, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<img src="https://pic1.imgdb.cn/item/64437f5a0d2dde5777e61c5e.png" style="zoom:50%;" />
+
+
+
+<h1 id="虹彩法"><a href="#虹彩法" class="headerlink" title="虹彩法"></a>虹彩法</h1><blockquote>
+<p><del><em>谁不喜欢色彩斑斓的女孩子呢？</em></del></p>
 </blockquote>
-<blockquote>
-<p>GPT-3共训练了5个不同的语料，分别是低质量的Common Crawl，高质量的WebText2，Books1，Books2和Wikipedia，GPT-3根据数据集的不同的质量赋予了不同的权值，权值越高的在训练的时候越容易抽样到，如图所示。</p>
-<p><img src="https://pic.imgdb.cn/item/64284bf0a682492fcc162cce.jpg"></p>
+<p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">((extremely detailed CG)),((8k_wallpaper)),(((masterpiece))),((best quality)),watercolor_(medium),((beautiful detailed starry sky)),cinmatic lighting,loli,princess,very long rainbow hair,side view,looking at viewer,full body,frills,(far from viewer),((extremely detailed face)),((an extremely delicate and beautiful girl)),((extremely detailed cute anime face)),((extremely detailed eyes)),(((extremely detailed body))),(ultra detailed),illustration,((bare stomach)),((bare shoulder)),small breast,((sideboob)),((((floating and rainbow hair)))),(((Iridescence and rainbow hair))),(((extremely detailed sailor dress))),((((Iridescence and rainbow dress)))),(Iridescence and rainbow eyes),beautiful detailed hair,beautiful detailed dress,dramatic angle,expressionless,(big top sleeves),frills,blush,(ahoge)</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lowres,bad anatomy,bad hands,text,error,ugly,duplicate,morbid,boken limb,incorrect limb,fusion finger,lose finger,multiple finger,multiple digit,fusion hand,lose leg,fused leg,multiple leg,bad feet,fewer digits,cropped,worst quality,low quality,normal quality,simple background, jpeg,</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 28, Sampler: Euler a, CFG scale: 5</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic1.imgdb.cn/item/6443830a0d2dde5777ec3d3b.jpg"></p>
+<h1 id="冬雪法"><a href="#冬雪法" class="headerlink" title="冬雪法"></a>冬雪法</h1><blockquote>
+<p><del>果然雪天还是要配白毛红瞳！</del></p>
 </blockquote>
-<blockquote>
-<p>GPT-3沿用了GPT-2的结构，但是在网络容量上做了很大的提升，具体如下：<br>GPT-3采用了96 层的多头transformer，头的个数为96；<br>词向量的长度是 12888；<br>上下文划窗的窗口大小提升至2048个token；</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>模型名称</th>
-<th>描述</th>
-<th>最大tokens</th>
-<th>训练数据</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>text-davinci-003</td>
-<td>最强大的GPT-3模型。 具有更高的输出质量、 更长的输出内容 和更好的语言理解能力。 还支持文本插入功能。</td>
-<td>4,000 tokens</td>
-<td>截至2021年6月</td>
-</tr>
-<tr>
-<td>text-curie-001</td>
-<td>功能强大， 但比<code>Davinci</code>速度更快，价格也更便宜。</td>
-<td>2,048 tokens</td>
-<td>截至2019年10月</td>
-</tr>
-<tr>
-<td>text-babbage-001</td>
-<td>能够完成简单任务，速度快，成本低。</td>
-<td>2,048 tokens</td>
-<td>截至2019年10月</td>
-</tr>
-<tr>
-<td>text-ada-001</td>
-<td>能够完成非常简单的任务， 通常是GPT-3系列中速度最快的，成本最低的。</td>
-<td>2,048 tokens</td>
-<td>截至2019年10月</td>
-</tr>
-</tbody></table>
-<h2 id="Codex子模型"><a href="#Codex子模型" class="headerlink" title="Codex子模型"></a>Codex子模型</h2><table>
-<thead>
-<tr>
-<th>模型名称</th>
-<th>描述</th>
-<th>最大请求</th>
-<th>训练数据</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>code-davinci-002</td>
-<td>最强大的Codex模型。 特别擅长将自然语言转译成代码。 除了完成代码外，还支持在代码补全。</td>
-<td>8,000 tokens</td>
-<td>截至2021年6月</td>
-</tr>
-<tr>
-<td>code-cushman-001</td>
-<td>几乎与<code>Davinci Codex</code>一样强大，但速度稍快。 这种速度优势可使其更适合于实时应用。</td>
-<td>2,048 tokens</td>
-<td></td>
-</tr>
-</tbody></table>
+<p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(((masterpiece))), (((best quality))), ((ultra-detailed)), (illustration),beautiful detailed sky ,night,stars,(1girl)((an extremely delicate and beautiful girl)),red eyes,dramatic angle,small breasts,(((full body))),hood,cold face and white shirt,(((long white hair))),(red hair),(red plum blossom),((winter)),(((snowflakes)))&#123;&#123;&#123;&#123;&#123;&#123;detailed cute anime face&#125;&#125;&#125;&#125;&#125;&#125;,cinmatic lighting,((red and white flowers))，hairs between eyes, expressionless, young girl,(((Facing the lens))),(starry sky),((Beautiful face)),((full body)),(sitting),depth_of_field,((colorful)),scenery,hair_flower,lantern,christmas,(starfall)</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(((ugly))),(((duplicate))),((morbid)),((mutilated)),(((tranny))),mutated hands,(((poorly drawn hands))),blurry,((bad anatomy)),(((bad proportions))),extra limbs,cloned face,(((disfigured))),(((more than 2 nipples))),((((missing arms)))),(((extra legs))),mutated hands,(((((fused fingers))))),(((((too many fingers))))),(((unclear eyes))),lowers,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,bad feet，text font ui,malformed hands,long neck,missing limb,(mutated hand and finger: 1.5),(long body: 1.3),(mutation poorly drawn: 1.2),disfigured,malformed mutated,multiple breasts,</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 30, Sampler: Euler a, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic1.imgdb.cn/item/644384c90d2dde5777ee3055.jpg"></p>
+<h1 id="银河潜航"><a href="#银河潜航" class="headerlink" title="银河潜航"></a>银河潜航</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(((masterpiece,best quality,an extremely delicate and beautiful,illustration))),</span><br><span class="line"></span><br><span class="line">(from side,medium long shot),</span><br><span class="line"></span><br><span class="line">((a cute_detailed_girl in spacesuit,beautiful_detailed_face in aerospace_helmet)),(((upper body))),(disheveled hair:0.3),</span><br><span class="line"></span><br><span class="line">(((clouds:0.3),multiple_luna,(floating_fortress technology machinery),night sky background)),</span><br><span class="line"></span><br><span class="line">(cyberpunk_aerospace_helmet)</span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nsfw,lowres,bad anatomy,cropped,worst quality,low quality,normal quality,missing arms,long neck,humpbacked,nude</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 30, Sampler: DDIM, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic2.imgdb.cn/item/644ce74a0d2dde577790ff80.webp"></p>
+<h1 id="月下湖中"><a href="#月下湖中" class="headerlink" title="月下湖中"></a>月下湖中</h1><p>正面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(masterpiece),(wallpaper), (best quality), (best illuminate, best shadow), (best illustration), dynamic angle,</span><br><span class="line"></span><br><span class="line">(+++a girl+++) is walking in front of a delicate and beautiful moon-blue sky, solo, from side,</span><br><span class="line"></span><br><span class="line">(Backlight), mid shot, (the beautiful and delicate girl:1.3), beautiful bare back, (detailed face:1.2), (long floating hair:1.2), (beautiful long dress:1.2), floating dress,</span><br><span class="line"></span><br><span class="line">the girl (walking) on surface of the water, Beautiful and delicate violet light water surface, reflective water surface,</span><br><span class="line"></span><br><span class="line">High saturation blue clouds and (stars sky) in the background, cold color </span><br></pre></td></tr></table></figure>
+
+<p>反面tag：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">((((ugly)))),lowres, bad anatomy,worst quality, low quality, normal quality,</span><br><span class="line"></span><br><span class="line">bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, Missing limbs, three arms, bad feet,</span><br><span class="line"></span><br><span class="line">text font ui, signature, blurry, malformed hands, long neck, mutated hands and fingers :1.5).(long body :1.3),(mutation ,poorly drawn :1.2), disfigured, malformed, mutated, multiple breasts, futa, yaoi, three legs, huge breasts</span><br></pre></td></tr></table></figure>
+
+<p>参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Steps: 30, Sampler: Euler a, CFG scale: 7</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><img src="https://pic2.imgdb.cn/item/644ceb1a0d2dde5777948efc.png"></p>
 ]]></content>
       <categories>
         <category>AI</category>
       </categories>
       <tags>
-        <tag>GPT</tag>
+        <tag>novelai</tag>
       </tags>
   </entry>
   <entry>
-    <title>GPT-4paper解读</title>
-    <url>/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</url>
-    <content><![CDATA[<p><strong>GPT-4paper解读：</strong></p>
+    <title>《名侦探柯南》主线整理</title>
+    <url>/2023/04/22/%E3%80%8A%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%E3%80%8B%E4%B8%BB%E7%BA%BF%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<p>转载自：B站@<a href="https://space.bilibili.com/586669368">棕四火</a></p>
 <span id="more"></span>
 
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><table>
-<thead>
-<tr>
-<th>官方总结</th>
-<th>我们已经创建了GPT-4，这是OpenAI在扩大深度学习方面的最新里程碑。GPT-4是一个大型多模态模型(接受图像和文本输入，输出文本)，虽然在许多现实场景中不如人类，但在各种专业和学术基准上表现出与人类相当的性能。</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>简介</strong></td>
-<td>GPT-4是一个超大的多模态模型，它的输入可以是文字（上限约2.4万单词），还可以是图像。由于其更广泛的常识和先进的推理能力，它可以比我们之前的任何模型更准确地解决难题。</td>
-</tr>
-<tr>
-<td><strong>核心原理</strong></td>
-<td>GPT-4依旧是一个基于Transformer风格的预训练模型，用于预测文档中的下一个token，使用公开可用数据(如互联网数据)和第三方提供商授权的数据，利用人类反馈的强化学习(RLHF)对模型进行微调。</td>
-</tr>
-<tr>
-<td><strong>意义</strong></td>
-<td>GPT-4性能水平和人类相当！比如模拟律师考试，GPT-4取得了前10%的好成绩，相比之下GPT-3.5却是倒数10%；再比如做美国高考SAT试题，GPT-4也在阅读写作中拿下710分高分、数学700分（满分800）。</td>
-</tr>
-<tr>
-<td><strong>亮点</strong></td>
-<td>(1)、多模态特性：强大的识图能力，可以接受图像输入并理解图像内容；<br/><br/>(2)、更长的上下文：可以接受的文字输入长度也增加到3.2万个token（约2.5万个单词文本）；<br/><br/>(3)、针对问题基于提示可以利用不同的风格进行回答；<br/><br/>(4)、更加真实性、可控性：OpenAI 花了 6 个月的时间使用对抗性测试程序和 ChatGPT 的经验教训对 GPT-4 进行迭代调整；<br/></td>
-</tr>
-<tr>
-<td><strong>技术点</strong></td>
-<td>GPT-4依旧设置技术壁垒，目前还没有公布具体模型架构、硬件、训练计算、数据集构造、训练方法的具体细节。<br/><br/>(1)、GPT-4依旧利用强化学习人类反馈 (RLHF) 来微调模型的行为：聘请了来自长期AI一致性&#x2F;对齐风险、网络安全、生物风险和国际安全等领域的50多名专家对模型进行对抗性测试；<br/><br/>(2)、GPT-4的两个技术点提高安全性：一套额外的安全相关RLHF训练提示，以及基于规则的奖励模型(RBRMs)。通过训练模型拒绝对此类内容的请求来减少有害的输出。<br/><br/>(3)、OpenAI 基于Azure从头开始设计了一台超级计算机，并重建了整个深度学习堆栈；<br/><br/>(4)、OpenAI开源了 OpenAI Evals—自动评估 AI 模型性能的框架，主要是为了让所有人都可以指出其模型中的缺点，来帮助 OpenAI 进一步改进模型。它被用于创建和运行基准测试以评估 GPT-4 等模型，同时可以逐样本地检查模型性能；<br/><br/>(5)、模型训练到部署的庞大的团队工程能力：单看报告致谢的部分，就包括了几百人。预训练模块、长上下文模块、视觉模块、强化学习与对齐模块、评估与分析模块、部署模块等工程化的各个阶段，均装备了核心负责人小组、计算集群扩展小组、数据小组、分布式训练基础设施小组、硬件正确性小组、优化与架构小组、模型训练小组团队。<br/></td>
-</tr>
-<tr>
-<td><strong>缺点</strong></td>
-<td>(1)、幻觉不可靠性：GPT-4与早期GPT模型有相似的局限性：它仍然不完全可靠，它会“产生幻觉”事实，但已经比ChatGPT减轻了这一缺点。<br/><br/>(2)、依旧存在错误推理的可能性：<br/><br/>(3)、依旧会产生有害的建议：但通过50位领域专家的反馈对模型进行了改进；<br/><br/>(4)、存在偏差性：GPT-4在输出中依旧存在各种偏差；<br/><br/>(5)、GPT-4上下文窗口有限；<br/><br/>(6)、GPT-4不能从经验中学习；<br/><br/>(7)、GPT-4会在生成的代码中引入安全漏洞；<br/></td>
-</tr>
-</tbody></table>
-<h2 id="GPT-4模型可使用版本"><a href="#GPT-4模型可使用版本" class="headerlink" title="GPT-4模型可使用版本"></a><strong>GPT-4模型可使用版本</strong></h2><table>
-<thead>
-<tr>
-<th>最新模型</th>
-<th>描述</th>
-<th>最大TOKENS</th>
-<th>训练数据</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>gpt-4</td>
-<td>比任何GPT-3.5模型更强大，能够完成更复杂的任务，并为聊天进行了优化。将与我们最新的模型迭代更新。</td>
-<td>8,192 tokens</td>
-<td>截至2021年9月</td>
-</tr>
-<tr>
-<td>gpt-4-0314</td>
-<td>2023年3月14日的gpt-4快照。与gpt-4不同的是，该模型将不会接受更新，并且只会在2023年6月14日结束的三个月内得到支持。</td>
-<td>8,192 tokens</td>
-<td>截至2021年9月</td>
-</tr>
-<tr>
-<td>gpt-4-32k</td>
-<td>与基础gpt-4模式相同的功能，但上下文长度是它的4倍。将与我们最新的模型迭代更新。</td>
-<td>32,768 tokens</td>
-<td>截至2021年9月</td>
-</tr>
-<tr>
-<td>gpt-4-32k-0314</td>
-<td>2023年3月14日gpt-4-32的快照。与gpt-4-32k不同的是，该型号将不接受更新，并且只支持三个月的时间，截止2023年6月14日。</td>
-<td>32,768 tokens</td>
-<td>截至2021年9月</td>
-</tr>
-</tbody></table>
+<h1 id="故事的缘起"><a href="#故事的缘起" class="headerlink" title="故事的缘起"></a>故事的缘起</h1><p>001 云霄飞车杀人事件 &#x2F;&#x2F; 新一被两个黑衣人灌下特殊药成为柯南</p>
+<p>002 董事长千金绑架事件 &#x2F;&#x2F; 柯南寄宿毛利兰家</p>
+<p>003 偶像密室杀人事件  &#x2F;&#x2F;  冲野洋子初登场</p>
+<p>005 新干线大爆破事件 &#x2F;&#x2F; 得知两个黑衣人外号分别是琴酒和伏特加</p>
+<p>006 情人节杀人事件  &#x2F;&#x2F;  铃木园子初登场 </p>
+<p>007 每月一件礼物威胁事件 &#x2F;&#x2F; 小兰第一次怀疑柯南是新一</p>
+<p>009 天下第一夜祭杀人事件&#x2F;&#x2F;横沟参悟初登场</p>
+<p>010 足球选手恐吓事件&#x2F;&#x2F;赤木英雄初登场</p>
+<p>014 奇怪的寻人事件 &#x2F;&#x2F; 宫野明美（广田雅美）初登场（存在bug）</p>
+<p>019 六月新娘杀人事件&#x2F;&#x2F;松本清长初登场</p>
+<p>033 咖啡店杀人事件&#x2F;&#x2F;妃英理初登场</p>
+<p>044 江户川柯南诱拐事件 &#x2F;&#x2F; 工藤优作、工藤有希子初登场并知道柯南真实身份</p>
+<p>049-050 外交官杀人事件 &#x2F;&#x2F; 服部平次初登场&#x2F;&#x2F;柯南第一次变回新一</p>
+<p>056 电玩公司杀人事件 &#x2F;&#x2F; 龙舌兰登场并死亡</p>
+<p>059-060 福尔摩斯迷杀人事件 &#x2F;&#x2F; 服部平次知道柯南真实身份</p>
+<p>068 夜路杀人事件&#x2F;&#x2F;高木涉正式登场</p>
+<p>078-079 柯南对怪盗基德&#x2F;&#x2F;怪盗基德、中森银三、铃木朋子初登场 </p>
+<p>080 名家连续惨死事件&#x2F;&#x2F;服部平藏初登场</p>
+<p>099-102 走投无路的名侦探，连续两大杀人事件 &#x2F;&#x2F; 小兰第二次怀疑柯南是新一&#x2F;&#x2F;山村操初登场</p>
+<p>118 帝丹小学七大离奇事件&#x2F;&#x2F;小林澄子初登场</p>
+<p>124-125 浪花连续杀人事件&#x2F;&#x2F;远山和叶、远山银司郎、大泷悟郎、沼渊己一郎初登场</p>
+<h1 id="灰原哀篇"><a href="#灰原哀篇" class="headerlink" title="灰原哀篇"></a>灰原哀篇</h1><p>135 黑衣组织10亿元抢劫事件 &#x2F;&#x2F; 宫野明美被杀</p>
+<p>136-139 来自黑衣组织的女子，大学教授杀人事件 &#x2F;&#x2F; 宫野志保（灰原哀）初登场</p>
+<p>140-141 竞技场一视同仁胁迫事件 &#x2F;&#x2F; 佐藤美和子初登场</p>
+<p>156-157 总局刑警恋爱物语&#x2F;&#x2F;宫本由美初登场</p>
+<p>162 神秘老人失踪事件&#x2F;&#x2F;夏本梓初登场</p>
+<p>163-164 园子的危险夏日物语 &#x2F;&#x2F; 京极真初登场</p>
+<p>172-173 飞天密室 工藤新一最初的事件 &#x2F;&#x2F; 新一第一次处理命案</p>
+<p>190-192 与黑衣组织的再会 &#x2F;&#x2F; 灰原哀第一次变回宫野志保 </p>
+<h1 id="贝尔摩德篇"><a href="#贝尔摩德篇" class="headerlink" title="贝尔摩德篇"></a>贝尔摩德篇</h1><p>181-182 黑暗中的死角 &#x2F;&#x2F; 新出医生初登场【候选人】</p>
+<p>203-208 生死一瞬间 &#x2F;&#x2F; 小兰第三次怀疑柯南是新一&#x2F;&#x2F;柯南第二次变回新一</p>
+<p>233-234 目暮警官尘封在内心里的秘密&#x2F;&#x2F;目暮绿初登场</p>
+<p>235-238 名侦探齐聚一堂！工藤新一VS怪盗基德&#x2F;&#x2F;首次提乌丸莲耶&#x2F;&#x2F;白马探、寺井黄之助初登场</p>
+<p>241-243人鱼失踪记</p>
+<p>245-246 战斗游戏的陷阱 &#x2F;&#x2F; 茱蒂初登场【候选人】</p>
+<p>249-250 神秘的乘客 &#x2F;&#x2F; 赤井秀一初登场【候选人】</p>
+<p>261 元太的灾难 &#x2F;&#x2F; 琴酒信息</p>
+<p>265-266 网中谜</p>
+<p>277-278 来自芝加哥的男人 &#x2F;&#x2F; 詹姆斯初登场</p>
+<p>282-285 大阪双重疑案 浪花剑客与太阁城&#x2F;&#x2F;冲田总司初登场</p>
+<p>288-190 情人节的真相</p>
+<p>291-292 犯罪的纪念品</p>
+<p>293-294 情急之下的应变之道</p>
+<p>299-300 英语教师VS关西名侦探 &#x2F;&#x2F; 柯南调查朱蒂</p>
+<p>301-302 疯狂足球迷&#x2F;&#x2F;比护隆佑、莎朗·温亚德初登场</p>
+<p>306-307 中华街的雨中幻影&#x2F;&#x2F;横沟重悟初登场</p>
+<p>308-310 工藤新一的纽约事件 &#x2F;&#x2F; 毛利兰第一次见到贝尔摩德</p>
+<p>311-312 光彦森林迷失记&#x2F;&#x2F;沼渊己一郎相关&#x2F;&#x2F;圆谷朝美（光彦姐姐）初登场</p>
+<p>323-324 恶意与圣者的游行&#x2F;&#x2F;松田阵平被回忆</p>
+<p>326-329 撼动警视厅1200万名人质 &#x2F;&#x2F; 松田阵平正式初登场&#x2F;&#x2F; 萩原研二初登场</p>
+<p>332-333 遗留的无声 &#x2F;&#x2F; 板仓卓登场</p>
+<p>334-336 接触黑色组织 &#x2F;&#x2F; 柯南冒充板仓卓交易差点被发现</p>
+<p>350-352 火焰中的红马&#x2F;&#x2F;弓长警部初登场</p>
+<p>354-355 用钱买不到的友情&#x2F;&#x2F;宫野厚司&amp;爱莲娜信息</p>
+<p>358-359 相似的两位公主</p>
+<p>360-361 东都现象所的秘密</p>
+<p>363-364 四台保时捷 &#x2F;&#x2F; 新出智明第一次接触到灰原哀</p>
+<p>365-366 隐藏在厕所里的秘密 &#x2F;&#x2F; 灰原哀得到其母亲宫野艾莲娜的录音带</p>
+<p>369-370 便利商店的陷阱 &#x2F;&#x2F; 小兰发现朱蒂在调查新一</p>
+<p>371-375 与黑衣组织面对面对决，满月的双重案件 &#x2F;&#x2F; 贝尔摩德身份曝光</p>
+<p>376-377 找寻臀部上的记号 &#x2F;&#x2F; 灰原哀拒绝FBI保护计划</p>
+<p>392-393 帝丹高中校园灵异事件 &#x2F;&#x2F; 新出智明回归</p>
+<p>405-406 星星与香菸的暗号 &#x2F;&#x2F; Boss在鸟取县 </p>
+<p>419-421 斯托拉帝巴力欧斯不协调的和音 前奏曲 &#x2F;&#x2F; Boss电子邮箱地址曝光</p>
+<p>428-430 诡异宅院大冒险</p>
+<p>432-433 诡谲家族的委托 </p>
+<p>434 满腹疑惑的小兰 &#x2F;&#x2F; 小兰第四次怀疑柯南是新一</p>
+<p>455-456 银杏色的初恋 &#x2F;&#x2F; 阿笠博士的故事 </p>
+<h1 id="红与黑的对决篇"><a href="#红与黑的对决篇" class="headerlink" title="红与黑的对决篇"></a>红与黑的对决篇</h1><p>459-463 黑色冲击，组织之手伸来的瞬间 &#x2F;&#x2F; 水无怜奈(基尔)、基安蒂、科恩初登场</p>
+<p>465-466 超机密的上学路 </p>
+<p>467-468 无法回头的两个人 &#x2F;&#x2F; 本堂瑛佑初登场</p>
+<p>473-474 侦探团备受瞩目的采访 </p>
+<p>502-505 黑色组织之影系列 &#x2F;&#x2F; 红黑篇前奏</p>
+<p>512-513 工藤新一少年冒险 &#x2F;&#x2F;黑羽盗一初登场</p>
+<p>527-528 黑色照片的下落 &#x2F;&#x2F; 调查伊森本堂</p>
+<p>536-537 服部平次v.s.工藤新一 滑雪场的推理对决 </p>
+<p>538-551 红与黑的撞击系列&#x2F;&#x2F;水无怜奈身份曝光 &#x2F;&#x2F; 卡梅隆初登场 &#x2F;&#x2F; 赤井秀一殉职</p>
+<p>554-555 卡拉OK包厢的死角 &#x2F;&#x2F; 本堂瑛佑知道柯南身份</p>
+<h1 id="波本篇"><a href="#波本篇" class="headerlink" title="波本篇"></a>波本篇</h1><p>556 红白黄色和侦探团 &#x2F;&#x2F; 冲矢昴初登场【候选人】</p>
+<p>557 柯南vs双重暗号之谜 &#x2F;&#x2F; 柯南邀请冲矢昴入住工藤家</p>
+<p>558 推理对决 新一v.s.冲矢昴 &#x2F;&#x2F; 得知冲矢昴喜欢喝”波本”酒</p>
+<p>564-566 风火林山系列 &#x2F;&#x2F; 大和敢助，上原由衣初登场</p>
+<p>570-571 杀人犯工藤新一</p>
+<p>572-573 新一的真实身分和小兰的眼泪 &#x2F;&#x2F; 柯南第三次变回新一</p>
+<p>574 真正想知道的事</p>
+<p>575-576 憎恨的蓝色火花 </p>
+<p>593-594 鱼儿消失的一角岩 &#x2F;&#x2F; 冲矢昴再喝”波本”酒</p>
+<p>608 危险的二人组  </p>
+<p>609-612 死亡之馆赤壁系列 &#x2F;&#x2F; 诸伏高明初登场 </p>
+<p>614-615 侦探团v.s.抢匪团系列 &#x2F;&#x2F; 伤疤赤井秀一现身</p>
+<p>629 引发危机的红色前兆 &#x2F;&#x2F; 寻找伤疤赤井秀一</p>
+<p>630 黑色13的暗示 &#x2F;&#x2F; 琴酒怀疑赤井秀一没死</p>
+<p>631 步步逼近的黑色期限 &#x2F;&#x2F; 琴酒，伏特加，基尔再提波本</p>
+<p>632 摇曳的红色目标 </p>
+<p>667-672 福尔摩斯默示录系列 &#x2F;&#x2F; 柯南第四次变回新一 &#x2F;&#x2F; 新一对小兰告白</p>
+<p>673-674 紧急事件252</p>
+<p>675 初恋的影像录&#x2F;&#x2F;三池苗子初登场</p>
+<p>695-696 美味得要死的拉面&#x2F;&#x2F;不是很重要但是剧情很好</p>
+<p>697-698 幽灵饭店的推理对决 &#x2F;&#x2F; 世良真纯初登场【候选人】</p>
+<p>699-701 侦探事务所挟持事件系列</p>
+<p>702-703 柯南v.s.平次 东西侦探推理对决</p>
+<p>704-707 毒与恨的设计系列 &#x2F;&#x2F; 米原樱子登场 </p>
+<p>708-709 博士的影音网站 &#x2F;&#x2F; 冲矢昴窃听柯南灰原哀谈话</p>
+<p>719-720 婚礼前夕 &#x2F;&#x2F; 安室透初登场【候选人】 </p>
+<p>723-726 侦探们的夜想曲系列 &#x2F;&#x2F; 冲矢昴，世良真纯，安室透同时出场</p>
+<p>727-728 一点都不原谅</p>
+<p>733 赌上性命的恋爱转播&#x2F;&#x2F;伊达航初登场</p>
+<p>735 以性命为赌注的恋爱转播</p>
+<p>736-737 泡沫 热气与烟</p>
+<p>742-743 工藤优作的未解决事件 &#x2F;&#x2F; 冲矢昴知道柯南真实身份</p>
+<p>746 老店消失的日式甜点 &#x2F;&#x2F; 画质大提升（非主线）</p>
+<p>751-752 迫近灰原秘密的黑影 &#x2F;&#x2F; 灰原哀第二次变会宫野志保 &#x2F;&#x2F; 为下集做铺垫</p>
+<p>753-756 漆黑的神秘列车 &#x2F;&#x2F; 波本身份曝光</p>
+<h1 id="绯色篇"><a href="#绯色篇" class="headerlink" title="绯色篇"></a>绯色篇</h1><p>757-758 密室里的柯南，揭开谜底的波本</p>
+<p>774-775 香甜冰冷的宅急便 </p>
+<p>776-777 怪盗基德与赤面人鱼&#x2F;&#x2F;怪盗基德知道世良是女生&#x2F;&#x2F;暗示世良和秀一是</p>
+<p>兄妹</p>
+<p>779-780 装满水果的宝箱 </p>
+<p>783-784 现场的邻人是前男友 &#x2F;&#x2F; 羽田秀吉初登场</p>
+<p>786-787 茱蒂的回忆与赏花陷阱 &#x2F;&#x2F; 柯南与茱蒂交流情报被偷听</p>
+<p>791-792 小五郎在BAR </p>
+<p>793-794 小兰也昏倒的浴室 &#x2F;&#x2F; 世良在推理前打电话</p>
+<p>804-805 招财三色猫事件&#x2F;&#x2F;安室透称柯南“将利爪隐藏在天真的笑容之下”</p>
+<p>807-809 红衣女的惨剧 &#x2F;&#x2F; 领域外的妹妹第一次登场（本集很精彩，推荐观看）</p>
+<p>812-813 恋爱小说的意外结果 &#x2F;&#x2F; 领域外的妹妹（世良玛丽）正式登场</p>
+<p>816-817 柯南与平次 恋爱的信号 &#x2F;&#x2F; 你要对我的和叶做什么</p>
+<p>823-824 气氛僵硬的茶会 &#x2F;&#x2F; 安室透调查楠田陆道 &#x2F;&#x2F; 安室透的信息</p>
+<p>825-826 工藤新一水族馆事件 </p>
+<p>832-836 绯色系列 &#x2F;&#x2F; 安室透、冲矢昴身份揭晓 </p>
+<h1 id="朗姆篇（连载中）"><a href="#朗姆篇（连载中）" class="headerlink" title="朗姆篇（连载中）"></a>朗姆篇（连载中）</h1><p>838-839 太阁之恋名人战 &#x2F;&#x2F; 世良搬进杯户尊豪酒店</p>
+<p>840-841 盛夏沉入泳池的谜</p>
+<p>845-846 三个第一发现者 &#x2F;&#x2F;  朗姆有关信息</p>
+<p>863-864 镰鼬旅馆</p>
+<p>865-867 县警的黑暗 &#x2F;&#x2F; 黑田兵卫初登场【候选人】 </p>
+<p>868 悄悄靠近安室的黑暗</p>
+<p>869-870 博客女演员的密室事件 </p>
+<p>882-883 好吃到要死的拉面2 &#x2F;&#x2F; 领妹的真名</p>
+<p>891-892 关系恶劣的女子乐队</p>
+<p>898-899 不明真相的侦探团</p>
+<p>904-905 结婚登记表的密码 &#x2F;&#x2F; 羽田浩司相关 </p>
+<p>908-909 樱花班的回忆</p>
+<p>916-917 与17年前一样的案发现场 &#x2F;&#x2F; 羽田浩司案件</p>
+<p>918-919 灵魂侦探凶杀案 &#x2F;&#x2F; 柯南认为羽田浩司被朗姆杀害</p>
+<p>921-922 背叛的舞台 &#x2F;&#x2F;波本和贝尔摩德调查浅香</p>
+<p>933-934 试衣间的死角</p>
+<p>936-937 涟漪上的魔法师</p>
+<p>940-941 在白罗咖啡厅解谜&#x2F;&#x2F;伊织无我初登场</p>
+<p>944-945 新老师的骸骨事件 &#x2F;&#x2F; 若狭留美初登场【候选人】 </p>
+<p>949-950 隔壁的江户式推理秀 &#x2F;&#x2F; 胁田兼则初登场【候选人】  </p>
+<p>951-952 手部白皙的女人</p>
+<p>956-957 妃律师的求救讯号 &#x2F;&#x2F; 毛利兰第五次怀疑江户川柯南是工藤新一</p>
+<p>964-965 燃烧帐篷的怪物 &#x2F;&#x2F; 黑田兵卫，若狭留美出场</p>
+<p>971-972 恋爱与推理的剑道大赛 </p>
+<p>974-975 女子高中生3人组的秘密咖啡店</p>
+<p>980-981 充满心意的手机吊饰&#x2F;&#x2F;风见裕也初登场</p>
+<p>982-985 红色的修学旅行 &#x2F;&#x2F; 世纪之吻</p>
+<p>998-999 寻找玛丽亚</p>
+<p>1009-1011 充满谜团的鸡尾酒</p>
+<p>1028-1031 目标是警视厅交通部</p>
+<p>1040-1041 基德对高明 被盯上的嘴唇</p>
+<p>1050-1052  替身京极真</p>
+<p>1060-1062  36宫格的完美犯罪 &#x2F;&#x2F; 朗姆性格曝光</p>
+<p>1068-1069 挖野草与四叶草</p>
+<p>1075-1077 藏不住的古董盘 </p>
+<p>1081-1082 大冈红叶的挑战书</p>
+<p>1086 警察学校篇 疯狂警察故事 松田阵平篇</p>
+<p>1090-1092 太阁名人的将棋盘</p>
+<p>1095 警察学校篇 疯狂警察故事伊达航篇</p>
+<p>1096 会飞的万圣节南瓜&#x2F;&#x2F;联动M25&#x2F;&#x2F;非主线</p>
+<p>1099 警察学校篇 疯狂警察故事 萩原研二篇</p>
+<p>1102-1103 遭天谴的生日宴&#x2F;&#x2F;世良偷解药</p>
+<p>1110-1111 掉入牧场的火种&#x2F;&#x2F;若狭留美击倒安室透</p>
+<p>1116-1117冲野洋子和阁楼的密室&#x2F;&#x2F;胁田兼则登场</p>
+<p>1118 警察学校篇 疯狂警察故事诸伏景光篇</p>
+<p>1128-1129 工藤优作的推理秀&#x2F;&#x2F;海猿岛篇的预热&#x2F;&#x2F;结尾有重要主线</p>
+<p>1134 警察学校篇 疯狂警察故事降谷零篇</p>
+<p>1135-1137 黑暗组织的谋略篇&#x2F;&#x2F;红与黑的再次碰撞&#x2F;&#x2F;朗姆登场&#x2F;&#x2F;朗姆揭晓</p>
+<p>1138 对准灰原哀的摄像头&#x2F;&#x2F;联动M26&#x2F;&#x2F;非主线</p>
 ]]></content>
       <categories>
-        <category>AI</category>
+        <category>名探偵コナン</category>
       </categories>
-      <tags>
-        <tag>GPT</tag>
-      </tags>
   </entry>
   <entry>
-    <title>NexT主题接入评论系统</title>
-    <url>/2023/04/02/NexT%E4%B8%BB%E9%A2%98%E6%8E%A5%E5%85%A5%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p><strong>NexT主题接入评论系统</strong></p>
+    <title>生成式人工智能服务管理办法</title>
+    <url>/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="生成式人工智能服务管理办法"><a href="#生成式人工智能服务管理办法" class="headerlink" title="生成式人工智能服务管理办法"></a>生成式人工智能服务管理办法</h2><p>（征求意见稿）</p>
 <span id="more"></span>
 
-<h1 id="Gitalk"><a href="#Gitalk" class="headerlink" title="Gitalk"></a>Gitalk</h1><ol>
-<li><p>在GitHub上注册新应用，链接：<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">参数说明：</span><br><span class="line">Application name： # 应用名称，随意</span><br><span class="line">Homepage URL： # 网站URL</span><br><span class="line">Application description # 描述，随意</span><br><span class="line">Authorization callback URL：# 网站URL</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>复制<code>Client ID</code>和<code>Client Secret</code></p>
-</li>
-<li><p>申请一个仓库做评论存储</p>
-</li>
-<li><p>打开NexT主题的_config.yml添加如下内容：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Gitalk</span></span><br><span class="line"><span class="comment"># For more information: https://gitalk.github.io</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="comment"># GitHub repo owner</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="comment"># Repository name to store issues</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">  <span class="attr">admin_user:</span> <span class="comment"># GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span></span><br><span class="line">  <span class="attr">distraction_free_mode:</span> <span class="literal">true</span> <span class="comment"># Facebook-like distraction free mode</span></span><br><span class="line">  <span class="comment"># When the official proxy is not available, you can change it to your own proxy address</span></span><br><span class="line">  <span class="attr">proxy:</span> <span class="string">https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token</span> <span class="comment"># This is official proxy address</span></span><br><span class="line">  <span class="comment"># Gitalk&#x27;s display language depends on user&#x27;s browser or system environment</span></span><br><span class="line">  <span class="comment"># If you want everyone visiting your site to see a uniform language, you can set a force language value</span></span><br><span class="line">  <span class="comment"># Available values: en | es-ES | fr | ru | zh-CN | zh-TW</span></span><br><span class="line">  <span class="attr">language:</span></span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><strong>不幸的是：</strong></p>
-<p><a href="https://cors-anywhere.azm.workers.dev/">https://cors-anywhere.azm.workers.dev</a>被墙了，导致代理失效。</p>
-<p>因此要解决这个问题，可以自行搭建一个代理</p>
-<h1 id="畅言"><a href="#畅言" class="headerlink" title="畅言"></a>畅言</h1><ol>
-<li><p>注册<a href="http://changyan.kuaizhan.com/">畅言云评</a></p>
-</li>
-<li><p>添加站点</p>
-</li>
-<li><p>获取APP ID、APP KEY</p>
-</li>
-<li><p>在主题配置文件中修改</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Changyan</span></span><br><span class="line"><span class="comment"># For more information: https://changyan.kuaizhan.com</span></span><br><span class="line"><span class="attr">changyan:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">appid:</span> </span><br><span class="line">  <span class="attr">appkey:</span> </span><br><span class="line">  <span class="comment"># Show comments count</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="来必力"><a href="#来必力" class="headerlink" title="来必力"></a>来必力</h1><ol>
-<li><p>在<a href="https://livere.com/">来必力</a>的官网上注册账号。</p>
-</li>
-<li><p>在<a href="https://livere.com/insight/myCode">此处</a>获取<code>data-uid</code>。</p>
-</li>
-<li><p>打开NexT主题的配置文件，搜索<code>livere_uid</code>，将id填写到<code>livere_uid：</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># LiveRe comments system</span></span><br><span class="line"><span class="comment"># You can get your uid from https://livere.com/insight/myCode (General web site)</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="comment"># &lt;your_uid&gt;</span></span><br></pre></td></tr></table></figure></li>
-</ol>
+<p><strong>第一条</strong> 为促进生成式人工智能健康发展和规范应用，根据《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律、行政法规，制定本办法。</p>
+<p><strong>第二条</strong> 研发、利用生成式人工智能产品，面向中华人民共和国境内公众提供服务的，适用本办法。本办法所称生成式人工智能，是指基于算法、模型、规则生成文本、图片、声音、视频、代码等内容的技术。</p>
+<p><strong>第三条</strong> 国家支持人工智能算法、框架等基础技术的自主创新、推广应用、国际合作，鼓励优先采用安全可信的软件、工具、计算和数据资源。</p>
+<p><strong>第四条</strong> 提供生成式人工智能产品或服务应当遵守法律法规的要求，尊重社会公德、公序良俗，符合以下要求：</p>
+<p><strong>（一）利用生成式人工智能生成的内容应当体现社会主义核心价值观</strong>，不得含有颠覆国家政权、推翻社会主义制度，煽动分裂国家、破坏国家统一，宣扬恐怖主义、极端主义，宣扬民族仇恨、民族歧视，暴力、淫秽色情信息，虚假信息，以及可能扰乱经济秩序和社会秩序的内容。</p>
+<p>（二）在算法设计、训练数据选择、模型生成和优化、提供服务等过程中，采取措施防止出现种族、民族、信仰、国别、地域、性别、年龄、职业等歧视。</p>
+<p>（三）尊重知识产权、商业道德，不得利用算法、数据、平台等优势实施不公平竞争。</p>
+<p>（四）利用生成式人工智能生成的内容应当真实准确，采取措施防止生成虚假信息。</p>
+<p>（五）尊重他人合法利益，防止伤害他人身心健康，损害肖像权、名誉权和个人隐私，侵犯知识产权。禁止非法获取、披露、利用个人信息和隐私、商业秘密。</p>
+<p><strong>第五条</strong> 利用生成式人工智能产品提供聊天和文本、图像、声音生成等服务的组织和个人（以下称“提供者”），包括通过提供可编程接口等方式支持他人自行生成文本、图像、声音等，承担该产品生成内容生产者的责任；涉及个人信息的，承担个人信息处理者的法定责任，履行个人信息保护义务。</p>
+<p><strong>第六条</strong> 利用生成式人工智能产品向公众提供服务前，应当按照《具有舆论属性或社会动员能力的互联网信息服务安全评估规定》向国家网信部门申报安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。</p>
+<p><strong>第七条</strong> 提供者应当对生成式人工智能产品的预训练数据、优化训练数据来源的合法性负责。用于生成式人工智能产品的预训练、优化训练数据，应满足以下要求：</p>
+<p>（一）符合《中华人民共和国网络安全法》等法律法规的要求；</p>
+<p>（二）不含有侵犯知识产权的内容；</p>
+<p>（三）数据包含个人信息的，应当征得个人信息主体同意或者符合法律、行政法规规定的其他情形；</p>
+<p>（四）能够保证数据的真实性、准确性、客观性、多样性；</p>
+<p>（五）国家网信部门关于生成式人工智能服务的其他监管要求。</p>
+<p><strong>第八条</strong> 生成式人工智能产品研制中采用人工标注时，提供者应当制定符合本办法要求，清晰、具体、可操作的标注规则，对标注人员进行必要培训，抽样核验标注内容的正确性。</p>
+<p><strong>第九条</strong> 提供生成式人工智能服务应当按照《中华人民共和国网络安全法》规定，要求用户提供真实身份信息。</p>
+<p><strong>第十条</strong> 提供者应当明确并公开其服务的适用人群、场合、用途，采取适当措施防范用户过分依赖或沉迷生成内容。</p>
+<p><strong>第十一条</strong> 提供者在提供服务过程中，对用户的输入信息和使用记录承担保护义务。不得非法留存能够推断出用户身份的输入信息，不得根据用户输入信息和使用情况进行画像，不得向他人提供用户输入信息。法律法规另有规定的，从其规定。</p>
+<p><strong>第十二条</strong> 提供者不得根据用户的种族、国别、性别等进行带有歧视性的内容生成。</p>
+<p><strong>第十三条</strong> 提供者应当建立用户投诉接收处理机制，及时处置个人关于更正、删除、屏蔽其个人信息的请求；发现、知悉生成的文本、图片、声音、视频等侵害他人肖像权、名誉权、个人隐私、商业秘密，或者不符合本办法要求时，应当采取措施，停止生成，防止危害持续。</p>
+<p><strong>第十四条</strong> 提供者应当在生命周期内，提供安全、稳健、持续的服务，保障用户正常使用。</p>
+<p><strong>第十五条</strong> 对于运行中发现、用户举报的不符合本办法要求的生成内容，除采取内容过滤等措施外，应在3个月内通过模型优化训练等方式防止再次生成。</p>
+<p><strong>第十六条</strong> 提供者应当按照《互联网信息服务深度合成管理规定》对生成的图片、视频等内容进行标识。</p>
+<p><strong>第十七条</strong> 提供者应当根据国家网信部门和有关主管部门的要求，提供可以影响用户信任、选择的必要信息，包括预训练和优化训练数据的来源、规模、类型、质量等描述，人工标注规则，人工标注数据的规模和类型，基础算法和技术体系等。</p>
+<p><strong>第十八条</strong> 提供者应当指导用户科学认识和理性使用生成式人工智能生成的内容，不利用生成内容损害他人形象、名誉以及其他合法权益，不进行商业炒作、不正当营销。用户发现生成内容不符合本办法要求时，有权向网信部门或者有关主管部门举报。</p>
+<p><strong>第十九条</strong> 提供者发现用户利用生成式人工智能产品过程中违反法律法规，违背商业道德、社会公德行为时，包括从事网络炒作、恶意发帖跟评、制造垃圾邮件、编写恶意软件，实施不正当的商业营销等，应当暂停或者终止服务。</p>
+<p><strong>第二十条</strong> 提供者违反本办法规定的，由网信部门和有关主管部门按照《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律、行政法规的规定予以处罚。法律、行政法规没有规定的，由网信部门和有关主管部门依据职责给予警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停或者终止其利用生成式人工智能提供服务，并处一万元以上十万元以下罚款。构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。</p>
+<p><strong>第二十一条</strong> 本办法自2023年 月 日起实施。</p>
 ]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GPT1、GPT2原理</title>
-    <url>/2023/04/01/GPT1%E3%80%81GPT2%E5%8E%9F%E7%90%86/</url>
-    <content><![CDATA[<h2 id="GPT-1：无监督学习"><a href="#GPT-1：无监督学习" class="headerlink" title="GPT-1：无监督学习"></a>GPT-1：无监督学习</h2><span id="more"></span>
-
-<h3 id="GPT-1原理介绍"><a href="#GPT-1原理介绍" class="headerlink" title="GPT-1原理介绍"></a>GPT-1原理介绍</h3><p>GPT模型主要包含两个阶段，第一个阶段，先利用大量未标注的语料预训练一个语言模型，接着，在第二个阶段对预训练好的语言模型进行微改，将其迁移到各种有监督的NLP任务，并对参数进行fine-tuning。</p>
-<h4 id="预训练模型（无监督）"><a href="#预训练模型（无监督）" class="headerlink" title="预训练模型（无监督）"></a>预训练模型（无监督）</h4><p>给定一个没有标注的大语料，记每一个序列为$u&#x3D;u_1,…,u_n$，GPT通过最大化以下似然函数来训练语言模型：</p>
-<p><img src="https://pic.imgdb.cn/item/642843d6a682492fcc0882ce.jpg"></p>
-<p>其中，k 表示上下文窗口的大小，这里计算每个单词的预测概率时，<strong>只考虑左侧窗口大小的词汇信息（单向Transformer）</strong>，在GPT中，作者基于一个12层的Transformer decoder作为语言模型的结构，并将decoder的中间那层线性变换删除，其结构和计算过程如下：</p>
-<p><img src="https://pic.imgdb.cn/item/64283c12a682492fccf9e88a.png"></p>
-<blockquote>
-<p>GPT用的结构和Transformer的encoder、decoder都不一样，encoder是两个线性层，但是没有masked，decoder是三个线性层，有masked。</p>
-</blockquote>
-<p><img src="https://pic.imgdb.cn/item/64283c44a682492fccfa334e.jpg"><br>$$<br>h&#x3D;UWe+W p<br>$$</p>
-<p>$$<br>h_<br>l<br>​<br> &#x3D;transformer_<br>b<br>​<br> lock(h_{l-1})∀i∈[1,n]<br>$$</p>
-<p>$$<br>P(u)&#x3D;softmax(h_<br>n<br>​<br> W_<br>c^<br>T<br>​<br> )<br>$$</p>
-<p>其中，$U &#x3D; u_i−k , . . . , u_i−1$表示左侧窗口的词汇向量，n表示Transformer的层数，$W_e$ 表示词向量矩阵，$W_p$表示position embedding矩阵，在GPT中，作者对position embedding矩阵进行随机初始化，<strong>让模型自己学习，而不是采用正弦余弦函数进行计算。(原Transformer用的三角函数)</strong></p>
-<p>从GPT的计算公式来看，其实跟Transformer基本是一样的，只是对每个时间步，都只考虑左侧窗口大小的上下文信息。</p>
-<p>由于使用了Masked Self-Attention，所以每个位置的词都不会“看见”后面的词，也就是预测的时候是看不见“答案”的，即避免了see themselves 的问题，保证了模型的合理性，这也是为什么OpenAI采用了单向Transformer的原因。</p>
-<h4 id="fine-tuning（有监督）"><a href="#fine-tuning（有监督）" class="headerlink" title="fine-tuning（有监督）"></a>fine-tuning（有监督）</h4><p>当语言模型训练结束后，就可以将其迁移到具体的NLP任务中，假设将其迁移到一个文本分类任务中，记此时的数据集为 C ，对于每一个样本，其输入为 $x^1 , . . . , x^m$，输出为 $y$。对于每一个输入，经过预训练后的语言模型后，可以直接选取最后一层Transformer最后一个时间步的输出向量$h^m_l$，然后在其后面接一层全连接层，即可得到最后的预测标签概率：<br>$$<br>P(y∣x^<br>1<br> ,…,x^<br>m<br> )&#x3D;softmax(h_<br>l^<br>m<br>​<br> W_<br>y<br>​<br> )<br>$$<br>其中，为引入的全来凝结层的参数矩阵。因此，可以得到在分类任务中的目标函数：<br>$$<br>L _<br>2<br>​<br> (C)&#x3D;<br>\stackrel{}{\sum\limits_{x,y}}<br>​<br> logP(y∣x^<br>1<br> ,…,x^<br>m<br> )<br>$$<br>在具体的NLP任务中，作者在fine-tuning时<strong>也把语言模型的目标引入到目标函数中</strong>，作为辅助函数，作者发现这样操作可以提高模型的通用能力，并且加速模型手来你，其形式如下：<br>$$<br>L _<br>3<br>​<br> (C)&#x3D;L  _<br>2<br>​<br> (C)+λ∗L  _<br>1<br>​<br> (C)<br>$$<br>其中 λ一般取0.5。</p>
-<p>可以发现，在fine-tuning阶段，此时新增的参数只有最后一层全连接层的参数$W_y$，这比ELMo算法要容易得多。</p>
-<p>不过，上面这个例子知识对与<strong>文本分类任务</strong>，如果是对于其他任务，比如文本蕴涵、问答、文本相似度等，那么GPT该如何进行微调呢？</p>
-<ul>
-<li>文本蕴涵：对于文本蕴涵任务（文本间的推理关系，问题-答案），作者用一个$负号将文本和假设进行拼接，并在拼接后的文本前后加入开始符 start 和结束符 end，然后将拼接后的文本直接传入预训练的语言模型，在模型再接一层线性变换和softmax即可。</li>
-<li>文本相似度：对于文本相似度任务，由于相似度不需要考虑两个句子的顺序关系，因此，为了反映这一点，作者将两个句子分别与另一个句子进行拼接，中间用“$”进行隔开，并且前后还是加上起始和结束符，然后分别将拼接后的两个长句子传入Transformer，最后分别得到两个句子的向量表示，将这两个向量进行元素相加，然后再接如线性层和softmax层。</li>
-<li>问答和尝试推理：对于问答和尝试推理任务，首先将本经信息与问题进行拼接，然后再将拼接后的文本一次与每个答案进行拼接，最后依次传入Transformer模型，最后接一层线性层得到每个输入的预测值。</li>
-</ul>
-<p>具体的方法可以查看下图，可以发现，对这些任务的微调主要是：</p>
-<ul>
-<li>增加线性层的参数</li>
-<li>增加起始符、结束符和分隔符三种特殊符号的向量参数</li>
-</ul>
-<p><img src="https://pic.imgdb.cn/item/642845a2a682492fcc0ba32d.png"></p>
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ul>
-<li>GPT其实跟ELMO非常相似，只是把语言模型直接迁移到具体的NLP任务中，因此，更容易进行迁移学习。</li>
-<li>不过GPT主要还是针对文本分类和标注性任务，如果对于生成任务，比如机器翻译等，则其结构也没法进行很好的迁移。</li>
-</ul>
-<h2 id="GPT-2：多任务学习"><a href="#GPT-2：多任务学习" class="headerlink" title="GPT-2：多任务学习"></a>GPT-2：多任务学习</h2><p>GPT-2继续沿用了原来在GPT中使用的单向 Transformer 模型，而这篇文章的目的就是尽可能利用单向Transformer的优势，做一些BERT使用的双向Transformer所做不到的事。那就是通过上文生成下文文本。</p>
-<h3 id="GPT-2的改进"><a href="#GPT-2的改进" class="headerlink" title="GPT-2的改进"></a>GPT-2的改进</h3><p><strong>1. 去掉了fine-tuning层：</strong>不再针对不同任务分别进行微调建模，而是不定义这个模型应该做什么任务，模型会自动识别出来需要做什么任务，是很通用的设计。</p>
-<p><strong>2. 增加数据集：</strong>GPT-2手机了更加广泛，数量更多的语料组成数据集。该数据集包含800万个网页，大小为40G。这些数据是经过过滤后得到的高质量文本。</p>
-<p><strong>3. 增加网络参数：</strong>GPT-2将Transformer堆叠的层数增加到48层，隐层的维度为1600，参数量达到了15亿。（5倍于BERT的参数量）</p>
-<p><strong>4. 调整Transformer：</strong>将layer normalization放到每个sub-block之前，并在最后一个self-attention后再增加一个layer normalization。</p>
-<ol start="5">
-<li>此外，GPT-2将词汇表数量增加到50257个；最大的上下文大小从GPT-1的512提升到了1024 tokens；batch-size增加到512。</li>
-</ol>
-<h3 id="模型参数"><a href="#模型参数" class="headerlink" title="模型参数"></a>模型参数</h3><ul>
-<li>同样使用了使用字节对编码构建字典，字典的大小：50257</li>
-<li>滑动窗口大小：1024</li>
-<li>batch-size：512</li>
-<li>Layer Normalization移动到了每一块的输入部分，在每个self-attention之后额外添加了一个Layer Normalization</li>
-<li>将残差层的初始化值用 $ \frac{1}{\sqrt(N)}$进行缩放，其中N是残差层的个数</li>
-</ul>
-<p>GPT-2训练了4组不同的层数和词向量的长度的模型，见表：</p>
-<table>
-<thead>
-<tr>
-<th>参数量</th>
-<th>层数</th>
-<th>词向量长度</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>117M（GPT-1）</td>
-<td>12</td>
-<td>768</td>
-</tr>
-<tr>
-<td>345M</td>
-<td>124</td>
-<td>1024</td>
-</tr>
-<tr>
-<td>762M</td>
-<td>36</td>
-<td>1280</td>
-</tr>
-<tr>
-<td>1542M</td>
-<td>48</td>
-<td>1600</td>
-</tr>
-</tbody></table>
-<p>效果如下：</p>
-<p><img src="https://pic.imgdb.cn/item/6428462da682492fcc0c8053.png"></p>
-<p>可以看出随着模型的增大，模型的效果是不断提升的。模型仍欠拟合，后续还会加大数据量，做大做强。</p>
-<h3 id="为什么GPT-2能够适应多任务？"><a href="#为什么GPT-2能够适应多任务？" class="headerlink" title="为什么GPT-2能够适应多任务？"></a>为什么GPT-2能够适应多任务？</h3><p>在训练的时候，采用了多任务的方式，不单单只在一个任务上进行学习，而是多个，每一个任务都要保证其损失函数能收敛，不同任务是共享主题Transformer参数的，进一步提升模型的泛化能力，因此在即使没有fine-tuning的情况下，依旧有非常不错的表现。</p>
-<p>在fine-tuning有监督任务阶段，GPT-2根据给定输入与任务来做出相应的输出，那么模型就可以表示成下面这个样子：<br>$$<br>p(output∣input,task)<br>$$<br>例如可以直接输入：(“自然语言处理”, 中文翻译)来得到我们需要的结果(“Nature Language Processing”)，因此提出的模型可以将机器翻译，自然语言推理，语义分析，关系提取等10类任务统一建模为一个分类任务，而不误再为每一个子任务单独设计一个模型。</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题添加阅读完成提示线</title>
-    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E7%BA%BF/</url>
-    <content><![CDATA[<ol>
-<li><p>在路径 <code>themes/next/layout/_macro</code> 中新建 <code>passage-end-tag.njk</code> 文件,并添加以下内容：</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;-------------本文结束&lt;i class=&quot;fa-solid fa-check&quot;&gt;&lt;/i&gt;感谢您的阅读-------------&lt;/div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>接着打开<code>themes\next\layout_macro\post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code> 之前添加如下代码:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include &#x27;passage-end-tag.njk&#x27; %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>​		如图：<img src="https://pic.imgdb.cn/item/642804c7a682492fcca4d10b.jpg"></p>
-<ol start="3">
-<li><p>打开主题配置文件，在末尾添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: true</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题数学公式显示</title>
-    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%98%BE%E7%A4%BA/</url>
-    <content><![CDATA[<h5 id="在-Next-主题中开启-MathJax-开关"><a href="#在-Next-主题中开启-MathJax-开关" class="headerlink" title="在 Next 主题中开启 MathJax 开关"></a>在 Next 主题中开启 <code>MathJax</code> 开关</h5><span id="more"></span>
-
-<p>进入到主题目录，找到 <code>_config.yml</code> 配置文件，把 <code>math 默认的 </code>false<code> 修改为</code>true&#96;，如下：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>如果只想让特定的的页面渲染，则把 <code>every_page</code> 修改为<code>false</code></p>
-<p>还需要在文章的<code>Front-matter</code>里打开<code>math</code>开关，如下：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">hexo支持mathjax</span></span><br><span class="line"><span class="attr">date:</span> </span><br><span class="line"><span class="attr">tags:</span> </span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span> <span class="string">//</span> <span class="string">开启后才会渲染数学公式</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题自定义文章底部版权声明</title>
-    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><span id="more"></span>
-
-<ol>
-<li><p>在目录 <code>themes/next/layout/_macro/</code> 下添加 <code>my-copyright.njk</code> ，内容如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if page.copyright %&#125;</span><br><span class="line">&lt;div class=&quot;my_post_copyright&quot;&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  </span><br><span class="line">  &lt;!-- JS库 sweetalert 可修改路径 --&gt;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot; src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css&quot;&gt;</span><br><span class="line"> </span><br><span class="line">  &lt;p&gt;&lt;span&gt;本文标题:&lt;/span&gt;&#123;&#123; page.title &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;文章作者:&lt;/span&gt;&#123;&#123; author &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;发布时间:&lt;/span&gt;&#123;&#123; page.date.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;最后更新:&lt;/span&gt;&#123;&#123; page.updated.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;原始链接:&lt;/span&gt;&lt;a href=&quot;&#123;&#123; url_for(page.path) &#125;&#125;&quot; title=&quot;&#123;&#123; page.title &#125;&#125;&quot;&gt;&#123;&#123; page.permalink &#125;&#125;&lt;/a&gt;</span><br><span class="line">    &lt;span class=&quot;copy-path&quot;  title=&quot;点击复制文章链接&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot; data-clipboard-text=&quot;&#123;&#123; page.permalink &#125;&#125;&quot;  aria-label=&quot;复制成功！&quot;&gt;&lt;/i&gt;&lt;/span&gt;</span><br><span class="line">  &lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;许可协议:&lt;/span&gt;&lt;i class=&quot;fa-regular fa-copyright&quot;&gt;&lt;/i&gt; &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; target=&quot;_blank&quot; title=&quot;Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)&quot;&gt;署名-非商业性使用-禁止演绎 4.0 国际&lt;/a&gt; 转载请保留原文链接及作者。&lt;/p&gt;  </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt; </span><br><span class="line">    var clipboard = new Clipboard(&#x27;.fa-clipboard&#x27;);</span><br><span class="line">    clipboard.on(&#x27;success&#x27;, $(function()&#123;</span><br><span class="line">      $(&quot;.fa-clipboard&quot;).click(function()&#123;</span><br><span class="line">        swal(&#123;   </span><br><span class="line">          title: &quot;&quot;,   </span><br><span class="line">          text: &#x27;复制成功&#x27;,   </span><br><span class="line">          html: false,</span><br><span class="line">          timer: 500,   </span><br><span class="line">          showConfirmButton: false</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;));  </span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-
-</li>
-<li><p>在目录 <code>themes/next/source/css/_common/components/post/</code> 下添加 <code>my-post-copyright.styl</code>，内容如下:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.my_post_copyright &#123;</span><br><span class="line">  width: 85%;</span><br><span class="line">  max-width: 45em;</span><br><span class="line">  margin: 2.8em auto 0;</span><br><span class="line">  padding: 0.5em 1.0em;</span><br><span class="line">  border: 1px solid #d3d3d3;</span><br><span class="line">  font-size: 0.93rem;</span><br><span class="line">  line-height: 1.6em;</span><br><span class="line">  word-break: break-all;</span><br><span class="line">  background: rgba(255,255,255,0.4);</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright p&#123;margin:0;&#125;</span><br><span class="line">.my_post_copyright span &#123;</span><br><span class="line">  display: inline-block;</span><br><span class="line">  width: 5.2em;</span><br><span class="line">  color: #333333; // title color</span><br><span class="line">  font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .raw &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 5em;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  border-bottom:0;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a:hover &#123;</span><br><span class="line">  color: #0593d3; // link color</span><br><span class="line">  text-decoration: underline;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright:hover .fa-clipboard &#123;</span><br><span class="line">  color: #000;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .post-url:hover &#123;</span><br><span class="line">  font-weight: normal;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 1em;</span><br><span class="line">  +mobile()&#123;display:none;&#125;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path:hover &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  cursor: pointer;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-</li>
-<li><p>修改 <code>themes/next/layout/_macro/post.njk</code> ，如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &#123;% include &#x27;my-copyright.njk&#x27; %&#125;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://pic.imgdb.cn/item/64280965a682492fccab5d8c.jpg"></p>
-</li>
-<li><p>打开 <code>themes/next/source/css/_common/components/post/index.styl</code> 文件，在最后一行增加代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@import &#x27;my-post-copyright&#x27;;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>​	</p>
-<ol start="5">
-<li>设置新建文章自动开启 copyright,设置 <code>./scaffolds/post.md</code> 文件，如下：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">copyright: true </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pip换源</title>
-    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
-    <content><![CDATA[<p><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]</code></p>
-<span id="more"></span>
-
-<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
-<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
-<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Coding</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
   </entry>
   <entry>
     <title>Word文档转Markdown</title>
@@ -454,251 +359,6 @@ U2FsdGVkX1+pe7fRZx9i8G0HjECFBy3wUJGTOx9RFyY81q+5hN+xY11iy1agNY31EO51qMAt/JFehOX/
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>hexo文章加密</title>
-    <url>/2023/03/11/hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
-    <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><span id="more"></span>
-
-<ol>
-<li>在你的<code>hexo</code>根目录的<em>package.json</em>文件夹中添加：</li>
-</ol>
-<p><code>&quot;hexo-blog-encrypt: &quot;2.0.*”</code></p>
-<ol start="2">
-<li>然后在命令行中输入：</li>
-</ol>
-<p><code>npm install</code></p>
-<ol start="3">
-<li><p>找到根目录下的<code>_config.yml</code>文件，添加如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">##</span><br><span class="line">encrypt:</span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在你要加密的文章头部写入<code>password: </code></p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python实现OpenAI的API调用</title>
-    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
-    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
-<span id="more"></span>
-
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
-
-<h2 id="下面是GPT-3和Codex模型支持的参数："><a href="#下面是GPT-3和Codex模型支持的参数：" class="headerlink" title="下面是GPT-3和Codex模型支持的参数："></a>下面是GPT-3和Codex模型支持的参数：</h2><table>
-<thead>
-<tr>
-<th>参数名</th>
-<th>类型</th>
-<th>默认值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>model</code></td>
-<td>string</td>
-<td></td>
-<td>模型名称</td>
-</tr>
-<tr>
-<td><code>prompt</code></td>
-<td>string</td>
-<td></td>
-<td>输入的提示</td>
-</tr>
-<tr>
-<td><code>suffix</code></td>
-<td>string</td>
-<td><code>null</code></td>
-<td>文本生成后在文末插入的后缀</td>
-</tr>
-<tr>
-<td><code>max_tokens</code></td>
-<td>int</td>
-<td><code>16</code></td>
-<td>文本生成时要生成的最大token数。 提示的token数加上<code>max_tokens</code>不能超过模型的上下文长度。 大多数模型的上下文长度为2048个token（最新模型支持4096 tokens）</td>
-</tr>
-<tr>
-<td><code>temperature</code></td>
-<td>float</td>
-<td><code>1</code></td>
-<td>采样温度。值越高意味着模型承担的风险越大。 对于需要创意的场景，可以尝试0.9， 对于答案明确的场景，建议用0（argmax采样） 建议不要与<code>top_p</code>同时改变。</td>
-</tr>
-<tr>
-<td><code>top_p</code></td>
-<td>float</td>
-<td><code>1</code></td>
-<td>核采样（温度采样的另一种方式），其中模型考虑具有<code>top_p</code>概率质量的token的结果。因此，0.1意味着只考虑包含最高10%概率质量的token 建议不要与<code>temperature</code>同时改变。</td>
-</tr>
-<tr>
-<td><code>n</code></td>
-<td>int</td>
-<td><code>1</code></td>
-<td>每个提示要生成多少个答案</td>
-</tr>
-<tr>
-<td><code>stream</code></td>
-<td>boolean</td>
-<td><code>false</code></td>
-<td>是否返回流传输进度。如果设置，token将在可用时以纯数据服务器端推送事件发送，流以<code>data:[DONE]</code>消息终止。</td>
-</tr>
-<tr>
-<td><code>logprobs</code></td>
-<td>int</td>
-<td><code>nul</code></td>
-<td>如果传值（最大值5）则表示包括<code>logprobs</code>个最可能的token以及所选令牌的对数概率。例如，如果<code>logprobs</code>为5，则API将返回包含5个最可能Token的列表。</td>
-</tr>
-<tr>
-<td><code>echo</code></td>
-<td>boolean</td>
-<td><code>false</code></td>
-<td>是否回传提示</td>
-</tr>
-<tr>
-<td><code>stop</code></td>
-<td>string</td>
-<td><code>null</code></td>
-<td>最多4个序列，遇到<code>stop</code>API将停止生成。 返回的文本不包含停止序列。</td>
-</tr>
-<tr>
-<td><code>presence_penalty</code></td>
-<td>float</td>
-<td><code>0</code></td>
-<td>数值介于-2.0和2.0之间。正值将根据到目前为止新token是否出现在文本中来惩罚新token，从而增加模型谈论新主题的可能性。</td>
-</tr>
-<tr>
-<td><code>frequency_penalty</code></td>
-<td>float</td>
-<td><code>0</code></td>
-<td>数值介于-2.0和2.0之间。正值根据文本中新token已经出现的频率惩罚新token，从而降低模型逐字重复同一行的可能性。</td>
-</tr>
-<tr>
-<td><code>best_of</code></td>
-<td>int</td>
-<td><code>1</code></td>
-<td>在服务端生成<code>best_of</code>个完成，并返回“最佳”（每个token的log概率最高的一条）。结果无法流式传输。与<code>n</code>一起使用时，<code>best_of</code>控制候选回应的数量，<code>n</code>指定要返回的数量–<code>best_of</code>必须大于等于<code>n</code>。注意：由于此参数生成许多回应，因此会快速消耗token配额。小心使用并确保对<code>max_tokens</code>和<code>stop</code>进行了合理的设置。</td>
-</tr>
-<tr>
-<td><code>logit_bias</code></td>
-<td>map</td>
-<td><code>null</code></td>
-<td>修改回应种出现指定token的可能性。接受一个json对象，该对象将token（由<a href="https://platform.openai.com/tokenizer?view=bpe">GPT tokenizer</a>的token ID指定）映射到-100到100之间的相关偏差值。可以用 <a href="https://platform.openai.com/tokenizer?view=bpe">tokenizer tool</a> 将文本转换成token ID。在数学上，在采样之前，将偏差添加到模型生成的逻辑中。每个模型的确切效果会有所不同，但介于-1和1之间的值应该会降低或增加选择的可能性；像-100或100这样的值应该会导致相关token的禁用或必现。例如，可以传递<code>｛&quot;50256&quot;: -100｝</code>以防止生成。</td>
-</tr>
-<tr>
-<td><code>user</code></td>
-<td>string</td>
-<td><code>null</code></td>
-<td>代表终端用户的唯一标识符，OpenAI用来监控和检测滥用。</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python循环结构（第一节）</title>
-    <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
-    <content><![CDATA[<p>第一节<span id="more"></span></p>
-<ol>
-<li>用python for循环写一个计算一百以内整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">101</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += i </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1-100的整数之和为：&quot;</span>,<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-<ol start="2">
-<li>用python for循环写一个计算0到用户输入整数之间所有整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入一个非零整数：&#x27;</span>)) </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,n+<span class="number">1</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += num </span><br><span class="line">	</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;从0加到%d的和为：%d&#x27;</span> % (n,<span class="built_in">sum</span>))</span><br></pre></td></tr></table></figure>
-
-
-
-<ol start="3">
-<li>用python写一个计算0到100之间所有是3的倍数的整数之和的程序</li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line">	<span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line">	<span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">		s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;0到100之间所有是3的倍数的整数之和为：&#x27;</span>, s)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>信息技术课程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python实现最优选科方案</title>
-    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>python实现最优选科方案</p>
-<span id="more"></span>
-
-<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
-<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>信息技术课程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ys_individual_server</title>
-    <url>/2023/03/11/ys-individual-server/</url>
-    <content><![CDATA[<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
-    <label for="pass">Please enter the password to read the blog.</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-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
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>webUI灰原哀ckpt模型</title>
-    <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<p>dreambooth</p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">提示词：</span><br><span class="line">正面：masterpiece, best quality, haibara 1girl, looking at viewer</span><br><span class="line">反面：lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/f6139bc65981e704">3000步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: 2a619f10dad5d23f1716eadebcb8fdda</span><br><span class="line">SHA1: c1f150e87e3950e0ccab11c6f341c7466e3c7a95</span><br><span class="line">SHA256: 88d203fa87622fd7d9e8d720c0d53a99a3d10adc15ae23ab9d0717dad161ab06</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/9a83815fac71ee01">4500步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: d5e4ed4d972ffe75edb6706b744b3bb6</span><br><span class="line">SHA1: 6ec90a4165498b26156ce039a7dfd0c266d92965</span><br><span class="line">SHA256: 40f6099187add9a31160dac7532b93efccb67039c48708035229a125ae0f52d2</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.lingshulian.com/s/39bc8f1113787ceb">6000步下载地址</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: ff13e308f4ac3cb927a5e61a0336e710</span><br><span class="line">SHA1: a56112f017c76e91bdb960c37aa8717a4b147e35</span><br><span class="line">SHA256: 674ed7f1a30e9aeacb0a98d4fc5731356d2bef95343bcf1d0232aaf637592732</span><br></pre></td></tr></table></figure>
-
-<p>密码：</p>
-<p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>novelai</tag>
-      </tags>
   </entry>
   <entry>
     <title>《云服务在电子游戏领域的应用》</title>
@@ -806,110 +466,6 @@ U2FsdGVkX1+Vomm/SZzQokgse51xoJmAgcbuda5nJNOu1iyfwl8J02hnHNlb+k0NakB6rx3z5LF9cwgd
 </li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>すずめの戸締まり</title>
-    <url>/2023/03/26/%E3%81%99%E3%81%9A%E3%82%81%E3%81%AE%E6%88%B8%E7%B7%A0%E3%81%BE%E3%82%8A/</url>
-    <content><![CDATA[<blockquote>
-<p><strong>我深知命如蜉蝣，深知死亡总是如影随形。再多一时也好。我辈仍愿人生得续。</strong></p>
-</blockquote>
-<span id="more"></span>
-
-<p><img src="https://pic.imgdb.cn/item/641ff1d9a682492fcc77838b.jpg"></p>
-<blockquote>
-<p><strong>思而复思 祈唤日不见之神，祈唤祖祖代代之土地神。此山此河 承恩甚久 不胜感激。</strong></p>
-<p><strong>诚惶诚恐。</strong></p>
-<p><strong>诚惶诚恐。</strong></p>
-<p><strong>谨遵神旨，予以奉还。</strong></p>
-</blockquote>
-<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854747.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85479e.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854826.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85487e.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ff915a682492fcc85490f.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ffad5a682492fcc88066e.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ffa4da682492fcc87388d.jpg"></p>
-<p><img src="https://pic.imgdb.cn/item/641ff916a682492fcc854cb1.jpg"></p>
-<p><strong>虽然你觉得世界一片黑暗，但是黎明总会到来。</strong></p>
-]]></content>
-      <tags>
-        <tag>Movies</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>折枝落梦</title>
-    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
-    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
-<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
-<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
-<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
-]]></content>
-      <categories>
-        <category>Articles</category>
-      </categories>
-      <tags>
-        <tag>Genshin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中华人民共和国计算机信息网络国际联网管理暂行规定</title>
-    <url>/2023/04/01/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C%E5%9B%BD%E9%99%85%E8%81%94%E7%BD%91%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A/</url>
-    <content><![CDATA[<h3 id="中华人民共和国计算机信息网络国际联网管理暂行规定"><a href="#中华人民共和国计算机信息网络国际联网管理暂行规定" class="headerlink" title="中华人民共和国计算机信息网络国际联网管理暂行规定"></a><strong>中华人民共和国计算机信息网络国际联网管理暂行规定</strong></h3><span id="more"></span>
-
-<p><img src="https://pic.imgdb.cn/item/6427faa7a682492fcc964c6b.jpg"></p>
-<blockquote>
-<p>　　第一条 为了加强对计算机信息网络国际联网的管理，保障国际计算机信息交流的健康发展，制定本规定。</p>
-<p>　　第二条 中华人民共和国境内的计算机信息网络进行国际联网，应当依照本规定办理。</p>
-<p>　　第三条 本规定下列用语的含义是：</p>
-<p>　　（一）计算机信息网络国际联网（以下简称国际联网），是指中华人民共和国境内的计算机信息网络为实现信息的国际交流，同外国的计算机信息网络相联接。</p>
-<p>　　（二）互联网络，是指直接进行国际联网的计算机信息网络；互联单位，是指负责互联网络运行的单位。</p>
-<p>　　（三）接入网络，是指通过接入互联网络进行国际联网的计算机信息网络；接入单位，是指负责接入网络运行的单位。</p>
-<p>　　第四条 国家对国际联网实行统筹规划、统一标准、分级管理、促进发展的原则。</p>
-<p>　　第五条 国务院经济信息化领导小组（以下简称领导小组），负责协调、解决有关国际联网工作中的重大问题。</p>
-<p>　　领导小组办公室按照本规定制定具体管理办法，明确国际出入口信道提供单位、互联单位、接入单位和用户的权利、义务和责任，并负责对国际联网工作的检查监督。</p>
-<p>　　<strong>第六条 计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。</strong></p>
-<p>　　<strong>任何单位和个人不得自行建立或者使用其他信道进行国际联网。</strong></p>
-<p>　　第七条 已经建立的互联网络，根据国务院有关规定调整后，分别由邮电部、电子工业部、国家教育委员会和中国科学院管理。</p>
-<p>　　新建互联网络，必须报经国务院批准。</p>
-<p>　　第八条 接入网络必须通过互联网络进行国际联网。</p>
-<p>　　拟建立接入网络的单位，应当报经互联单位的主管部门或者主管单位审批；办理审批手续时，应当提供其计算机信息网络的性质、应用范围和所需主机地址等资料。</p>
-<p>　　第九条 接入单位必须具备下列条件：</p>
-<p>　　（一）是依法设立的企业法人或者事业法人；</p>
-<p>　　（二）具有相应的计算机信息网络、装备以及相应的技术人员和管理人员；</p>
-<p>　　（三）具有健全的安全保密管理制度和技术保护措施；</p>
-<p>　　（四）符合法律和国务院规定的其他条件。</p>
-<p>　　第十条 个人、法人和其他组织（以下统称用户）使用的计算机或者计算机信息网络，需要进行国际联网的，必须通过接入网络进行国际联网。</p>
-<p>　　前款规定的计算机或者计算机信息网络，需要接入接入网络的，应当征得接入单位的同意，并办理登记手续。</p>
-<p>　　第十—条 国际出入口信道提供单位、互联单位和接入单位，应当建立相应的网络管理中心，依照法律和国家有关规定加强对本单位及其用户的管理，做好网络信息安全管理工作，确保为用户提供良好、安全的服务。</p>
-<p>　　第十二条 互联单位与接入单位，应当负责本单位及其用户有关国际联网的技术培训和管理教育工作。</p>
-<p>　　第十三条 从事国际联网业务的单位和个人，应当遵守国家有关法律、行政法规，严格执行安全保密制度，不得利用国际联网从事危害国家安全、泄露国家秘密等违法犯罪活动，不得制作、查阅、复制和传播妨碍社会治安的信息和淫秽色情等信息。</p>
-<p>　　第十四条 违反本规定第六条、第八条和第十条规定的，由公安机关或者公安机关根据国际出入口信道提供单位、互联单位、接入单位的意见，给予警告、通报批评、责令停止联网，可以并处15000元以下的罚款。</p>
-<p>　　第十五条 违反本规定，同时触犯其他有关法律、行政法规的，依照有关法律、行政法规的规定予以处罚；构成犯罪的，依法追究刑事责任。</p>
-<p>　　第十六条 与台湾、香港、澳门地区的计算机信息网络的联网，参照本规定执行。</p>
-<p>　　第十七条 本规定自发布之日起施行。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>灰原哀模型v2.0</title>
-    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
-    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
-<span id="more"></span>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
-
-<p>出货率大概在60%-70%左右</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>Sherry</tag>
-      </tags>
   </entry>
   <entry>
     <title>作业1</title>
@@ -1077,6 +633,774 @@ U2FsdGVkX1+Vomm/SZzQokgse51xoJmAgcbuda5nJNOu1iyfwl8J02hnHNlb+k0NakB6rx3z5LF9cwgd
       </categories>
   </entry>
   <entry>
+    <title>B站视频测试</title>
+    <url>/2023/04/02/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>测试</p>
+<span id="more"></span>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1D24y1B7FA&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码：</span><br><span class="line">&lt;div style=&quot;position:relative; padding-bottom:75%; width:100%; height:0&quot;&gt;</span><br><span class="line">    &lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1D24y1B7FA&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position:absolute; height: 100%; width: 100%;&quot;&gt;&lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>NexT主题接入评论系统</title>
+    <url>/2023/04/02/NexT%E4%B8%BB%E9%A2%98%E6%8E%A5%E5%85%A5%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p><strong>NexT主题接入评论系统</strong></p>
+<span id="more"></span>
+
+<h1 id="Gitalk"><a href="#Gitalk" class="headerlink" title="Gitalk"></a>Gitalk</h1><ol>
+<li><p>在GitHub上注册新应用，链接：<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">参数说明：</span><br><span class="line">Application name： # 应用名称，随意</span><br><span class="line">Homepage URL： # 网站URL</span><br><span class="line">Application description # 描述，随意</span><br><span class="line">Authorization callback URL：# 网站URL</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>复制<code>Client ID</code>和<code>Client Secret</code></p>
+</li>
+<li><p>申请一个仓库做评论存储</p>
+</li>
+<li><p>打开NexT主题的_config.yml添加如下内容：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Gitalk</span></span><br><span class="line"><span class="comment"># For more information: https://gitalk.github.io</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="comment"># GitHub repo owner</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="comment"># Repository name to store issues</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">  <span class="attr">admin_user:</span> <span class="comment"># GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span></span><br><span class="line">  <span class="attr">distraction_free_mode:</span> <span class="literal">true</span> <span class="comment"># Facebook-like distraction free mode</span></span><br><span class="line">  <span class="comment"># When the official proxy is not available, you can change it to your own proxy address</span></span><br><span class="line">  <span class="attr">proxy:</span> <span class="string">https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token</span> <span class="comment"># This is official proxy address</span></span><br><span class="line">  <span class="comment"># Gitalk&#x27;s display language depends on user&#x27;s browser or system environment</span></span><br><span class="line">  <span class="comment"># If you want everyone visiting your site to see a uniform language, you can set a force language value</span></span><br><span class="line">  <span class="comment"># Available values: en | es-ES | fr | ru | zh-CN | zh-TW</span></span><br><span class="line">  <span class="attr">language:</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>不幸的是：</strong></p>
+<p><a href="https://cors-anywhere.azm.workers.dev/">https://cors-anywhere.azm.workers.dev</a>被墙了，导致代理失效。</p>
+<p>因此要解决这个问题，可以自行搭建一个代理</p>
+<h1 id="畅言"><a href="#畅言" class="headerlink" title="畅言"></a>畅言</h1><ol>
+<li><p>注册<a href="http://changyan.kuaizhan.com/">畅言云评</a></p>
+</li>
+<li><p>添加站点</p>
+</li>
+<li><p>获取APP ID、APP KEY</p>
+</li>
+<li><p>在主题配置文件中修改</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Changyan</span></span><br><span class="line"><span class="comment"># For more information: https://changyan.kuaizhan.com</span></span><br><span class="line"><span class="attr">changyan:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">appid:</span> </span><br><span class="line">  <span class="attr">appkey:</span> </span><br><span class="line">  <span class="comment"># Show comments count</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="来必力"><a href="#来必力" class="headerlink" title="来必力"></a>来必力</h1><ol>
+<li><p>在<a href="https://livere.com/">来必力</a>的官网上注册账号。</p>
+</li>
+<li><p>在<a href="https://livere.com/insight/myCode">此处</a>获取<code>data-uid</code>。</p>
+</li>
+<li><p>打开NexT主题的配置文件，搜索<code>livere_uid</code>，将id填写到<code>livere_uid：</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># LiveRe comments system</span></span><br><span class="line"><span class="comment"># You can get your uid from https://livere.com/insight/myCode (General web site)</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="comment"># &lt;your_uid&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题数学公式显示</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%98%BE%E7%A4%BA/</url>
+    <content><![CDATA[<h5 id="在-Next-主题中开启-MathJax-开关"><a href="#在-Next-主题中开启-MathJax-开关" class="headerlink" title="在 Next 主题中开启 MathJax 开关"></a>在 Next 主题中开启 <code>MathJax</code> 开关</h5><span id="more"></span>
+
+<p>进入到主题目录，找到 <code>_config.yml</code> 配置文件，把 <code>math 默认的 </code>false<code> 修改为</code>true&#96;，如下：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>如果只想让特定的的页面渲染，则把 <code>every_page</code> 修改为<code>false</code></p>
+<p>还需要在文章的<code>Front-matter</code>里打开<code>math</code>开关，如下：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">hexo支持mathjax</span></span><br><span class="line"><span class="attr">date:</span> </span><br><span class="line"><span class="attr">tags:</span> </span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span> <span class="string">//</span> <span class="string">开启后才会渲染数学公式</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPT1、GPT2原理</title>
+    <url>/2023/04/01/GPT1%E3%80%81GPT2%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<h2 id="GPT-1：无监督学习"><a href="#GPT-1：无监督学习" class="headerlink" title="GPT-1：无监督学习"></a>GPT-1：无监督学习</h2><span id="more"></span>
+
+<h3 id="GPT-1原理介绍"><a href="#GPT-1原理介绍" class="headerlink" title="GPT-1原理介绍"></a>GPT-1原理介绍</h3><p>GPT模型主要包含两个阶段，第一个阶段，先利用大量未标注的语料预训练一个语言模型，接着，在第二个阶段对预训练好的语言模型进行微改，将其迁移到各种有监督的NLP任务，并对参数进行fine-tuning。</p>
+<h4 id="预训练模型（无监督）"><a href="#预训练模型（无监督）" class="headerlink" title="预训练模型（无监督）"></a>预训练模型（无监督）</h4><p>给定一个没有标注的大语料，记每一个序列为$u&#x3D;u_1,…,u_n$，GPT通过最大化以下似然函数来训练语言模型：</p>
+<p><img src="https://pic.imgdb.cn/item/642843d6a682492fcc0882ce.jpg"></p>
+<p>其中，k 表示上下文窗口的大小，这里计算每个单词的预测概率时，<strong>只考虑左侧窗口大小的词汇信息（单向Transformer）</strong>，在GPT中，作者基于一个12层的Transformer decoder作为语言模型的结构，并将decoder的中间那层线性变换删除，其结构和计算过程如下：</p>
+<p><img src="https://pic.imgdb.cn/item/64283c12a682492fccf9e88a.png"></p>
+<blockquote>
+<p>GPT用的结构和Transformer的encoder、decoder都不一样，encoder是两个线性层，但是没有masked，decoder是三个线性层，有masked。</p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/64283c44a682492fccfa334e.jpg"><br>$$<br>h&#x3D;UWe+W p<br>$$</p>
+<p>$$<br>h_<br>l<br>​<br> &#x3D;transformer_<br>b<br>​<br> lock(h_{l-1})∀i∈[1,n]<br>$$</p>
+<p>$$<br>P(u)&#x3D;softmax(h_<br>n<br>​<br> W_<br>c^<br>T<br>​<br> )<br>$$</p>
+<p>其中，$U &#x3D; u_i−k , . . . , u_i−1$表示左侧窗口的词汇向量，n表示Transformer的层数，$W_e$ 表示词向量矩阵，$W_p$表示position embedding矩阵，在GPT中，作者对position embedding矩阵进行随机初始化，<strong>让模型自己学习，而不是采用正弦余弦函数进行计算。(原Transformer用的三角函数)</strong></p>
+<p>从GPT的计算公式来看，其实跟Transformer基本是一样的，只是对每个时间步，都只考虑左侧窗口大小的上下文信息。</p>
+<p>由于使用了Masked Self-Attention，所以每个位置的词都不会“看见”后面的词，也就是预测的时候是看不见“答案”的，即避免了see themselves 的问题，保证了模型的合理性，这也是为什么OpenAI采用了单向Transformer的原因。</p>
+<h4 id="fine-tuning（有监督）"><a href="#fine-tuning（有监督）" class="headerlink" title="fine-tuning（有监督）"></a>fine-tuning（有监督）</h4><p>当语言模型训练结束后，就可以将其迁移到具体的NLP任务中，假设将其迁移到一个文本分类任务中，记此时的数据集为 C ，对于每一个样本，其输入为 $x^1 , . . . , x^m$，输出为 $y$。对于每一个输入，经过预训练后的语言模型后，可以直接选取最后一层Transformer最后一个时间步的输出向量$h^m_l$，然后在其后面接一层全连接层，即可得到最后的预测标签概率：<br>$$<br>P(y∣x^<br>1<br> ,…,x^<br>m<br> )&#x3D;softmax(h_<br>l^<br>m<br>​<br> W_<br>y<br>​<br> )<br>$$<br>其中，为引入的全来凝结层的参数矩阵。因此，可以得到在分类任务中的目标函数：<br>$$<br>L _<br>2<br>​<br> (C)&#x3D;<br>\stackrel{}{\sum\limits_{x,y}}<br>​<br> logP(y∣x^<br>1<br> ,…,x^<br>m<br> )<br>$$<br>在具体的NLP任务中，作者在fine-tuning时<strong>也把语言模型的目标引入到目标函数中</strong>，作为辅助函数，作者发现这样操作可以提高模型的通用能力，并且加速模型手来你，其形式如下：<br>$$<br>L _<br>3<br>​<br> (C)&#x3D;L  _<br>2<br>​<br> (C)+λ∗L  _<br>1<br>​<br> (C)<br>$$<br>其中 λ一般取0.5。</p>
+<p>可以发现，在fine-tuning阶段，此时新增的参数只有最后一层全连接层的参数$W_y$，这比ELMo算法要容易得多。</p>
+<p>不过，上面这个例子知识对与<strong>文本分类任务</strong>，如果是对于其他任务，比如文本蕴涵、问答、文本相似度等，那么GPT该如何进行微调呢？</p>
+<ul>
+<li>文本蕴涵：对于文本蕴涵任务（文本间的推理关系，问题-答案），作者用一个$负号将文本和假设进行拼接，并在拼接后的文本前后加入开始符 start 和结束符 end，然后将拼接后的文本直接传入预训练的语言模型，在模型再接一层线性变换和softmax即可。</li>
+<li>文本相似度：对于文本相似度任务，由于相似度不需要考虑两个句子的顺序关系，因此，为了反映这一点，作者将两个句子分别与另一个句子进行拼接，中间用“$”进行隔开，并且前后还是加上起始和结束符，然后分别将拼接后的两个长句子传入Transformer，最后分别得到两个句子的向量表示，将这两个向量进行元素相加，然后再接如线性层和softmax层。</li>
+<li>问答和尝试推理：对于问答和尝试推理任务，首先将本经信息与问题进行拼接，然后再将拼接后的文本一次与每个答案进行拼接，最后依次传入Transformer模型，最后接一层线性层得到每个输入的预测值。</li>
+</ul>
+<p>具体的方法可以查看下图，可以发现，对这些任务的微调主要是：</p>
+<ul>
+<li>增加线性层的参数</li>
+<li>增加起始符、结束符和分隔符三种特殊符号的向量参数</li>
+</ul>
+<p><img src="https://pic.imgdb.cn/item/642845a2a682492fcc0ba32d.png"></p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ul>
+<li>GPT其实跟ELMO非常相似，只是把语言模型直接迁移到具体的NLP任务中，因此，更容易进行迁移学习。</li>
+<li>不过GPT主要还是针对文本分类和标注性任务，如果对于生成任务，比如机器翻译等，则其结构也没法进行很好的迁移。</li>
+</ul>
+<h2 id="GPT-2：多任务学习"><a href="#GPT-2：多任务学习" class="headerlink" title="GPT-2：多任务学习"></a>GPT-2：多任务学习</h2><p>GPT-2继续沿用了原来在GPT中使用的单向 Transformer 模型，而这篇文章的目的就是尽可能利用单向Transformer的优势，做一些BERT使用的双向Transformer所做不到的事。那就是通过上文生成下文文本。</p>
+<h3 id="GPT-2的改进"><a href="#GPT-2的改进" class="headerlink" title="GPT-2的改进"></a>GPT-2的改进</h3><p><strong>1. 去掉了fine-tuning层：</strong>不再针对不同任务分别进行微调建模，而是不定义这个模型应该做什么任务，模型会自动识别出来需要做什么任务，是很通用的设计。</p>
+<p><strong>2. 增加数据集：</strong>GPT-2手机了更加广泛，数量更多的语料组成数据集。该数据集包含800万个网页，大小为40G。这些数据是经过过滤后得到的高质量文本。</p>
+<p><strong>3. 增加网络参数：</strong>GPT-2将Transformer堆叠的层数增加到48层，隐层的维度为1600，参数量达到了15亿。（5倍于BERT的参数量）</p>
+<p><strong>4. 调整Transformer：</strong>将layer normalization放到每个sub-block之前，并在最后一个self-attention后再增加一个layer normalization。</p>
+<ol start="5">
+<li>此外，GPT-2将词汇表数量增加到50257个；最大的上下文大小从GPT-1的512提升到了1024 tokens；batch-size增加到512。</li>
+</ol>
+<h3 id="模型参数"><a href="#模型参数" class="headerlink" title="模型参数"></a>模型参数</h3><ul>
+<li>同样使用了使用字节对编码构建字典，字典的大小：50257</li>
+<li>滑动窗口大小：1024</li>
+<li>batch-size：512</li>
+<li>Layer Normalization移动到了每一块的输入部分，在每个self-attention之后额外添加了一个Layer Normalization</li>
+<li>将残差层的初始化值用 $ \frac{1}{\sqrt(N)}$进行缩放，其中N是残差层的个数</li>
+</ul>
+<p>GPT-2训练了4组不同的层数和词向量的长度的模型，见表：</p>
+<table>
+<thead>
+<tr>
+<th>参数量</th>
+<th>层数</th>
+<th>词向量长度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>117M（GPT-1）</td>
+<td>12</td>
+<td>768</td>
+</tr>
+<tr>
+<td>345M</td>
+<td>124</td>
+<td>1024</td>
+</tr>
+<tr>
+<td>762M</td>
+<td>36</td>
+<td>1280</td>
+</tr>
+<tr>
+<td>1542M</td>
+<td>48</td>
+<td>1600</td>
+</tr>
+</tbody></table>
+<p>效果如下：</p>
+<p><img src="https://pic.imgdb.cn/item/6428462da682492fcc0c8053.png"></p>
+<p>可以看出随着模型的增大，模型的效果是不断提升的。模型仍欠拟合，后续还会加大数据量，做大做强。</p>
+<h3 id="为什么GPT-2能够适应多任务？"><a href="#为什么GPT-2能够适应多任务？" class="headerlink" title="为什么GPT-2能够适应多任务？"></a>为什么GPT-2能够适应多任务？</h3><p>在训练的时候，采用了多任务的方式，不单单只在一个任务上进行学习，而是多个，每一个任务都要保证其损失函数能收敛，不同任务是共享主题Transformer参数的，进一步提升模型的泛化能力，因此在即使没有fine-tuning的情况下，依旧有非常不错的表现。</p>
+<p>在fine-tuning有监督任务阶段，GPT-2根据给定输入与任务来做出相应的输出，那么模型就可以表示成下面这个样子：<br>$$<br>p(output∣input,task)<br>$$<br>例如可以直接输入：(“自然语言处理”, 中文翻译)来得到我们需要的结果(“Nature Language Processing”)，因此提出的模型可以将机器翻译，自然语言推理，语义分析，关系提取等10类任务统一建模为一个分类任务，而不误再为每一个子任务单独设计一个模型。</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPT-3QQbot</title>
+    <url>/2023/04/01/GPT-3QQbot/</url>
+    <content><![CDATA[<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>GPT-4paper解读</title>
+    <url>/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</url>
+    <content><![CDATA[<p><strong>GPT-4paper解读：</strong></p>
+<span id="more"></span>
+
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><table>
+<thead>
+<tr>
+<th>官方总结</th>
+<th>我们已经创建了GPT-4，这是OpenAI在扩大深度学习方面的最新里程碑。GPT-4是一个大型多模态模型(接受图像和文本输入，输出文本)，虽然在许多现实场景中不如人类，但在各种专业和学术基准上表现出与人类相当的性能。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>简介</strong></td>
+<td>GPT-4是一个超大的多模态模型，它的输入可以是文字（上限约2.4万单词），还可以是图像。由于其更广泛的常识和先进的推理能力，它可以比我们之前的任何模型更准确地解决难题。</td>
+</tr>
+<tr>
+<td><strong>核心原理</strong></td>
+<td>GPT-4依旧是一个基于Transformer风格的预训练模型，用于预测文档中的下一个token，使用公开可用数据(如互联网数据)和第三方提供商授权的数据，利用人类反馈的强化学习(RLHF)对模型进行微调。</td>
+</tr>
+<tr>
+<td><strong>意义</strong></td>
+<td>GPT-4性能水平和人类相当！比如模拟律师考试，GPT-4取得了前10%的好成绩，相比之下GPT-3.5却是倒数10%；再比如做美国高考SAT试题，GPT-4也在阅读写作中拿下710分高分、数学700分（满分800）。</td>
+</tr>
+<tr>
+<td><strong>亮点</strong></td>
+<td>(1)、多模态特性：强大的识图能力，可以接受图像输入并理解图像内容；<br/><br/>(2)、更长的上下文：可以接受的文字输入长度也增加到3.2万个token（约2.5万个单词文本）；<br/><br/>(3)、针对问题基于提示可以利用不同的风格进行回答；<br/><br/>(4)、更加真实性、可控性：OpenAI 花了 6 个月的时间使用对抗性测试程序和 ChatGPT 的经验教训对 GPT-4 进行迭代调整；<br/></td>
+</tr>
+<tr>
+<td><strong>技术点</strong></td>
+<td>GPT-4依旧设置技术壁垒，目前还没有公布具体模型架构、硬件、训练计算、数据集构造、训练方法的具体细节。<br/><br/>(1)、GPT-4依旧利用强化学习人类反馈 (RLHF) 来微调模型的行为：聘请了来自长期AI一致性&#x2F;对齐风险、网络安全、生物风险和国际安全等领域的50多名专家对模型进行对抗性测试；<br/><br/>(2)、GPT-4的两个技术点提高安全性：一套额外的安全相关RLHF训练提示，以及基于规则的奖励模型(RBRMs)。通过训练模型拒绝对此类内容的请求来减少有害的输出。<br/><br/>(3)、OpenAI 基于Azure从头开始设计了一台超级计算机，并重建了整个深度学习堆栈；<br/><br/>(4)、OpenAI开源了 OpenAI Evals—自动评估 AI 模型性能的框架，主要是为了让所有人都可以指出其模型中的缺点，来帮助 OpenAI 进一步改进模型。它被用于创建和运行基准测试以评估 GPT-4 等模型，同时可以逐样本地检查模型性能；<br/><br/>(5)、模型训练到部署的庞大的团队工程能力：单看报告致谢的部分，就包括了几百人。预训练模块、长上下文模块、视觉模块、强化学习与对齐模块、评估与分析模块、部署模块等工程化的各个阶段，均装备了核心负责人小组、计算集群扩展小组、数据小组、分布式训练基础设施小组、硬件正确性小组、优化与架构小组、模型训练小组团队。<br/></td>
+</tr>
+<tr>
+<td><strong>缺点</strong></td>
+<td>(1)、幻觉不可靠性：GPT-4与早期GPT模型有相似的局限性：它仍然不完全可靠，它会“产生幻觉”事实，但已经比ChatGPT减轻了这一缺点。<br/><br/>(2)、依旧存在错误推理的可能性：<br/><br/>(3)、依旧会产生有害的建议：但通过50位领域专家的反馈对模型进行了改进；<br/><br/>(4)、存在偏差性：GPT-4在输出中依旧存在各种偏差；<br/><br/>(5)、GPT-4上下文窗口有限；<br/><br/>(6)、GPT-4不能从经验中学习；<br/><br/>(7)、GPT-4会在生成的代码中引入安全漏洞；<br/></td>
+</tr>
+</tbody></table>
+<h2 id="GPT-4模型可使用版本"><a href="#GPT-4模型可使用版本" class="headerlink" title="GPT-4模型可使用版本"></a><strong>GPT-4模型可使用版本</strong></h2><table>
+<thead>
+<tr>
+<th>最新模型</th>
+<th>描述</th>
+<th>最大TOKENS</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>gpt-4</td>
+<td>比任何GPT-3.5模型更强大，能够完成更复杂的任务，并为聊天进行了优化。将与我们最新的模型迭代更新。</td>
+<td>8,192 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-0314</td>
+<td>2023年3月14日的gpt-4快照。与gpt-4不同的是，该模型将不会接受更新，并且只会在2023年6月14日结束的三个月内得到支持。</td>
+<td>8,192 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-32k</td>
+<td>与基础gpt-4模式相同的功能，但上下文长度是它的4倍。将与我们最新的模型迭代更新。</td>
+<td>32,768 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+<tr>
+<td>gpt-4-32k-0314</td>
+<td>2023年3月14日gpt-4-32的快照。与gpt-4-32k不同的是，该型号将不接受更新，并且只支持三个月的时间，截止2023年6月14日。</td>
+<td>32,768 tokens</td>
+<td>截至2021年9月</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题添加阅读完成提示线</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E5%AE%8C%E6%88%90%E6%8F%90%E7%A4%BA%E7%BA%BF/</url>
+    <content><![CDATA[<ol>
+<li><p>在路径 <code>themes/next/layout/_macro</code> 中新建 <code>passage-end-tag.njk</code> 文件,并添加以下内容：</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;-------------本文结束&lt;i class=&quot;fa-solid fa-check&quot;&gt;&lt;/i&gt;感谢您的阅读-------------&lt;/div&gt;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>接着打开<code>themes\next\layout_macro\post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code> 之前添加如下代码:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include &#x27;passage-end-tag.njk&#x27; %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​		如图：<img src="https://pic.imgdb.cn/item/642804c7a682492fcca4d10b.jpg"></p>
+<ol start="3">
+<li><p>打开主题配置文件，在末尾添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题自定义文章底部版权声明</title>
+    <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E/</url>
+    <content><![CDATA[<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><span id="more"></span>
+
+<ol>
+<li><p>在目录 <code>themes/next/layout/_macro/</code> 下添加 <code>my-copyright.njk</code> ，内容如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if page.copyright %&#125;</span><br><span class="line">&lt;div class=&quot;my_post_copyright&quot;&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  </span><br><span class="line">  &lt;!-- JS库 sweetalert 可修改路径 --&gt;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot; src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css&quot;&gt;</span><br><span class="line"> </span><br><span class="line">  &lt;p&gt;&lt;span&gt;本文标题:&lt;/span&gt;&#123;&#123; page.title &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;文章作者:&lt;/span&gt;&#123;&#123; author &#125;&#125;&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;发布时间:&lt;/span&gt;&#123;&#123; page.date.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;最后更新:&lt;/span&gt;&#123;&#123; page.updated.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;原始链接:&lt;/span&gt;&lt;a href=&quot;&#123;&#123; url_for(page.path) &#125;&#125;&quot; title=&quot;&#123;&#123; page.title &#125;&#125;&quot;&gt;&#123;&#123; page.permalink &#125;&#125;&lt;/a&gt;</span><br><span class="line">    &lt;span class=&quot;copy-path&quot;  title=&quot;点击复制文章链接&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot; data-clipboard-text=&quot;&#123;&#123; page.permalink &#125;&#125;&quot;  aria-label=&quot;复制成功！&quot;&gt;&lt;/i&gt;&lt;/span&gt;</span><br><span class="line">  &lt;/p&gt;</span><br><span class="line">  &lt;p&gt;&lt;span&gt;许可协议:&lt;/span&gt;&lt;i class=&quot;fa-regular fa-copyright&quot;&gt;&lt;/i&gt; &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; target=&quot;_blank&quot; title=&quot;Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)&quot;&gt;署名-非商业性使用-禁止演绎 4.0 国际&lt;/a&gt; 转载请保留原文链接及作者。&lt;/p&gt;  </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt; </span><br><span class="line">    var clipboard = new Clipboard(&#x27;.fa-clipboard&#x27;);</span><br><span class="line">    clipboard.on(&#x27;success&#x27;, $(function()&#123;</span><br><span class="line">      $(&quot;.fa-clipboard&quot;).click(function()&#123;</span><br><span class="line">        swal(&#123;   </span><br><span class="line">          title: &quot;&quot;,   </span><br><span class="line">          text: &#x27;复制成功&#x27;,   </span><br><span class="line">          html: false,</span><br><span class="line">          timer: 500,   </span><br><span class="line">          showConfirmButton: false</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;));  </span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>在目录 <code>themes/next/source/css/_common/components/post/</code> 下添加 <code>my-post-copyright.styl</code>，内容如下:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.my_post_copyright &#123;</span><br><span class="line">  width: 85%;</span><br><span class="line">  max-width: 45em;</span><br><span class="line">  margin: 2.8em auto 0;</span><br><span class="line">  padding: 0.5em 1.0em;</span><br><span class="line">  border: 1px solid #d3d3d3;</span><br><span class="line">  font-size: 0.93rem;</span><br><span class="line">  line-height: 1.6em;</span><br><span class="line">  word-break: break-all;</span><br><span class="line">  background: rgba(255,255,255,0.4);</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright p&#123;margin:0;&#125;</span><br><span class="line">.my_post_copyright span &#123;</span><br><span class="line">  display: inline-block;</span><br><span class="line">  width: 5.2em;</span><br><span class="line">  color: #333333; // title color</span><br><span class="line">  font-weight: bold;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .raw &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 5em;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  border-bottom:0;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright a:hover &#123;</span><br><span class="line">  color: #0593d3; // link color</span><br><span class="line">  text-decoration: underline;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright:hover .fa-clipboard &#123;</span><br><span class="line">  color: #000;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .post-url:hover &#123;</span><br><span class="line">  font-weight: normal;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path &#123;</span><br><span class="line">  margin-left: 1em;</span><br><span class="line">  width: 1em;</span><br><span class="line">  +mobile()&#123;display:none;&#125;</span><br><span class="line">&#125;</span><br><span class="line">.my_post_copyright .copy-path:hover &#123;</span><br><span class="line">  color: #808080;</span><br><span class="line">  cursor: pointer;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>修改 <code>themes/next/layout/_macro/post.njk</code> ，如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">    &#123;% if not is_index %&#125;</span><br><span class="line">        &#123;% include &#x27;my-copyright.njk&#x27; %&#125;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://pic.imgdb.cn/item/64280965a682492fccab5d8c.jpg"></p>
+</li>
+<li><p>打开 <code>themes/next/source/css/_common/components/post/index.styl</code> 文件，在最后一行增加代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@import &#x27;my-post-copyright&#x27;;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​	</p>
+<ol start="5">
+<li>设置新建文章自动开启 copyright,设置 <code>./scaffolds/post.md</code> 文件，如下：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">copyright: true </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中华人民共和国计算机信息网络国际联网管理暂行规定</title>
+    <url>/2023/04/01/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C%E5%9B%BD%E9%99%85%E8%81%94%E7%BD%91%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A/</url>
+    <content><![CDATA[<h3 id="中华人民共和国计算机信息网络国际联网管理暂行规定"><a href="#中华人民共和国计算机信息网络国际联网管理暂行规定" class="headerlink" title="中华人民共和国计算机信息网络国际联网管理暂行规定"></a><strong>中华人民共和国计算机信息网络国际联网管理暂行规定</strong></h3><span id="more"></span>
+
+<p><img src="https://pic.imgdb.cn/item/6427faa7a682492fcc964c6b.jpg"></p>
+<blockquote>
+<p>　　第一条 为了加强对计算机信息网络国际联网的管理，保障国际计算机信息交流的健康发展，制定本规定。</p>
+<p>　　第二条 中华人民共和国境内的计算机信息网络进行国际联网，应当依照本规定办理。</p>
+<p>　　第三条 本规定下列用语的含义是：</p>
+<p>　　（一）计算机信息网络国际联网（以下简称国际联网），是指中华人民共和国境内的计算机信息网络为实现信息的国际交流，同外国的计算机信息网络相联接。</p>
+<p>　　（二）互联网络，是指直接进行国际联网的计算机信息网络；互联单位，是指负责互联网络运行的单位。</p>
+<p>　　（三）接入网络，是指通过接入互联网络进行国际联网的计算机信息网络；接入单位，是指负责接入网络运行的单位。</p>
+<p>　　第四条 国家对国际联网实行统筹规划、统一标准、分级管理、促进发展的原则。</p>
+<p>　　第五条 国务院经济信息化领导小组（以下简称领导小组），负责协调、解决有关国际联网工作中的重大问题。</p>
+<p>　　领导小组办公室按照本规定制定具体管理办法，明确国际出入口信道提供单位、互联单位、接入单位和用户的权利、义务和责任，并负责对国际联网工作的检查监督。</p>
+<p>　　<strong>第六条 计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。</strong></p>
+<p>　　<strong>任何单位和个人不得自行建立或者使用其他信道进行国际联网。</strong></p>
+<p>　　第七条 已经建立的互联网络，根据国务院有关规定调整后，分别由邮电部、电子工业部、国家教育委员会和中国科学院管理。</p>
+<p>　　新建互联网络，必须报经国务院批准。</p>
+<p>　　第八条 接入网络必须通过互联网络进行国际联网。</p>
+<p>　　拟建立接入网络的单位，应当报经互联单位的主管部门或者主管单位审批；办理审批手续时，应当提供其计算机信息网络的性质、应用范围和所需主机地址等资料。</p>
+<p>　　第九条 接入单位必须具备下列条件：</p>
+<p>　　（一）是依法设立的企业法人或者事业法人；</p>
+<p>　　（二）具有相应的计算机信息网络、装备以及相应的技术人员和管理人员；</p>
+<p>　　（三）具有健全的安全保密管理制度和技术保护措施；</p>
+<p>　　（四）符合法律和国务院规定的其他条件。</p>
+<p>　　第十条 个人、法人和其他组织（以下统称用户）使用的计算机或者计算机信息网络，需要进行国际联网的，必须通过接入网络进行国际联网。</p>
+<p>　　前款规定的计算机或者计算机信息网络，需要接入接入网络的，应当征得接入单位的同意，并办理登记手续。</p>
+<p>　　第十—条 国际出入口信道提供单位、互联单位和接入单位，应当建立相应的网络管理中心，依照法律和国家有关规定加强对本单位及其用户的管理，做好网络信息安全管理工作，确保为用户提供良好、安全的服务。</p>
+<p>　　第十二条 互联单位与接入单位，应当负责本单位及其用户有关国际联网的技术培训和管理教育工作。</p>
+<p>　　第十三条 从事国际联网业务的单位和个人，应当遵守国家有关法律、行政法规，严格执行安全保密制度，不得利用国际联网从事危害国家安全、泄露国家秘密等违法犯罪活动，不得制作、查阅、复制和传播妨碍社会治安的信息和淫秽色情等信息。</p>
+<p>　　第十四条 违反本规定第六条、第八条和第十条规定的，由公安机关或者公安机关根据国际出入口信道提供单位、互联单位、接入单位的意见，给予警告、通报批评、责令停止联网，可以并处15000元以下的罚款。</p>
+<p>　　第十五条 违反本规定，同时触犯其他有关法律、行政法规的，依照有关法律、行政法规的规定予以处罚；构成犯罪的，依法追究刑事责任。</p>
+<p>　　第十六条 与台湾、香港、澳门地区的计算机信息网络的联网，参照本规定执行。</p>
+<p>　　第十七条 本规定自发布之日起施行。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Microsoft Copilot</title>
+    <url>/2023/03/26/Copilot/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>Humans are hard-wired to dream, to create, to innovate.</strong> <span id="more"></span>Each of us seeks to do work that gives us purpose — to write a great novel, to make a discovery, to build strong communities, to care for the sick. The urge to connect to the core of our work lives in all of us. But today, we spend too much time consumed by the drudgery of work on tasks that zap our time, creativity and energy. <strong>To reconnect to the soul of our work, we don’t just need a better way of doing the same things. We need a whole new way to work。</strong></p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/641ffb1fa682492fcc887ce9.jpg"></p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>すずめの戸締まり</title>
+    <url>/2023/03/26/%E3%81%99%E3%81%9A%E3%82%81%E3%81%AE%E6%88%B8%E7%B7%A0%E3%81%BE%E3%82%8A/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>我深知命如蜉蝣，深知死亡总是如影随形。再多一时也好。我辈仍愿人生得续。</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<p><img src="https://pic.imgdb.cn/item/641ff1d9a682492fcc77838b.jpg"></p>
+<blockquote>
+<p><strong>思而复思 祈唤日不见之神，祈唤祖祖代代之土地神。此山此河 承恩甚久 不胜感激。</strong></p>
+<p><strong>诚惶诚恐。</strong></p>
+<p><strong>诚惶诚恐。</strong></p>
+<p><strong>谨遵神旨，予以奉还。</strong></p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854747.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85479e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc854826.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff914a682492fcc85487e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff915a682492fcc85490f.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ffad5a682492fcc88066e.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ffa4da682492fcc87388d.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/641ff916a682492fcc854cb1.jpg"></p>
+<p><strong>虽然你觉得世界一片黑暗，但是黎明总会到来。</strong></p>
+]]></content>
+      <tags>
+        <tag>Movies</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GPT-3模型</title>
+    <url>/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h2 id="模型综述"><a href="#模型综述" class="headerlink" title="模型综述"></a>模型综述</h2><span id="more"></span>
+
+<h2 id="GPT-3：海量参数"><a href="#GPT-3：海量参数" class="headerlink" title="GPT-3：海量参数"></a>GPT-3：海量参数</h2><blockquote>
+<p>延续GPT的模型架构，用更多的数据，更大的模型，训练模型。<br>预测时，不需要Finetune，在某些任务上小样本条件下也能达到和BERT媲美的性能。<br>预测时，分别用自然语言描述任务（零样本）、一个示例（单样本，和人类学习很像）、少量示例作为上文文本，将续写的文本作为预测结果。</p>
+</blockquote>
+<blockquote>
+<p>GPT-3共训练了5个不同的语料，分别是低质量的Common Crawl，高质量的WebText2，Books1，Books2和Wikipedia，GPT-3根据数据集的不同的质量赋予了不同的权值，权值越高的在训练的时候越容易抽样到，如图所示。</p>
+<p><img src="https://pic.imgdb.cn/item/64284bf0a682492fcc162cce.jpg"></p>
+</blockquote>
+<blockquote>
+<p>GPT-3沿用了GPT-2的结构，但是在网络容量上做了很大的提升，具体如下：<br>GPT-3采用了96 层的多头transformer，头的个数为96；<br>词向量的长度是 12888；<br>上下文划窗的窗口大小提升至2048个token；</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>描述</th>
+<th>最大tokens</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>text-davinci-003</td>
+<td>最强大的GPT-3模型。 具有更高的输出质量、 更长的输出内容 和更好的语言理解能力。 还支持文本插入功能。</td>
+<td>4,000 tokens</td>
+<td>截至2021年6月</td>
+</tr>
+<tr>
+<td>text-curie-001</td>
+<td>功能强大， 但比<code>Davinci</code>速度更快，价格也更便宜。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+<tr>
+<td>text-babbage-001</td>
+<td>能够完成简单任务，速度快，成本低。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+<tr>
+<td>text-ada-001</td>
+<td>能够完成非常简单的任务， 通常是GPT-3系列中速度最快的，成本最低的。</td>
+<td>2,048 tokens</td>
+<td>截至2019年10月</td>
+</tr>
+</tbody></table>
+<h2 id="Codex子模型"><a href="#Codex子模型" class="headerlink" title="Codex子模型"></a>Codex子模型</h2><table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>描述</th>
+<th>最大请求</th>
+<th>训练数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>code-davinci-002</td>
+<td>最强大的Codex模型。 特别擅长将自然语言转译成代码。 除了完成代码外，还支持在代码补全。</td>
+<td>8,000 tokens</td>
+<td>截至2021年6月</td>
+</tr>
+<tr>
+<td>code-cushman-001</td>
+<td>几乎与<code>Davinci Codex</code>一样强大，但速度稍快。 这种速度优势可使其更适合于实时应用。</td>
+<td>2,048 tokens</td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo文章加密</title>
+    <url>/2023/03/11/hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><span id="more"></span>
+
+<ol>
+<li>在你的<code>hexo</code>根目录的<em>package.json</em>文件夹中添加：</li>
+</ol>
+<p><code>&quot;hexo-blog-encrypt: &quot;2.0.*”</code></p>
+<ol start="2">
+<li>然后在命令行中输入：</li>
+</ol>
+<p><code>npm install</code></p>
+<ol start="3">
+<li><p>找到根目录下的<code>_config.yml</code>文件，添加如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">##</span><br><span class="line">encrypt:</span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在你要加密的文章头部写入<code>password: </code></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ys_individual_server</title>
+    <url>/2023/03/11/ys-individual-server/</url>
+    <content><![CDATA[<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Genshin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现OpenAI的API调用</title>
+    <url>/2023/02/26/python%E5%AE%9E%E7%8E%B0OpenAI%E7%9A%84API%E8%B0%83%E7%94%A8/</url>
+    <content><![CDATA[<p><code>pip install -i https://mirrors.aliyun.com/pypi/simple/ openai</code></p>
+<span id="more"></span>
+
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openai</span><br><span class="line"></span><br><span class="line"><span class="comment"># OpenAI API</span></span><br><span class="line">openai.api_key=<span class="string">&quot;YOUR_API_KEY&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 模型</span></span><br><span class="line">model_engine=<span class="string">&quot;text-davinci-003&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要询问的话</span></span><br><span class="line">prompt = <span class="string">&quot;Hello&quot;</span></span><br><span class="line"></span><br><span class="line">completion = openai.Completion.create(</span><br><span class="line">    engine=model_engine,</span><br><span class="line">    prompt=prompt,max_tokens=<span class="number">1024</span>,</span><br><span class="line">    n=<span class="number">1</span>,</span><br><span class="line">    stop=<span class="literal">None</span>,</span><br><span class="line">    temperature=<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出回复</span></span><br><span class="line">Response = completion.choices[<span class="number">0</span>].text</span><br><span class="line"><span class="built_in">print</span>(Response)</span><br></pre></td></tr></table></figure>
+
+<h2 id="下面是GPT-3和Codex模型支持的参数："><a href="#下面是GPT-3和Codex模型支持的参数：" class="headerlink" title="下面是GPT-3和Codex模型支持的参数："></a>下面是GPT-3和Codex模型支持的参数：</h2><table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>model</code></td>
+<td>string</td>
+<td></td>
+<td>模型名称</td>
+</tr>
+<tr>
+<td><code>prompt</code></td>
+<td>string</td>
+<td></td>
+<td>输入的提示</td>
+</tr>
+<tr>
+<td><code>suffix</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>文本生成后在文末插入的后缀</td>
+</tr>
+<tr>
+<td><code>max_tokens</code></td>
+<td>int</td>
+<td><code>16</code></td>
+<td>文本生成时要生成的最大token数。 提示的token数加上<code>max_tokens</code>不能超过模型的上下文长度。 大多数模型的上下文长度为2048个token（最新模型支持4096 tokens）</td>
+</tr>
+<tr>
+<td><code>temperature</code></td>
+<td>float</td>
+<td><code>1</code></td>
+<td>采样温度。值越高意味着模型承担的风险越大。 对于需要创意的场景，可以尝试0.9， 对于答案明确的场景，建议用0（argmax采样） 建议不要与<code>top_p</code>同时改变。</td>
+</tr>
+<tr>
+<td><code>top_p</code></td>
+<td>float</td>
+<td><code>1</code></td>
+<td>核采样（温度采样的另一种方式），其中模型考虑具有<code>top_p</code>概率质量的token的结果。因此，0.1意味着只考虑包含最高10%概率质量的token 建议不要与<code>temperature</code>同时改变。</td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>int</td>
+<td><code>1</code></td>
+<td>每个提示要生成多少个答案</td>
+</tr>
+<tr>
+<td><code>stream</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>是否返回流传输进度。如果设置，token将在可用时以纯数据服务器端推送事件发送，流以<code>data:[DONE]</code>消息终止。</td>
+</tr>
+<tr>
+<td><code>logprobs</code></td>
+<td>int</td>
+<td><code>nul</code></td>
+<td>如果传值（最大值5）则表示包括<code>logprobs</code>个最可能的token以及所选令牌的对数概率。例如，如果<code>logprobs</code>为5，则API将返回包含5个最可能Token的列表。</td>
+</tr>
+<tr>
+<td><code>echo</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>是否回传提示</td>
+</tr>
+<tr>
+<td><code>stop</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>最多4个序列，遇到<code>stop</code>API将停止生成。 返回的文本不包含停止序列。</td>
+</tr>
+<tr>
+<td><code>presence_penalty</code></td>
+<td>float</td>
+<td><code>0</code></td>
+<td>数值介于-2.0和2.0之间。正值将根据到目前为止新token是否出现在文本中来惩罚新token，从而增加模型谈论新主题的可能性。</td>
+</tr>
+<tr>
+<td><code>frequency_penalty</code></td>
+<td>float</td>
+<td><code>0</code></td>
+<td>数值介于-2.0和2.0之间。正值根据文本中新token已经出现的频率惩罚新token，从而降低模型逐字重复同一行的可能性。</td>
+</tr>
+<tr>
+<td><code>best_of</code></td>
+<td>int</td>
+<td><code>1</code></td>
+<td>在服务端生成<code>best_of</code>个完成，并返回“最佳”（每个token的log概率最高的一条）。结果无法流式传输。与<code>n</code>一起使用时，<code>best_of</code>控制候选回应的数量，<code>n</code>指定要返回的数量–<code>best_of</code>必须大于等于<code>n</code>。注意：由于此参数生成许多回应，因此会快速消耗token配额。小心使用并确保对<code>max_tokens</code>和<code>stop</code>进行了合理的设置。</td>
+</tr>
+<tr>
+<td><code>logit_bias</code></td>
+<td>map</td>
+<td><code>null</code></td>
+<td>修改回应种出现指定token的可能性。接受一个json对象，该对象将token（由<a href="https://platform.openai.com/tokenizer?view=bpe">GPT tokenizer</a>的token ID指定）映射到-100到100之间的相关偏差值。可以用 <a href="https://platform.openai.com/tokenizer?view=bpe">tokenizer tool</a> 将文本转换成token ID。在数学上，在采样之前，将偏差添加到模型生成的逻辑中。每个模型的确切效果会有所不同，但介于-1和1之间的值应该会降低或增加选择的可能性；像-100或100这样的值应该会导致相关token的禁用或必现。例如，可以传递<code>｛&quot;50256&quot;: -100｝</code>以防止生成。</td>
+</tr>
+<tr>
+<td><code>user</code></td>
+<td>string</td>
+<td><code>null</code></td>
+<td>代表终端用户的唯一标识符，OpenAI用来监控和检测滥用。</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pip换源</title>
+    <url>/2023/02/25/pip%E6%8D%A2%E6%BA%90/</url>
+    <content><![CDATA[<p><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  [包名]</code></p>
+<span id="more"></span>
+
+<p><code>pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple</code></p>
+<p><code>pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/</code></p>
+<p><code>pip config set global.index-url http://mirrors.cloud.tencent.com/pypi/simple</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Coding</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python实现最优选科方案</title>
+    <url>/2023/02/25/python%E5%AE%9E%E7%8E%B0%E6%9C%80%E4%BC%98%E9%80%89%E7%A7%91%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>python实现最优选科方案</p>
+<span id="more"></span>
+
+<p><a href="https://wwft.lanzoul.com/ifxbK0ojw96b">程序下载链接，密码：1111</a></p>
+<p>注意：在有排名相同的情况时则会按照科目顺序给出选科方案</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置学科列表</span></span><br><span class="line">sub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>,<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line">mainsub = [<span class="string">&quot;物理&quot;</span>,<span class="string">&quot;历史&quot;</span>]</span><br><span class="line">minorsub = [<span class="string">&quot;化学&quot;</span>,<span class="string">&quot;生物&quot;</span>,<span class="string">&quot;地理&quot;</span>,<span class="string">&quot;政治&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取学生的6门学科成绩</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;请按照所示顺序输入你的学科排名，排名之间请用一个空格隔开！&quot;</span>)</span><br><span class="line">a = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>(<span class="string">&quot;物理 历史 化学 生物 地理 政治\n&quot;</span>).split(<span class="string">&quot; &quot;</span>)))</span><br><span class="line"><span class="comment">#将学生的6门成绩存入rating字典中</span></span><br><span class="line">rating = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    rating[sub[i]] = a[i]</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出学生6门成绩</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">fr&quot;你的<span class="subst">&#123;sub[i]&#125;</span>成绩为第<span class="subst">&#123;rating[sub[i]]&#125;</span>&quot;</span>, <span class="string">&quot;名&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#设置存放3门课程的列表</span></span><br><span class="line">select = []</span><br><span class="line"><span class="comment">#设置最小总成绩</span></span><br><span class="line"><span class="built_in">min</span> = <span class="number">1145141919810</span></span><br><span class="line"><span class="comment">#遍历每种情况</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            <span class="comment">#若两门课相同，则跳过</span></span><br><span class="line">            <span class="keyword">if</span>(k == j):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="comment">#计算3门课程总成绩</span></span><br><span class="line">            tot = rating[mainsub[i]]+rating[minorsub[j]]+rating[minorsub[k]]</span><br><span class="line">            <span class="comment">#若当前总成绩比最小总成绩小，则更新最小总成绩和3门课程</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">min</span> &gt; tot):</span><br><span class="line">                <span class="built_in">min</span> = tot</span><br><span class="line">                <span class="keyword">del</span> select[<span class="number">0</span>:]</span><br><span class="line">                select.append(mainsub[i]), select.append(minorsub[j]), select.append(minorsub[k])</span><br><span class="line"></span><br><span class="line"><span class="comment">#输出3门课程</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;根据排名计算，你的最优选科组合为：&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="built_in">print</span>(select[i], end = <span class="string">&quot; &quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>信息技术课程</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python循环结构（第一节）</title>
+    <url>/2023/02/25/python%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%EF%BC%88%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%89/</url>
+    <content><![CDATA[<p>第一节<span id="more"></span></p>
+<ol>
+<li>用python for循环写一个计算一百以内整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">101</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += i </span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1-100的整数之和为：&quot;</span>,<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<ol start="2">
+<li>用python for循环写一个计算0到用户输入整数之间所有整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入一个非零整数：&#x27;</span>)) </span><br><span class="line"></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,n+<span class="number">1</span>):    </span><br><span class="line"></span><br><span class="line">	<span class="built_in">sum</span> += num </span><br><span class="line">	</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;从0加到%d的和为：%d&#x27;</span> % (n,<span class="built_in">sum</span>))</span><br></pre></td></tr></table></figure>
+
+
+
+<ol start="3">
+<li>用python写一个计算0到100之间所有是3的倍数的整数之和的程序</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line">	<span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line">	<span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">		s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;0到100之间所有是3的倍数的整数之和为：&#x27;</span>, s)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>信息技术课程</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>灰原哀模型v2.0</title>
+    <url>/2023/01/31/%E7%81%B0%E5%8E%9F%E5%93%80%E6%A8%A1%E5%9E%8Bv2-0/</url>
+    <content><![CDATA[<p><a href="https://www.lingshulian.com/s/cc9ce03ee12f727c">下载链接</a></p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: a2ab50776d33f811aa87e8177d8cfc96</span><br><span class="line">SHA1: ce1a58371272e80cd7789fdc4e0aa895706ddb20</span><br><span class="line">SHA256: 63b1637c43979880fcad83a59c6efe8e7f22fdd32ee16bb6e3faaa6461883236</span><br></pre></td></tr></table></figure>
+
+<p>出货率大概在60%-70%左右</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">训练参数：</span><br><span class="line"></span><br><span class="line">max_train_steps = 3000</span><br><span class="line">learning_rate = 5e-6</span><br><span class="line">lr_scheduler = &quot;cosine_with_restarts&quot;</span><br><span class="line">lr_warmup_steps = 100</span><br><span class="line">batch_size</span><br><span class="line">train_batch_size = 1</span><br><span class="line">num_class_images = 30</span><br><span class="line">with_prior_preservation = True</span><br><span class="line">read_prompt_from_filename = False</span><br><span class="line">read_prompt_from_txt = False</span><br><span class="line">append_prompt = &quot;instance&quot;</span><br><span class="line">save_interval = 1000</span><br><span class="line">use_deepdanbooru = False</span><br><span class="line">resolution = 512</span><br><span class="line">gradient_accumulation_steps = 1</span><br><span class="line">seed = 1337</span><br><span class="line">log_interval = 10</span><br><span class="line">clip_skip = 1</span><br><span class="line">sample_batch_size = 4</span><br><span class="line">prior_loss_weight = 1.0</span><br><span class="line">use_aspect_ratio_bucket = False</span><br><span class="line">scale_lr = False</span><br><span class="line">scale_lr_sqrt = False</span><br><span class="line">gradient_checkpointing = True</span><br><span class="line">pad_tokens = False</span><br><span class="line">debug_arb = False</span><br><span class="line">debug_prompt = False</span><br><span class="line">use_ema = False</span><br><span class="line">train_text_encoder = False</span><br><span class="line">restart_cycle = 1</span><br><span class="line">last_epoch = -1</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>Sherry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webUI灰原哀ckpt模型</title>
+    <url>/2023/01/28/webUI%E7%81%B0%E5%8E%9F%E5%93%80ckpt%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<p>dreambooth</p>
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">提示词：</span><br><span class="line">正面：masterpiece, best quality, haibara 1girl, looking at viewer</span><br><span class="line">反面：lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/f6139bc65981e704">3000步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: 2a619f10dad5d23f1716eadebcb8fdda</span><br><span class="line">SHA1: c1f150e87e3950e0ccab11c6f341c7466e3c7a95</span><br><span class="line">SHA256: 88d203fa87622fd7d9e8d720c0d53a99a3d10adc15ae23ab9d0717dad161ab06</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/9a83815fac71ee01">4500步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: d5e4ed4d972ffe75edb6706b744b3bb6</span><br><span class="line">SHA1: 6ec90a4165498b26156ce039a7dfd0c266d92965</span><br><span class="line">SHA256: 40f6099187add9a31160dac7532b93efccb67039c48708035229a125ae0f52d2</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.lingshulian.com/s/39bc8f1113787ceb">6000步下载地址</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MD5: ff13e308f4ac3cb927a5e61a0336e710</span><br><span class="line">SHA1: a56112f017c76e91bdb960c37aa8717a4b147e35</span><br><span class="line">SHA256: 674ed7f1a30e9aeacb0a98d4fc5731356d2bef95343bcf1d0232aaf637592732</span><br></pre></td></tr></table></figure>
+
+<p>密码：</p>
+<p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>novelai</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>黒鉄の魚影</title>
     <url>/2023/01/27/%E9%BB%92%E9%89%84%E3%81%AE%E9%AD%9A%E5%BD%B1/</url>
     <content><![CDATA[<p>死ぬな、灰原——</p>
@@ -1094,42 +1418,18 @@ U2FsdGVkX1+Vomm/SZzQokgse51xoJmAgcbuda5nJNOu1iyfwl8J02hnHNlb+k0NakB6rx3z5LF9cwgd
       </tags>
   </entry>
   <entry>
-    <title>生成式人工智能服务管理办法</title>
-    <url>/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="生成式人工智能服务管理办法"><a href="#生成式人工智能服务管理办法" class="headerlink" title="生成式人工智能服务管理办法"></a>生成式人工智能服务管理办法</h2><p>（征求意见稿）</p>
-<span id="more"></span>
-
-<p><strong>第一条</strong> 为促进生成式人工智能健康发展和规范应用，根据《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律、行政法规，制定本办法。</p>
-<p><strong>第二条</strong> 研发、利用生成式人工智能产品，面向中华人民共和国境内公众提供服务的，适用本办法。本办法所称生成式人工智能，是指基于算法、模型、规则生成文本、图片、声音、视频、代码等内容的技术。</p>
-<p><strong>第三条</strong> 国家支持人工智能算法、框架等基础技术的自主创新、推广应用、国际合作，鼓励优先采用安全可信的软件、工具、计算和数据资源。</p>
-<p><strong>第四条</strong> 提供生成式人工智能产品或服务应当遵守法律法规的要求，尊重社会公德、公序良俗，符合以下要求：</p>
-<p><strong>（一）利用生成式人工智能生成的内容应当体现社会主义核心价值观</strong>，不得含有颠覆国家政权、推翻社会主义制度，煽动分裂国家、破坏国家统一，宣扬恐怖主义、极端主义，宣扬民族仇恨、民族歧视，暴力、淫秽色情信息，虚假信息，以及可能扰乱经济秩序和社会秩序的内容。</p>
-<p>（二）在算法设计、训练数据选择、模型生成和优化、提供服务等过程中，采取措施防止出现种族、民族、信仰、国别、地域、性别、年龄、职业等歧视。</p>
-<p>（三）尊重知识产权、商业道德，不得利用算法、数据、平台等优势实施不公平竞争。</p>
-<p>（四）利用生成式人工智能生成的内容应当真实准确，采取措施防止生成虚假信息。</p>
-<p>（五）尊重他人合法利益，防止伤害他人身心健康，损害肖像权、名誉权和个人隐私，侵犯知识产权。禁止非法获取、披露、利用个人信息和隐私、商业秘密。</p>
-<p><strong>第五条</strong> 利用生成式人工智能产品提供聊天和文本、图像、声音生成等服务的组织和个人（以下称“提供者”），包括通过提供可编程接口等方式支持他人自行生成文本、图像、声音等，承担该产品生成内容生产者的责任；涉及个人信息的，承担个人信息处理者的法定责任，履行个人信息保护义务。</p>
-<p><strong>第六条</strong> 利用生成式人工智能产品向公众提供服务前，应当按照《具有舆论属性或社会动员能力的互联网信息服务安全评估规定》向国家网信部门申报安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。</p>
-<p><strong>第七条</strong> 提供者应当对生成式人工智能产品的预训练数据、优化训练数据来源的合法性负责。用于生成式人工智能产品的预训练、优化训练数据，应满足以下要求：</p>
-<p>（一）符合《中华人民共和国网络安全法》等法律法规的要求；</p>
-<p>（二）不含有侵犯知识产权的内容；</p>
-<p>（三）数据包含个人信息的，应当征得个人信息主体同意或者符合法律、行政法规规定的其他情形；</p>
-<p>（四）能够保证数据的真实性、准确性、客观性、多样性；</p>
-<p>（五）国家网信部门关于生成式人工智能服务的其他监管要求。</p>
-<p><strong>第八条</strong> 生成式人工智能产品研制中采用人工标注时，提供者应当制定符合本办法要求，清晰、具体、可操作的标注规则，对标注人员进行必要培训，抽样核验标注内容的正确性。</p>
-<p><strong>第九条</strong> 提供生成式人工智能服务应当按照《中华人民共和国网络安全法》规定，要求用户提供真实身份信息。</p>
-<p><strong>第十条</strong> 提供者应当明确并公开其服务的适用人群、场合、用途，采取适当措施防范用户过分依赖或沉迷生成内容。</p>
-<p><strong>第十一条</strong> 提供者在提供服务过程中，对用户的输入信息和使用记录承担保护义务。不得非法留存能够推断出用户身份的输入信息，不得根据用户输入信息和使用情况进行画像，不得向他人提供用户输入信息。法律法规另有规定的，从其规定。</p>
-<p><strong>第十二条</strong> 提供者不得根据用户的种族、国别、性别等进行带有歧视性的内容生成。</p>
-<p><strong>第十三条</strong> 提供者应当建立用户投诉接收处理机制，及时处置个人关于更正、删除、屏蔽其个人信息的请求；发现、知悉生成的文本、图片、声音、视频等侵害他人肖像权、名誉权、个人隐私、商业秘密，或者不符合本办法要求时，应当采取措施，停止生成，防止危害持续。</p>
-<p><strong>第十四条</strong> 提供者应当在生命周期内，提供安全、稳健、持续的服务，保障用户正常使用。</p>
-<p><strong>第十五条</strong> 对于运行中发现、用户举报的不符合本办法要求的生成内容，除采取内容过滤等措施外，应在3个月内通过模型优化训练等方式防止再次生成。</p>
-<p><strong>第十六条</strong> 提供者应当按照《互联网信息服务深度合成管理规定》对生成的图片、视频等内容进行标识。</p>
-<p><strong>第十七条</strong> 提供者应当根据国家网信部门和有关主管部门的要求，提供可以影响用户信任、选择的必要信息，包括预训练和优化训练数据的来源、规模、类型、质量等描述，人工标注规则，人工标注数据的规模和类型，基础算法和技术体系等。</p>
-<p><strong>第十八条</strong> 提供者应当指导用户科学认识和理性使用生成式人工智能生成的内容，不利用生成内容损害他人形象、名誉以及其他合法权益，不进行商业炒作、不正当营销。用户发现生成内容不符合本办法要求时，有权向网信部门或者有关主管部门举报。</p>
-<p><strong>第十九条</strong> 提供者发现用户利用生成式人工智能产品过程中违反法律法规，违背商业道德、社会公德行为时，包括从事网络炒作、恶意发帖跟评、制造垃圾邮件、编写恶意软件，实施不正当的商业营销等，应当暂停或者终止服务。</p>
-<p><strong>第二十条</strong> 提供者违反本办法规定的，由网信部门和有关主管部门按照《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律、行政法规的规定予以处罚。法律、行政法规没有规定的，由网信部门和有关主管部门依据职责给予警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停或者终止其利用生成式人工智能提供服务，并处一万元以上十万元以下罚款。构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。</p>
-<p><strong>第二十一条</strong> 本办法自2023年 月 日起实施。</p>
+    <title>折枝落梦</title>
+    <url>/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/</url>
+    <content><![CDATA[<p>​	我们都栖息在智慧之树下，尝试阅读世界。<span id="more"></span>从土中读、从雨中读，尔后化身白鸟，攀上枝头，终于衔住了至关重要的那一片树叶。</p>
+<p>​	曾经，我是世上唯一能够做梦的个体。在我的梦里，所有人入夜后都会进入梦乡，人们的脑海中飘出奇思异想。有些滚落地面，有些浮到天上。他将所有事物连接成一片万分夺目的网，三千世界之中，又有小小世界，所有命运，皆在此间沸腾。</p>
+<p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
+<p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
 ]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>Genshin</tag>
+      </tags>
   </entry>
 </search>
