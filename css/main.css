@@ -386,13 +386,29 @@ figure.highlight .table-container {
   padding: 2px 6px;
   position: absolute;
   transition: opacity 0.2s ease-in-out;
-  background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eee);
-  border: 1px solid #d5d5d5;
-  border-radius: 3px;
-  font-size: 0.8125em;
-  right: 4px;
-  top: 8px;
+  color: var(--highlight-foreground);
+  font-size: 14px;
+  right: 0;
+  top: 2px;
+}
+figure.highlight {
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.4);
+  padding-top: 30px;
+}
+figure.highlight .table-container {
+  border-radius: 0 0 5px 5px;
+}
+figure.highlight::before {
+  background: #fc625d;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  left: 12px;
+  margin-top: -20px;
+  position: absolute;
+  border-radius: 50%;
+  content: ' ';
+  height: 12px;
+  width: 12px;
 }
 code,
 kbd,
@@ -1250,35 +1266,6 @@ header.header {
 .use-motion .menu-item {
   visibility: hidden;
 }
-.book-mark-link {
-  border-bottom: 0;
-  position: fixed;
-  top: -10px;
-  transition: top 0.3s;
-  right: 30px;
-}
-@media (max-width: 991px) {
-  .book-mark-link {
-    right: 20px;
-  }
-}
-@media (max-width: 991px) {
-  .book-mark-link {
-    display: none;
-  }
-}
-.book-mark-link::before {
-  color: #222;
-  font-size: 32px;
-  line-height: 1;
-  content: '\f02e';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-}
-.book-mark-link:hover,
-.book-mark-link-fixed {
-  top: -2px;
-}
 .github-corner :hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -1675,12 +1662,6 @@ header.header {
   color: #f00;
   display: inline-block;
   margin: 0 5px;
-}
-.busuanzi-count #busuanzi_container_site_uv {
-  display: none;
-}
-.busuanzi-count #busuanzi_container_site_pv {
-  display: none;
 }
 @-moz-keyframes icon-animate {
   0%, 100% {
@@ -2130,9 +2111,6 @@ header.header {
 .post-meta-break {
   flex-basis: 100%;
   height: 0;
-}
-#busuanzi_container_page_pv {
-  display: none;
 }
 .post-nav {
   border-top: 1px solid #eee;
