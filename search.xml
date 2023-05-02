@@ -139,7 +139,7 @@
   <entry>
     <title>泠鸢Lora模型</title>
     <url>/2023/05/01/%E6%B3%A0%E9%B8%A2Lora%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<h1 id="海盐柠檬："><a href="#海盐柠檬：" class="headerlink" title="海盐柠檬："></a>海盐柠檬：</h1><span id="more"></span>
+    <content><![CDATA[<h1 id="海盐柠檬"><a href="#海盐柠檬" class="headerlink" title="海盐柠檬"></a>海盐柠檬</h1><span id="more"></span>
 
 <p><a href="https://www.123pan.com/s/k79SVv-iNzJ.html">网盘链接</a></p>
 <p>模型哈希：</p>
@@ -148,7 +148,17 @@
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">提示词：yousa,1girl,</span><br><span class="line"></span><br><span class="line">额外可选提示词：dress, hat , flat chest, red eyes, side ponytail,</span><br><span class="line"></span><br><span class="line">跑图建议使用DPM ++2M或DPM ++SDE算法</span><br><span class="line"></span><br><span class="line">权重根据模型不同可以在0.8-1之间调整</span><br></pre></td></tr></tbody></table></figure>
 
 <p>预览：</p>
-<p><a href="https://imgse.com/i/p98xeXQ"><img src="https://s1.ax1x.com/2023/05/01/p98xeXQ.png" alt="p98xeXQ.png"></a></p>
+<p><img src="https://pic2.imgdb.cn/item/644f70490d2dde57771d8fb1.png"></p>
+<hr>
+<h1 id="登门喜鹊（待优化）"><a href="#登门喜鹊（待优化）" class="headerlink" title="登门喜鹊（待优化）"></a>登门喜鹊（待优化）</h1><p><a href="https://www.123pan.com/s/k79SVv-zNzJ.html">网盘链接</a></p>
+<p>模型哈希：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">MD5: 2718f4f6bc711d3f551599ea873021ac</span><br><span class="line">SHA1: c594d413803aa7aa6c3b528b39250b81b076c22e</span><br><span class="line">SHA256: 1c5d5b5b831e86d5bd15780e29cdb3fad5a579eb2f5f8eee7c47f41b35cf6747</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">提示词：yousa,1girl,</span><br><span class="line"></span><br><span class="line">额外可选提示词：dress, side ponytail, flat chest, red eyes,</span><br><span class="line"></span><br><span class="line">跑图建议使用DPM ++2M或DPM ++SDE算法（感觉Euler a也还不错）</span><br><span class="line"></span><br><span class="line">权重根据模型不同可以在0.7-0.9之间调整；</span><br></pre></td></tr></tbody></table></figure>
+
+<p>预览：</p>
+<p><img src="https://pic2.imgdb.cn/item/645137590d2dde57775a4c76.jpg"></p>
+<p><img src="https://pic2.imgdb.cn/item/645137910d2dde57775a8c83.jpg"></p>
 ]]></content>
       <tags>
         <tag>novelai</tag>
