@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yousa.love/baidu_verify_codeva-7HVKQE4RXn.html</loc>
+    <loc>https://yousa.love/hexo/index.html</loc>
     
     <lastmod>2023-05-02</lastmod>
     
@@ -245,15 +245,6 @@
   </url>
   
   <url>
-    <loc>https://yousa.love/hexo/index.html</loc>
-    
-    <lastmod>2023-05-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yousa.love/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2023-05-01</lastmod>
@@ -417,13 +408,6 @@
   </url>
   
   <url>
-    <loc>https://yousa.love/tags/Movies/</loc>
-    <lastmod>2023-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yousa.love/tags/Genshin/</loc>
     <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -431,7 +415,7 @@
   </url>
   
   <url>
-    <loc>https://yousa.love/tags/Sherry/</loc>
+    <loc>https://yousa.love/tags/Movies/</loc>
     <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -439,6 +423,13 @@
   
   <url>
     <loc>https://yousa.love/tags/%E6%B3%A0%E9%B8%A2yousa/</loc>
+    <lastmod>2023-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousa.love/tags/Sherry/</loc>
     <lastmod>2023-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
