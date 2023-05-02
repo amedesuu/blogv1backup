@@ -112,6 +112,252 @@
       </tags>
   </entry>
   <entry>
+    <title>lora模型</title>
+    <url>/2023/05/01/lora%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h2 id="Stable-Diffusion使用"><a href="#Stable-Diffusion使用" class="headerlink" title="Stable Diffusion使用"></a>Stable Diffusion使用</h2><span id="more"></span>
+
+<ol>
+<li><p>点击拓展模型面板</p>
+<p><img src="https://pic2.imgdb.cn/item/644f86f70d2dde577736aeb7.jpg"></p>
+</li>
+<li><p>选择Lora，点击即可</p>
+<p><img src="https://pic2.imgdb.cn/item/644f87080d2dde577736c4b3.jpg"></p>
+</li>
+</ol>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><blockquote>
+<p>关于Dreambooth，想必大家都已经知道了。LoRA和Dreambooth的关系又是什么？为什么这两个东西都有正则化？</p>
+</blockquote>
+<p>简单来说，目前微调AI绘画模型是这样的：</p>
+<p><img src="https://pic2.imgdb.cn/item/644f871e0d2dde577736f299.jpg"></p>
+<p>区别只有一个：<font color="red">正则化图像</font></p>
+<p>没有正则化图像，他就叫直接微调，有正则化图像，他才叫Dreambooth。</p>
+<p>那LoRA又在哪里？LoRA的全称是：LoRA: Low-Rank Adaptation of Large Language Models、他是为了解决大语言模型太大了（以亿计的参数）才出现的，AI绘画是拿过来借用的。</p>
+<p>LoRA，他只是一种为了简化微调超级大模型需要巨多算力、传大模型麻烦而产生的算法，本质上，还是上面两种微调方法</p>
+<p>转自B站@<a href="https://space.bilibili.com/12566101/dynamic">秋葉aaaki</a></p>
+]]></content>
+      <tags>
+        <tag>novelai</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>泠鸢Lora模型</title>
+    <url>/2023/05/01/%E6%B3%A0%E9%B8%A2Lora%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h1 id="海盐柠檬："><a href="#海盐柠檬：" class="headerlink" title="海盐柠檬："></a>海盐柠檬：</h1><span id="more"></span>
+
+<p><a href="https://www.123pan.com/s/k79SVv-iNzJ.html">网盘链接</a></p>
+<p>模型哈希：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">MD5: 3bb7100f186fa28c720e928d31ddb740</span><br><span class="line">SHA1: b5551755b92393db4fce29b468e69c3d1c9dbfa9</span><br><span class="line">SHA256: 942f802f6122afb741f53b617f0a9cd1871c19ed3d2e0d4c98f2434eb12fecd0</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">提示词：yousa,1girl,</span><br><span class="line"></span><br><span class="line">额外可选提示词：dress, hat , flat chest, red eyes, side ponytail,</span><br><span class="line"></span><br><span class="line">跑图建议使用DPM ++2M或DPM ++SDE算法</span><br><span class="line"></span><br><span class="line">权重根据模型不同可以在0.8-1之间调整</span><br></pre></td></tr></tbody></table></figure>
+
+<p>预览：</p>
+<p><a href="https://imgse.com/i/p98xeXQ"><img src="https://s1.ax1x.com/2023/05/01/p98xeXQ.png" alt="p98xeXQ.png"></a></p>
+]]></content>
+      <tags>
+        <tag>novelai</tag>
+        <tag>泠鸢yousa</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora快速设置文字颜色</title>
+    <url>/2023/05/01/Typora%E5%BF%AB%E9%80%9F%E8%AE%BE%E7%BD%AE%E6%96%87%E5%AD%97%E9%A2%9C%E8%89%B2/</url>
+    <content><![CDATA[<h2 id="先安装AutoHotKey"><a href="#先安装AutoHotKey" class="headerlink" title="先安装AutoHotKey"></a>先安装AutoHotKey</h2><span id="more"></span>
+
+<p><a href="https://autohotkey.com/download/">官方下载</a></p>
+<p><a href="https://www.123pan.com/s/k79SVv-tNzJ.html">网盘</a></p>
+<h2 id="打开记事本，把如下内容复制粘贴进去："><a href="#打开记事本，把如下内容复制粘贴进去：" class="headerlink" title="打开记事本，把如下内容复制粘贴进去："></a>打开记事本，把如下内容复制粘贴进去：</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">; Typora</span><br><span class="line">; 快捷增加字体颜色</span><br><span class="line">; SendInput {Text} 解决中文输入法问题</span><br><span class="line">#IfWinActive ahk_exe Typora.exe</span><br><span class="line">{</span><br><span class="line">    ; Ctrl+Alt+O 橙色</span><br><span class="line">    ^!o::addFontColor("orange")</span><br><span class="line">    ; Ctrl+Alt+R 红色</span><br><span class="line">    ^!r::addFontColor("red")</span><br><span class="line">    ; Ctrl+Alt+B 浅蓝色</span><br><span class="line">    ^!b::addFontColor("cornflowerblue")</span><br><span class="line">}</span><br><span class="line">; 快捷增加字体颜色</span><br><span class="line">addFontColor(color){</span><br><span class="line">    clipboard := "" ; 清空剪切板</span><br><span class="line">    Send {ctrl down}c{ctrl up} ; 复制</span><br><span class="line">    SendInput {TEXT}&lt;font color='%color%'&gt;</span><br><span class="line">    SendInput {ctrl down}v{ctrl up} ; 粘贴</span><br><span class="line">    If(clipboard = ""){</span><br><span class="line">        SendInput {TEXT}&lt;/font&gt; ; Typora 在这不会自动补充</span><br><span class="line">    }else{</span><br><span class="line">        SendInput {TEXT}&lt;/ ; Typora中自动补全标签</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="将文件保存为ahk后缀的文件"><a href="#将文件保存为ahk后缀的文件" class="headerlink" title="将文件保存为ahk后缀的文件"></a>将文件保存为ahk后缀的文件</h2><p>如<code>TyporaHotKey.ahk</code></p>
+<h2 id="双击运行"><a href="#双击运行" class="headerlink" title="双击运行"></a>双击运行</h2><h2 id="在Typora软件里就可以使用快捷键："><a href="#在Typora软件里就可以使用快捷键：" class="headerlink" title="在Typora软件里就可以使用快捷键："></a>在Typora软件里就可以使用快捷键：</h2><p>如按<code>Ctrl+Alt+O</code>添加橙色，<code>Ctrl+Alt+R</code> 红色，按<code>Ctrl+\</code>取消样式！</p>
+<p>也可以右键 <code>MyHotkeyScript.ahk</code> 脚本文件，点击<code>Compile Script</code>编译脚本成exe程序，就可以不用下载<code>Autohotkey</code>在其他电脑上运行了。</p>
+<p>上面脚本只写了橙色、红色、浅蓝三种颜色，你可以按需照例增加其他颜色或快捷方式！</p>
+<h2 id="加入到开机自启动"><a href="#加入到开机自启动" class="headerlink" title="加入到开机自启动"></a>加入到开机自启动</h2>]]></content>
+  </entry>
+  <entry>
+    <title>Python学习笔记</title>
+    <url>/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p><strong>笔记</strong></p>
+<span id="more"></span>
+
+<h1 id="Python3-基础语法"><a href="#Python3-基础语法" class="headerlink" title="Python3 基础语法"></a>Python3 基础语法</h1><h2 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h2><p>默认情况下，Python 3 源码文件以 <strong>UTF-8</strong> 编码，所有字符串都是<code>unicode</code>字符串。 当然你也可以为源码文件指定不同的编码：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: cp-1252 -*-</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>上述定义允许在源文件中使用 Windows-1252 字符集中的字符编码，对应适合语言为保加利亚语、白罗斯语、马其顿语、俄语、塞尔维亚语。</p>
+<hr>
+<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><ul>
+<li>第一个字符必须是字母表中字母或下划线 <strong>_</strong> 。</li>
+<li>标识符的其他的部分由字母、数字和下划线组成。</li>
+<li>标识符对大小写敏感。</li>
+</ul>
+<p>在 Python 3 中，可以用中文作为变量名，非 ASCII 标识符也是允许的了。</p>
+<hr>
+<h2 id="python保留字"><a href="#python保留字" class="headerlink" title="python保留字"></a>python保留字</h2><p>保留字即关键字，我们不能把它们用作任何标识符名称。Python 的标准库提供了一个 keyword 模块，可以输出当前版本的所有关键字：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> keyword</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>keyword.kwlist</span><br><span class="line">[<span class="string">'False'</span>, <span class="string">'None'</span>, <span class="string">'True'</span>, <span class="string">'and'</span>, <span class="string">'as'</span>, <span class="string">'assert'</span>, <span class="string">'break'</span>, <span class="string">'class'</span>, <span class="string">'continue'</span>, <span class="string">'def'</span>, <span class="string">'del'</span>, <span class="string">'elif'</span>, <span class="string">'else'</span>, <span class="string">'except'</span>, <span class="string">'finally'</span>, <span class="string">'for'</span>, <span class="string">'from'</span>, <span class="string">'global'</span>, <span class="string">'if'</span>, <span class="string">'import'</span>, <span class="string">'in'</span>, <span class="string">'is'</span>, <span class="string">'lambda'</span>, <span class="string">'nonlocal'</span>, <span class="string">'not'</span>, <span class="string">'or'</span>, <span class="string">'pass'</span>, <span class="string">'raise'</span>, <span class="string">'return'</span>, <span class="string">'try'</span>, <span class="string">'while'</span>, <span class="string">'with'</span>, <span class="string">'yield'</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>Python中单行注释以 <strong>#</strong> 开头</p>
+<p>多行注释可以用多个 <strong>#</strong> 号，还有 <code>'''</code> 和 <code>"""</code>：</p>
+<hr>
+<h2 id="行与缩进"><a href="#行与缩进" class="headerlink" title="行与缩进"></a>行与缩进</h2><p>python最具特色的就是使用缩进来表示代码块，不需要使用大括号 <strong>{}</strong> 。</p>
+<p>缩进的空格数是可变的，但是同一个代码块的语句必须包含相同的缩进空格数。</p>
+<p>程序由于缩进不一致，执行后会出现类似以下错误：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">IndentationError: unindent does not match any outer indentation level</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="多行语句"><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h2><p>Python 通常是一行写完一条语句，但如果语句很长，我们可以使用反斜杠来实现多行语句，例如：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">total = item_one + \</span><br><span class="line">        item_two + \</span><br><span class="line">        item_three</span><br></pre></td></tr></tbody></table></figure>
+
+<p>在 [], {}, 或 () 中的多行语句，不需要使用反斜杠 ****，例如：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">total = [<span class="string">'item_one'</span>, <span class="string">'item_two'</span>, <span class="string">'item_three'</span>,</span><br><span class="line">        <span class="string">'item_four'</span>, <span class="string">'item_five'</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="数字-Number-类型"><a href="#数字-Number-类型" class="headerlink" title="数字(Number)类型"></a>数字(Number)类型</h2><p>python中数字有四种类型：整数、布尔型、浮点数和复数。</p>
+<ul>
+<li><strong>int</strong> (整数), 如 1, 只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</li>
+<li><strong>bool</strong> (布尔), 如 True。</li>
+<li><strong>float</strong> (浮点数), 如 1.23、3E-2</li>
+<li><strong>complex</strong> (复数), 如 1 + 2j、 1.1 + 2.2j</li>
+</ul>
+<hr>
+<h2 id="字符串-String"><a href="#字符串-String" class="headerlink" title="字符串(String)"></a>字符串(String)</h2><ul>
+<li>Python 中单引号 <strong>‘</strong> 和双引号 <strong>“</strong> 使用完全相同。</li>
+<li>使用三引号(<strong>‘’’</strong> 或 <strong>“””</strong>)可以指定一个多行字符串。</li>
+<li>转义符 <code>\</code>。</li>
+<li>反斜杠可以用来转义，使用 <code>r</code> 可以让反斜杠不发生转义。 如 <code>r"this is a line with \n"</code> 则 <strong>\n</strong> 会显示，并不是换行。</li>
+<li>按字面意义级联字符串，如 <code>"this " "is " "string"</code> 会被自动转换为 <code>this is string</code>。</li>
+<li>字符串可以用 <strong>+</strong> 运算符连接在一起，用 * 运算符重复。</li>
+<li>Python 中的字符串有两种索引方式，从左往右以 <strong>0</strong> 开始，从右往左以 <strong>-1</strong> 开始。</li>
+<li>Python 中的字符串不能改变。</li>
+<li>Python 没有单独的字符类型，一个字符就是长度为 1 的字符串。</li>
+<li>字符串的截取的语法格式如下：<strong>变量[头下标:尾下标:步长]</strong></li>
+</ul>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">word = <span class="string">'字符串'</span></span><br><span class="line">sentence = <span class="string">"这是一个句子。"</span></span><br><span class="line">paragraph = <span class="string">"""这是一个段落，</span></span><br><span class="line"><span class="string">可以由多行组成"""</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>实例：</strong></p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">str</span>=<span class="string">'123456789'</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>)                 <span class="comment"># 输出字符串</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>[<span class="number">0</span>:-<span class="number">1</span>])           <span class="comment"># 输出第一个到倒数第二个的所有字符</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>[<span class="number">0</span>])              <span class="comment"># 输出字符串第一个字符</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>[<span class="number">2</span>:<span class="number">5</span>])            <span class="comment"># 输出从第三个开始到第六个的字符（不包含）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>[<span class="number">2</span>:])             <span class="comment"># 输出从第三个开始后的所有字符</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>[<span class="number">1</span>:<span class="number">5</span>:<span class="number">2</span>])          <span class="comment"># 输出从第二个开始到第五个且每隔一个的字符（步长为2）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span> * <span class="number">2</span>)             <span class="comment"># 输出字符串两次</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span> + <span class="string">'你好'</span>)         <span class="comment"># 连接字符串</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span>(<span class="string">'------------------------------'</span>)</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span>(<span class="string">'hello\nrunoob'</span>)      <span class="comment"># 使用反斜杠(\)+n转义特殊字符</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">r'hello\nrunoob'</span>)     <span class="comment"># 在字符串前面添加一个 r，表示原始字符串，不会发生转义</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>这里的 r 指 raw，即 raw string，会自动将反斜杠转义，例如：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">print</span>(<span class="string">'\n'</span>)       <span class="comment"># 输出空行</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">print</span>(<span class="string">r'\n'</span>)      <span class="comment"># 输出 \n</span></span><br><span class="line">\n</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<p><font color="cornflowerblue">以上实例输出结果：</font></p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="number">123456789</span></span><br><span class="line"><span class="number">12345678</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="number">345</span></span><br><span class="line"><span class="number">3456789</span></span><br><span class="line"><span class="number">24</span></span><br><span class="line"><span class="number">123456789123456789</span></span><br><span class="line"><span class="number">123456789</span>你好</span><br><span class="line">------------------------------</span><br><span class="line">hello</span><br><span class="line">runoob</span><br><span class="line">hello\nrunoob</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="空行"><a href="#空行" class="headerlink" title="空行"></a>空行</h2><p>函数之间或类的方法之间用空行分隔，表示一段新的代码的开始。类和函数入口之间也用一行空行分隔，以突出函数入口的开始。</p>
+<p>空行与代码缩进不同，空行并不是 Python 语法的一部分。书写时不插入空行，Python 解释器运行也不会出错。但是空行的作用在于分隔两段不同功能或含义的代码，便于日后代码的维护或重构。</p>
+<p><strong>记住：</strong>空行也是程序代码的一部分。</p>
+<hr>
+<h2 id="等待用户输入"><a href="#等待用户输入" class="headerlink" title="等待用户输入"></a>等待用户输入</h2><p>执行下面的程序在按回车键后就会等待用户输入：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">input</span>(<span class="string">"\n\n按下 enter 键后退出。"</span>)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>以上代码中 ，<code>\n\n</code> 在结果输出前会输出两个新的空行。一旦用户按下 <code>enter</code> 键时，程序将退出。</p>
+<hr>
+<h2 id="同一行显示多条语句"><a href="#同一行显示多条语句" class="headerlink" title="同一行显示多条语句"></a>同一行显示多条语句</h2><p>Python 可以在同一行中使用多条语句，语句之间使用分号 <strong><code>;</code></strong> 分割，以下是一个简单的实例：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys; x = <span class="string">'runoob'</span>; sys.stdout.write(x + <span class="string">'\n'</span>)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>使用脚本执行以上代码，输出结果为：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">runoob</span><br></pre></td></tr></tbody></table></figure>
+
+<p>使用交互式命令行执行，输出结果为：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> sys; x = <span class="string">'runoob'</span>; sys.stdout.write(x + <span class="string">'\n'</span>)</span><br><span class="line">runoob</span><br><span class="line"><span class="number">7</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>此处的 7 表示字符数，<code>runoob</code> 有 6 个字符，<code>\n</code> 表示一个字符，加起来 <strong>7</strong> 个字符。</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> sys</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>sys.stdout.write(<span class="string">" hi "</span>)    <span class="comment"># hi 前后各有 1 个空格</span></span><br><span class="line"> hi <span class="number">4</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="多个语句构成代码组"><a href="#多个语句构成代码组" class="headerlink" title="多个语句构成代码组"></a>多个语句构成代码组</h2><p>缩进相同的一组语句构成一个代码块，我们称之代码组。</p>
+<p>像if、while、def和class这样的复合语句，首行以关键字开始，以冒号( : )结束，该行之后的一行或多行代码构成代码组。</p>
+<p>我们将首行及后面的代码组称为一个子句(clause)。</p>
+<p>如下实例：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> expression : </span><br><span class="line">   suite</span><br><span class="line"><span class="keyword">elif</span> expression : </span><br><span class="line">   suite </span><br><span class="line"><span class="keyword">else</span> : </span><br><span class="line">   suite</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="print-输出"><a href="#print-输出" class="headerlink" title="print 输出"></a>print 输出</h2><p><strong>print</strong> 默认输出是换行的，如果要实现不换行需要在变量末尾加上 **<code>end=""</code>**：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">x=<span class="string">"a"</span></span><br><span class="line">y=<span class="string">"b"</span></span><br><span class="line"><span class="comment"># 换行输出</span></span><br><span class="line"><span class="built_in">print</span>( x )</span><br><span class="line"><span class="built_in">print</span>( y )</span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span>(<span class="string">'---------'</span>)</span><br><span class="line"><span class="comment"># 不换行输出</span></span><br><span class="line"><span class="built_in">print</span>( x, end=<span class="string">" "</span> )</span><br><span class="line"><span class="built_in">print</span>( y, end=<span class="string">" "</span> )</span><br><span class="line"><span class="built_in">print</span>()</span><br></pre></td></tr></tbody></table></figure>
+
+<p>以上实例执行结果为：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">a</span><br><span class="line">b</span><br><span class="line">---------</span><br><span class="line">a b</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="import-与-from…import"><a href="#import-与-from…import" class="headerlink" title="import 与 from…import"></a>import 与 from…import</h2><p>在 python 用 <code>import</code> 或者 <code>from...import</code> 来导入相应的模块。</p>
+<p>将整个模块(somemodule)导入，格式为： <code>import somemodule</code></p>
+<p>从某个模块中导入某个函数,格式为： <code>from somemodule import somefunction</code></p>
+<p>从某个模块中导入多个函数,格式为： <code>from somemodule import firstfunc, secondfunc, thirdfunc</code></p>
+<p>将某个模块中的全部函数导入，格式为： <code>from somemodule import *</code></p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(<span class="string">'================Python import mode=========================='</span>)</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'命令行参数为:'</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> sys.argv:</span><br><span class="line">    <span class="built_in">print</span> (i)</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'\n python 路径为'</span>,sys.path)</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sys <span class="keyword">import</span> argv,path  <span class="comment">#  导入特定的成员</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">print</span>(<span class="string">'================python from import==================================='</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">'path:'</span>,path) <span class="comment"># 因为已经导入path成员，所以此处引用时不需要加sys.path</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h2 id="命令行参数"><a href="#命令行参数" class="headerlink" title="命令行参数"></a>命令行参数</h2><p>很多程序可以执行一些操作来查看一些基本信息，Python可以使用-h参数查看各参数帮助信息：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">python -h</span><br><span class="line">usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...</span><br><span class="line">Options <span class="keyword">and</span> arguments (<span class="keyword">and</span> corresponding environment variables):</span><br><span class="line">-c cmd : program passed <span class="keyword">in</span> <span class="keyword">as</span> string (terminates option <span class="built_in">list</span>)</span><br><span class="line">-d     : debug output <span class="keyword">from</span> parser (also PYTHONDEBUG=x)</span><br><span class="line">-E     : ignore environment variables (such <span class="keyword">as</span> PYTHONPATH)</span><br><span class="line">-h     : <span class="built_in">print</span> this <span class="built_in">help</span> message <span class="keyword">and</span> exit</span><br><span class="line"></span><br><span class="line">[ etc. ]</span><br></pre></td></tr></tbody></table></figure>
+
+<p>我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用如下：</p>
+<p>Python 提供了 <strong>getopt</strong> 模块来获取命令行参数。</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">python test.py arg1 arg2 arg3</span><br></pre></td></tr></tbody></table></figure>
+
+<p>Python 中也可以所用 <strong>sys</strong> 的 <strong>sys.argv</strong> 来获取命令行参数：</p>
+<ul>
+<li><strong><code>sys.argv</code></strong> 是命令行参数列表。</li>
+<li><strong><code>len(sys.argv)</code></strong> 计算命令行参数个数。</li>
+</ul>
+<p>注：<code>sys.argv[0]</code> 表示脚本名。</p>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>test.py 文件代码如下：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">'参数个数为:'</span>, <span class="built_in">len</span>(sys.argv), <span class="string">'个参数。'</span>)</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'参数列表:'</span>, <span class="built_in">str</span>(sys.argv))</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'脚本名:'</span>, <span class="built_in">str</span>(sys.argv[<span class="number">0</span>]))</span><br></pre></td></tr></tbody></table></figure>
+
+<p>执行以上代码，输出结果为：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">python3 test.py arg1 arg2 arg3</span><br><span class="line">参数个数为: <span class="number">4</span> 个参数。</span><br><span class="line">参数列表: [<span class="string">'test.py'</span>, <span class="string">'arg1'</span>, <span class="string">'arg2'</span>, <span class="string">'arg3'</span>]</span><br><span class="line">脚本名: test.py</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="getopt-模块"><a href="#getopt-模块" class="headerlink" title="getopt 模块"></a>getopt 模块</h3><p>getopt 模块是专门处理命令行参数的模块，用于获取命令行选项和参数，也就是 <code>sys.argv</code>。命令行选项使得程序的参数更加灵活。支持短选项模式 <code>-</code> 和长选项模式 <code>--</code>。</p>
+<p>该模块提供了两个方法及一个异常处理来解析命令行参数。</p>
+<h4 id="getopt-getopt-方法"><a href="#getopt-getopt-方法" class="headerlink" title="getopt.getopt 方法"></a>getopt.getopt 方法</h4><p>getopt.getopt 方法用于解析命令行参数列表，语法格式如下：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">getopt.getopt(args, options[, long_options])</span><br></pre></td></tr></tbody></table></figure>
+
+<p>方法参数说明：</p>
+<ul>
+<li><strong>args</strong>: 要解析的命令行参数列表。</li>
+<li><strong>options</strong>: 以字符串的格式定义，<strong>options</strong> 后的冒号 <strong>:</strong> 表示该选项必须有附加的参数，不带冒号表示该选项不附加参数。</li>
+<li><strong>long_options</strong>: 以列表的格式定义，<strong>long_options</strong> 后的等号 <strong>=</strong> 表示如果设置该选项，必须有附加的参数，否则就不附加参数。</li>
+</ul>
+<p>该方法返回值由两个元素组成: 第一个是 <strong>(option, value)</strong> 元组的列表。 第二个是参数列表，包含那些没有 <strong>-</strong> 或 <strong>–</strong> 的参数。</p>
+<p>接下来我们定义一个 site() 函数，然后通过命令行输入站点名称 <strong>name</strong> 和网址 <strong>url</strong>，可以用缩写 <strong>n</strong> 和 <strong>u</strong>:</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> getopt</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">site</span>():</span><br><span class="line">    name = <span class="literal">None</span></span><br><span class="line">    url = <span class="literal">None</span></span><br><span class="line"> </span><br><span class="line">    argv = sys.argv[<span class="number">1</span>:]</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        opts, args = getopt.getopt(argv, <span class="string">"n:u:"</span>)  <span class="comment"># 短选项模式</span></span><br><span class="line">     </span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">"Error"</span>)</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">for</span> opt, arg <span class="keyword">in</span> opts:</span><br><span class="line">        <span class="keyword">if</span> opt <span class="keyword">in</span> [<span class="string">'-n'</span>]:</span><br><span class="line">            name = arg</span><br><span class="line">        <span class="keyword">elif</span> opt <span class="keyword">in</span> [<span class="string">'-u'</span>]:</span><br><span class="line">            url = arg</span><br><span class="line">     </span><br><span class="line"> </span><br><span class="line">    <span class="built_in">print</span>( name +<span class="string">" "</span> + url)</span><br><span class="line"> </span><br><span class="line">site()</span><br></pre></td></tr></tbody></table></figure>
+
+<p>测试以上代码，命令行中输入：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">python3 test.py -n yousa -u yousa.love</span><br></pre></td></tr></tbody></table></figure>
+
+<p>输出结果为：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">yousa yousa.love</span><br></pre></td></tr></tbody></table></figure>
+
+<p>以下实例演示长选项模式的使用：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> getopt</span><br><span class="line"> </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">site</span>():</span><br><span class="line">    name = <span class="literal">None</span></span><br><span class="line">    url = <span class="literal">None</span></span><br><span class="line"> </span><br><span class="line">    argv = sys.argv[<span class="number">1</span>:]</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        opts, args = getopt.getopt(argv, <span class="string">"n:u:"</span>,  </span><br><span class="line">                                   [<span class="string">"name="</span>,</span><br><span class="line">                                    <span class="string">"url="</span>])  <span class="comment"># 长选项模式</span></span><br><span class="line">     </span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">"Error"</span>)</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">for</span> opt, arg <span class="keyword">in</span> opts:</span><br><span class="line">        <span class="keyword">if</span> opt <span class="keyword">in</span> [<span class="string">'-n'</span>, <span class="string">'--name'</span>]:</span><br><span class="line">            name = arg</span><br><span class="line">        <span class="keyword">elif</span> opt <span class="keyword">in</span> [<span class="string">'-u'</span>, <span class="string">'--url'</span>]:</span><br><span class="line">            url = arg</span><br><span class="line">     </span><br><span class="line"> </span><br><span class="line">    <span class="built_in">print</span>( name + <span class="string">" "</span> + url)</span><br><span class="line"> </span><br><span class="line">site()</span><br></pre></td></tr></tbody></table></figure>
+
+<p>测试以上代码，命令行中输入：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">python3 test.py -n yousa -u yousa.love</span><br></pre></td></tr></tbody></table></figure>
+
+<p>输出结果为：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">yousa yousa.love</span><br></pre></td></tr></tbody></table></figure>
+
+<p>另外一个方法是 <code>getopt.gnu_getopt</code>，用到的情况比较少，这里不多做介绍。</p>
+<h3 id="Exception-getopt-GetoptError"><a href="#Exception-getopt-GetoptError" class="headerlink" title="Exception getopt.GetoptError"></a>Exception getopt.GetoptError</h3><p>在没有找到参数列表，或选项的需要的参数为空时会触发该异常。</p>
+<p>异常的参数是一个字符串，表示错误的原因。属性 <strong>msg</strong> 和 <strong>opt</strong> 为相关选项的错误信息。</p>
+<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><p>假定我们创建这样一个脚本，可以通过命令行向脚本文件传递两个文件名，同时我们通过另外一个选项查看脚本的使用。脚本使用方法如下：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">usage: test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>test.py 文件代码如下所示：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys, getopt</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">argv</span>):</span><br><span class="line">   inputfile = <span class="string">''</span></span><br><span class="line">   outputfile = <span class="string">''</span></span><br><span class="line">   <span class="keyword">try</span>:</span><br><span class="line">      opts, args = getopt.getopt(argv,<span class="string">"hi:o:"</span>,[<span class="string">"ifile="</span>,<span class="string">"ofile="</span>])</span><br><span class="line">   <span class="keyword">except</span> getopt.GetoptError:</span><br><span class="line">      <span class="built_in">print</span> (<span class="string">'test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;'</span>)</span><br><span class="line">      sys.exit(<span class="number">2</span>)</span><br><span class="line">   <span class="keyword">for</span> opt, arg <span class="keyword">in</span> opts:</span><br><span class="line">      <span class="keyword">if</span> opt == <span class="string">'-h'</span>:</span><br><span class="line">         <span class="built_in">print</span> (<span class="string">'test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;'</span>)</span><br><span class="line">         sys.exit()</span><br><span class="line">      <span class="keyword">elif</span> opt <span class="keyword">in</span> (<span class="string">"-i"</span>, <span class="string">"--ifile"</span>):</span><br><span class="line">         inputfile = arg</span><br><span class="line">      <span class="keyword">elif</span> opt <span class="keyword">in</span> (<span class="string">"-o"</span>, <span class="string">"--ofile"</span>):</span><br><span class="line">         outputfile = arg</span><br><span class="line">   <span class="built_in">print</span> (<span class="string">'输入的文件为：'</span>, inputfile)</span><br><span class="line">   <span class="built_in">print</span> (<span class="string">'输出的文件为：'</span>, outputfile)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">   main(sys.argv[<span class="number">1</span>:])</span><br></pre></td></tr></tbody></table></figure>
+
+<p>执行以上代码，输出结果为：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">python3 test.py -h</span><br><span class="line">usage: test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;</span><br><span class="line"></span><br><span class="line">python3 test.py -i inputfile -o outputfile</span><br><span class="line">输入的文件为： inputfile</span><br><span class="line">输出的文件为： outputfile</span><br></pre></td></tr></tbody></table></figure>
+
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>pdf测试</title>
     <url>/2023/05/01/pdf%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<p>测试</p>
@@ -685,7 +931,11 @@
 <li><p>获取APP ID、APP KEY</p>
 </li>
 <li><p>在主题配置文件中修改</p>
-<figure class="highlight yml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Changyan</span></span><br><span class="line"><span class="comment"># For more information: https://changyan.kuaizhan.com</span></span><br><span class="line"><span class="attr">changyan:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">appid:</span> </span><br><span class="line">  <span class="attr">appkey:</span> </span><br><span class="line">  <span class="comment"># Show comments count</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<figure class="highlight yml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Changyan</span></span><br><span class="line"><span class="comment"># For more information: https://changyan.kuaizhan.com</span></span><br><span class="line"><span class="attr">changyan:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">appid:</span> </span><br><span class="line">  <span class="attr">appkey:</span> </span><br><span class="line">  <span class="comment"># Show comments count</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+<li><p>是否开启评论：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">在文章头部添加</span><br><span class="line">comments: false</span><br></pre></td></tr></tbody></table></figure></li>
 </ol>
 <h1 id="来必力"><a href="#来必力" class="headerlink" title="来必力"></a>来必力</h1><ol>
 <li><p>在<a href="https://livere.com/">来必力</a>的官网上注册账号。</p>
@@ -807,9 +1057,6 @@
 <h3 id="为什么GPT-2能够适应多任务？"><a href="#为什么GPT-2能够适应多任务？" class="headerlink" title="为什么GPT-2能够适应多任务？"></a>为什么GPT-2能够适应多任务？</h3><p>在训练的时候，采用了多任务的方式，不单单只在一个任务上进行学习，而是多个，每一个任务都要保证其损失函数能收敛，不同任务是共享主题Transformer参数的，进一步提升模型的泛化能力，因此在即使没有fine-tuning的情况下，依旧有非常不错的表现。</p>
 <p>在fine-tuning有监督任务阶段，GPT-2根据给定输入与任务来做出相应的输出，那么模型就可以表示成下面这个样子：<br>$$<br>p(output∣input,task)<br>$$<br>例如可以直接输入：(“自然语言处理”, 中文翻译)来得到我们需要的结果(“Nature Language Processing”)，因此提出的模型可以将机器翻译，自然语言推理，语义分析，关系提取等10类任务统一建模为一个分类任务，而不误再为每一个子任务单独设计一个模型。</p>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>GPT</tag>
       </tags>
@@ -819,7 +1066,7 @@
     <url>/2023/04/01/GPT-3QQbot/</url>
     <content><![CDATA[<div id="hbe-security">
   <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog.">
     <label for="pass">Please enter the password to read the blog.</label>
     <div class="bottom-line"></div>
   </div>
@@ -827,7 +1074,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z1WJGd8vS17/nCx+vHuFW9QmwA+z7X9qVbVyuKcSMoR+ijwjy4s4z2ijlJA1f6MaS3lcT3vahlHRkozJ5o/lKZ5osz6OaYM1Albx/ivkSo5HpgvVXYmuRWAU8fa4F3+Qagn2kNEMPq+iENkieRXWzkl1n5VVuZuXfzrbP6GOLqMNQ0zBZP1AA3s4PVDMUQNCx7ivMQnfvKXLLgXp2BvuId6cwoxhs4oQcxid8Y85FZ2gaOg3o1+8O45tr++DMS6eD2M4DkYB90oH4Fi2WEtavwwICwn8FICIsaLIgOUZZ5L/gmFx10EET4vAVAbplP/d0UqZamGbEqoR4kkVRB1TPKpOqHXBpLDtSHD0Hbl5VCmOLO7Y6xn2iiTRMjencIMYQZ8ANzMykF40NwBgE3pAlUGHzudg9ZBSDLz8SRVaK4Y2pGzql9wUlztqzed2cE8hCLhDNzpiaC/RcJYO3a2m3Uv/EsO9zg8Iz2zfYPjWMLMucP5BCkRIW3P4cjko903SrNWMdgj0We3pNXMfZ1WAtGEPwejRV//HlH+9fG32pcTZu9uN3b3KJQZeXkCrMzYlMTgMJ9q8u1YUQWPvpF3UBIREwdPhFX0dAeH68sVU4Mq1OXr97aGbnkkqrQnO2D8DSX/9vl3QMlzhhsR0m9SnMqRlO3A83kecEMgDWdYf04faoHxFRnItAyxRVkTT+IEMze+0Wb2Az669r9b10qSzFXFwPIxB6UrhkQXOq/k1SrWiX77hLSqLcUaOEP1NF4iqWGapWRwJUpi352UzHOHwomJz9Aerg1WMIALK7LA696UYMCDHcP9nY0xg34YWwYCpe/5KoV4RVguJb4AOZRCjahNGDPL2vDTyWIuYfCasnZlteD1Wkgp3sY7LYPgPqJmMvn0v9tDPU4sirkBR3xWl4K0jonO38pbO3EoINbkO84myJKEBH9zoMhKoP4/crfZdol3A27O5eHnBpWDlk03s81AD8Z6lnAguWTMUI/yLbqtTaqwgPOUFq3WKKmYHq32BG/6Fvo0IsmdGYW0Inomb3/Ke/+JwJbkOc8NizjN8mXonR05s07Jm9UPh1bt9iXEFcLtOWtV/wJ9TVGNQ1SWfwGkrFj0GWuz4hxAkHqYrKat3Jhr77wSLG8luZ3+LkKqVQZlY8utyi2L7IOKlFwAJQRGG8DBHTxS0oeaC+JsnwyGa1tgvw+IKQ/QyOrcTi5pG3K1fM0YCnZog7XwlHqy+koOwzNA4W3dbyADuqf1ipgt8fjMHLlw4MOopc2GXcsQ8OlT77irkhp9RYRtJteD+ze15m4wwGkzjqnnMHecwSEyCJ2RbH8hi8Vf7A7BFqVhroi2prOutjkls85Ugp2WQTEShV5phD5uJE6P6Qjzf8bCDpY8unYSGCTxC4AhPKemNMe38VXFXzWf+0GMoacxUo1F6OKQVUip8c4G+QKPou5f3JQoZvMe5UjIjpHE/j48bbrM8ILJSHZyjSzpPTQq6ZmKT/QTeQQhBxtT3BFUDDET76oKmqAWaY0ayrcdos19TctbZ+9DwsQGdxGgFcAjUb5Nht5RdWjwWl64NjiEq0jDBQprOrNVizm1I52bP0tOCMTCMRjq1Hmr7Fm5Qf9yuwUfpVeFajDkpHO0vP2EKxP3ALuFmzV6CTSpV9pqEySB4h+pPWHNVytJdj2BVtgmi2lC9UDCVSwRchKYGc1GvAKUvYTrgiK5fmvwO4ys5e01YtqjzGaJLcvS/1wlybL5DvKUpwY0WTO1hLLPFdfqQQTgXaWTe1VtUkPmMBOYOncwTwDZHnrTgh8533S59tsqnaMq3y8S8CuWGcvJlxyZQK+wp0OPNcpAblfj+oZ+hTq1bK2H+B0IrvfZL6V2VNT8hk3rpXd19N8fH4dIzCwheagAhSrk9/Wd0XaUmdnwf1n3WZp21yIamCyC2kdGTBmg9FuXhtiUUr6Nbb50oWwcPWTiX2W6hfrnEp6A05+PBJKVGdomIqGywpnCtRCYZC3/1tnW+Gq0ej46WMiQErUARWuAP0OV/WopgZ5HCacAFIN54Ol7EBD7IM9Npuj338Dk5rGikuUx2mRUbzlucT+bN/6HRnM7bBVWlcyHzrAZRpLxWETuaiESWadIZlwb3T8p1zmg/bNL2U+CdKrVXq5WfplrCcjuyRX9N5kntfkgt9qptmSPnz26Ky7Nik4UPGT9tSx3KcrH3v7elqaiEZrLCJN8DU7YHQ5QMB7YLI3QYkvANCrZ1aJpnaa/hhIuOafjFEzIehIBNGbJ59ssuAKKf+7JN9M8KvYpyVTht2mAOnKyp17c94ffLFXANBOj4U4iYi8hg3R4dXiaXpg2Ye2V3N52LijhSuJscKmBrkiDpylUEBPiRpWQs5spSP6cxdRDA0/ducSZv7EoiYhzycT+eUCnGhiNVoL9fEd0nNDUyHy9NFhELUkrRzgquph2RPh+BI1syv1SOGIT5/5WgzWpJlEFPlnMm2Ouurmj1qhMoVBBzsAbTe8NVqD+JCOIe2/SxHEn+DFMReQcuxVxehdYNefXLIuubMS2XF90+3mIqjS0j8DeF+T3I5ANeeBsjkccAmWGI2U1DND0bYNwY3E+0rS2KEEsbbOcMAupvs5YRxiS8OL+hehvmWYPPs87upsyn/P/P3YH9RNWONo8xb4EsEHqgS+JMfDx/IihBcw9Bw5WoWPLZSAKs0vtevIkJwfDS0cL5Cgsw4CEikfyzijzmyuNbhtHla4Zq8df16Ie8oF7QOE/qoedI33vJXzi8imk4BczXuHpWE5ndIUc/KBBdeqUXBf/aASgb3ZT8nUzBlAbQDtXpkFvWrGaXRpk1IjYz275vcws1NSTMy4TIAb8WipVxO8wGl4Q5ClYaocyn+gKMZ59Tp5y8IiSSWN+zTiu4PKOMvlMg4+lYbnqBaL7m0QZjjUA8L8haw6ApwekYjM1PoVMDZGxgcPBlmFu9CF/dojDVOpMR+2cId3UlIXOFYiNaos4Qnv9zKXshwNITI420cXPt36XtScDKYZ74DibLoQS4tjbMj1jg2WD8b8X8otTarBYVfMEwYPZkftY6P+0N290vjrdRTn85wdb9SVUQ+WgJvlbSJGg/SDScEZB8PNJfBf0tS0GxUFE/yuLGMchH1xJHEsuklJsHh/K3cd4yzsx9VSv6cKTp4XyWTL1FzcjlHFO+sFiAQzw2XcqKYewiWN4+e2cNbguyIN7sPHUmZdPJ77HWjVOKdpEOVXu3384K8B/4ypkV2aw74+RLFiDHlZcY4TkAnauN9uQwkVu7y3WlZikNUSOKsaamrg52YVC4GuycA15bj0WB0jPv3tHQWKgMtOImrc0uBg3K+2yimiUXOygg3AMJv1sj1/rezPv1AMD81XLq7oX/WfLp65aaRWKjdHeG3MJ0MEB+bP/cfGztirT031J2D00JFXBZXYy7HXogVFCkuchjFK5Axz1MbGw8Yga3a8j00+puD6W4JzwaQ0Ch54yvSoIdbuB2hdxVBXo3dccrtulpEjQo9aMbB62oh5SDBcAlLFI3jw1JF6SySfmKJzCxplFV5p+DHXKr2GaoRWVwV+lOz/ZLTznSkdS2oHBbOfZUS2YT72zdcIVfvPMlOAr/6Qk0GRm1ls2yQAnqT9fS1TC9k8rOuhrNXMEFeMx7GK21oIIh++Hwe074so6srcXaX8guBiGif358YHbo24O59XNzXtvX32l8wugVvLWOdt1Iqy+aQFGYM0Pr1VICJlIU4qWE2xQgXwBBPSrGCOjAeBcAe6MuRIN46cVpYBgo2vGjnRiOwJGN7PQnKqvMGKX8hJ0sHFABW0nSYpfv6pHA1pY5UdGT8al17BsGUH0te9Sq6PTk5RIo6AM7p8vbCd+k3cec/4f1/grtV7SsA
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
@@ -904,9 +1151,6 @@ U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z
 </tr>
 </tbody></table>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>GPT</tag>
       </tags>
@@ -1015,9 +1259,6 @@ U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z
 </blockquote>
 <p><img src="https://pic.imgdb.cn/item/641ffb1fa682492fcc887ce9.jpg"></p>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
   </entry>
   <entry>
     <title>すずめの戸締まり</title>
@@ -1120,9 +1361,6 @@ U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z
 </tr>
 </tbody></table>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>GPT</tag>
       </tags>
@@ -1155,7 +1393,7 @@ U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z
     <url>/2023/03/11/ys-individual-server/</url>
     <content><![CDATA[<div id="hbe-security">
   <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog.">
     <label for="pass">Please enter the password to read the blog.</label>
     <div class="bottom-line"></div>
   </div>
@@ -1163,12 +1401,9 @@ U2FsdGVkX1+xrqDGzcw1LNEh5isZPCqyqibvf1Ijq9/76c6aUil5vR0Re5srrATW6Ukl26NcgShUYT9z
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
       <tags>
         <tag>Genshin</tag>
       </tags>
@@ -1288,9 +1523,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 </tr>
 </tbody></table>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -1307,9 +1539,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://repo.huaweicloud.com/repository/pypi/simple/ 华为源 19ms</span><br><span class="line">https://pypi.tuna.tsinghua.edu.cn/simple/ 清华安装源 28ms</span><br><span class="line">https://mirrors.aliyun.com/pypi/simple/ 阿里安装源 28ms</span><br><span class="line">https://mirrors.bfsu.edu.cn/pypi/web/simple/ 中国科技大学源 31ms</span><br><span class="line">http://mirrors.cloud.tencent.com/pypi/simple 腾讯源</span><br></pre></td></tr></tbody></table></figure>
 
 ]]></content>
-      <categories>
-        <category>Coding</category>
-      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -1327,9 +1556,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 
 
 ]]></content>
-      <categories>
-        <category>信息技术课程</category>
-      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -1357,9 +1583,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 </ol>
 <figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># 定义变量s用于存储整数之和 </span></span><br><span class="line">s = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历0到100之间的整数 </span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>):    </span><br><span class="line">    </span><br><span class="line">	<span class="comment"># 判断整数是否为3的倍数    </span></span><br><span class="line">	<span class="keyword">if</span> i % <span class="number">3</span> == <span class="number">0</span>:        </span><br><span class="line">		s += i </span><br><span class="line">        </span><br><span class="line"><span class="comment"># 打印计算结果 </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">'0到100之间所有是3的倍数的整数之和为：'</span>, s)</span><br></pre></td></tr></tbody></table></figure>
 ]]></content>
-      <categories>
-        <category>信息技术课程</category>
-      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -1378,9 +1601,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 
 
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>Sherry</tag>
       </tags>
@@ -1405,9 +1625,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 <p>密码：</p>
 <p><code>MD5：20cf775fa6b5dfe621ade096f5d85d52</code></p>
 ]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
       <tags>
         <tag>novelai</tag>
       </tags>
@@ -1422,9 +1639,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 <p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
 <p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
 ]]></content>
-      <categories>
-        <category>名探偵コナン</category>
-      </categories>
       <tags>
         <tag>Sherry</tag>
       </tags>
@@ -1437,9 +1651,6 @@ U2FsdGVkX1+PG2qBvhXL58o0vc2qSoxQ4q6bnC1ORUQb7q/ZiwjKKEHRApuEU7AV4m/zDmVcT856aO8P
 <p>​	我逐渐明白，这些不可被描述而又恒久变化之物，才是世间最深奥的东西。唯有它们，才能彻底祛除那些疯狂；唯有梦，才能将意识从最深沉的黑暗中唤醒。</p>
 <p>​	我乃命题之人，亦是求解之人。以世人之梦挽救世界，曾是属于我的答案。而今，你们也寻到了属于自己的答案。我会将所有的梦，归还世人。</p>
 ]]></content>
-      <categories>
-        <category>Articles</category>
-      </categories>
       <tags>
         <tag>Genshin</tag>
       </tags>
