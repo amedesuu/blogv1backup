@@ -575,19 +575,33 @@
 <p><strong>第二条</strong> 研发、利用生成式人工智能产品，面向中华人民共和国境内公众提供服务的，适用本办法。本办法所称生成式人工智能，是指基于算法、模型、规则生成文本、图片、声音、视频、代码等内容的技术。</p>
 <p><strong>第三条</strong> 国家支持人工智能算法、框架等基础技术的自主创新、推广应用、国际合作，鼓励优先采用安全可信的软件、工具、计算和数据资源。</p>
 <p><strong>第四条</strong> 提供生成式人工智能产品或服务应当遵守法律法规的要求，尊重社会公德、公序良俗，符合以下要求：</p>
-<p><strong>（一）利用生成式人工智能生成的内容应当体现社会主义核心价值观</strong>，不得含有颠覆国家政权、推翻社会主义制度，煽动分裂国家、破坏国家统一，宣扬恐怖主义、极端主义，宣扬民族仇恨、民族歧视，暴力、淫秽色情信息，虚假信息，以及可能扰乱经济秩序和社会秩序的内容。</p>
-<p>（二）在算法设计、训练数据选择、模型生成和优化、提供服务等过程中，采取措施防止出现种族、民族、信仰、国别、地域、性别、年龄、职业等歧视。</p>
-<p>（三）尊重知识产权、商业道德，不得利用算法、数据、平台等优势实施不公平竞争。</p>
-<p>（四）利用生成式人工智能生成的内容应当真实准确，采取措施防止生成虚假信息。</p>
-<p>（五）尊重他人合法利益，防止伤害他人身心健康，损害肖像权、名誉权和个人隐私，侵犯知识产权。禁止非法获取、披露、利用个人信息和隐私、商业秘密。</p>
+<ul>
+<li><p><strong>（一）利用生成式人工智能生成的内容应当体现社会主义核心价值观</strong>，不得含有颠覆国家政权、推翻社会主义制度，煽动分裂国家、破坏国家统一，宣扬恐怖主义、极端主义，宣扬民族仇恨、民族歧视，暴力、淫秽色情信息，虚假信息，以及可能扰乱经济秩序和社会秩序的内容。</p>
+</li>
+<li><p>（二）在算法设计、训练数据选择、模型生成和优化、提供服务等过程中，采取措施防止出现种族、民族、信仰、国别、地域、性别、年龄、职业等歧视。</p>
+</li>
+<li><p>（三）尊重知识产权、商业道德，不得利用算法、数据、平台等优势实施不公平竞争。</p>
+</li>
+<li><p>（四）利用生成式人工智能生成的内容应当真实准确，采取措施防止生成虚假信息。</p>
+</li>
+<li><p>（五）尊重他人合法利益，防止伤害他人身心健康，损害肖像权、名誉权和个人隐私，侵犯知识产权。禁止非法获取、披露、利用个人信息和隐私、商业秘密。</p>
+</li>
+</ul>
 <p><strong>第五条</strong> 利用生成式人工智能产品提供聊天和文本、图像、声音生成等服务的组织和个人（以下称“提供者”），包括通过提供可编程接口等方式支持他人自行生成文本、图像、声音等，承担该产品生成内容生产者的责任；涉及个人信息的，承担个人信息处理者的法定责任，履行个人信息保护义务。</p>
 <p><strong>第六条</strong> 利用生成式人工智能产品向公众提供服务前，应当按照《具有舆论属性或社会动员能力的互联网信息服务安全评估规定》向国家网信部门申报安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。</p>
 <p><strong>第七条</strong> 提供者应当对生成式人工智能产品的预训练数据、优化训练数据来源的合法性负责。用于生成式人工智能产品的预训练、优化训练数据，应满足以下要求：</p>
-<p>（一）符合《中华人民共和国网络安全法》等法律法规的要求；</p>
-<p>（二）不含有侵犯知识产权的内容；</p>
-<p>（三）数据包含个人信息的，应当征得个人信息主体同意或者符合法律、行政法规规定的其他情形；</p>
-<p>（四）能够保证数据的真实性、准确性、客观性、多样性；</p>
-<p>（五）国家网信部门关于生成式人工智能服务的其他监管要求。</p>
+<ul>
+<li><p>（一）符合《中华人民共和国网络安全法》等法律法规的要求；</p>
+</li>
+<li><p>（二）不含有侵犯知识产权的内容；</p>
+</li>
+<li><p>（三）数据包含个人信息的，应当征得个人信息主体同意或者符合法律、行政法规规定的其他情形；</p>
+</li>
+<li><p>（四）能够保证数据的真实性、准确性、客观性、多样性；</p>
+</li>
+<li><p>（五）国家网信部门关于生成式人工智能服务的其他监管要求。</p>
+</li>
+</ul>
 <p><strong>第八条</strong> 生成式人工智能产品研制中采用人工标注时，提供者应当制定符合本办法要求，清晰、具体、可操作的标注规则，对标注人员进行必要培训，抽样核验标注内容的正确性。</p>
 <p><strong>第九条</strong> 提供生成式人工智能服务应当按照《中华人民共和国网络安全法》规定，要求用户提供真实身份信息。</p>
 <p><strong>第十条</strong> 提供者应当明确并公开其服务的适用人群、场合、用途，采取适当措施防范用户过分依赖或沉迷生成内容。</p>
@@ -962,7 +976,7 @@
     <url>/2023/04/01/NexT%E4%B8%BB%E9%A2%98%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%98%BE%E7%A4%BA/</url>
     <content><![CDATA[<h5 id="在-Next-主题中开启-MathJax-开关"><a href="#在-Next-主题中开启-MathJax-开关" class="headerlink" title="在 Next 主题中开启 MathJax 开关"></a>在 Next 主题中开启 <code>MathJax</code> 开关</h5><span id="more"></span>
 
-<p>进入到主题目录，找到 <code>_config.yml</code> 配置文件，把 <code>math 默认的 </code>false<code> 修改为</code>true`，如下：</p>
+<p>进入到主题目录，找到 <code>_config.yml</code> 配置文件，把<code>math</code>默认的<code>false</code>修改为<code>true</code>，如下：</p>
 <figure class="highlight yml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
 
 
@@ -1081,7 +1095,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+U2FsdGVkX181+SV/b/kLTGls4uLgSvHo5ATnG94ywKofHYyMnL14CQzyR4NlKb1MZAy1sO+MMucV6pLlPJc9I6DPccmqGhNWRUqX4VkTuzu0OlxSM2jFrg1tx2Gn3gSPGrNOD9tWS+ClQwAHHRDcknYSSIwu/fXiLgThkMQtlISzR6k0x2cN2EMqMCBUdfLgI3Me9kvpFDLxs1cTCJWfpht/MfMu7zqNJW1fZ34jJeSpaufylD90iCW2vfUOkW9q3hjhd09DR9oXRJiAo7XUN+FEjhZ/wjrq0JFfrNKpbNaV5LFm9y5sdrc0K+TLAHV8bqM0JHVEIisaRGgADx66uF3ZkygoWC0qanw0Jp9J+nvUh1dLw6MTLuqoKpz4R48YFSXqlDolrSMRo4UXAlM9SPmsOi26bDBdCk5IXLpAcSSH2NfU3S5GF0x2xIJ59dHDRK6ftU3n1GSMv4GRlJAJgCj9TFA2L7ioZ4RxKKy95oxFGCDLMupJuOwIO0Gl3bHPtB8TLKU7ba9p9hetdzK1bNMbAog6UllJ8YYJYPXTZvEAZReJdYGqeSTH4kvq9O447j145knA6Ts391rMsoWUNdAfHfc2nsLOo7suMPa5gKNxjxITi/BvNCXZ6bnOjY2c9MkuwaMp73eUDbbovgKD7Eq+Y6HuOnrvgl76igpfusAvHmO8tyYBAjhQs33658Pl8FHx6HGf7j3LSvs369UJGFiGS2B7kVDUyhaPPntTZHLgV51cJv+ymgCxa8kJ/r5jZ6iBUwtAEVUBfzvOf8g8edjB3s7wvlXGaiCKp4t3N1QjsnSt2BfhWPy7oOkntjTxPA6HYsxk2MXzaxC0UPKhMQFnhyYc1ceImC6llZUtfjv8iknCgpR4CBDAVa0pfEajTuKLaB5S+JsEkcV2maoWaKl4ztIZx0g1HXzjlkyDRevgug36TCq8PYwHvzTPxXgs0vpG5Nh+i7QBSZKCaN3cvO93lRcEpZgYuwlrpVEl0+mCX66GGKxpKTsImMEXFma1iOxDv+Wi4HvA25ZSOqd1rHA/anUQxAwVvUQZ73i+aMOehggkklmrHYkTgOB1seW5gsCnsTFVQqtE5WvpP56Agfzn3AUbLjZyqFf7sDgwhfIZKvPNBp9Ddwryhk2wUk+K/PEE/eUrQKZGwgpdeaAZJQTGB11O8uKOmXRGKL4vnGxQXlsYsDlKX5nw6iKr0ek1nDmfSQukMcoP9zScQt2gZJWcZ9PwyJcq0sQ4sOzqLlBPYEsySuS2n/N9B23WlAmM91xtmhmTEq0T0jVcTTNhYF10Xve4m2VfQa80xTR0UCPf+XavDT6SkWH2vA448WpWVWMaT8t45k1pd+8iJDiPW0rWvrIUsXDK9JxGJ3Grmvl067EtJBwoyWn3jbs25eHUYJDgO4Tym9lgapJ3MG878GOJwG57wGnR1iJQ9+/px2nkzpYTdh4m8LOFEHtdv7ZEf524rSm8jX67wRS53y/mVPkErKIx6twleCoMzWyyTQi8gTtvBC368zcdG+OuXUpu9+VwOF4sWRcaYDI37hnEkwEs+KEvH1IegrCj214KquBk2NE0449IiWlXxDX+wa2P5xpJDg1SbTGxNYghwaSGwLgQtTlnNARkBLPMNNGF7qP4zdl5eWlkAqpmbqDVKR3RSAuCDzCkuzQ06AQu5zKGloV4zq9GkHUzsLBjEa6Hz5iyWWrSWrCPMbYz+bktG1t8Lhfntuy7u8b2dv7UWJY/NhDogUYx9WjUcCJCfpOOyTntenZ6JCfDO/aIg/Go1nS2zyxKupSETedlccVsOxGJHebzkf31ecPoxsGwEkUUc7sG8nEELhclltZn+qwa2d4pw7jo8DGiFN9YbdchqQS8MWv9eIQAZRNKEUdtyIvKmBbpip9y2iv+hEgs27HeEjWe6PZcWIatic/Xrkf/pAPWIfwb7RZoDc6jxXViDC+7A8/HPSwoxcJ6X8V0ZP8NBbu0c9TfljY+JUNXhDWTdMRogz0UUmABKhgltyl5CR1dMFTrblQ/4RNMb5WWQhDis0t7hBNT4d6tzzwkJgKcXdUhXiTk5IPOZc8jiYBe9YpUK721EtG5txjMJtjgyuHzRyofwO8k2qlVBmEhs4BLqzJCs7pNd3Rlk2PyPplDr4S80ET4B1s49f22/edpKqMLIVE1OiyDTAx6DwglSoPQz+Gy+AVF2ufMRkcJNXdaY802zIJPF32CeJviAUX/WME/q2cA/PXJACUAoW3pplJkDncshVxOQ8kACWFm/swkJ+vtC16qFHQ/zEBXDam71scE7S9o4Pru8IDwuCUBcYGQHBwuLFVkfKjs+SyFZcbfXvBNNcgKhqjwvG9CvRNIq64i9uvUCe9ADbG4gagZlmqYk3ru4I7wx5z0Ckcle0/mc0+vBSOgB+PHJVnioAnol5GSX65VHqpBBKnt2I2gaZ4vnGk57GRxKxxqe5c/+yr8dikezA0eHzeVDdVgfcR/6U7BM5QiuvEzILuzJYgQhWL+TFhCkpO/TGEWAmZCuHYe/QtA61Ahq52qUDmNYMoIxOnHkI29aiXC84LpyJy9ayn78dzA0Rh2feZ5FGYBa3Ns5SyGk0nzk2vnoni8GLbBD8zGEM8KGSr2ANXKQxc8H5S3g9TG+OA7DNW1EjDa9vpljjsO0gispLOjlkXkZTxlBZHT1WXm6rDGO8C+c9x2/AQUpTgnlsl3y1sWwR1f3TEHVMRBPPOYfGUab7ZmXCtZv32raH2qmrlih9t+Yjv35bCDuSPN+EzTv+aAsdlehdoq6FL0i6ysHCdN4FWxkkodOQSdKhF/T3PmFRqGsqrPwuQiAFAN1Uo4eHK60ja/U+QGawA9KFk/9yQRaHav3/Z7UFpRTeITdK/roOSlmvJUUkOk3zAUMFc7ipwDN/SD55pOSBoOCVmB8qbz61nawI6t+xKfjBdqij08MiwpNunSCNjjlLeSDgNqyt+gdVB7qOfAz58lreBsSNGqFonfx48knAVwqaZmZ01eYfZ22LdLsaWPILB/2o/rZU2Xa+YYfFVvj0TQM7EDyyT9iu6sd0cF/4QVGcmwIuqzYwkqx2dKhjMPgzIHkAGAJLShchRFlkwgglrFYCBpSEGKz5rBr7d7/M6N1ANHUPmOggsMwD205N5pR/eAmWKAie4Ri4sQHzr1R8o8AlDmRYb2ho+V37LKWsGxK6Qd2KT+g0iUht1LKIG4PmikvTftqyOWoDeaZ369ADXqzif3grZMHdUpwZ71kqW3R462ul7S+XICQayeZKKTZtSWRZwMqsJ+YwWb5KU6jTqY5bXwji6fICEVQ4wvphzUPfFxDYvCkiw6TY8KVJixk5rTZdFOz7qrrBFtm2vEw+pdtWQSkSbu6cx7+O4a0lGhbu1vsSLQvBwoWIzMM/9nmcGTf3GwArOAKL2KGidtWlW/S5uJCkAMaMS4cfWOqfSrgGYKuW+SNWFOmT0fjRHETqzvAWZWxmH76jIaP+ZTJhcx+R+aQtd49NbhuovNs7wn4rIK3+GwdftoRD0DE82oBw9Q7ABqPvkA8ZnzoqrFDUsbBEQGYKekodTuJixkSh9K5a0QyaZLHA28EFgp0PBFXmmaTbj0RkB1IelfVZriXV0Ubups25SflVoZ8zZeHLWUeNyyWJbHHI5SJtaiMG0+44V9FhUojxlZo/1xca5onehTSBqpufMOkIfPc1oSlgzhgo0kS/9dqO0BjPEpYfrZIo9sEVmlgNAH0CPzARMGovbJGebikd88RtYUUKmveqLu4jwhmkMYePqHFtWCLD0Fi6L5zC3tocwImLELfR/TE6b9XflPYCi3xevUIRGY2IKztek81CJgjbWlYpxWSrnrQn6h29zuj7VyO6w8zGfrkeemCewOfF4wgPOfJURBlA1CeKLWTxeIUN9bhiUcitNu48dfuQ==
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
@@ -1378,16 +1392,14 @@ U2FsdGVkX1+twJntsoAVVqzJ43U7qg3P9XJdETdJ6LW/mC14a5zYAziAhkzlVZi74xM9R07HXCWro3gV
     <content><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><span id="more"></span>
 
 <ol>
-<li>在你的<code>hexo</code>根目录的<em>package.json</em>文件夹中添加：</li>
-</ol>
+<li><p>在你的<code>hexo</code>根目录的<em>package.json</em>文件夹中添加：</p>
 <p><code>"hexo-blog-encrypt: "2.0.*”</code></p>
-<ol start="2">
-<li>然后在命令行中输入：</li>
-</ol>
+</li>
+<li><p>然后在命令行中输入：</p>
 <p><code>npm install</code></p>
-<ol start="3">
+</li>
 <li><p>找到根目录下的<code>_config.yml</code>文件，添加如下：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">##</span><br><span class="line">encrypt:</span><br><span class="line">    enable: true</span><br></pre></td></tr></tbody></table></figure></li>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="comment">##</span></span><br><span class="line"><span class="attr">encrypt:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure></li>
 </ol>
 <h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在你要加密的文章头部写入<code>password: </code></p>
 ]]></content>
@@ -1408,7 +1420,7 @@ U2FsdGVkX1+twJntsoAVVqzJ43U7qg3P9XJdETdJ6LW/mC14a5zYAziAhkzlVZi74xM9R07HXCWro3gV
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+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
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
@@ -1642,9 +1654,9 @@ U2FsdGVkX1+QpZF+vf4X4F7/kw8joxgRMYItp/UlYjzSTRli6UGrm+LONwSbrtBiZUtDEuzSTArO9zBF
     <content><![CDATA[<p>死ぬな、灰原——</p>
 <span id="more"></span>
 
-<p><a href="https://imgse.com/i/pSUaVBV"><img src="https://s1.ax1x.com/2023/01/27/pSUaVBV.png" alt="pSUaVBV.png"></a></p>
-<p><a href="https://imgse.com/i/pSUUv0f"><img src="https://s1.ax1x.com/2023/01/27/pSUUv0f.jpg" alt="pSUUv0f.jpg"></a></p>
-<p><a href="https://imgse.com/i/pSUacE8"><img src="https://s1.ax1x.com/2023/01/27/pSUacE8.png" alt="pSUacE8.png"></a></p>
+<p><img src="https://pic2.imgdb.cn/item/6451e0980d2dde5777e85575.jpg"></p>
+<p><img src="https://pic2.imgdb.cn/item/6451e0a50d2dde5777e85fc5.jpg"></p>
+<p><img src="https://pic2.imgdb.cn/item/6451e0b10d2dde5777e867d2.jpg"></p>
 ]]></content>
       <tags>
         <tag>Sherry</tag>
@@ -1661,5 +1673,432 @@ U2FsdGVkX1+QpZF+vf4X4F7/kw8joxgRMYItp/UlYjzSTRli6UGrm+LONwSbrtBiZUtDEuzSTArO9zBF
       <tags>
         <tag>Genshin</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>收藏夹</title>
+    <url>/Favorites/index.html</url>
+    <content><![CDATA[<h2 id="AI"><a href="#AI" class="headerlink" title="AI"></a>AI</h2><p><a href="https://ask.aivesa.com/">Aivesa 智聊</a>	<a href="https://www.autodl.com/home">AutoDL</a>	<a href="https://yiyan.baidu.com/welcome">文心一言</a>	<a href="https://tongyi.aliyun.com/">通义千问</a>	<a href="https://www.cursor.so/">Cursor</a>	<a href="https://openai-openai-detector.hf.space/">AI文字生成检测</a></p>
+<p><a href="https://www.img2prompt.io/">Stable Diffusion Prompt</a></p>
+<h2 id="Tech"><a href="#Tech" class="headerlink" title="Tech"></a>Tech</h2><p><a href="http://test.ustc.edu.cn/">中科大测速站</a>	<a href="https://www.amd.com/zh-hans/">AMD</a>	<a href="https://leetcode.cn/">力扣</a>	<a href="https://create.roblox.com/docs/">Roblox</a>	<a href="https://zeroroku.com/">B站数据观测</a></p>
+<h2 id="Entertainment"><a href="#Entertainment" class="headerlink" title="Entertainment"></a>Entertainment</h2><p><a href="http://pic.lyyousa.cn/">yousa图站</a>	<a href="https://www.sbsub.com/data/#tocheckcopyright">银色子弹数据站</a></p>
+<h2 id="网页开发工具"><a href="#网页开发工具" class="headerlink" title="网页开发工具"></a>网页开发工具</h2><p><a href="https://flbook.com.cn/">FLBOOK</a>	<a href="https://www.pdf2go.com/zh">PDF</a>	<a href="https://www.leancloud.cn/">LeanCloud</a>	<a href="http://t.csdn.cn/WTOKP">Markdown语法之数学公式</a></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><a href="https://docs.qq.com/doc/DQnJZS1htYVlzaXRm">成都七中Roblox开发者论坛</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<h1 id="还不知道该写什么来介绍自己……"><a href="#还不知道该写什么来介绍自己……" class="headerlink" title="还不知道该写什么来介绍自己……"></a>还不知道该写什么来介绍自己……</h1>]]></content>
+  </entry>
+  <entry>
+    <title>归档</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>更新日志</title>
+    <url>/updates/index.html</url>
+    <content><![CDATA[<h1 id="2023-5-1"><a href="#2023-5-1" class="headerlink" title="2023.5.1"></a>2023.5.1</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">删除分类</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-4-30"><a href="#2023-4-30" class="headerlink" title="2023.4.30"></a>2023.4.30</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">新建Hexo板块</span><br><span class="line">更改代码块UI</span><br><span class="line">图片放大功能</span><br><span class="line">Darkmode</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-4-2"><a href="#2023-4-2" class="headerlink" title="2023.4.2"></a>2023.4.2</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">新建资源分享板块</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-4-1"><a href="#2023-4-1" class="headerlink" title="2023.4.1"></a>2023.4.1</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">添加版权信息</span><br><span class="line">添加来必力评论</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-3-11"><a href="#2023-3-11" class="headerlink" title="2023.3.11"></a>2023.3.11</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">添加加密功能</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-2-1"><a href="#2023-2-1" class="headerlink" title="2023.2.1"></a>2023.2.1</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">更换主题</span><br><span class="line">部分页面显示修改</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-1-27"><a href="#2023-1-27" class="headerlink" title="2023.1.27"></a>2023.1.27</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">界面微调</span><br><span class="line">修改部分文字说明</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h1 id="2023-1-18"><a href="#2023-1-18" class="headerlink" title="2023.1.18"></a>2023.1.18</h1><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">live2d模型</span><br><span class="line">随机背景（Bing）</span><br><span class="line">阅读时间、字数统计</span><br><span class="line">实时阅读进度</span><br></pre></td></tr></tbody></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/hexo/index.html</url>
+    <content><![CDATA[<h1 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h1><h2 id="安装-hexo-generator-index-pin-top"><a href="#安装-hexo-generator-index-pin-top" class="headerlink" title="安装 hexo-generator-index-pin-top"></a>安装 <a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a></h2><p>首先是卸载默认排序插件，安装新插件，新插件支持文章置顶：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="置顶文章"><a href="#置顶文章" class="headerlink" title="置顶文章"></a>置顶文章</h2><p>在需要置顶的文章的 <code>front-matter</code> 中设置 <code>top: 1</code> 即可实现文章置顶功能，并且数字越大文章越靠前</p>
+<h2 id="添加置顶图标"><a href="#添加置顶图标" class="headerlink" title="添加置顶图标"></a>添加置顶图标</h2><p>上面置顶文章会文章排在前面，但是不会有任何有关 “置顶” 的标识。我们可以修改 <code>NexT</code> 主题的<code>/themes/next/layout/_macro/post.njk</code>文件，如下</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% if post.top %}</span><br><span class="line">  &lt;i class="fa fa-thumb-tack"&gt;&lt;/i&gt;</span><br><span class="line">  &lt;font color=7D26CD&gt;{{ __('post.sticky') }}&lt;/font&gt;</span><br><span class="line">  &lt;span class="post-meta-divider"&gt;|&lt;/span&gt;</span><br><span class="line">{% endif %}</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="设置侧栏阅读进度百分比"><a href="#设置侧栏阅读进度百分比" class="headerlink" title="设置侧栏阅读进度百分比"></a>设置侧栏阅读进度百分比</h1><p>编辑<code>站点配置文件</code>，修改<code>back2top</code>部分如下：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">back2top:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"> <span class="comment">#Back to top in sidebar.</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">true</span></span><br><span class="line"> <span class="comment">#Scroll percent label in b2t button.</span></span><br><span class="line">  <span class="attr">scrollpercent:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="设置字数统计和预计阅读时间"><a href="#设置字数统计和预计阅读时间" class="headerlink" title="设置字数统计和预计阅读时间"></a>设置字数统计和预计阅读时间</h1><p>包括文章字数统计、预计阅读时间，和页面底部站点总字数统计、总阅读时间预计。</p>
+<h2 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h2><p>进入到目录下，安装 Hexo 插件：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h2><p>编辑 <code>站点配置文件</code>，添加如下内容：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Hexo plugin: hexo-symbols-count-time</span></span><br><span class="line"><span class="comment"># https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span> <span class="comment"># 文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span> <span class="comment"># 文章预计阅读时间</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span> <span class="comment"># 页面底部站点总字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span> <span class="comment"># 页面底部站点总阅读时间预计</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3"></a>Step 3</h2><p>此插件集成在 NexT 主题中，在 Hexo <code>站点配置文件</code> 中启用插件后，你可以调整 NexT 配置中的选项，查看 <code>主题配置文件</code>，配置如下：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span> <span class="comment"># 文章统计结果是否独立一行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span> <span class="comment"># 是否展示文章统计结果的文本</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">true</span> <span class="comment"># 是否展示站点统计结果的文本</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>awl</code></p>
+<p>平均字长（平均一个字的字符数），默认值：4。</p>
+<p>​	CN≈2<br>​	EN≈5<br>​	RU≈6</p>
+<p><code>wpm</code></p>
+<p>每分钟阅读字数，默认值：275。</p>
+<p>​	慢≈200<br>​	正常≈275<br>​	快≈350</p>
+<blockquote>
+<p>中国用户注意事项：因为中文平均字长约为 1.5，如果你大多数情况下用中文写帖子（没有混合英文），建议将 awl 设置为 2，将 wpm 设置为 300。但是，如果你通常将你的帖子与英语混合，那么 awl 到 4 和 wpm 到 275 就会很好。</p>
+</blockquote>
+<hr>
+<h1 id="添加图片放大预览功能"><a href="#添加图片放大预览功能" class="headerlink" title="添加图片放大预览功能"></a>添加图片放大预览功能</h1><p>利用 Fancybox 能放大查看图片。</p>
+<ol>
+<li><p>进入到 <code>themes/next</code> 主题目录下，克隆<code>fancybox3</code>：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>编辑 <code>主题配置文件</code>，启用 fancybox，修改配置如下：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<hr>
+<h1 id="添加-Live2D-看板娘-萌宠"><a href="#添加-Live2D-看板娘-萌宠" class="headerlink" title="添加 Live2D 看板娘 萌宠"></a>添加 Live2D 看板娘 萌宠</h1><p>插件 <code>hexo-helper-live2d</code> 的使用说明详见 <a href="https://github.com/EYHN/hexo-helper-live2d">https://github.com/EYHN/hexo-helper-live2d</a></p>
+<h2 id="Step-1-1"><a href="#Step-1-1" class="headerlink" title="Step 1"></a>Step 1</h2><p>进入到博客目录下，安装 Hexo 插件：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-helper-live2d --save</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="Step-2-1"><a href="#Step-2-1" class="headerlink" title="Step 2"></a>Step 2</h2><p>在<a href="https://github.com/xiazeyu/live2d-widget-models">这里</a>中挑选一个模型，记录该模型的名字。模型资源名称为<code>live2d-widget-model-</code>模型名称，例如选择模型<code>miku</code>，则其对应的 Live2D 资源名称为 <code>live2d-widget-model-miku</code>，然后直接在站点根目录下安装该模型，命令如下：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku --save</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="Step-3-1"><a href="#Step-3-1" class="headerlink" title="Step 3"></a>Step 3</h2><p>编辑 <code>站点配置文件</code>，添加如下内容：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Hexo plugin: hexo-helper-live2d</span></span><br><span class="line"><span class="comment">## https://github.com/EYHN/hexo-helper-live2d</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">pluginRootPath:</span> <span class="string">live2dw/</span> <span class="comment"># Root path of plugin to be on the site (Relative)</span></span><br><span class="line">  <span class="attr">pluginJsPath:</span> <span class="string">lib/</span> <span class="comment"># JavaScript path related to plugin's root (Relative)</span></span><br><span class="line">  <span class="attr">pluginModelPath:</span> <span class="string">assets/</span> <span class="comment"># Relative model path related to plugin's root (Relative)</span></span><br><span class="line">  <span class="attr">scriptFrom:</span> <span class="string">local</span> <span class="comment"># Default</span></span><br><span class="line">  <span class="comment">#scriptFrom: jsdelivr # jsdelivr CDN</span></span><br><span class="line">  <span class="comment">#scriptFrom: unpkg # unpkg CDN</span></span><br><span class="line">  <span class="comment">#scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # Your custom url</span></span><br><span class="line">  <span class="attr">tagMode:</span> <span class="literal">false</span> <span class="comment"># Whether only to replace live2d tag instead of inject to all pages</span></span><br><span class="line">  <span class="attr">log:</span> <span class="literal">false</span> <span class="comment"># Whether to show logs in console</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-shizuku</span> <span class="comment"># npm-module package name</span></span><br><span class="line">    <span class="comment">#use: wanko # folder name in (hexo base dir)/live2d_models/</span></span><br><span class="line">    <span class="comment">#use: ./wives/wanko # folder path relative to hexo base dir</span></span><br><span class="line">    <span class="comment">#use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # Your custom url</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">hHeadPos:</span> <span class="number">0.5</span></span><br><span class="line">    <span class="attr">vHeadPos:</span> <span class="number">0.618</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">superSample:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">150</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">300</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">hOffset:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">vOffset:</span> <span class="number">-10</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">0.05</span></span><br><span class="line">  <span class="attr">react:</span></span><br><span class="line">    <span class="attr">opacityDefault:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">opacityOnHover:</span> <span class="number">0.2</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="配置项说明"><a href="#配置项说明" class="headerlink" title="配置项说明"></a>配置项说明</h2><table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>类型</th>
+<th>属性</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>enable</td>
+<td>Boolean</td>
+<td>true或者false</td>
+<td>控制live2d插件是否生效。</td>
+</tr>
+<tr>
+<td>scriptFrom</td>
+<td>String</td>
+<td>local或者jsdelivr或者unpkg</td>
+<td>l2dwidget.js使用的CDN地址，local表示使用本地地址。</td>
+</tr>
+<tr>
+<td>pluginRootPath</td>
+<td>String</td>
+<td>例如：live2dw/</td>
+<td>插件在站点上根目录的相对路径。</td>
+</tr>
+<tr>
+<td>pluginJsPath</td>
+<td>String</td>
+<td>例如：lib/</td>
+<td>脚本文件相对与插件根目录路径。</td>
+</tr>
+<tr>
+<td>pluginModelPath</td>
+<td>String</td>
+<td>例如：assets/</td>
+<td>模型文件相对与插件根目录路径。</td>
+</tr>
+<tr>
+<td>tagMode</td>
+<td>Boolean</td>
+<td>true或者false</td>
+<td>标签模式, 控制是否仅替换tag标签而非插入到所有页面中。</td>
+</tr>
+<tr>
+<td>debug</td>
+<td>Boolean</td>
+<td>true或者false</td>
+<td>调试模式, 控制是否在控制台输出日志。</td>
+</tr>
+<tr>
+<td>model.use</td>
+<td>String</td>
+<td>例如：live2d-widget-model-hijiki</td>
+<td>npm 模块包名（上文例中即使用的这个方式）。</td>
+</tr>
+<tr>
+<td>model.use</td>
+<td>String</td>
+<td>例如：hijiki</td>
+<td>博客根目录/live2d_models/ 下的目录名。</td>
+</tr>
+<tr>
+<td>model.use</td>
+<td>String</td>
+<td>例如：./wives/hijiki</td>
+<td>相对于博客根目录的路径。</td>
+</tr>
+<tr>
+<td>model.use</td>
+<td>String</td>
+<td>例如：https://域名/model.json</td>
+<td>你自定义live2d模型json文件的url。</td>
+</tr>
+<tr>
+<td>model.scale</td>
+<td>Number</td>
+<td>可选值，默认值为 1</td>
+<td>模型与canvas的缩放。</td>
+</tr>
+<tr>
+<td>model.hHeadPos</td>
+<td>Number</td>
+<td>可选值，默认值为 0.5</td>
+<td>模型头部横坐标。</td>
+</tr>
+<tr>
+<td>model.vHeadPos</td>
+<td>Number</td>
+<td>可选值，默认值为 0.618</td>
+<td>模型头部横坐标。</td>
+</tr>
+<tr>
+<td>display.superSample</td>
+<td>Number</td>
+<td>可选值，默认值为 2</td>
+<td>超采样等级。</td>
+</tr>
+<tr>
+<td>display.width</td>
+<td>Number</td>
+<td>可选值，默认值为 150</td>
+<td>canvas的长度。</td>
+</tr>
+<tr>
+<td>display.height</td>
+<td>String</td>
+<td>可选值，默认值为 300</td>
+<td>canvas的高度。</td>
+</tr>
+<tr>
+<td>display.position</td>
+<td>Number</td>
+<td>可选值，默认值为 right</td>
+<td>显示位置：左或右。</td>
+</tr>
+<tr>
+<td>display.hOffset</td>
+<td>Number</td>
+<td>可选值，默认值为 0</td>
+<td>canvas水平偏移。</td>
+</tr>
+<tr>
+<td>display.vOffset</td>
+<td>Number</td>
+<td>可选值，默认值为 -20</td>
+<td>canvas水平偏移。</td>
+</tr>
+<tr>
+<td>mobile.show</td>
+<td>Boolean</td>
+<td>可选值，默认值为 true</td>
+<td>控制是否在移动设备上显示。</td>
+</tr>
+<tr>
+<td>mobile.scale</td>
+<td>Number</td>
+<td>可选值，默认值为 0.5</td>
+<td>移动设备上的缩放。</td>
+</tr>
+<tr>
+<td>react.opacityDefault</td>
+<td>Number</td>
+<td>可选值，默认值为 0.7</td>
+<td>默认透明度。</td>
+</tr>
+<tr>
+<td>react.opacityOnHover</td>
+<td>Number</td>
+<td>可选值，默认值为 0.2</td>
+<td>鼠标移上透明度（此项貌似没有效果）</td>
+</tr>
+</tbody></table>
+<p><a href="https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html">官方API文档</a></p>
+<hr>
+<h1 id="Next-7-x2F-8-x-自动添加可切换的暗黑模式"><a href="#Next-7-x2F-8-x-自动添加可切换的暗黑模式" class="headerlink" title="Next 7/8.x 自动添加可切换的暗黑模式"></a>Next 7/8.x 自动添加可切换的暗黑模式</h1><p><a href="https://github.com/rqh656418510/hexo-next-darkmode">hexo-next-darkmode</a> 插件支持自动添加可切换的暗黑模式，同时支持暗黑模式下的 CSS 样式高度自定义，兼容 Next 7.x 与 8.x 版本。</p>
+<h2 id="安装-Hexo-插件"><a href="#安装-Hexo-插件" class="headerlink" title="安装 Hexo 插件"></a>安装 Hexo 插件</h2><p>安装 <code>hexo-next-darkmode</code> 插件</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install hexo-next-darkmode --save</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="配置-Hexo-插件"><a href="#配置-Hexo-插件" class="headerlink" title="配置 Hexo 插件"></a>配置 Hexo 插件</h2><p>在 Next 主题的 <code>_config.yml</code> 配置文件里添加以下内容</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Darkmode JS</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js</span></span><br><span class="line"><span class="attr">darkmode_js:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">bottom:</span> <span class="string">'64px'</span> <span class="comment"># default: '32px'</span></span><br><span class="line">  <span class="attr">right:</span> <span class="string">'unset'</span> <span class="comment"># default: '32px'</span></span><br><span class="line">  <span class="attr">left:</span> <span class="string">'32px'</span> <span class="comment"># default: 'unset'</span></span><br><span class="line">  <span class="attr">time:</span> <span class="string">'0.5s'</span> <span class="comment"># default: '0.3s'</span></span><br><span class="line">  <span class="attr">mixColor:</span> <span class="string">'transparent'</span> <span class="comment"># default: '#fff'</span></span><br><span class="line">  <span class="attr">backgroundColor:</span> <span class="string">'transparent'</span> <span class="comment"># default: '#fff'</span></span><br><span class="line">  <span class="attr">buttonColorDark:</span> <span class="string">'#100f2c'</span> <span class="comment"># default: '#100f2c'</span></span><br><span class="line">  <span class="attr">buttonColorLight:</span> <span class="string">'#fff'</span> <span class="comment"># default: '#fff'</span></span><br><span class="line">  <span class="attr">isActivated:</span> <span class="literal">false</span> <span class="comment"># default false</span></span><br><span class="line">  <span class="attr">saveInCookies:</span> <span class="literal">true</span> <span class="comment"># default: true</span></span><br><span class="line">  <span class="attr">label:</span> <span class="string">'🌓'</span> <span class="comment"># default: ''</span></span><br><span class="line">  <span class="attr">autoMatchOsTheme:</span> <span class="literal">true</span> <span class="comment"># default: true</span></span><br><span class="line">  <span class="attr">libUrl:</span> <span class="comment"># Set custom library cdn url for Darkmode.js</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><code>isActivated: true</code>：默认激活暗黑 / 夜间模式，请始终与 <code>saveInCookies: false</code>、<code>autoMatchOsTheme: false</code> 一起使用；同时需要在 NexT 主题的 <code>_config.yml</code> 配置文件里设置 <code>pjax: true</code>，即启用 Pjax。</li>
+</ul>
+<h2 id="暗黑模式-CSS-样式自定义（可选）"><a href="#暗黑模式-CSS-样式自定义（可选）" class="headerlink" title="暗黑模式 CSS 样式自定义（可选）"></a>暗黑模式 CSS 样式自定义（可选）</h2><p>暗黑模式激活后，<code>hexo-next-darkmode</code> 插件会将 <code>darkmode--activated</code> CSS 类添加到 <code>body</code> 标签，可以利用它覆盖插件默认自带的 CSS 样式（如下所示），这样就可以实现暗黑模式 CSS 样式的高度自定义。更多配置内容介绍可以参考<a href="https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md">官方文档</a></p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="string">.darkmode--activated</span> {</span><br><span class="line">  <span class="string">--body-bg-color:</span> <span class="comment">#282828;</span></span><br><span class="line">  <span class="string">--content-bg-color:</span> <span class="comment">#333;</span></span><br><span class="line">  <span class="string">--card-bg-color:</span> <span class="comment">#555;</span></span><br><span class="line">  <span class="string">--text-color:</span> <span class="comment">#ccc;</span></span><br><span class="line">  <span class="string">--blockquote-color:</span> <span class="comment">#bbb;</span></span><br><span class="line">  <span class="string">--link-color:</span> <span class="comment">#ccc;</span></span><br><span class="line">  <span class="string">--link-hover-color:</span> <span class="comment">#eee;</span></span><br><span class="line">  <span class="string">--brand-color:</span> <span class="comment">#ddd;</span></span><br><span class="line">  <span class="string">--brand-hover-color:</span> <span class="comment">#ddd;</span></span><br><span class="line">  <span class="string">--table-row-odd-bg-color:</span> <span class="comment">#282828;</span></span><br><span class="line">  <span class="string">--table-row-hover-bg-color:</span> <span class="comment">#363636;</span></span><br><span class="line">  <span class="string">--menu-item-bg-color:</span> <span class="comment">#555;</span></span><br><span class="line">  <span class="string">--btn-default-bg:</span> <span class="comment">#222;</span></span><br><span class="line">  <span class="string">--btn-default-color:</span> <span class="comment">#ccc;</span></span><br><span class="line">  <span class="string">--btn-default-border-color:</span> <span class="comment">#555;</span></span><br><span class="line">  <span class="string">--btn-default-hover-bg:</span> <span class="comment">#666;</span></span><br><span class="line">  <span class="string">--btn-default-hover-color:</span> <span class="comment">#ccc;</span></span><br><span class="line">  <span class="string">--btn-default-hover-border-color:</span> <span class="comment">#666;</span></span><br><span class="line">  <span class="string">--highlight-background:</span> <span class="comment">#282b2e;</span></span><br><span class="line">  <span class="string">--highlight-foreground:</span> <span class="comment">#a9b7c6;</span></span><br><span class="line">  <span class="string">--highlight-gutter-background:</span> <span class="comment">#34393d;</span></span><br><span class="line">  <span class="string">--highlight-gutter-foreground:</span> <span class="comment">#9ca9b6;</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="string">.darkmode--activated</span> <span class="string">img</span> {</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.75</span><span class="string">;</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="string">.darkmode--activated</span> <span class="string">img:hover</span> {</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.9</span><span class="string">;</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="string">.darkmode--activated</span> <span class="string">code</span> {</span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#69dbdc;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">transparent;</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="Hexo-与-Next-版本升级教程"><a href="#Hexo-与-Next-版本升级教程" class="headerlink" title="Hexo 与 Next 版本升级教程"></a>Hexo 与 Next 版本升级教程</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
+<li><a href="https://theme-next.js.org/">Next 官方博客</a></li>
+<li><a href="https://theme-next.js.org/docs/getting-started/upgrade.html">Next 官方教程 - 版本升级</a></li>
+</ul>
+<h3 id="Next-各版本的仓库"><a href="#Next-各版本的仓库" class="headerlink" title="Next 各版本的仓库"></a>Next 各版本的仓库</h3><table>
+<thead>
+<tr>
+<th>年份</th>
+<th>版本</th>
+<th>仓库</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2014 ~ 2017</td>
+<td>v5</td>
+<td><a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2018 ~ 2019</td>
+<td>v6 ~ v7</td>
+<td><a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2020</td>
+<td>v8</td>
+<td><a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></td>
+</tr>
+</tbody></table>
+<h2 id="Hexo-版本升级"><a href="#Hexo-版本升级" class="headerlink" title="Hexo 版本升级"></a>Hexo 版本升级</h2><p>笔者是从 Hexo 3.9.0 升级到 Hexo 5.4.0，步骤如下：</p>
+<h3 id="全局升级-Hexo-版本"><a href="#全局升级-Hexo-版本" class="headerlink" title="全局升级 Hexo 版本"></a>全局升级 Hexo 版本</h3><p>若曾经在系统里，直接使用过 <code>hexo</code> 的命令，才需要执行以下升级操作</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">清理NPM缓存</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm cache clean -f</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局安装版本检测、版本升级工具</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install -g npm-check</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install -g npm-upgrade</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局检测哪些模块可以升级，这里可以根据打印的提示信息，手动安装最新版本的模块</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm-check -g</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局更新模块</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm update -g</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局安装或更新Hexo的最新版本</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install --global hexo</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="博客升级-Hexo-版本"><a href="#博客升级-Hexo-版本" class="headerlink" title="博客升级 Hexo 版本"></a>博客升级 Hexo 版本</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">进入博客的根目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> /blog-root</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">检测Hexo哪些模块可以升级</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm-check</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">删除package-lock.json</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">rm</span> -rf package-lock.json</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新package.json</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm-upgrade</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">删除整个模块目录，这样可以避免很多坑</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">rm</span> -rf node_modules</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新Hexo的模块</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm update --save</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">若出现依赖的问题，用以下命令检查一下，然后把报错的统一修复一下即可</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm audix</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">或者强制更新</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm update --save --force</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>由于新版的 Hexo 一般增加了不少新特性，因此需要使用新版 Hexo 默认的配置模版文件 <code>_config.yml</code>，同时还需要稍微更改旧版的 <code>package.json</code> 配置文件，否则容易出现各种兼容错误</p>
+</blockquote>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">进入博客的根目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> /blog-root</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">备份旧版的配置文件</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">mv</span> _config.yml _config.yml.bak</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">mv</span> package.json package.json.bak</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">单独初始化全新的Hexo博客目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">hexo init hexo-upgrade</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">拷贝新的配置模版文件到博客的根目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cp</span> hexo-upgrade/_config.yml /blog-root/_config.yml</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cp</span> hexo-upgrade/package.json /blog-root/package.json</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最后在新的配置模版文件里，重新追加旧版的Hexo配置内容</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="升级-Next-主题"><a href="#升级-Next-主题" class="headerlink" title="升级 Next 主题"></a>升级 Next 主题</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>笔者 从 Next 7.8.0 升级到 Next 8.3.0，值得一提的是，Next 版本升级必须注意以下事项：</p>
+<ul>
+<li>Next 与 Hexo 的版本必须兼容</li>
+<li>必须使用新版 Next 主题的 <code>_config.yml</code> 配置文件，若继续使用 Next 旧版的 <code>_config.yml</code> 配置文件，容易出现各种兼容错误</li>
+</ul>
+<h3 id="版本升级"><a href="#版本升级" class="headerlink" title="版本升级"></a>版本升级</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">进入博客的主题目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> /boot-root/theme</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">备份旧版主题的配置</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">mv</span> next next-bak</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">拉取最新的代码（注意：Next不同版本使用不同的仓库）</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next next</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">最后将旧版的Next配置内容追加到Next新版的配置文件中，包括拷贝旧版自定义的样式、布局文件等</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="本地下载第三方库（可选）"><a href="#本地下载第三方库（可选）" class="headerlink" title="本地下载第三方库（可选）"></a>本地下载第三方库（可选）</h2><p>在 Next 8.3.0 的 <code>_config.yml</code> 中，新增了 <code>vendors.internal</code> 属性（如下配置）来指定加载本地的第三方库文件，默认存放路径为 <code>themes/next/source/lib</code>；启用后站点就不再需要依赖第三方的 CDN 资源，而是直接使用本地站点的资源文件，这样可以让站点的访问速度更稳定。</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># It's recommended to use the same version as in `_vendors.yml` to avoid potential problems.</span></span><br><span class="line"><span class="comment"># Remember to use the HTTPS protocol of CDN links when you enable HTTPS on your site.</span></span><br><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">local</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="安装-NexT-插件"><a href="#安装-NexT-插件" class="headerlink" title="安装 NexT 插件"></a>安装 NexT 插件</h3><p>特别注意</p>
+<p>若希望使用本地的第三方库文件，则需要安装 NexT 的 <code>@next-theme/plugins</code> 插件，其中插件的版本必须与 NexT 主题的版本一致。</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装插件</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install @next-theme/plugins --save</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="批量下载第三方库"><a href="#批量下载第三方库" class="headerlink" title="批量下载第三方库"></a>批量下载第三方库</h3><p>将 <code>themes/next/_vendors.yml</code> 里定义的第三方库文件统一下载下来，并存放在 <code>themes/next/source/lib</code> 目录下，具体步骤如下</p>
+<ul>
+<li>临时更改 <code>themes/next/scripts/events/lib/vendors.js</code> 源文件的代码（如下所示），然后执行 <code>hexo g</code> 命令，从输出日志信息中得到批量下载第三方库文件的 <code>curl</code> 命令</li>
+<li>将得到的所有 <code>curl</code> 命令保存到 Shell 脚本文件里，然后执行 Shell 脚本文件批量下载第三方库文件到 <code>themes/next/source/lib</code> 目录下</li>
+<li>最后还原 <code>themes/next/scripts/events/lib/vendors.js</code> 源文件的代码</li>
+</ul>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 打印下载命令</span></span><br><span class="line"><span class="keyword">const</span> { name, version, file, alias, unavailable } = value;</span><br><span class="line"><span class="keyword">if</span> (version) {</span><br><span class="line">  <span class="keyword">var</span> _path = <span class="string">`https://cdn.jsdelivr.net/npm/<span class="subst">${name}</span>@<span class="subst">${version}</span>/<span class="subst">${file}</span>`</span>;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">"curl "</span> + _path + <span class="string">" --create-dirs -o ${DIR}"</span> + <span class="string">"/"</span> + name + <span class="string">"/"</span> + file);</span><br><span class="line">  <span class="keyword">continue</span>;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> links = {</span><br><span class="line">  <span class="comment">// 省略 ...</span></span><br><span class="line">};</span><br></pre></td></tr></tbody></table></figure>
+
+<p>批量下载 Next 8.3.0 版本所需的第三方库文件的 Shell 脚本文件如下，<code>DIR</code> 是 <code>themes/next/source/lib</code> 目录的绝对路径，请自行更改</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/sh</span></span><br><span class="line"></span><br><span class="line">DIR=/usr/local/hexo-develop/themes/next/source/lib</span><br><span class="line">rm -rf ${DIR}/*</span><br><span class="line"></span><br><span class="line">curl https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js --create-dirs -o ${DIR}/animejs/lib/anime.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css --create-dirs -o ${DIR}/@fortawesome/fontawesome-free/css/all.min.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-core.min.js --create-dirs -o ${DIR}/prismjs/components/prism-core.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js --create-dirs -o ${DIR}/prismjs/plugins/autoloader/prism-autoloader.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js --create-dirs -o ${DIR}/prismjs/plugins/line-numbers/prism-line-numbers.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js --create-dirs -o ${DIR}/mathjax/es5/tex-mml-chtml.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css --create-dirs -o ${DIR}/katex/dist/katex.min.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.min.js --create-dirs -o ${DIR}/katex/dist/contrib/copy-tex.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.min.css --create-dirs -o ${DIR}/katex/dist/contrib/copy-tex.min.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js --create-dirs -o ${DIR}/@next-theme/pjax/pjax.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js --create-dirs -o ${DIR}/jquery/dist/jquery.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js --create-dirs -o ${DIR}/@fancyapps/fancybox/dist/jquery.fancybox.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css --create-dirs -o ${DIR}/@fancyapps/fancybox/dist/jquery.fancybox.min.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js --create-dirs -o ${DIR}/medium-zoom/dist/medium-zoom.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js --create-dirs -o ${DIR}/lozad/dist/lozad.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js --create-dirs -o ${DIR}/pangu/dist/browser/pangu.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/quicklink@2.1.0/dist/quicklink.umd.js --create-dirs -o ${DIR}/quicklink/dist/quicklink.umd.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqus.js --create-dirs -o ${DIR}/disqusjs/dist/disqus.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqusjs.css --create-dirs -o ${DIR}/disqusjs/dist/disqusjs.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js --create-dirs -o ${DIR}/gitalk/dist/gitalk.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css --create-dirs -o ${DIR}/gitalk/dist/gitalk.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/firebase@8.3.1/firebase-app.js --create-dirs -o ${DIR}/firebase/firebase-app.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/firebase@8.3.1/firebase-firestore.js --create-dirs -o ${DIR}/firebase/firebase-firestore.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/algoliasearch@4.8.6/dist/algoliasearch-lite.umd.js --create-dirs -o ${DIR}/algoliasearch/dist/algoliasearch-lite.umd.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/instantsearch.js@4.19.0/dist/instantsearch.production.min.js --create-dirs -o ${DIR}/instantsearch.js/dist/instantsearch.production.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/pdfobject@2.2.5/pdfobject.min.js --create-dirs -o ${DIR}/pdfobject/pdfobject.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js --create-dirs -o ${DIR}/mermaid/dist/mermaid.min.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css --create-dirs -o ${DIR}/animate.css/animate.min.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js --create-dirs -o ${DIR}/nprogress/nprogress.js</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css --create-dirs -o ${DIR}/nprogress/nprogress.css</span><br><span class="line">curl https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js --create-dirs -o ${DIR}/ribbon.js/dist/ribbon.min.js</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一"></a>问题一</h3><p>完成上述升级操作后，执行 <code>hexo generator</code> 命令后，<code>themes/next/scripts/events/lib/vendors.js</code> 的代码里面抛出以下错误信息：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">FATAL {</span><br><span class="line">  err: TypeError: Cannot read property 'call' of undefined</span><br><span class="line">      at module.exports (/usr/local/hexo-develop/themes/next/scripts/events/lib/vendors.js:27:25)</span><br><span class="line">      at Hexo.&lt;anonymous&gt; (/usr/local/hexo-develop/themes/next/scripts/events/index.js:9:27)</span><br><span class="line">      at Hexo.tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">      at Hexo.&lt;anonymous&gt; (/usr/local/hexo-develop/node_modules/bluebird/js/release/method.js:15:34)</span><br><span class="line">      at /usr/local/hexo-develop/node_modules/hexo/lib/extend/filter.js:67:52</span><br><span class="line">      at tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">      at Object.gotValue (/usr/local/hexo-develop/node_modules/bluebird/js/release/reduce.js:166:18)</span><br><span class="line">      at Object.gotAccum (/usr/local/hexo-develop/node_modules/bluebird/js/release/reduce.js:155:25)</span><br><span class="line">      at Object.tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">      at Promise._settlePromiseFromHandler (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:547:31)</span><br><span class="line">      at Promise._settlePromise (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:604:18)</span><br><span class="line">      at Promise._settlePromiseCtx (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:641:10)</span><br><span class="line">      at _drainQueueStep (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:97:12)</span><br><span class="line">      at _drainQueue (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:86:9)</span><br><span class="line">      at Async._drainQueues (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:102:5)</span><br><span class="line">      at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:15:14)</span><br><span class="line">      at processImmediate (internal/timers.js:461:21)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这一般是 Hexo 的部分模块没有成功更新引起，例如 <code>hexo-util</code> 模块更新失败，最终导致代码不兼容。首先检查 <code>hexo-util</code> 模块的版本，然后可以尝试执行以下命令，强制更新 <code>hexo-util</code> 模块</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">进入博客的主题目录</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> /boot-root/</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">强制更新</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm update --save --force</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二"></a>问题二</h3><p>完成上述升级操作后，执行 <code>hexo generator</code> 命令后，Hexo 会抛出以下错误信息：</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">FATAL { err:</span><br><span class="line">   TypeError: line.matchAll is not a function</span><br><span class="line">       at res.value.res.value.split.map.line (/usr/local/hexo-develop/node_modules/hexo-util/lib/highlight.js:128:26)</span><br><span class="line">       at Array.map (&lt;anonymous&gt;)</span><br><span class="line">       at closeTags (/usr/local/hexo-develop/node_modules/hexo-util/lib/highlight.js:126:37)</span><br><span class="line">       at highlight (/usr/local/hexo-develop/node_modules/hexo-util/lib/highlight.js:119:10)</span><br><span class="line">       at highlightUtil (/usr/local/hexo-develop/node_modules/hexo-util/lib/highlight.js:23:16)</span><br><span class="line">       at data.content.dataContent.replace (/usr/local/hexo-develop/node_modules/hexo/lib/plugins/filter/before_post_render/backtick_code_block.js:92:17)</span><br><span class="line">       at String.replace (&lt;anonymous&gt;)</span><br><span class="line">       at Hexo.backtickCodeBlock (/usr/local/hexo-develop/node_modules/hexo/lib/plugins/filter/before_post_render/backtick_code_block.js:19:30)</span><br><span class="line">       at Hexo.tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">       at Hexo.&lt;anonymous&gt; (/usr/local/hexo-develop/node_modules/bluebird/js/release/method.js:15:34)</span><br><span class="line">       at Promise.each.filter (/usr/local/hexo-develop/node_modules/hexo/lib/extend/filter.js:67:52)</span><br><span class="line">       at tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">       at Object.gotValue (/usr/local/hexo-develop/node_modules/bluebird/js/release/reduce.js:166:18)</span><br><span class="line">       at Object.gotAccum (/usr/local/hexo-develop/node_modules/bluebird/js/release/reduce.js:155:25)</span><br><span class="line">       at Object.tryCatcher (/usr/local/hexo-develop/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">       at Promise._settlePromiseFromHandler (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:547:31)</span><br><span class="line">       at Promise._settlePromise (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:604:18)</span><br><span class="line">       at Promise._settlePromise0 (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:649:10)</span><br><span class="line">       at Promise._settlePromises (/usr/local/hexo-develop/node_modules/bluebird/js/release/promise.js:729:18)</span><br><span class="line">       at _drainQueueStep (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:93:12)</span><br><span class="line">       at _drainQueue (/usr/local/hexo-develop/node_modules/bluebird/js/release/async.js:86:9)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>NodeJS 从 12.0.0 才开始支持函数 <code>String.matchAll()</code>，如果 NodeJS 的版本低于 12.0.0，那么执行 Hexo 的构建命令就会出现上述的错误，解决方法如下：</p>
+<ul>
+<li><code>方法一</code>：将 NodeJs 升级到高于 12.0.0 的版本</li>
+<li><code>方法二</code>：更改 Hexo 的配置文件 <code>_config.yml</code>，禁用 <code>highlight</code> 的功能，这样就可以避免出错，但这将会关闭代码的高亮显示功能</li>
+</ul>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="阅读次数统计"><a href="#阅读次数统计" class="headerlink" title="阅读次数统计"></a>阅读次数统计</h1><h2 id="LeanCloud"><a href="#LeanCloud" class="headerlink" title="LeanCloud"></a><a href="https://www.leancloud.cn/">LeanCloud</a></h2><figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Show number of visitors of each article.</span></span><br><span class="line"><span class="comment"># You can visit https://www.leancloud.cn to get AppID and AppKey.</span></span><br><span class="line"><span class="attr">leancloud_visitors:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="comment"># &lt;your app id&gt;</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="comment"># &lt;your app key&gt;</span></span><br><span class="line">  <span class="comment"># Required for apps from CN region</span></span><br><span class="line">  <span class="attr">server_url:</span> <span class="comment"># &lt;your server url&gt;</span></span><br><span class="line">  <span class="comment"># Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security</span></span><br><span class="line">  <span class="comment"># If you don't care about security in leancloud counter and just want to use it directly</span></span><br><span class="line">  <span class="comment"># (without hexo-leancloud-counter-security plugin), set `security` to `false`.</span></span><br><span class="line">  <span class="attr">security:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="百度收录"><a href="#百度收录" class="headerlink" title="百度收录"></a>百度收录</h1><h2 id="安装百度和-Google-的站点地图生成插件"><a href="#安装百度和-Google-的站点地图生成插件" class="headerlink" title="安装百度和 Google 的站点地图生成插件"></a>安装百度和 Google 的站点地图生成插件</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></tbody></table></figure>
+
+<p>全局配置文件_config.yml 添加站点目录，在下面添加：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">#站点地图</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">  path: baidusitemap.xml</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="添加网站"><a href="#添加网站" class="headerlink" title="添加网站"></a>添加网站</h2><p>登录<a href="https://ziyuan.baidu.com/linksubmit/index">百度站长</a>平台，在<a href="https://ziyuan.baidu.com/site/index#/">站点管理</a>中添加你自己的网站。</p>
+<h2 id="访问-amp-提交"><a href="#访问-amp-提交" class="headerlink" title="访问&amp;提交"></a>访问&amp;提交</h2><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://你的域名/sitemap.xml</span><br><span class="line">https://你的域名/baidusitemap.xml</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<h1 id="谷歌收录"><a href="#谷歌收录" class="headerlink" title="谷歌收录"></a>谷歌收录</h1><p>提交谷歌搜索引擎比较简单，在提交之前，我们依然可以使用 <code>site:域名</code> 查看网站是否被收录。进入<a href="https://www.google.com/webmasters/#?modal_active=none">谷歌站长</a>，登录你的谷歌账号。然后如下操作，要是第一次就弹出一个让你输入域名的提示框，就直接输入你要收录的网站域名就行。</p>
+<hr>
+<h1 id="必应收录"><a href="#必应收录" class="headerlink" title="必应收录"></a>必应收录</h1><p>必应收录也是很简单，点击<a href="https://www.bing.com/webmaster/home/mysites">必应站长</a>。先注册登录，必应收录有两种方式，一种使用刚刚谷歌导入过去，第二种是就是自己添加 URL。</p>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>密码</title>
+    <url>/secret/index.html</url>
+    <content><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>INFO  Encrypted the blog: GPT-3QQbot with password: ‘sherry’<br>INFO  Encrypted the blog: ys_individual_server with password: ‘sherry’</p>
+<p>泠鸢海盐柠檬lora<br>提取码:M0Ha</p>
+<p>登门喜鹊lora<br>提取码:gx7O</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>资源分享</title>
+    <url>/resourceshare/index.html</url>
+    <content><![CDATA[<p><a href="https://wwft.lanzoul.com/iHM8f0qg03vc">gpt-4 paper</a></p>
+<p><a href="https://wwft.lanzoul.com/irdpH0r32c8d">Attention Is All You Need paper</a></p>
+<p><a href="https://pan.baidu.com/s/1W9MdD6QEe4McoaK3HcC-XA?pwd=q86c">NCM文件转换</a></p>
+<p><a href="https://www.123pan.com/s/k79SVv-cszJ.html">sd-webui-aki-v4</a>  提取码:Ba9X（来自B站<a href="https://space.bilibili.com/12566101/dynamic?spm_id_from=444.41.list.card_avatar.click"><strong>@秋葉aaaki</strong></a>）</p>
+]]></content>
   </entry>
 </search>
