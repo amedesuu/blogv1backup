@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"yousa.love","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="链接 没想到这玩意居然可以用来交信息作业 作业">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DDSP-SVC-3.0">
+<meta property="og:url" content="https://yousa.love/2023/05/13/DDSP-SVC-3-0/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="链接 没想到这玩意居然可以用来交信息作业 作业">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6468a9c0e03e90d874142709.png">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6468da5be03e90d87451b660.jpg">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6468df81e03e90d8745846b4.jpg">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6468e01ce03e90d874590f26.jpg">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6468e07ee03e90d874599769.jpg">
+<meta property="article:published_time" content="2023-05-13T15:58:01.000Z">
+<meta property="article:modified_time" content="2023-05-27T08:35:54.546Z">
+<meta property="article:author" content="Rock Zhang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic1.imgdb.cn/item/6468a9c0e03e90d874142709.png">
+
+
+<link rel="canonical" href="https://yousa.love/2023/05/13/DDSP-SVC-3-0/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yousa.love/2023/05/13/DDSP-SVC-3-0/","path":"2023/05/13/DDSP-SVC-3-0/","title":"DDSP-SVC-3.0"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>DDSP-SVC-3.0 | Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?1d8fab92cad73dd20fa7216faae4d15e"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-资源分享"><a href="/resourceshare/" rel="section"><i class="fa fa-download fa-fw"></i>资源分享</a></li><li class="menu-item menu-item-收藏夹"><a href="/Favorites/" rel="section"><i class="fa fa-star fa-fw"></i>收藏夹</a></li><li class="menu-item menu-item-hexo"><a href="/hexo/" rel="section"><i class="fa fa-h fa-fw"></i>Hexo</a></li><li class="menu-item menu-item-更新日志"><a href="/updates/" rel="section"><i class="fa fa-calendar fa-fw"></i>更新日志</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A4%84%E7%90%86%E5%92%8C%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A1%A8%E8%BE%BE%E2%80%94%E2%80%94DDSP-SVC%E9%9F%B3%E5%A3%B0%E8%BD%AC%E6%8D%A2"><span class="nav-number">1.</span> <span class="nav-text">数据的处理和可视化表达——DDSP-SVC音声转换</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF"><span class="nav-number">1.1.</span> <span class="nav-text">项目背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90"><span class="nav-number">1.2.</span> <span class="nav-text">问题分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A0%94%E7%A9%B6%E8%BF%87%E7%A8%8B"><span class="nav-number">1.3.</span> <span class="nav-text">研究过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E3%80%81%E5%A4%84%E7%90%86"><span class="nav-number">1.3.1.</span> <span class="nav-text">数据采集、处理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E5%AF%BC%E5%85%A5%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">数据的导入与预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E9%9B%86%E5%92%8C%E9%AA%8C%E8%AF%81%E9%9B%86"><span class="nav-number">1.3.1.1.1.</span> <span class="nav-text">导入数据集和验证集</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">预处理</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90"><span class="nav-number">1.3.2.</span> <span class="nav-text">数据分析</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#DDSP%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">DDSP模型训练</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%8F%82%E6%95%B0"><span class="nav-number">1.3.2.1.1.</span> <span class="nav-text">参数</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AE%AD%E7%BB%83%E8%84%9A%E6%9C%AC"><span class="nav-number">1.3.2.1.2.</span> <span class="nav-text">训练脚本</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">扩散模型训练</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%8F%82%E6%95%B0-1"><span class="nav-number">1.3.2.2.1.</span> <span class="nav-text">参数</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AE%AD%E7%BB%83%E8%84%9A%E6%9C%AC-1"><span class="nav-number">1.3.2.2.2.</span> <span class="nav-text">训练脚本</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0"><span class="nav-number">1.3.2.3.</span> <span class="nav-text">性能评估</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#DDSP%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97"><span class="nav-number">1.3.2.3.1.</span> <span class="nav-text">DDSP模型训练日志</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97"><span class="nav-number">1.3.2.3.2.</span> <span class="nav-text">扩散模型训练日志</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E5%8F%AF%E8%A7%86%E5%8C%96"><span class="nav-number">1.3.3.</span> <span class="nav-text">数据的可视化</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#DDSP%E8%AE%AD%E7%BB%83loss"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">DDSP训练loss</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#DDSP%E9%AA%8C%E8%AF%81loss"><span class="nav-number">1.3.3.2.</span> <span class="nav-text">DDSP验证loss</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%A9%E6%95%A3%E8%AE%AD%E7%BB%83loss"><span class="nav-number">1.3.3.3.</span> <span class="nav-text">扩散训练loss</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%A9%E6%95%A3%E9%AA%8C%E8%AF%81loss"><span class="nav-number">1.3.3.4.</span> <span class="nav-text">扩散验证loss</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A0%94%E7%A9%B6%E7%BB%93%E8%AE%BA"><span class="nav-number">2.</span> <span class="nav-text">研究结论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E7%90%86%E9%9F%B3%E9%A2%91%E7%A4%BA%E4%BE%8B"><span class="nav-number">2.1.</span> <span class="nav-text">推理音频示例</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Rock Zhang"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Rock Zhang</p>
+  <div class="site-description" itemprop="description"><font color="#AD8152">'愛は、科学と論理では永遠に説明できないプログラムです。'</font></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yousaforever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yousaforever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:3624570292@qq.com" title="E-Mail → mailto:3624570292@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://space.bilibili.com/282994/" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;282994&#x2F;" rel="noopener" target="_blank">泠鸢yousa</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.bilibili.com/" title="https:&#x2F;&#x2F;www.bilibili.com&#x2F;" rel="noopener" target="_blank">Bilibili</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://huggingface.co/" title="https:&#x2F;&#x2F;huggingface.co&#x2F;" rel="noopener" target="_blank">Huggingface</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.csdn.net/" title="https:&#x2F;&#x2F;www.csdn.net&#x2F;" rel="noopener" target="_blank">CSDN</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.nvidia.cn/" title="https:&#x2F;&#x2F;www.nvidia.cn&#x2F;" rel="noopener" target="_blank">NVIDIA</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://openai.com/" title="https:&#x2F;&#x2F;openai.com&#x2F;" rel="noopener" target="_blank">OpenAI</a>
+        </li>
+    </ul>
+  </div>
+
+
+
+        </div>
+
+          <!--<div id="music163player">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1989729997&auto=1&height=66">
+          </iframe>
+          </div>-->
+          
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/yousaforever" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://yousa.love/2023/05/13/DDSP-SVC-3-0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Rock Zhang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+      <meta itemprop="description" content="<font color="#AD8152">'愛は、科学と論理では永遠に説明できないプログラムです。'</font>">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="DDSP-SVC-3.0 | Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          DDSP-SVC-3.0
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-05-13 23:58:01" itemprop="dateCreated datePublished" datetime="2023-05-13T23:58:01+08:00">2023-05-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-27 16:35:54" itemprop="dateModified" datetime="2023-05-27T16:35:54+08:00">2023-05-27</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2.9k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>15 分钟</span>
+    </span>
+</div>
+
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><a target="_blank" rel="noopener" href="https://www.123pan.com/s/k79SVv-h8zJ.html">链接</a></p>
+<p><del>没想到这玩意居然可以用来交信息作业</del></p>
+<p><a target="_blank" rel="noopener" href="https://filedoge.com/download/e6638b2deab855fdf7d9e94cd547338f7e84a57293110b6a9f6b42c2dfc7749f5a58c19c15020a4f98f5">作业</a></p>
+<span id="more"></span>
+
+<h1 id="数据的处理和可视化表达——DDSP-SVC音声转换"><a href="#数据的处理和可视化表达——DDSP-SVC音声转换" class="headerlink" title="数据的处理和可视化表达——DDSP-SVC音声转换"></a>数据的处理和可视化表达——DDSP-SVC音声转换</h1><h2 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h2><p>相较于常用的So-VITS（SoftVC VITS Singing Voice Conversion）和更早的Diff-SVC（Diffusion Probabilistic Model for Singing Voice Conversion），DDSP-SVC（Differentiable Digital Signal Processing for Singing Voice Conversion，用于歌声转换的可微分数字信号处理）在训练推理速度和配置要求上都可以说是全面优于前两个项目，一般来说只要有一张2G以上显存的N卡，花上一两个小时就可以训练完成，大大降低了AI变声的门槛。最近DDSP项目迭代到了3.0版本，在原有的基础上加入了浅扩散机制，将DDSP输出的质量较低的音频梅尔谱图输入扩散模型进行浅扩散处理，输出梅尔谱图并通过声码器转换为高质量音频，使得转换效果大幅提升，在部分数据集上可以达到媲美So-VITS的效果。所以尝试使用DDSP进行音声转换测试。</p>
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/yxlllc/DDSP-SVC">https://github.com/yxlllc/DDSP-SVC</a></p>
+<h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>通过训练得到两个模型：</p>
+<ul>
+<li>DDSP模型</li>
+<li>扩散模型</li>
+</ul>
+<p>对源音频进行推理：<img src="https://pic1.imgdb.cn/item/6468a9c0e03e90d874142709.png"></p>
+<h2 id="研究过程"><a href="#研究过程" class="headerlink" title="研究过程"></a>研究过程</h2><h3 id="数据采集、处理"><a href="#数据采集、处理" class="headerlink" title="数据采集、处理"></a>数据采集、处理</h3><p>通过直播回放视频进行音频分离 约1-2小时的干声素材，切片为3-15秒的音频文件</p>
+<h4 id="数据的导入与预处理"><a href="#数据的导入与预处理" class="headerlink" title="数据的导入与预处理"></a>数据的导入与预处理</h4><h5 id="导入数据集和验证集"><a href="#导入数据集和验证集" class="headerlink" title="导入数据集和验证集"></a>导入数据集和验证集</h5><p>数据集导入到<code>项目目录\data\train\audio</code>文件夹下 验证集导入到<code>项目目录\data\val\audio</code>文件夹下</p>
+<p>在数据集中按训练集：验证集=100:1的比例挑选验证集音频放置到<code>data/val/audio</code>文件夹中 单说话人模型，直接将所有wav文件放置到对应的<code>audio</code>文件夹下即可。如果是训练多说话人模型，需要在训练集和验证集的<code>audio</code>文件夹下新建不同说话人的目录，只能以纯数字命名，以1开始 验证集的条数最好不要超过10条，否则训练验证会变得很慢。验证集的音频质量越高越好。</p>
+<p>数据集结构：<br>data<br>├─ train<br>│ ├─ audio<br>│ │ ├─ aaa.wav<br>│ │ ├─ bbb.wav<br>│ │ └─ ….wav<br>├─ val<br>│ ├─ audio<br>│ │ ├─ eee.wav<br>│ │ ├─ fff.wav<br>│ │ └─ ….wav</p>
+<h4 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h4><p>预处理参数</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">data:</span></span><br><span class="line">  <span class="attr">block_size:</span> <span class="number">512</span></span><br><span class="line">  <span class="attr">cnhubertsoft_gate:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">duration:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">encoder:</span> <span class="string">contentvec768l12</span></span><br><span class="line">  <span class="attr">encoder_ckpt:</span> <span class="string">pretrain\contentvec\checkpoint_best_legacy_500.pt</span></span><br><span class="line">  <span class="attr">encoder_hop_size:</span> <span class="number">320</span></span><br><span class="line">  <span class="attr">encoder_out_channels:</span> <span class="number">768</span></span><br><span class="line">  <span class="attr">encoder_sample_rate:</span> <span class="number">16000</span></span><br><span class="line">  <span class="attr">f0_extractor:</span> <span class="string">crepe</span></span><br><span class="line">  <span class="attr">f0_max:</span> <span class="number">800</span></span><br><span class="line">  <span class="attr">f0_min:</span> <span class="number">65</span></span><br><span class="line">  <span class="attr">sampling_rate:</span> <span class="number">44100</span></span><br><span class="line">  <span class="attr">train_path:</span> <span class="string">data/train</span></span><br><span class="line">  <span class="attr">valid_path:</span> <span class="string">data/val</span></span><br><span class="line"><span class="attr">device:</span> <span class="string">cuda</span></span><br><span class="line"><span class="attr">env:</span></span><br><span class="line">  <span class="attr">expdir:</span> <span class="string">exp/diffusion-test</span></span><br><span class="line">  <span class="attr">gpu_id:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">infer:</span></span><br><span class="line">  <span class="attr">method:</span> <span class="string">dpm-solver</span></span><br><span class="line">  <span class="attr">speedup:</span> <span class="number">10</span></span><br><span class="line"><span class="attr">model:</span></span><br><span class="line">  <span class="attr">n_chans:</span> <span class="number">512</span></span><br><span class="line">  <span class="attr">n_hidden:</span> <span class="number">256</span></span><br><span class="line">  <span class="attr">n_layers:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">n_spk:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">Diffusion</span></span><br><span class="line">  <span class="attr">use_pitch_aug:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">train:</span></span><br><span class="line">  <span class="attr">amp_dtype:</span> <span class="string">fp32</span></span><br><span class="line">  <span class="attr">batch_size:</span> <span class="number">24</span></span><br><span class="line">  <span class="attr">cache_all_data:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">cache_device:</span> <span class="string">cuda</span></span><br><span class="line">  <span class="attr">cache_fp16:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">decay_step:</span> <span class="number">100000</span></span><br><span class="line">  <span class="attr">epochs:</span> <span class="number">100000</span></span><br><span class="line">  <span class="attr">gamma:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">interval_force_save:</span> <span class="number">20000</span></span><br><span class="line">  <span class="attr">interval_log:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">interval_val:</span> <span class="number">1500</span></span><br><span class="line">  <span class="attr">lr:</span> <span class="number">0.0002</span></span><br><span class="line">  <span class="attr">num_workers:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">save_opt:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">weight_decay:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">vocoder:</span></span><br><span class="line">  <span class="attr">ckpt:</span> <span class="string">pretrain/nsf_hifigan/model</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">nsf-hifigan</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>预处理脚本</strong></p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> librosa</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">import</span> pyworld <span class="keyword">as</span> pw</span><br><span class="line"><span class="keyword">import</span> parselmouth</span><br><span class="line"><span class="keyword">import</span> argparse</span><br><span class="line"><span class="keyword">import</span> shutil</span><br><span class="line"><span class="keyword">from</span> logger <span class="keyword">import</span> utils</span><br><span class="line"><span class="keyword">from</span> tqdm <span class="keyword">import</span> tqdm</span><br><span class="line"><span class="keyword">from</span> ddsp.vocoder <span class="keyword">import</span> F0_Extractor, Volume_Extractor, Units_Encoder</span><br><span class="line"><span class="keyword">from</span> diffusion.vocoder <span class="keyword">import</span> Vocoder</span><br><span class="line"><span class="keyword">from</span> logger.utils <span class="keyword">import</span> traverse_dir</span><br><span class="line"><span class="keyword">import</span> concurrent.futures</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parse_args</span>(<span class="params">args=<span class="literal">None</span>, namespace=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="string">"""Parse command-line arguments."""</span></span><br><span class="line">    parser = argparse.ArgumentParser()</span><br><span class="line">    parser.add_argument(</span><br><span class="line">        <span class="string">"-c"</span>,</span><br><span class="line">        <span class="string">"--config"</span>,</span><br><span class="line">        <span class="built_in">type</span>=<span class="built_in">str</span>,</span><br><span class="line">        required=<span class="literal">True</span>,</span><br><span class="line">        <span class="built_in">help</span>=<span class="string">"path to the config file"</span>)</span><br><span class="line">    parser.add_argument(</span><br><span class="line">        <span class="string">"-d"</span>,</span><br><span class="line">        <span class="string">"--device"</span>,</span><br><span class="line">        <span class="built_in">type</span>=<span class="built_in">str</span>,</span><br><span class="line">        default=<span class="literal">None</span>,</span><br><span class="line">        required=<span class="literal">False</span>,</span><br><span class="line">        <span class="built_in">help</span>=<span class="string">"cpu or cuda, auto if not set"</span>)</span><br><span class="line">    <span class="keyword">return</span> parser.parse_args(args=args, namespace=namespace)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">preprocess</span>(<span class="params">path, f0_extractor, volume_extractor, mel_extractor, units_encoder, sample_rate, hop_size, device = <span class="string">'cuda'</span>, use_pitch_aug = <span class="literal">False</span></span>):</span><br><span class="line">    </span><br><span class="line">    path_srcdir  = os.path.join(path, <span class="string">'audio'</span>)</span><br><span class="line">    path_unitsdir  = os.path.join(path, <span class="string">'units'</span>)</span><br><span class="line">    path_f0dir  = os.path.join(path, <span class="string">'f0'</span>)</span><br><span class="line">    path_volumedir  = os.path.join(path, <span class="string">'volume'</span>)</span><br><span class="line">    path_augvoldir  = os.path.join(path, <span class="string">'aug_vol'</span>)</span><br><span class="line">    path_meldir  = os.path.join(path, <span class="string">'mel'</span>)</span><br><span class="line">    path_augmeldir  = os.path.join(path, <span class="string">'aug_mel'</span>)</span><br><span class="line">    path_skipdir = os.path.join(path, <span class="string">'skip'</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># list files</span></span><br><span class="line">    filelist =  traverse_dir(</span><br><span class="line">        path_srcdir,</span><br><span class="line">        extension=<span class="string">'wav'</span>,</span><br><span class="line">        is_pure=<span class="literal">True</span>,</span><br><span class="line">        is_sort=<span class="literal">True</span>,</span><br><span class="line">        is_ext=<span class="literal">True</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># pitch augmentation dictionary</span></span><br><span class="line">    pitch_aug_dict = {}</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># run  </span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">process</span>(<span class="params">file</span>):</span><br><span class="line">        ext = file.split(<span class="string">'.'</span>)[-<span class="number">1</span>]</span><br><span class="line">        binfile = file[:-(<span class="built_in">len</span>(ext)+<span class="number">1</span>)]+<span class="string">'.npy'</span></span><br><span class="line">        path_srcfile = os.path.join(path_srcdir, file)</span><br><span class="line">        path_unitsfile = os.path.join(path_unitsdir, binfile)</span><br><span class="line">        path_f0file = os.path.join(path_f0dir, binfile)</span><br><span class="line">        path_volumefile = os.path.join(path_volumedir, binfile)</span><br><span class="line">        path_augvolfile = os.path.join(path_augvoldir, binfile)</span><br><span class="line">        path_melfile = os.path.join(path_meldir, binfile)</span><br><span class="line">        path_augmelfile = os.path.join(path_augmeldir, binfile)</span><br><span class="line">        path_skipfile = os.path.join(path_skipdir, file)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># load audio</span></span><br><span class="line">        audio, _ = librosa.load(path_srcfile, sr=sample_rate)</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(audio.shape) &gt; <span class="number">1</span>:</span><br><span class="line">            audio = librosa.to_mono(audio)</span><br><span class="line">        audio_t = torch.from_numpy(audio).<span class="built_in">float</span>().to(device)</span><br><span class="line">        audio_t = audio_t.unsqueeze(<span class="number">0</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># extract volume</span></span><br><span class="line">        volume = volume_extractor.extract(audio)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># extract mel and volume augmentaion</span></span><br><span class="line">        <span class="keyword">if</span> mel_extractor <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            mel_t = mel_extractor.extract(audio_t, sample_rate)</span><br><span class="line">            mel = mel_t.squeeze().to(<span class="string">'cpu'</span>).numpy()</span><br><span class="line">            </span><br><span class="line">            max_amp = <span class="built_in">float</span>(torch.<span class="built_in">max</span>(torch.<span class="built_in">abs</span>(audio_t))) + <span class="number">1e-5</span></span><br><span class="line">            max_shift = <span class="built_in">min</span>(<span class="number">1</span>, np.log10(<span class="number">1</span>/max_amp))</span><br><span class="line">            log10_vol_shift = random.uniform(-<span class="number">1</span>, max_shift)</span><br><span class="line">            <span class="keyword">if</span> use_pitch_aug:</span><br><span class="line">                keyshift = random.uniform(-<span class="number">5</span>, <span class="number">5</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                keyshift = <span class="number">0</span></span><br><span class="line">            </span><br><span class="line">            aug_mel_t = mel_extractor.extract(audio_t * (<span class="number">10</span> ** log10_vol_shift), sample_rate, keyshift = keyshift)</span><br><span class="line">            aug_mel = aug_mel_t.squeeze().to(<span class="string">'cpu'</span>).numpy()</span><br><span class="line">            aug_vol = volume_extractor.extract(audio * (<span class="number">10</span> ** log10_vol_shift))</span><br><span class="line">            </span><br><span class="line">        <span class="comment"># units encode</span></span><br><span class="line">        units_t = units_encoder.encode(audio_t, sample_rate, hop_size)</span><br><span class="line">        units = units_t.squeeze().to(<span class="string">'cpu'</span>).numpy()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># extract f0</span></span><br><span class="line">        f0 = f0_extractor.extract(audio, uv_interp = <span class="literal">False</span>)</span><br><span class="line">        </span><br><span class="line">        uv = f0 == <span class="number">0</span></span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(f0[~uv]) &gt; <span class="number">0</span>:</span><br><span class="line">            <span class="comment"># interpolate the unvoiced f0</span></span><br><span class="line">            f0[uv] = np.interp(np.where(uv)[<span class="number">0</span>], np.where(~uv)[<span class="number">0</span>], f0[~uv])</span><br><span class="line"></span><br><span class="line">            <span class="comment"># save npy     </span></span><br><span class="line">            os.makedirs(os.path.dirname(path_unitsfile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">            np.save(path_unitsfile, units)</span><br><span class="line">            os.makedirs(os.path.dirname(path_f0file), exist_ok=<span class="literal">True</span>)</span><br><span class="line">            np.save(path_f0file, f0)</span><br><span class="line">            os.makedirs(os.path.dirname(path_volumefile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">            np.save(path_volumefile, volume)</span><br><span class="line">            <span class="keyword">if</span> mel_extractor <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">                pitch_aug_dict[file[:-(<span class="built_in">len</span>(ext)+<span class="number">1</span>)]] = keyshift</span><br><span class="line">                os.makedirs(os.path.dirname(path_melfile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">                np.save(path_melfile, mel)</span><br><span class="line">                os.makedirs(os.path.dirname(path_augmelfile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">                np.save(path_augmelfile, aug_mel)</span><br><span class="line">                os.makedirs(os.path.dirname(path_augvolfile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">                np.save(path_augvolfile, aug_vol)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'\n[Error] F0 extraction failed: '</span> + path_srcfile)</span><br><span class="line">            os.makedirs(os.path.dirname(path_skipfile), exist_ok=<span class="literal">True</span>)</span><br><span class="line">            shutil.move(path_srcfile, os.path.dirname(path_skipfile))</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'This file has been moved to '</span> + path_skipfile)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">'Preprocess the audio clips in :'</span>, path_srcdir)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># single process</span></span><br><span class="line">    <span class="keyword">for</span> file <span class="keyword">in</span> tqdm(filelist, total=<span class="built_in">len</span>(filelist)):</span><br><span class="line">        process(file)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> mel_extractor <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">        path_pitchaugdict = os.path.join(path, <span class="string">'pitch_aug_dict.npy'</span>)</span><br><span class="line">        np.save(path_pitchaugdict, pitch_aug_dict)</span><br><span class="line">    <span class="comment"># multi-process (have bugs)</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    with concurrent.futures.ProcessPoolExecutor(max_workers=2) as executor:</span></span><br><span class="line"><span class="string">        list(tqdm(executor.map(process, filelist), total=len(filelist)))</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">                </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="comment"># parse commands</span></span><br><span class="line">    cmd = parse_args()</span><br><span class="line"></span><br><span class="line">    device = cmd.device</span><br><span class="line">    <span class="keyword">if</span> device <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">        device = <span class="string">'cuda'</span> <span class="keyword">if</span> torch.cuda.is_available() <span class="keyword">else</span> <span class="string">'cpu'</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># load config</span></span><br><span class="line">    args = utils.load_config(cmd.config)</span><br><span class="line">    sample_rate = args.data.sampling_rate</span><br><span class="line">    hop_size = args.data.block_size</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># initialize f0 extractor</span></span><br><span class="line">    f0_extractor = F0_Extractor(</span><br><span class="line">                        args.data.f0_extractor, </span><br><span class="line">                        args.data.sampling_rate, </span><br><span class="line">                        args.data.block_size, </span><br><span class="line">                        args.data.f0_min, </span><br><span class="line">                        args.data.f0_max)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># initialize volume extractor</span></span><br><span class="line">    volume_extractor = Volume_Extractor(args.data.block_size)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># initialize mel extractor</span></span><br><span class="line">    mel_extractor = <span class="literal">None</span></span><br><span class="line">    use_pitch_aug = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">if</span> args.model.<span class="built_in">type</span> == <span class="string">'Diffusion'</span>:</span><br><span class="line">        mel_extractor = Vocoder(args.vocoder.<span class="built_in">type</span>, args.vocoder.ckpt, device = device)</span><br><span class="line">        <span class="keyword">if</span> mel_extractor.vocoder_sample_rate != sample_rate <span class="keyword">or</span> mel_extractor.vocoder_hop_size != hop_size:</span><br><span class="line">            mel_extractor = <span class="literal">None</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">'Unmatch vocoder parameters, mel extraction is ignored!'</span>)</span><br><span class="line">        <span class="keyword">elif</span> args.model.use_pitch_aug:</span><br><span class="line">            use_pitch_aug = <span class="literal">True</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># initialize units encoder</span></span><br><span class="line">    <span class="keyword">if</span> args.data.encoder == <span class="string">'cnhubertsoftfish'</span>:</span><br><span class="line">        cnhubertsoft_gate = args.data.cnhubertsoft_gate</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        cnhubertsoft_gate = <span class="number">10</span></span><br><span class="line">    units_encoder = Units_Encoder(</span><br><span class="line">                        args.data.encoder, </span><br><span class="line">                        args.data.encoder_ckpt, </span><br><span class="line">                        args.data.encoder_sample_rate, </span><br><span class="line">                        args.data.encoder_hop_size,</span><br><span class="line">                        cnhubertsoft_gate=cnhubertsoft_gate,</span><br><span class="line">                        device = device)    </span><br><span class="line">    </span><br><span class="line">    <span class="comment"># preprocess training set</span></span><br><span class="line">    preprocess(args.data.train_path, f0_extractor, volume_extractor, mel_extractor, units_encoder, sample_rate, hop_size, device = device, use_pitch_aug = use_pitch_aug)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># preprocess validation set</span></span><br><span class="line">    preprocess(args.data.valid_path, f0_extractor, volume_extractor, mel_extractor, units_encoder, sample_rate, hop_size, device = device, use_pitch_aug = <span class="literal">False</span>)</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h3><h4 id="DDSP模型训练"><a href="#DDSP模型训练" class="headerlink" title="DDSP模型训练"></a>DDSP模型训练</h4><h5 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h5><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">data:</span></span><br><span class="line">  <span class="attr">block_size:</span> <span class="number">512</span></span><br><span class="line">  <span class="attr">cnhubertsoft_gate:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">duration:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">encoder:</span> <span class="string">contentvec768l12</span></span><br><span class="line">  <span class="attr">encoder_ckpt:</span> <span class="string">pretrain\contentvec\checkpoint_best_legacy_500.pt</span></span><br><span class="line">  <span class="attr">encoder_hop_size:</span> <span class="number">320</span></span><br><span class="line">  <span class="attr">encoder_out_channels:</span> <span class="number">768</span></span><br><span class="line">  <span class="attr">encoder_sample_rate:</span> <span class="number">16000</span></span><br><span class="line">  <span class="attr">f0_extractor:</span> <span class="string">crepe</span></span><br><span class="line">  <span class="attr">f0_max:</span> <span class="number">800</span></span><br><span class="line">  <span class="attr">f0_min:</span> <span class="number">65</span></span><br><span class="line">  <span class="attr">sampling_rate:</span> <span class="number">44100</span></span><br><span class="line">  <span class="attr">train_path:</span> <span class="string">data/train</span></span><br><span class="line">  <span class="attr">valid_path:</span> <span class="string">data/val</span></span><br><span class="line"><span class="attr">device:</span> <span class="string">cuda</span></span><br><span class="line"><span class="attr">enhancer:</span></span><br><span class="line">  <span class="attr">ckpt:</span> <span class="string">pretrain/nsf_hifigan/model</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">nsf-hifigan</span></span><br><span class="line"><span class="attr">env:</span></span><br><span class="line">  <span class="attr">expdir:</span> <span class="string">exp/combsub-test</span></span><br><span class="line">  <span class="attr">gpu_id:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">loss:</span></span><br><span class="line">  <span class="attr">fft_max:</span> <span class="number">2048</span></span><br><span class="line">  <span class="attr">fft_min:</span> <span class="number">256</span></span><br><span class="line">  <span class="attr">n_scale:</span> <span class="number">4</span></span><br><span class="line"><span class="attr">model:</span></span><br><span class="line">  <span class="attr">n_spk:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">CombSubFast</span></span><br><span class="line"><span class="attr">train:</span></span><br><span class="line">  <span class="attr">batch_size:</span> <span class="number">28</span></span><br><span class="line">  <span class="attr">cache_all_data:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">cache_device:</span> <span class="string">cuda</span></span><br><span class="line">  <span class="attr">cache_fp16:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">epochs:</span> <span class="number">100000</span></span><br><span class="line">  <span class="attr">interval_log:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">interval_val:</span> <span class="number">1500</span></span><br><span class="line">  <span class="attr">lr:</span> <span class="number">0.0005</span></span><br><span class="line">  <span class="attr">num_workers:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">save_opt:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">weight_decay:</span> <span class="number">0</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h5 id="训练脚本"><a href="#训练脚本" class="headerlink" title="训练脚本"></a>训练脚本</h5><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> argparse</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> logger <span class="keyword">import</span> utils</span><br><span class="line"><span class="keyword">from</span> data_loaders <span class="keyword">import</span> get_data_loaders</span><br><span class="line"><span class="keyword">from</span> solver <span class="keyword">import</span> train</span><br><span class="line"><span class="keyword">from</span> ddsp.vocoder <span class="keyword">import</span> Sins, CombSub, CombSubFast</span><br><span class="line"><span class="keyword">from</span> ddsp.loss <span class="keyword">import</span> RSSLoss</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parse_args</span>(<span class="params">args=<span class="literal">None</span>, namespace=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="string">"""Parse command-line arguments."""</span></span><br><span class="line">    parser = argparse.ArgumentParser()</span><br><span class="line">    parser.add_argument(</span><br><span class="line">        <span class="string">"-c"</span>,</span><br><span class="line">        <span class="string">"--config"</span>,</span><br><span class="line">        <span class="built_in">type</span>=<span class="built_in">str</span>,</span><br><span class="line">        required=<span class="literal">True</span>,</span><br><span class="line">        <span class="built_in">help</span>=<span class="string">"path to the config file"</span>)</span><br><span class="line">    <span class="keyword">return</span> parser.parse_args(args=args, namespace=namespace)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="comment"># parse commands</span></span><br><span class="line">    cmd = parse_args()</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load config</span></span><br><span class="line">    args = utils.load_config(cmd.config)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">' &gt; config:'</span>, cmd.config)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">' &gt;    exp:'</span>, args.env.expdir)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># load model</span></span><br><span class="line">    model = <span class="literal">None</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> args.model.<span class="built_in">type</span> == <span class="string">'Sins'</span>:</span><br><span class="line">        model = Sins(</span><br><span class="line">            sampling_rate=args.data.sampling_rate,</span><br><span class="line">            block_size=args.data.block_size,</span><br><span class="line">            n_harmonics=args.model.n_harmonics,</span><br><span class="line">            n_mag_allpass=args.model.n_mag_allpass,</span><br><span class="line">            n_mag_noise=args.model.n_mag_noise,</span><br><span class="line">            n_unit=args.data.encoder_out_channels,</span><br><span class="line">            n_spk=args.model.n_spk)</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">elif</span> args.model.<span class="built_in">type</span> == <span class="string">'CombSub'</span>:</span><br><span class="line">        model = CombSub(</span><br><span class="line">            sampling_rate=args.data.sampling_rate,</span><br><span class="line">            block_size=args.data.block_size,</span><br><span class="line">            n_mag_allpass=args.model.n_mag_allpass,</span><br><span class="line">            n_mag_harmonic=args.model.n_mag_harmonic,</span><br><span class="line">            n_mag_noise=args.model.n_mag_noise,</span><br><span class="line">            n_unit=args.data.encoder_out_channels,</span><br><span class="line">            n_spk=args.model.n_spk)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">elif</span> args.model.<span class="built_in">type</span> == <span class="string">'CombSubFast'</span>:</span><br><span class="line">        model = CombSubFast(</span><br><span class="line">            sampling_rate=args.data.sampling_rate,</span><br><span class="line">            block_size=args.data.block_size,</span><br><span class="line">            n_unit=args.data.encoder_out_channels,</span><br><span class="line">            n_spk=args.model.n_spk)</span><br><span class="line">            </span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">raise</span> ValueError(<span class="string">f" [x] Unknown Model: <span class="subst">{args.model.<span class="built_in">type</span>}</span>"</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load parameters</span></span><br><span class="line">    optimizer = torch.optim.AdamW(model.parameters())</span><br><span class="line">    initial_global_step, model, optimizer = utils.load_model(args.env.expdir, model, optimizer, device=args.device)</span><br><span class="line">    <span class="keyword">for</span> param_group <span class="keyword">in</span> optimizer.param_groups:</span><br><span class="line">        param_group[<span class="string">'lr'</span>] = args.train.lr</span><br><span class="line">        param_group[<span class="string">'weight_decay'</span>] = args.train.weight_decay</span><br><span class="line">        </span><br><span class="line">    <span class="comment"># loss</span></span><br><span class="line">    loss_func = RSSLoss(args.loss.fft_min, args.loss.fft_max, args.loss.n_scale, device = args.device)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># device</span></span><br><span class="line">    <span class="keyword">if</span> args.device == <span class="string">'cuda'</span>:</span><br><span class="line">        torch.cuda.set_device(args.env.gpu_id)</span><br><span class="line">    model.to(args.device)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> state <span class="keyword">in</span> optimizer.state.values():</span><br><span class="line">        <span class="keyword">for</span> k, v <span class="keyword">in</span> state.items():</span><br><span class="line">            <span class="keyword">if</span> torch.is_tensor(v):</span><br><span class="line">                state[k] = v.to(args.device)</span><br><span class="line">                    </span><br><span class="line">    loss_func.to(args.device)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># datas</span></span><br><span class="line">    loader_train, loader_valid = get_data_loaders(args, whole_audio=<span class="literal">False</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># run</span></span><br><span class="line">    train(args, initial_global_step, model, optimizer, loss_func, loader_train, loader_valid)</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="扩散模型训练"><a href="#扩散模型训练" class="headerlink" title="扩散模型训练"></a>扩散模型训练</h4><h5 id="参数-1"><a href="#参数-1" class="headerlink" title="参数"></a>参数</h5><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">data:</span></span><br><span class="line">  <span class="attr">f0_extractor:</span> <span class="string">crepe</span></span><br><span class="line">  <span class="attr">f0_min:</span> <span class="number">65</span></span><br><span class="line">  <span class="attr">f0_max:</span> <span class="number">800</span></span><br><span class="line">  <span class="attr">sampling_rate:</span> <span class="number">44100</span></span><br><span class="line">  <span class="attr">block_size:</span> <span class="number">512</span></span><br><span class="line">  <span class="attr">duration:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">encoder:</span> <span class="string">contentvec768l12</span></span><br><span class="line">  <span class="attr">cnhubertsoft_gate:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">encoder_sample_rate:</span> <span class="number">16000</span></span><br><span class="line">  <span class="attr">encoder_hop_size:</span> <span class="number">320</span></span><br><span class="line">  <span class="attr">encoder_out_channels:</span> <span class="number">768</span></span><br><span class="line">  <span class="attr">encoder_ckpt:</span> <span class="string">pretrain\contentvec\checkpoint_best_legacy_500.pt</span></span><br><span class="line">  <span class="attr">train_path:</span> <span class="string">data/train</span></span><br><span class="line">  <span class="attr">valid_path:</span> <span class="string">data/val</span></span><br><span class="line"><span class="attr">model:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">Diffusion</span></span><br><span class="line">  <span class="attr">n_layers:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">n_chans:</span> <span class="number">512</span></span><br><span class="line">  <span class="attr">n_hidden:</span> <span class="number">256</span></span><br><span class="line">  <span class="attr">use_pitch_aug:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">n_spk:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">device:</span> <span class="string">cuda</span></span><br><span class="line"><span class="attr">vocoder:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">nsf-hifigan</span></span><br><span class="line">  <span class="attr">ckpt:</span> <span class="string">pretrain/nsf_hifigan/model</span></span><br><span class="line"><span class="attr">infer:</span></span><br><span class="line">  <span class="attr">speedup:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">method:</span> <span class="string">dpm-solver</span></span><br><span class="line"><span class="attr">env:</span></span><br><span class="line">  <span class="attr">expdir:</span> <span class="string">exp/diffusion-test</span></span><br><span class="line">  <span class="attr">gpu_id:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">train:</span></span><br><span class="line">  <span class="attr">num_workers:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">amp_dtype:</span> <span class="string">fp32</span></span><br><span class="line">  <span class="attr">batch_size:</span> <span class="number">24</span></span><br><span class="line">  <span class="attr">cache_all_data:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">cache_device:</span> <span class="string">cuda</span></span><br><span class="line">  <span class="attr">cache_fp16:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">epochs:</span> <span class="number">100000</span></span><br><span class="line">  <span class="attr">interval_log:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">interval_val:</span> <span class="number">1500</span></span><br><span class="line">  <span class="attr">interval_force_save:</span> <span class="number">20000</span></span><br><span class="line">  <span class="attr">lr:</span> <span class="number">0.0002</span></span><br><span class="line">  <span class="attr">decay_step:</span> <span class="number">100000</span></span><br><span class="line">  <span class="attr">gamma:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">weight_decay:</span> <span class="number">0</span></span><br><span class="line">  <span class="attr">save_opt:</span> <span class="literal">false</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h5 id="训练脚本-1"><a href="#训练脚本-1" class="headerlink" title="训练脚本"></a>训练脚本</h5><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> argparse</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch.optim <span class="keyword">import</span> lr_scheduler</span><br><span class="line"><span class="keyword">from</span> logger <span class="keyword">import</span> utils</span><br><span class="line"><span class="keyword">from</span> diffusion.data_loaders <span class="keyword">import</span> get_data_loaders</span><br><span class="line"><span class="keyword">from</span> diffusion.solver <span class="keyword">import</span> train</span><br><span class="line"><span class="keyword">from</span> diffusion.unit2mel <span class="keyword">import</span> Unit2Mel</span><br><span class="line"><span class="keyword">from</span> diffusion.vocoder <span class="keyword">import</span> Vocoder</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parse_args</span>(<span class="params">args=<span class="literal">None</span>, namespace=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="string">"""Parse command-line arguments."""</span></span><br><span class="line">    parser = argparse.ArgumentParser()</span><br><span class="line">    parser.add_argument(</span><br><span class="line">        <span class="string">"-c"</span>,</span><br><span class="line">        <span class="string">"--config"</span>,</span><br><span class="line">        <span class="built_in">type</span>=<span class="built_in">str</span>,</span><br><span class="line">        required=<span class="literal">True</span>,</span><br><span class="line">        <span class="built_in">help</span>=<span class="string">"path to the config file"</span>)</span><br><span class="line">    <span class="keyword">return</span> parser.parse_args(args=args, namespace=namespace)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="comment"># parse commands</span></span><br><span class="line">    cmd = parse_args()</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load config</span></span><br><span class="line">    args = utils.load_config(cmd.config)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">' &gt; config:'</span>, cmd.config)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">' &gt;    exp:'</span>, args.env.expdir)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load vocoder</span></span><br><span class="line">    vocoder = Vocoder(args.vocoder.<span class="built_in">type</span>, args.vocoder.ckpt, device=args.device)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load model</span></span><br><span class="line">    model = Unit2Mel(</span><br><span class="line">                args.data.encoder_out_channels, </span><br><span class="line">                args.model.n_spk,</span><br><span class="line">                args.model.use_pitch_aug,</span><br><span class="line">                vocoder.dimension,</span><br><span class="line">                args.model.n_layers,</span><br><span class="line">                args.model.n_chans,</span><br><span class="line">                args.model.n_hidden)</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="comment"># load parameters</span></span><br><span class="line">    optimizer = torch.optim.AdamW(model.parameters())</span><br><span class="line">    initial_global_step, model, optimizer = utils.load_model(args.env.expdir, model, optimizer, device=args.device)</span><br><span class="line">    <span class="keyword">for</span> param_group <span class="keyword">in</span> optimizer.param_groups:</span><br><span class="line">        param_group[<span class="string">'lr'</span>] = args.train.lr</span><br><span class="line">        param_group[<span class="string">'weight_decay'</span>] = args.train.weight_decay</span><br><span class="line">    scheduler = lr_scheduler.StepLR(optimizer, step_size=args.train.decay_step, gamma=args.train.gamma)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># device</span></span><br><span class="line">    <span class="keyword">if</span> args.device == <span class="string">'cuda'</span>:</span><br><span class="line">        torch.cuda.set_device(args.env.gpu_id)</span><br><span class="line">    model.to(args.device)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> state <span class="keyword">in</span> optimizer.state.values():</span><br><span class="line">        <span class="keyword">for</span> k, v <span class="keyword">in</span> state.items():</span><br><span class="line">            <span class="keyword">if</span> torch.is_tensor(v):</span><br><span class="line">                state[k] = v.to(args.device)</span><br><span class="line">                    </span><br><span class="line">    <span class="comment"># datas</span></span><br><span class="line">    loader_train, loader_valid = get_data_loaders(args, whole_audio=<span class="literal">False</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># run</span></span><br><span class="line">    train(args, initial_global_step, model, optimizer, scheduler, vocoder, loader_train, loader_valid)</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="性能评估"><a href="#性能评估" class="headerlink" title="性能评估"></a>性能评估</h4><h5 id="DDSP模型训练日志"><a href="#DDSP模型训练日志" class="headerlink" title="DDSP模型训练日志"></a>DDSP模型训练日志</h5><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">--- model size ---</span><br><span class="line">model: 4,000,518</span><br><span class="line">======= start training =======</span><br><span class="line">epoch: 0 |   9/ 47 | exp/combsub-test | batch/s: 1.35 | loss: 5.327 | time: 0:00:07.5 | step: 10</span><br><span class="line">epoch: 0 |  19/ 47 | exp/combsub-test | batch/s: 3.44 | loss: 4.606 | time: 0:00:10.4 | step: 20</span><br><span class="line">epoch: 0 |  29/ 47 | exp/combsub-test | batch/s: 3.48 | loss: 4.182 | time: 0:00:13.3 | step: 30</span><br><span class="line">epoch: 0 |  39/ 47 | exp/combsub-test | batch/s: 3.58 | loss: 3.385 | time: 0:00:16.0 | step: 40</span><br><span class="line">epoch: 1 |   2/ 47 | exp/combsub-test | batch/s: 3.73 | loss: 3.502 | time: 0:00:18.7 | step: 50</span><br><span class="line">epoch: 1 |  12/ 47 | exp/combsub-test | batch/s: 3.92 | loss: 3.372 | time: 0:00:21.3 | step: 60</span><br><span class="line">epoch: 1 |  22/ 47 | exp/combsub-test | batch/s: 3.52 | loss: 2.708 | time: 0:00:24.1 | step: 70</span><br><span class="line">epoch: 1 |  32/ 47 | exp/combsub-test | batch/s: 3.61 | loss: 2.679 | time: 0:00:26.9 | step: 80</span><br><span class="line">epoch: 1 |  42/ 47 | exp/combsub-test | batch/s: 3.58 | loss: 2.132 | time: 0:00:29.7 | step: 90</span><br><span class="line">epoch: 2 |   5/ 47 | exp/combsub-test | batch/s: 4.02 | loss: 2.151 | time: 0:00:32.2 | step: 100</span><br><span class="line"></span><br><span class="line">……</span><br><span class="line"></span><br><span class="line">epoch: 61 |  32/ 47 | exp/combsub-test | batch/s: 4.97 | loss: 1.073 | time: 0:10:41.3 | step: 8900</span><br><span class="line">epoch: 61 |  42/ 47 | exp/combsub-test | batch/s: 4.95 | loss: 1.113 | time: 0:10:43.3 | step: 8910</span><br><span class="line">epoch: 62 |   5/ 47 | exp/combsub-test | batch/s: 4.84 | loss: 1.056 | time: 0:10:45.4 | step: 8920</span><br><span class="line">epoch: 62 |  15/ 47 | exp/combsub-test | batch/s: 4.88 | loss: 1.082 | time: 0:10:47.4 | step: 8930</span><br><span class="line">epoch: 62 |  25/ 47 | exp/combsub-test | batch/s: 5.00 | loss: 1.094 | time: 0:10:49.4 | step: 8940</span><br><span class="line">epoch: 62 |  35/ 47 | exp/combsub-test | batch/s: 4.96 | loss: 1.042 | time: 0:10:51.4 | step: 8950</span><br><span class="line">epoch: 62 |  45/ 47 | exp/combsub-test | batch/s: 5.02 | loss: 1.065 | time: 0:10:53.4 | step: 8960</span><br><span class="line">epoch: 63 |   8/ 47 | exp/combsub-test | batch/s: 4.98 | loss: 1.102 | time: 0:10:55.4 | step: 8970</span><br><span class="line">epoch: 63 |  18/ 47 | exp/combsub-test | batch/s: 5.10 | loss: 1.080 | time: 0:10:57.4 | step: 8980</span><br><span class="line">epoch: 63 |  28/ 47 | exp/combsub-test | batch/s: 5.00 | loss: 1.064 | time: 0:10:59.4 | step: 8990</span><br><span class="line">epoch: 63 |  38/ 47 | exp/combsub-test | batch/s: 4.95 | loss: 1.069 | time: 0:11:01.4 | step: 9000</span><br><span class="line">--- &lt;validation&gt; --- </span><br><span class="line">loss: 1.087. </span><br></pre></td></tr></tbody></table></figure>
+
+<h5 id="扩散模型训练日志"><a href="#扩散模型训练日志" class="headerlink" title="扩散模型训练日志"></a>扩散模型训练日志</h5><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">--- model size ---</span><br><span class="line">model: 55,192,704</span><br><span class="line">======= start training =======</span><br><span class="line">epoch: 0 |   9/ 47 | exp/diffusion-test | batch/s: 1.40 | lr: 0.0002 | loss: 0.036 | time: 0:00:07.5 | step: 10</span><br><span class="line">epoch: 0 |  19/ 47 | exp/diffusion-test | batch/s: 1.62 | lr: 0.0002 | loss: 0.030 | time: 0:00:13.7 | step: 20</span><br><span class="line">epoch: 0 |  29/ 47 | exp/diffusion-test | batch/s: 1.62 | lr: 0.0002 | loss: 0.022 | time: 0:00:19.9 | step: 30</span><br><span class="line">epoch: 0 |  39/ 47 | exp/diffusion-test | batch/s: 1.61 | lr: 0.0002 | loss: 0.031 | time: 0:00:26.1 | step: 40</span><br><span class="line">epoch: 1 |   2/ 47 | exp/diffusion-test | batch/s: 1.74 | lr: 0.0002 | loss: 0.027 | time: 0:00:31.8 | step: 50</span><br><span class="line">epoch: 1 |  12/ 47 | exp/diffusion-test | batch/s: 1.61 | lr: 0.0002 | loss: 0.006 | time: 0:00:38.0 | step: 60</span><br><span class="line">epoch: 1 |  22/ 47 | exp/diffusion-test | batch/s: 1.61 | lr: 0.0002 | loss: 0.029 | time: 0:00:44.3 | step: 70</span><br><span class="line">epoch: 1 |  32/ 47 | exp/diffusion-test | batch/s: 1.60 | lr: 0.0002 | loss: 0.019 | time: 0:00:50.5 | step: 80</span><br><span class="line">epoch: 1 |  42/ 47 | exp/diffusion-test | batch/s: 1.60 | lr: 0.0002 | loss: 0.024 | time: 0:00:56.7 | step: 90</span><br><span class="line">epoch: 2 |   5/ 47 | exp/diffusion-test | batch/s: 1.72 | lr: 0.0002 | loss: 0.012 | time: 0:01:02.5 | step: 100</span><br><span class="line">                                </span><br><span class="line">……</span><br><span class="line"></span><br><span class="line">epoch: 93 |  28/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.040 | time: 0:49:42.2 | step: 5900</span><br><span class="line">epoch: 93 |  38/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.023 | time: 0:49:48.8 | step: 5910</span><br><span class="line">epoch: 94 |   1/ 47 | exp/diffusion-test | batch/s: 1.65 | lr: 0.0002 | loss: 0.029 | time: 0:49:54.9 | step: 5920</span><br><span class="line">epoch: 94 |  11/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.021 | time: 0:50:01.5 | step: 5930</span><br><span class="line">epoch: 94 |  21/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.057 | time: 0:50:08.0 | step: 5940</span><br><span class="line">epoch: 94 |  31/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.020 | time: 0:50:14.6 | step: 5950</span><br><span class="line">epoch: 94 |  41/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.012 | time: 0:50:21.2 | step: 5960</span><br><span class="line">epoch: 95 |   4/ 47 | exp/diffusion-test | batch/s: 1.65 | lr: 0.0002 | loss: 0.008 | time: 0:50:27.2 | step: 5970</span><br><span class="line">epoch: 95 |  14/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.032 | time: 0:50:33.8 | step: 5980</span><br><span class="line">epoch: 95 |  24/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.020 | time: 0:50:40.4 | step: 5990</span><br><span class="line">epoch: 95 |  34/ 47 | exp/diffusion-test | batch/s: 1.52 | lr: 0.0002 | loss: 0.024 | time: 0:50:47.0 | step: 6000</span><br><span class="line"> --- &lt;validation&gt; --- </span><br><span class="line">loss: 0.027. </span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="数据的可视化"><a href="#数据的可视化" class="headerlink" title="数据的可视化"></a>数据的可视化</h3><h4 id="DDSP训练loss"><a href="#DDSP训练loss" class="headerlink" title="DDSP训练loss"></a>DDSP训练loss<img src="https://pic1.imgdb.cn/item/6468da5be03e90d87451b660.jpg"></h4><h4 id="DDSP验证loss"><a href="#DDSP验证loss" class="headerlink" title="DDSP验证loss"></a>DDSP验证loss<img src="https://pic1.imgdb.cn/item/6468df81e03e90d8745846b4.jpg"></h4><h4 id="扩散训练loss"><a href="#扩散训练loss" class="headerlink" title="扩散训练loss"></a>扩散训练loss<img src="https://pic1.imgdb.cn/item/6468e01ce03e90d874590f26.jpg"></h4><h4 id="扩散验证loss"><a href="#扩散验证loss" class="headerlink" title="扩散验证loss"></a>扩散验证loss<img src="https://pic1.imgdb.cn/item/6468e07ee03e90d874599769.jpg"></h4><h1 id="研究结论"><a href="#研究结论" class="headerlink" title="研究结论"></a>研究结论</h1><p>DDSP使得音频转换效果在同等的硬件条件下大幅提升，在部分数据集上可以达到媲美So-VITS的效果。</p>
+<p>此外，DDSP还具有以下优点：</p>
+<ol>
+<li>对音频进行实时处理，具有高效性和灵活性；</li>
+<li>对音频进行可控的声音合成，使得用户可以根据自己的需求进行音频转换；</li>
+<li>对音频进行可解释的分析，使得用户可以更好地理解音频的特征和结构。</li>
+</ol>
+<p>因此，DDSP是非常有前途，可以在音频转换、音乐合成、语音识别等领域得到广泛应用。</p>
+<h2 id="推理音频示例"><a href="#推理音频示例" class="headerlink" title="推理音频示例"></a>推理音频示例</h2><p><a target="_blank" rel="noopener" href="https://filedoge.com/download/fbe2cf1f61655588aa73a868addafef2e0eb82c9dd8f21d669d534a40ce50f454f657b81f24f965ff890">下载链接</a></p>
+
+    </div>
+
+    
+    
+    
+
+<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa-solid fa-check"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+  
+</div>
+
+<div>
+    
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+ 
+  <p><span>本文标题:</span>DDSP-SVC-3.0</a></p>
+  <p><span>文章作者:</span>Rock Zhang</a></p>
+  <p><span>发布时间:</span>2023年05月13日 - 23:58:01</p>
+  <p><span>最后更新:</span>2023年05月27日 - 16:35:54</p>
+  <!-- <p><span>原始链接:</span><a href="/2023/05/13/DDSP-SVC-3-0/" title="DDSP-SVC-3.0">https://yousa.love/2023/05/13/DDSP-SVC-3-0/</a> 
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://yousa.love/2023/05/13/DDSP-SVC-3-0/"  aria-label="复制成功！"></i></span>
+  </p> -->
+  <p><span>许可协议:</span><i class="fa-regular fa-copyright"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({   
+          title: "",   
+          text: '复制成功',   
+          html: false,
+          timer: 500,   
+          showConfirmButton: false
+        });
+      });
+    }));  
+</script>
+
+    
+</div>
+      
+
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/05/07/%E6%B3%A0%E9%B8%A2lora%E6%A8%A1%E5%9E%8Bv2/" rel="prev" title="泠鸢lora模型v2">
+                  <i class="fa fa-chevron-left"></i> 泠鸢lora模型v2
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/05/27/CUDA/" rel="next" title="CUDA">
+                  CUDA <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81ODI5My8zNDc1Ng"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-arrow-right"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Rock Zhang</span>
+</div>
+<div class="busuanzi-count">
+</div>
+
+<!-- -->
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共55.9k字</span>
+</div>
+
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("11/04/2022 00:00:00"); //建站时间
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒 " + "♡Haibara Ai♡"; 
+    } 
+setInterval("createtime()",250);
+</script>
+</div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: 'unset',
+  left: '32px',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+<script src="/js/third-party/comments/livere.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
+</html>
