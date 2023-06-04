@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"yousa.love","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="概述">
+<meta property="og:type" content="article">
+<meta property="og:title" content="梯度下降算法简介">
+<meta property="og:url" content="https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="概述">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647b3c72f024cca1733051c3.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647b4a0cf024cca1734e29c2.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647b4b29f024cca1735137e0.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647b4b39f024cca1735161bb.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647bfbb9f024cca1730d4327.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647bfbcef024cca1730d5562.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647bfbe0f024cca1730d6375.jpg">
+<meta property="og:image" content="https://s1.ax1x.com/2023/06/04/pC9cop6.png">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647bfd73f024cca1730eac24.jpg">
+<meta property="og:image" content="https://pic.imgdb.cn/item/647c2806f024cca173561b9a.jpg">
+<meta property="article:published_time" content="2023-06-03T13:12:42.000Z">
+<meta property="article:modified_time" content="2023-06-04T06:37:13.454Z">
+<meta property="article:author" content="Rock Zhang">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.imgdb.cn/item/647b3c72f024cca1733051c3.jpg">
+
+
+<link rel="canonical" href="https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/","path":"2023/06/03/梯度下降算法简介/","title":"梯度下降算法简介"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>梯度下降算法简介 | Blog</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?1d8fab92cad73dd20fa7216faae4d15e"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-资源分享"><a href="/resourceshare/" rel="section"><i class="fa fa-download fa-fw"></i>资源分享</a></li><li class="menu-item menu-item-收藏夹"><a href="/Favorites/" rel="section"><i class="fa fa-star fa-fw"></i>收藏夹</a></li><li class="menu-item menu-item-hexo"><a href="/hexo/" rel="section"><i class="fa fa-h fa-fw"></i>Hexo</a></li><li class="menu-item menu-item-更新日志"><a href="/updates/" rel="section"><i class="fa fa-calendar fa-fw"></i>更新日志</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A6%82%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">梯度下降算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%BA%E6%99%AF%E5%81%87%E8%AE%BE"><span class="nav-number">2.1.</span> <span class="nav-text">场景假设</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D"><span class="nav-number">2.2.</span> <span class="nav-text">梯度下降</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AE%E5%88%86"><span class="nav-number">2.2.1.</span> <span class="nav-text">微分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A2%AF%E5%BA%A6"><span class="nav-number">2.2.2.</span> <span class="nav-text">梯度</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E8%A7%A3%E9%87%8A"><span class="nav-number">2.3.</span> <span class="nav-text">数学解释</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%CE%B1"><span class="nav-number">2.3.1.</span> <span class="nav-text">α</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A2%AF%E5%BA%A6%E8%A6%81%E4%B9%98%E4%BB%A5%E4%B8%80%E4%B8%AA%E8%B4%9F%E5%8F%B7"><span class="nav-number">2.3.2.</span> <span class="nav-text">梯度要乘以一个负号</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%9E%E4%BE%8B"><span class="nav-number">3.</span> <span class="nav-text">实例</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%95%E5%8F%98%E9%87%8F%E5%87%BD%E6%95%B0%E7%9A%84%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D"><span class="nav-number">3.1.</span> <span class="nav-text">单变量函数的梯度下降</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E5%8F%98%E9%87%8F%E5%87%BD%E6%95%B0%E7%9A%84%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D"><span class="nav-number">3.2.</span> <span class="nav-text">多变量函数的梯度下降</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0"><span class="nav-number">4.</span> <span class="nav-text">代码实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%BA%E6%99%AF%E5%88%86%E6%9E%90"><span class="nav-number">4.1.</span> <span class="nav-text">场景分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">4.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%8F%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">小结</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Rock Zhang"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Rock Zhang</p>
+  <div class="site-description" itemprop="description"><font color="#AD8152">'愛は、科学と論理では永遠に説明できないプログラムです。'</font></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yousaforever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yousaforever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:3624570292@qq.com" title="E-Mail → mailto:3624570292@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://space.bilibili.com/282994/" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;282994&#x2F;" rel="noopener" target="_blank">泠鸢yousa</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.bilibili.com/" title="https:&#x2F;&#x2F;www.bilibili.com&#x2F;" rel="noopener" target="_blank">Bilibili</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://huggingface.co/" title="https:&#x2F;&#x2F;huggingface.co&#x2F;" rel="noopener" target="_blank">Huggingface</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.csdn.net/" title="https:&#x2F;&#x2F;www.csdn.net&#x2F;" rel="noopener" target="_blank">CSDN</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.nvidia.cn/" title="https:&#x2F;&#x2F;www.nvidia.cn&#x2F;" rel="noopener" target="_blank">NVIDIA</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://openai.com/" title="https:&#x2F;&#x2F;openai.com&#x2F;" rel="noopener" target="_blank">OpenAI</a>
+        </li>
+    </ul>
+  </div>
+
+
+
+        </div>
+
+          <!--<div id="music163player">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1989729997&auto=1&height=66">
+          </iframe>
+          </div>-->
+          
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/yousaforever" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Rock Zhang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+      <meta itemprop="description" content="<font color="#AD8152">'愛は、科学と論理では永遠に説明できないプログラムです。'</font>">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="梯度下降算法简介 | Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          梯度下降算法简介
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-06-03 21:12:42" itemprop="dateCreated datePublished" datetime="2023-06-03T21:12:42+08:00">2023-06-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-06-04 14:37:13" itemprop="dateModified" datetime="2023-06-04T14:37:13+08:00">2023-06-04</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>18 分钟</span>
+    </span>
+</div>
+
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><span id="more"></span>
+
+<p>梯度下降（gradient descent）在机器学习中应用十分的广泛，不论是在线性回归还是Logistic回归中，它的主要目的是通过迭代找到目标函数的最小值，或者收敛到最小值。<br>本文将从一个下山的场景开始，先提出梯度下降算法的基本思想，进而从数学上解释梯度下降算法的原理，解释为什么要用梯度，最后实现一个简单的梯度下降算法的实例！</p>
+<h1 id="梯度下降算法"><a href="#梯度下降算法" class="headerlink" title="梯度下降算法"></a>梯度下降算法</h1><h2 id="场景假设"><a href="#场景假设" class="headerlink" title="场景假设"></a>场景假设</h2><p>梯度下降法的基本思想可以类比为一个下山的过程。<br>假设这样一个场景：一个人被困在山上，需要从山上下来(找到山的最低点，也就是山谷)。但此时山上的浓雾很大，导致可视度很低；因此，下山的路径就无法确定，必须利用自己周围的信息一步一步地找到下山的路。这个时候，便可利用梯度下降算法来帮助自己下山。怎么做呢，首先以他当前的所处的位置为基准，寻找这个位置最陡峭的地方，然后朝着下降方向走一步，然后又继续以当前位置为基准，再找最陡峭的地方，再走直到最后到达最低处；同理上山也是如此，只是这时候就变成梯度上升算法了</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647b3c72f024cca1733051c3.jpg"><img src="https://pic.imgdb.cn/item/647b3c72f024cca1733051c3.jpg"></a></p>
+<h2 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h2><p>梯度下降的基本过程就和下山的场景很类似。</p>
+<p>首先，我们有一个可微分的函数。这个函数就代表着一座山。我们的目标就是找到这个函数的最小值，也就是山底。根据之前的场景假设，最快的下山的方式就是找到当前位置最陡峭的方向，然后沿着此方向向下走，对应到函数中，就是找到给定点的梯度 ，然后朝着梯度相反的方向，就能让函数值下降的最快！因为梯度的方向就是函数之变化最快的方向(在后面会详细解释)<br>所以，我们重复利用这个方法，反复求取梯度，最后就能到达局部的最小值，这就类似于我们下山的过程。而求取梯度就确定了最陡峭的方向，也就是场景中测量方向的手段。那么为什么梯度的方向就是最陡峭的方向呢？接下来，我们从微分开始讲起：</p>
+<h3 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h3><p>看待微分的意义，可以有不同的角度，最常用的两种是：</p>
+<p>函数图像中，某点的切线的斜率<br>函数的变化率<br>几个微分的例子：</p>
+<ol>
+<li>单变量的微分，函数只有一个变量时</li>
+</ol>
+<p>$$<br>\frac{\mathrm{d}\left(\mathrm{x}^2\right)}{\mathrm{dx}}=2 \mathrm{x}<br>$$</p>
+<p>$$<br>\frac{\mathrm{d}(-2y^{5})}{\mathrm{d}y}{=}-10y^{4}<br>$$</p>
+<p>$$<br>{\frac{\operatorname*{d}(5-θ)^{2}}{\operatorname*{d}θ}}{=}-2(5-\Theta)<br>$$</p>
+<ol start="2">
+<li>多变量的微分，当函数有多个变量的时候，即分别对每个变量进行求微分</li>
+</ol>
+<p>$$<br>\frac{\partial}{\partial x}\left({\bf x}^{2}{\bf y}^{2}\right)=2{\bf x}y^{2}<br>$$</p>
+<p>$$<br>\frac{\partial}{\partial\mathbf{y}}\left(-2\mathbf{y}^{5}+\mathbf{z}^{2}\right)=-10\mathbf{y}^{4}<br>$$</p>
+<p>$$<br>\frac{\partial}{\partial\theta_{2}}\left(5\theta_{1}+2\theta_{2},-12\theta_{3}\right)=2<br>$$</p>
+<p>$$<br>\frac{\partial}{\partial\theta_{2}}\left(0.55-\left(50_{1},+\ 2\theta_{2},-,12\theta_{3}\right)\right)=-2<br>$$</p>
+<h3 id="梯度"><a href="#梯度" class="headerlink" title="梯度"></a>梯度</h3><p>梯度实际上就是多变量微分的一般化。<br>下面这个例子：<br>$$<br>\operatorname{J}(\Theta)=0.55-(5\theta_{1}+2\theta_{2}-12\theta_{3})<br>$$</p>
+<p>$$<br>\nabla J\left(\Theta\right){=}\langle\frac{\partial{ J}}{\partial\theta_{1}},\frac{\partial{ J}}{\partial\theta_{2}},\frac{\partial{ J}}{\partial\theta_{3}}\rangle{=}\left(-5,-2,12\right)<br>$$</p>
+<p>我们可以看到，梯度就是分别对每个变量进行微分，然后用逗号分割开，梯度是用&lt;&gt;包括起来，说明梯度其实一个向量。</p>
+<p>梯度是微积分中一个很重要的概念，之前提到过梯度的意义</p>
+<p>在单变量的函数中，梯度其实就是函数的微分，代表着函数在某个给定点的切线的斜率<br>在多变量函数中，梯度是一个向量，向量有方向，梯度的方向就指出了函数在给定点的上升最快的方向<br>这也就说明了为什么我们需要千方百计的求取梯度！我们需要到达山底，就需要在每一步观测到此时最陡峭的地方，梯度就恰巧告诉了我们这个方向。梯度的方向是函数在给定点上升最快的方向，那么梯度的反方向就是函数在给定点下降最快的方向，这正是我们所需要的。所以我们只要沿着梯度的方向一直走，就能走到局部的最低点！</p>
+<h2 id="数学解释"><a href="#数学解释" class="headerlink" title="数学解释"></a>数学解释</h2><p>首先给出数学公式：<br>$$<br>\Theta^{1}=\Theta^{0}+a\nabla\mathrm{J}\left(\Theta\right)\rightarrow\mathrm{evaluatedat}\Theta^{0}<br>$$<br>此公式的意义是：J是关于Θ的一个函数，我们当前所处的位置为Θ0点，要从这个点走到J的最小值点，也就是山底。首先我们先确定前进的方向，也就是梯度的反向，然后走一段距离的步长，也就是α，走完这个段步长，就到达了Θ1这个点！</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647b4a0cf024cca1734e29c2.jpg"><img src="https://pic.imgdb.cn/item/647b4a0cf024cca1734e29c2.jpg"></a></p>
+<h3 id="α"><a href="#α" class="headerlink" title="α"></a>α</h3><p>α在梯度下降算法中被称作为学习率或者步长，意味着我们可以通过α来控制每一步走的距离，以保证不要步子跨的太大扯着蛋，哈哈，其实就是不要走太快，错过了最低点。同时也要保证不要走的太慢，导致太阳下山了，还没有走到山下。所以α的选择在梯度下降法中往往是很重要的！α不能太大也不能太小，太小的话，可能导致迟迟走不到最低点，太大的话，会导致错过最低点！</p>
+<h3 id="梯度要乘以一个负号"><a href="#梯度要乘以一个负号" class="headerlink" title="梯度要乘以一个负号"></a>梯度要乘以一个负号</h3><p>梯度前加一个负号，就意味着朝着梯度相反的方向前进！我们在前文提到，梯度的方向实际就是函数在此点上升最快的方向！而我们需要朝着下降最快的方向走，自然就是负的梯度的方向，所以此处需要加上负号；那么如果时上坡，也就是梯度上升算法，当然就不需要添加负号了。</p>
+<h1 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h1><p>我们已经基本了解了梯度下降算法的计算过程，那么我们就来看几个梯度下降算法的小实例，首先从单变量的函数开始，然后介绍多变量的函数。</p>
+<h2 id="单变量函数的梯度下降"><a href="#单变量函数的梯度下降" class="headerlink" title="单变量函数的梯度下降"></a>单变量函数的梯度下降</h2><p>我们假设有一个单变量的函数<br>$$<br>{\mathbf{J}}(\theta)=\theta^{2}<br>$$<br>函数的微分，直接求导就可以得到<br>$$<br>J^′(θ)=2θ<br>$$<br>初始化，也就是起点，起点可以随意的设置，这里设置为1<br>$$<br>θ ^0<br> =1<br>$$<br>学习率也可以随意的设置，这里设置为0.4<br>$$<br>α=0.4<br>$$<br>根据梯度下降的计算公式</p>
+<p>我们开始进行梯度下降的迭代计算过程：</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647b4b29f024cca1735137e0.jpg"><img src="https://pic.imgdb.cn/item/647b4b29f024cca1735137e0.jpg"></a></p>
+<p>如图，经过四次的运算，也就是走了四步，基本就抵达了函数的最低点，也就是山底</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647b4b39f024cca1735161bb.jpg"><img src="https://pic.imgdb.cn/item/647b4b39f024cca1735161bb.jpg"></a></p>
+<h2 id="多变量函数的梯度下降"><a href="#多变量函数的梯度下降" class="headerlink" title="多变量函数的梯度下降"></a>多变量函数的梯度下降</h2><p>我们假设有一个目标函数<br>$$<br>\operatorname{J}(\Theta)=\theta_{1}^{2}+\theta_{2}^{2}<br>$$<br>现在要通过梯度下降法计算这个函数的最小值。我们通过观察就能发现最小值其实就是 (0，0)点。但是接下来，我们会从梯度下降算法开始一步步计算到这个最小值！<br>我们假设初始的起点为：<br>$$<br>Θ _0<br> =(1,3)<br>$$<br>初始的学习率为：</p>
+<p>$$<br>α=0.1<br>$$<br>函数的梯度为：<br>$$<br>▽J(Θ)=⟨2θ_1,2θ_2⟩<br>$$<br>进行多次迭代：</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647bfbb9f024cca1730d4327.jpg"><img src="https://pic.imgdb.cn/item/647bfbb9f024cca1730d4327.jpg"></a></p>
+<p>我们发现，已经基本靠近函数的最小值点</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647bfbcef024cca1730d5562.jpg"><img src="https://pic.imgdb.cn/item/647bfbcef024cca1730d5562.jpg"></a></p>
+<h1 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h1><h2 id="场景分析"><a href="#场景分析" class="headerlink" title="场景分析"></a>场景分析</h2><p>下面我们将用python实现一个简单的梯度下降算法。场景是一个简单的线性回归的例子：假设现在我们有一系列的点，如下图所示：</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647bfbe0f024cca1730d6375.jpg"><img src="https://pic.imgdb.cn/item/647bfbe0f024cca1730d6375.jpg"></a></p>
+<p>我们将用梯度下降法来拟合出这条直线！</p>
+<p>首先，我们需要定义一个代价函数，在此我们选用<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Least_squares"><strong>均方误差代价函数</strong></a>（也称平方误差代价函数）<br>$$<br>J\left(\Theta\right)={\frac{1}{2\mathrm{m}}}\sum_{\mathrm{i=1}}^{\mathrm{m}}\left(\mathrm{h}_{\theta}\left(\mathbf{x}^{\mathrm{(i)}}\right)-\mathbf{y}^{\mathrm{(i)}}\right)^{2}<br>$$<br>此公式中</p>
+<ul>
+<li>m是数据集中数据点的个数，也就是样本数</li>
+<li>1/2m是一个常量，这样是为了在求梯度的时候，二次方乘下来的2就和这里的½抵消了，自然就没有多余的常数系数，方便后续的计算，同时对结果不会有影响</li>
+<li>y 是数据集中每个点的真实y坐标的值，也就是类标签</li>
+<li>h 是我们的预测函数（假设函数），根据每一个输入x，根据Θ 计算得到预测的y值，即</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pC9cop6"><img src="https://s1.ax1x.com/2023/06/04/pC9cop6.png"></a></p>
+<p>我们可以根据代价函数看到，代价函数中的变量有两个，所以是一个多变量的梯度下降问题，求解出代价函数的梯度，也就是分别对两个变量进行微分</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647bfd73f024cca1730eac24.jpg"><img src="https://pic.imgdb.cn/item/647bfd73f024cca1730eac24.jpg"></a></p>
+<p>明确了代价函数和梯度，以及预测的函数形式。我们就可以开始编写代码了。但在这之前，需要说明一点，就是为了方便代码的编写，我们会将所有的公式都转换为矩阵的形式，python中计算矩阵是非常方便的，同时代码也会变得非常的简洁。<br>为了转换为矩阵的计算，我们观察到预测函数的形式<br>$$<br>h_{\Theta}({\bf x}^{(\mathrm{i})}){=}\Theta_{0}+\Theta_{1}{\bf x}^{(\mathrm{i})}<br>$$<br>我们有两个变量，为了对这个公式进行矩阵化，我们可以给每一个点x增加一维，这一维的值固定为1，这一维将会乘到Θ0上。这样就方便我们统一矩阵化的计算</p>
+<p>然后我们将代价函数和梯度转化为矩阵向量相乘的形式<br>$$<br>\operatorname{J}(\Theta)={\textstyle\frac{1}{2\mathrm{m}}}\left(\mathbf{X}\Theta-{\vec{y}}\right)^{\mathrm{T}}\left(\mathbf{X}\Theta-{\vec{y}}\right)<br>$$</p>
+<p>$$<br>\nabla{J}\left(\Theta\right)={\operatorname*{\frac{1}{\mathrm{m}}}}\mathbf{X}^{\mathrm{T}}\left(\mathbf{X}\Theta-{\vec{\mathbf{y}}}\right)<br>$$</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>首先，我们需要定义数据集和学习率</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">from numpy import *</span><br><span class="line"></span><br><span class="line"># 数据集大小 即20个数据点</span><br><span class="line">m = 20</span><br><span class="line"># x的坐标以及对应的矩阵</span><br><span class="line">X0 = ones((m, 1))  # 生成一个m行1列的向量，也就是x0，全是1</span><br><span class="line">X1 = arange(1, m+1).reshape(m, 1)  # 生成一个m行1列的向量，也就是x1，从1到m</span><br><span class="line">X = hstack((X0, X1))  # 按照列堆叠形成数组，其实就是样本数据</span><br><span class="line"># 对应的y坐标</span><br><span class="line">y = np.array([</span><br><span class="line">    3, 4, 5, 5, 2, 4, 7, 8, 11, 8, 12,</span><br><span class="line">    11, 13, 13, 16, 17, 18, 17, 19, 21</span><br><span class="line">]).reshape(m, 1)</span><br><span class="line"># 学习率</span><br><span class="line">alpha = 0.01</span><br></pre></td></tr></tbody></table></figure>
+
+<p>接下来我们以矩阵向量的形式定义代价函数和代价函数的梯度</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 定义代价函数</span><br><span class="line">def cost_function(theta, X, Y):</span><br><span class="line">    diff = dot(X, theta) - Y  # dot() 数组需要像矩阵那样相乘，就需要用到dot()</span><br><span class="line">    return (1/(2*m)) * dot(diff.transpose(), diff)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 定义代价函数对应的梯度函数</span><br><span class="line">def gradient_function(theta, X, Y):</span><br><span class="line">    diff = dot(X, theta) - Y</span><br><span class="line">    return (1/m) * dot(X.transpose(), diff)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>最后就是算法的核心部分，梯度下降迭代计算</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># 梯度下降迭代</span><br><span class="line">def gradient_descent(X, Y, alpha):</span><br><span class="line">    theta = array([1, 1]).reshape(2, 1)</span><br><span class="line">    gradient = gradient_function(theta, X, Y)</span><br><span class="line">    while not all(abs(gradient) &lt;= 1e-5):</span><br><span class="line">        theta = theta - alpha * gradient</span><br><span class="line">        gradient = gradient_function(theta, X, Y)</span><br><span class="line">    return theta</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">optimal = gradient_descent(X, Y, alpha)</span><br><span class="line">print('optimal:', optimal)</span><br><span class="line">print('cost function:', cost_function(optimal, X, Y)[0][0])</span><br></pre></td></tr></tbody></table></figure>
+
+<p>当梯度小于1e-5时，说明已经进入了比较平滑的状态，类似于山谷的状态，这时候再继续迭代效果也不大了，所以这个时候可以退出循环！<br>运行代码，计算得到的结果如下：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print('optimal:', optimal)  # 结果 [[0.51583286][0.96992163]]</span><br><span class="line">print('cost function:', cost_function(optimal, X, Y)[0][0])  # 1.014962406233101</span><br></pre></td></tr></tbody></table></figure>
+
+<p>通过matplotlib画出图像，</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 根据数据画出对应的图像</span><br><span class="line">def plot(X, Y, theta):</span><br><span class="line">    import matplotlib.pyplot as plt</span><br><span class="line">    ax = plt.subplot(111)  # 这是我改的</span><br><span class="line">    ax.scatter(X, Y, s=30, c="red", marker="s")</span><br><span class="line">    plt.xlabel("X")</span><br><span class="line">    plt.ylabel("Y")</span><br><span class="line">    x = arange(0, 21, 0.2)  # x的范围</span><br><span class="line">    y = theta[0] + theta[1]*x</span><br><span class="line">    ax.plot(x, y)</span><br><span class="line">    plt.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">plot(X1, Y, optimal)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>所拟合出的直线如下</p>
+<p><a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/647c2806f024cca173561b9a.jpg"><img src="https://pic.imgdb.cn/item/647c2806f024cca173561b9a.jpg"></a></p>
+<p>全部代码如下，大家有兴趣的可以复制下来跑一下看一下结果：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">from numpy import *</span><br><span class="line"></span><br><span class="line"># 数据集大小 即20个数据点</span><br><span class="line">m = 20</span><br><span class="line"># x的坐标以及对应的矩阵</span><br><span class="line">X0 = ones((m, 1))  # 生成一个m行1列的向量，也就是x0，全是1</span><br><span class="line">X1 = arange(1, m+1).reshape(m, 1)  # 生成一个m行1列的向量，也就是x1，从1到m</span><br><span class="line">X = hstack((X0, X1))  # 按照列堆叠形成数组，其实就是样本数据</span><br><span class="line"># 对应的y坐标</span><br><span class="line">Y = array([</span><br><span class="line">    3, 4, 5, 5, 2, 4, 7, 8, 11, 8, 12,</span><br><span class="line">    11, 13, 13, 16, 17, 18, 17, 19, 21</span><br><span class="line">]).reshape(m, 1)</span><br><span class="line"># 学习率</span><br><span class="line">alpha = 0.01</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 定义代价函数</span><br><span class="line">def cost_function(theta, X, Y):</span><br><span class="line">    diff = dot(X, theta) - Y  # dot() 数组需要像矩阵那样相乘，就需要用到dot()</span><br><span class="line">    return (1/(2*m)) * dot(diff.transpose(), diff)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 定义代价函数对应的梯度函数</span><br><span class="line">def gradient_function(theta, X, Y):</span><br><span class="line">    diff = dot(X, theta) - Y</span><br><span class="line">    return (1/m) * dot(X.transpose(), diff)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 梯度下降迭代</span><br><span class="line">def gradient_descent(X, Y, alpha):</span><br><span class="line">    theta = array([1, 1]).reshape(2, 1)</span><br><span class="line">    gradient = gradient_function(theta, X, Y)</span><br><span class="line">    while not all(abs(gradient) &lt;= 1e-5):</span><br><span class="line">        theta = theta - alpha * gradient</span><br><span class="line">        gradient = gradient_function(theta, X, Y)</span><br><span class="line">    return theta</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">optimal = gradient_descent(X, Y, alpha)</span><br><span class="line">print('optimal:', optimal)</span><br><span class="line">print('cost function:', cost_function(optimal, X, Y)[0][0])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 根据数据画出对应的图像</span><br><span class="line">def plot(X, Y, theta):</span><br><span class="line">    import matplotlib.pyplot as plt</span><br><span class="line">    ax = plt.subplot(111)  # 这是我改的</span><br><span class="line">    ax.scatter(X, Y, s=30, c="red", marker="s")</span><br><span class="line">    plt.xlabel("X")</span><br><span class="line">    plt.ylabel("Y")</span><br><span class="line">    x = arange(0, 21, 0.2)  # x的范围</span><br><span class="line">    y = theta[0] + theta[1]*x</span><br><span class="line">    ax.plot(x, y)</span><br><span class="line">    plt.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">plot(X1, Y, optimal)</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>至此，就基本介绍完了梯度下降法的基本思想和算法流程，并且用python实现了一个简单的梯度下降算法拟合直线的案例！<br>最后，我们回到文章开头所提出的场景假设:<br>这个下山的人实际上就代表了<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Backpropagation"><strong>反向传播算法</strong></a>，下山的路径其实就代表着算法中一直在寻找的参数Θ，山上当前点的最陡峭的方向实际上就是代价函数在这一点的梯度方向，场景中观测最陡峭方向所用的工具就是<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Derivative"><strong>微分</strong></a> 。在下一次观测之前的时间就是有我们算法中的学习率α所定义的。<br>可以看到场景假设和梯度下降算法很好的完成了对应！</p>
+
+    </div>
+
+    
+    
+    
+
+<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa-solid fa-check"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+  
+</div>
+
+<div>
+    
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+ 
+  <p><span>本文标题:</span>梯度下降算法简介</a></p>
+  <p><span>文章作者:</span>Rock Zhang</a></p>
+  <p><span>发布时间:</span>2023年06月03日 - 21:12:42</p>
+  <p><span>最后更新:</span>2023年06月04日 - 14:37:13</p>
+  <!-- <p><span>原始链接:</span><a href="/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/" title="梯度下降算法简介">https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/</a> 
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://yousa.love/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/"  aria-label="复制成功！"></i></span>
+  </p> -->
+  <p><span>许可协议:</span><i class="fa-regular fa-copyright"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({   
+          title: "",   
+          text: '复制成功',   
+          html: false,
+          timer: 500,   
+          showConfirmButton: false
+        });
+      });
+    }));  
+</script>
+
+    
+</div>
+      
+
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/06/03/Python3%E5%88%97%E8%A1%A8/" rel="prev" title="Python3列表、元组、字典、集合">
+                  <i class="fa fa-chevron-left"></i> Python3列表、元组、字典、集合
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/06/04/GPU%E5%8F%82%E6%95%B0/" rel="next" title="GPU参数">
+                  GPU参数 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81ODI5My8zNDc1Ng"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-arrow-right"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Rock Zhang</span>
+</div>
+<div class="busuanzi-count">
+</div>
+
+<!-- -->
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共55.9k字</span>
+</div>
+
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("11/04/2022 00:00:00"); //建站时间
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒 " + "♡Haibara Ai♡"; 
+    } 
+setInterval("createtime()",250);
+</script>
+</div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: 'unset',
+  left: '32px',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+<script src="/js/third-party/comments/livere.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
+</html>

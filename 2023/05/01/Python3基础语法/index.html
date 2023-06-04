@@ -23,26 +23,26 @@
 
     <meta name="description" content="笔记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python学习笔记">
-<meta property="og:url" content="https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:title" content="Python3 基础语法">
+<meta property="og:url" content="https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/index.html">
 <meta property="og:site_name" content="Blog">
 <meta property="og:description" content="笔记">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-01T05:57:45.000Z">
-<meta property="article:modified_time" content="2023-05-01T07:10:23.652Z">
+<meta property="article:modified_time" content="2023-06-03T12:19:57.142Z">
 <meta property="article:author" content="Rock Zhang">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+<link rel="canonical" href="https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/","path":"2023/05/01/Python学习笔记/","title":"Python学习笔记"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/","path":"2023/05/01/Python3基础语法/","title":"Python3 基础语法"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Python学习笔记 | Blog</title>
+<title>Python3 基础语法 | Blog</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -150,7 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Python3-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">Python3 基础语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E7%A0%81"><span class="nav-number">1.1.</span> <span class="nav-text">编码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="nav-number">1.2.</span> <span class="nav-text">标识符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E4%BF%9D%E7%95%99%E5%AD%97"><span class="nav-number">1.3.</span> <span class="nav-text">python保留字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">1.4.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A1%8C%E4%B8%8E%E7%BC%A9%E8%BF%9B"><span class="nav-number">1.5.</span> <span class="nav-text">行与缩进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E8%A1%8C%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.6.</span> <span class="nav-text">多行语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E5%AD%97-Number-%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.7.</span> <span class="nav-text">数字(Number)类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2-String"><span class="nav-number">1.8.</span> <span class="nav-text">字符串(String)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E8%A1%8C"><span class="nav-number">1.9.</span> <span class="nav-text">空行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AD%89%E5%BE%85%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5"><span class="nav-number">1.10.</span> <span class="nav-text">等待用户输入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8C%E4%B8%80%E8%A1%8C%E6%98%BE%E7%A4%BA%E5%A4%9A%E6%9D%A1%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.11.</span> <span class="nav-text">同一行显示多条语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E4%B8%AA%E8%AF%AD%E5%8F%A5%E6%9E%84%E6%88%90%E4%BB%A3%E7%A0%81%E7%BB%84"><span class="nav-number">1.12.</span> <span class="nav-text">多个语句构成代码组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#print-%E8%BE%93%E5%87%BA"><span class="nav-number">1.13.</span> <span class="nav-text">print 输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#import-%E4%B8%8E-from%E2%80%A6import"><span class="nav-number">1.14.</span> <span class="nav-text">import 与 from…import</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0"><span class="nav-number">1.15.</span> <span class="nav-text">命令行参数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E4%BE%8B"><span class="nav-number">1.15.1.</span> <span class="nav-text">实例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#getopt-%E6%A8%A1%E5%9D%97"><span class="nav-number">1.15.2.</span> <span class="nav-text">getopt 模块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#getopt-getopt-%E6%96%B9%E6%B3%95"><span class="nav-number">1.15.2.1.</span> <span class="nav-text">getopt.getopt 方法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Exception-getopt-GetoptError"><span class="nav-number">1.15.3.</span> <span class="nav-text">Exception getopt.GetoptError</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E4%BE%8B-1"><span class="nav-number">1.15.3.1.</span> <span class="nav-text">实例</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Python3-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">Python3 基础语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E7%A0%81"><span class="nav-number">1.1.</span> <span class="nav-text">编码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="nav-number">1.2.</span> <span class="nav-text">标识符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E4%BF%9D%E7%95%99%E5%AD%97"><span class="nav-number">1.3.</span> <span class="nav-text">python保留字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">1.4.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A1%8C%E4%B8%8E%E7%BC%A9%E8%BF%9B"><span class="nav-number">1.5.</span> <span class="nav-text">行与缩进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E8%A1%8C%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.6.</span> <span class="nav-text">多行语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E5%AD%97-Number-%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.7.</span> <span class="nav-text">数字(Number)类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2-String"><span class="nav-number">1.8.</span> <span class="nav-text">字符串(String)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E8%A1%8C"><span class="nav-number">1.9.</span> <span class="nav-text">空行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AD%89%E5%BE%85%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5"><span class="nav-number">1.10.</span> <span class="nav-text">等待用户输入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8C%E4%B8%80%E8%A1%8C%E6%98%BE%E7%A4%BA%E5%A4%9A%E6%9D%A1%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.11.</span> <span class="nav-text">同一行显示多条语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E4%B8%AA%E8%AF%AD%E5%8F%A5%E6%9E%84%E6%88%90%E4%BB%A3%E7%A0%81%E7%BB%84"><span class="nav-number">1.12.</span> <span class="nav-text">多个语句构成代码组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#print-%E8%BE%93%E5%87%BA"><span class="nav-number">1.13.</span> <span class="nav-text">print 输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#import-%E4%B8%8E-from%E2%80%A6import"><span class="nav-number">1.14.</span> <span class="nav-text">import 与 from…import</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0"><span class="nav-number">1.15.</span> <span class="nav-text">命令行参数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#getopt-%E6%A8%A1%E5%9D%97"><span class="nav-number">1.15.1.</span> <span class="nav-text">getopt 模块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#getopt-getopt-%E6%96%B9%E6%B3%95"><span class="nav-number">1.15.1.1.</span> <span class="nav-text">getopt.getopt 方法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Exception-getopt-GetoptError"><span class="nav-number">1.15.2.</span> <span class="nav-text">Exception getopt.GetoptError</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.16.</span> <span class="nav-text"></span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -165,7 +165,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">36</span>
+          <span class="site-state-item-count">43</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -254,7 +254,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+    <link itemprop="mainEntityOfPage" href="https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -267,12 +267,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Python学习笔记 | Blog">
+      <meta itemprop="name" content="Python3 基础语法 | Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Python学习笔记
+          Python3 基础语法
         </h1>
 
         <div class="post-meta-container">
@@ -282,9 +282,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-05-01 13:57:45 / 修改时间：15:10:23" itemprop="dateCreated datePublished" datetime="2023-05-01T13:57:45+08:00">2023-05-01</time>
+      <time title="创建时间：2023-05-01 13:57:45" itemprop="dateCreated datePublished" datetime="2023-05-01T13:57:45+08:00">2023-05-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-06-03 20:19:57" itemprop="dateModified" datetime="2023-06-03T20:19:57+08:00">2023-06-03</time>
     </span>
 
   
@@ -441,7 +447,8 @@
 <li><strong><code>len(sys.argv)</code></strong> 计算命令行参数个数。</li>
 </ul>
 <p>注：<code>sys.argv[0]</code> 表示脚本名。</p>
-<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>test.py 文件代码如下：</p>
+<p><strong>实例</strong></p>
+<p>test.py 文件代码如下：</p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">'参数个数为:'</span>, <span class="built_in">len</span>(sys.argv), <span class="string">'个参数。'</span>)</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'参数列表:'</span>, <span class="built_in">str</span>(sys.argv))</span><br><span class="line"><span class="built_in">print</span> (<span class="string">'脚本名:'</span>, <span class="built_in">str</span>(sys.argv[<span class="number">0</span>]))</span><br></pre></td></tr></tbody></table></figure>
 
 <p>执行以上代码，输出结果为：</p>
@@ -480,7 +487,8 @@
 <p>另外一个方法是 <code>getopt.gnu_getopt</code>，用到的情况比较少，这里不多做介绍。</p>
 <h3 id="Exception-getopt-GetoptError"><a href="#Exception-getopt-GetoptError" class="headerlink" title="Exception getopt.GetoptError"></a>Exception getopt.GetoptError</h3><p>在没有找到参数列表，或选项的需要的参数为空时会触发该异常。</p>
 <p>异常的参数是一个字符串，表示错误的原因。属性 <strong>msg</strong> 和 <strong>opt</strong> 为相关选项的错误信息。</p>
-<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><p>假定我们创建这样一个脚本，可以通过命令行向脚本文件传递两个文件名，同时我们通过另外一个选项查看脚本的使用。脚本使用方法如下：</p>
+<p><strong>实例</strong></p>
+<p>假定我们创建这样一个脚本，可以通过命令行向脚本文件传递两个文件名，同时我们通过另外一个选项查看脚本的使用。脚本使用方法如下：</p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">usage: test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;</span><br></pre></td></tr></tbody></table></figure>
 
 <p>test.py 文件代码如下所示：</p>
@@ -489,7 +497,7 @@
 <p>执行以上代码，输出结果为：</p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">python3 test.py -h</span><br><span class="line">usage: test.py -i &lt;inputfile&gt; -o &lt;outputfile&gt;</span><br><span class="line"></span><br><span class="line">python3 test.py -i inputfile -o outputfile</span><br><span class="line">输入的文件为： inputfile</span><br><span class="line">输出的文件为： outputfile</span><br></pre></td></tr></tbody></table></figure>
 
-
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>
     </div>
 
     
@@ -518,12 +526,12 @@
   <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
  
-  <p><span>本文标题:</span>Python学习笔记</a></p>
+  <p><span>本文标题:</span>Python3 基础语法</a></p>
   <p><span>文章作者:</span>Rock Zhang</a></p>
   <p><span>发布时间:</span>2023年05月01日 - 13:57:45</p>
-  <p><span>最后更新:</span>2023年05月01日 - 15:10:23</p>
-  <!-- <p><span>原始链接:</span><a href="/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Python学习笔记">https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</a> 
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://yousa.love/2023/05/01/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"  aria-label="复制成功！"></i></span>
+  <p><span>最后更新:</span>2023年06月03日 - 20:19:57</p>
+  <!-- <p><span>原始链接:</span><a href="/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Python3 基础语法">https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</a> 
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://yousa.love/2023/05/01/Python3%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"  aria-label="复制成功！"></i></span>
   </p> -->
   <p><span>许可协议:</span><i class="fa-regular fa-copyright"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -599,7 +607,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共32.8k字</span>
+  <span class="post-count">博客全站共55.9k字</span>
 </div>
 
 
